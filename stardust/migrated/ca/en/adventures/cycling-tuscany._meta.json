@@ -3,7 +3,13 @@
   "type": "program",
   "renderBranch": "A'",
   "template": "us-en-adventures-climbing-new-zealand-html",
-  "modules": [],
+  "modules": [
+    "breadcrumb",
+    "trip-gallery-carousel",
+    "trip-facts",
+    "share-bar",
+    "content-tabs"
+  ],
   "slotsFilled": [
     "breadcrumb-bar",
     "trip-gallery",
@@ -29,11 +35,11 @@
     "description": "Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms.",
     "url": "https://wknd.site/ca/en/adventures/cycling-tuscany.html"
   },
-  "migratedAt": "2026-10-23T15:51:38Z",
+  "migratedAt": "2026-10-23T16:33:54Z",
   "designMdSha": "5e39e56380e5",
   "designJsonSha": "a824036e0ec7",
   "sourceCurrentSha": "60e5c56c9d9a",
-  "sourceProposedSha": "d98785ad0f99",
+  "sourceProposedSha": "1074108c60f0",
   "fidelityTier": "sibling",
   "archetypeSource": "us-en-adventures-climbing-new-zealand-html",
   "archetypeSha": "ec9db013e6a7",
@@ -41,7 +47,7 @@
   "gatesPassed": [],
   "gateEvidence": {},
   "contentDeviations": [],
-  "assetsBundled": 1,
+  "assetsBundled": 16,
   "missingAssets": [],
   "brokenInternalLinks": [
     {

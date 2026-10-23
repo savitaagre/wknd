@@ -3,7 +3,13 @@
   "type": "program",
   "renderBranch": "A'",
   "template": "us-en-adventures-climbing-new-zealand-html",
-  "modules": [],
+  "modules": [
+    "breadcrumb",
+    "trip-gallery-carousel",
+    "trip-facts",
+    "share-bar",
+    "content-tabs"
+  ],
   "slotsFilled": [
     "breadcrumb-bar",
     "trip-gallery",
@@ -29,19 +35,21 @@
     "description": "Enjoy spectacular wine tasting in the Napa Valley.",
     "url": "https://wknd.site/ca/en/adventures/napa-wine-tasting.html"
   },
-  "migratedAt": "2026-10-23T15:54:20Z",
+  "migratedAt": "2026-10-23T16:33:54Z",
   "designMdSha": "5e39e56380e5",
   "designJsonSha": "a824036e0ec7",
   "sourceCurrentSha": "de0b1a90d954",
-  "sourceProposedSha": "ca4251e82e8b",
+  "sourceProposedSha": "6c24a415e1b2",
   "fidelityTier": "sibling",
   "archetypeSource": "us-en-adventures-climbing-new-zealand-html",
   "archetypeSha": "ec9db013e6a7",
-  "variants": [],
+  "variants": [
+    "trip-facts--grid"
+  ],
   "gatesPassed": [],
   "gateEvidence": {},
   "contentDeviations": [],
-  "assetsBundled": 16,
+  "assetsBundled": 1,
   "missingAssets": [],
   "brokenInternalLinks": [
     {

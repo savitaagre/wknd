@@ -3,7 +3,13 @@
   "type": "program",
   "renderBranch": "A'",
   "template": "us-en-adventures-climbing-new-zealand-html",
-  "modules": [],
+  "modules": [
+    "breadcrumb",
+    "trip-gallery-carousel",
+    "trip-facts",
+    "share-bar",
+    "content-tabs"
+  ],
   "slotsFilled": [
     "breadcrumb-bar",
     "trip-gallery",
@@ -37,7 +43,9 @@
   "fidelityTier": "sibling",
   "archetypeSource": "us-en-adventures-climbing-new-zealand-html",
   "archetypeSha": "ec9db013e6a7",
-  "variants": [],
+  "variants": [
+    "trip-facts--grid"
+  ],
   "gatesPassed": [],
   "gateEvidence": {},
   "contentDeviations": [],

@@ -7,7 +7,9 @@
  *
  * Contract: stardust/eds-schema/us-en-adventures-climbing-new-zealand-html.json →
  * sections[1] "trip-gallery-carousel" (3 × slide, uniform: 1 img).
- * Model: ONE ROW PER SLIDE, one cell: <picture>/<img> (alt + title verbatim).
+ * Model: ONE ROW PER SLIDE: <picture>/<img> (alt + title verbatim) | optional slide
+ * title — moved into that slide's indicator, visually hidden there as on live
+ * (font-size 0, text-indent), e.g. Napa "Napa Wine Valley".
  * A flattened single cell holding several images is split image by image.
  * Decode tier: reconstructive (repeat group). Pictures are MOVED (EW1); the
  * controls are generated, text-free (aria-label only, #100).
@@ -22,14 +24,30 @@ function el(tag, className, attrs = {}) {
   return n;
 }
 
-function collectMedia(block) {
-  return [...block.querySelectorAll('picture, img')]
+function collectMedia(root) {
+  return [...root.querySelectorAll('picture, img')]
     .filter((m) => m.matches('picture') || !m.closest('picture'));
+}
+
+// optional slide title (second cell of a slide row): the live indicator's visually hidden
+// label — its nodes, a lone runtime <p> unwrapped (EW1: moved, never copied)
+function labelNodes(cell) {
+  if (!cell || !cell.textContent.trim()) return [];
+  const kids = [...cell.children];
+  const lone = kids.length === 1 && kids[0].matches('p') && !kids[0].attributes.length;
+  return lone ? [...kids[0].childNodes] : [...cell.childNodes];
 }
 
 export default async function decorate(block) {
   const media = collectMedia(block);
   if (!media.length) return;
+  // label per medium: a row holding exactly one medium may carry its title in a later cell
+  const labels = media.map((m) => {
+    const row = [...block.children].find((r) => r.contains(m));
+    if (!row || collectMedia(row).length !== 1) return [];
+    const cells = [...row.children];
+    return labelNodes(cells.find((c, i) => i > 0 && !c.contains(m)));
+  });
 
   const blocks = [...document.querySelectorAll('.trip-gallery-carousel')];
   const id = `trip-gallery-${Math.max(blocks.indexOf(block), 0) + 1}`;
@@ -63,11 +81,15 @@ export default async function decorate(block) {
 
   const indicators = el('ol', 'indicators', { role: 'tablist', 'aria-label': 'Choose a slide to display' });
   // trip-gallery__indicator: the units.json build hook (program-gallery-indicators)
-  const dots = slides.map((s, i) => el('li', 'indicator trip-gallery__indicator', {
-    role: 'tab',
-    'aria-label': `Slide ${i + 1}`,
-    'aria-controls': s.id,
-  }));
+  const dots = slides.map((s, i) => {
+    const dot = el('li', 'indicator trip-gallery__indicator', {
+      role: 'tab',
+      'aria-label': `Slide ${i + 1}`,
+      'aria-controls': s.id,
+    });
+    dot.append(...labels[i]);
+    return dot;
+  });
   indicators.append(...dots);
   content.append(actions, indicators);
 

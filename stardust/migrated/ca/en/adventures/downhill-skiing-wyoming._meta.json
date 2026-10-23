@@ -3,7 +3,13 @@
   "type": "program",
   "renderBranch": "A'",
   "template": "us-en-adventures-climbing-new-zealand-html",
-  "modules": [],
+  "modules": [
+    "breadcrumb",
+    "trip-gallery-carousel",
+    "trip-facts",
+    "share-bar",
+    "content-tabs"
+  ],
   "slotsFilled": [
     "breadcrumb-bar",
     "trip-gallery",
