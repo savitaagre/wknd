@@ -151,6 +151,41 @@ main .section.article-body .default-content-wrapper p img {
   margin: 7px 0;
 }
 
+/* image caption (source .cmp-image__title: floated under the img, 14px semibold uppercase,
+   -.25em): an <em>-only paragraph right after an image paragraph */
+main .section.article-body .default-content-wrapper p:has(img)
+  + p:has(em:only-child):not(:has(strong)) {
+  margin: -10.5px 0 0;
+  padding: 0 var(--gutter);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+main .section.article-body .default-content-wrapper p:has(img)
+  + p:has(em:only-child):not(:has(strong)) em {
+  font-style: normal;
+}
+
+/* section style `plain-title` (queued generic style; source rich-text h2s, not
+   .cmp-title--underline columns): no underline, no gutter, and the titles' margins collapse
+   with the paragraphs' as in the source flow (block flow, not a flex column) */
+main > .section.article-body.plain-title > .default-content-wrapper {
+  display: block;
+}
+
+main .section.article-body.plain-title .default-content-wrapper :is(h2, h3, h5, h6) {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+main .section.article-body.plain-title .default-content-wrapper h2::after {
+  content: none;
+}
+
 /* 1c. aside column */
 main > .section.article-aside > div {
   max-width: none;
