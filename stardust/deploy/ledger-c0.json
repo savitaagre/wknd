@@ -1,0 +1,186 @@
+{
+  "/ca/en/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:49.788Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:49.788Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/fr/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:52.578Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/fr/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:52.670Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ch/de/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:54.386Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ch/de/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:54.446Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ch/fr/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:56.207Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ch/fr/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:56.219Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ch/it/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:57.913Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ch/it/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:58.341Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/de/de/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:23:59.842Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/de/de/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:00.263Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/drafts/wknd-shell": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:01.667Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/es/es/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:02.269Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/es/es/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:03.153Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:04.150Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/fr/fr/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:06.213Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/fr/fr/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:06.422Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/it/it/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:09.117Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/it/it/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:09.229Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:10.623Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/es/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:11.030Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/es/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T10:24:12.260Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

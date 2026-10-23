@@ -1,4 +1,4 @@
-import { getMetadata } from '../../scripts/aem.js';
+import { getChromePath, getLocale, markCurrentNav } from '../../scripts/scripts.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 /**
@@ -11,10 +11,20 @@ import { loadFragment } from '../fragment/fragment.js';
  *   3 nav      — <ul><li>Home (hidden)<ul>section links</ul></li></ul>
  *   4 tools    — search <p><a title="Search">Search</a></p> (icon-only; label kept for a11y)
  *
+ * Coming-soon locale homes author section 3 as the level-0 item only (no nested <ul>).
+ *
+ * Document per page (scripts.js getChromePath): `nav` page metadata, else the locale root's
+ * own `nav` document (/ca/en/nav, /us/es/nav …), else the site default /nav (en-US) — also
+ * the fallback when a locale document is missing.
+ *
  * Authored nodes are MOVED into the prototype's chrome template (EW1); wrappers carry the
  * classes (EW2). Behaviour is the live site's, nothing more: body.scrolly at scrollTop > 15,
  * the language menu (showMenu / open, left = toggle.position().left - 240, any outside click
- * closes) and the <=1024px slide-in panel (body.navPanel-visible).
+ * closes) and the <=1024px slide-in panel (body.navPanel-visible). Derived from the page, as
+ * wknd.site's language navigation does: current-page markers on the nav (aria-current /
+ * is-active), the toggle flag from the authored locale label, the active locale link pointing
+ * at the current page, and same-language locale links (en-US / en-CA) upgraded to the current
+ * page's counterpart when it exists (checked once, on the first menu open).
  *
  * @ew-exempt <ul> mobile-nav — presentational clone of the header nav list (EW4, instrumentation
  * stripped); the header nav list is the editable original
@@ -93,6 +103,30 @@ function buildAccount(nodes) {
   );
 }
 
+/**
+ * wknd.site language copies: a locale link of the CURRENT page's language (en-US <-> en-CA)
+ * points at the same page in that locale when it exists, else stays the locale home.
+ */
+function linkCounterparts(list) {
+  const here = getLocale();
+  if (!here) return;
+  const suffix = window.location.pathname.slice(here.root.length).replace(/\.html$/, '');
+  if (!suffix || suffix === '/') return;
+  list.querySelectorAll('a[href]').forEach(async (a) => {
+    const url = new URL(a.href);
+    const locale = getLocale(url.pathname);
+    if (url.origin !== window.location.origin || !locale) return;
+    if (locale.language !== here.language || locale.root === here.root) return;
+    const counterpart = `${locale.root}${suffix}`;
+    try {
+      const resp = await fetch(`${counterpart}.plain.html`, { method: 'HEAD' });
+      if (resp.ok) a.setAttribute('href', counterpart);
+    } catch {
+      // network failure: keep the locale home
+    }
+  });
+}
+
 function buildLanguage(nodes) {
   const toggleP = nodes.find((n) => n.tagName === 'P' && n.querySelector('a'));
   const list = nodes.find((n) => n.tagName === 'UL');
@@ -131,14 +165,25 @@ function buildLanguage(nodes) {
         a.lang = locale;
         a.rel = 'alternate';
       }
-      if (locale === current) a.setAttribute('aria-current', 'true');
+      if (locale === current) {
+        a.setAttribute('aria-current', 'true');
+        // live: the active locale's link is the current page itself
+        if (getLocale()?.root === getLocale(new URL(a.href).pathname)?.root) {
+          a.setAttribute('href', window.location.pathname);
+        }
+      }
     });
   });
   menu.append(list);
   wrap.append(menu);
 
+  let counterpartsChecked = false;
   toggle.addEventListener('click', (e) => {
     e.preventDefault();
+    if (!counterpartsChecked) {
+      counterpartsChecked = true;
+      linkCounterparts(list);
+    }
     // jQuery .position(): the fractional box relative to the offsetParent
     const parent = toggle.offsetParent || document.body;
     const left = toggle.getBoundingClientRect().left - parent.getBoundingClientRect().left;
@@ -220,15 +265,18 @@ function buildMobile(navList) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
-  const fragment = await loadFragment(navPath);
+  const navPath = getChromePath('nav');
+  let fragment = await loadFragment(navPath);
+  if (!fragment && navPath !== '/nav') fragment = await loadFragment('/nav');
   if (!fragment) return;
   unbutton(fragment);
   keepVector(fragment);
 
   const navList = sectionNodes(fragment, 3).find((n) => n.tagName === 'UL');
-  if (navList) unwrapListParagraphs(navList);
+  if (navList) {
+    unwrapListParagraphs(navList);
+    markCurrentNav(navList); // before the mobile clone, which carries the markers as on live
+  }
   const nav = document.createElement('nav');
   nav.className = 'header-nav';
   nav.setAttribute('aria-label', 'Main navigation');

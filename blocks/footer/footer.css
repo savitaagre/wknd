@@ -73,6 +73,14 @@
   text-decoration: underline;
 }
 
+/* current page / section (source .cmp-navigation--footer …--level-1…--active; canon2):
+   markers set by markCurrentNav() in scripts.js */
+.footer .site-footer-nav li li a[aria-current="page"],
+.footer .site-footer-nav li li.is-active a:any-link {
+  color: var(--surface-light);
+  text-decoration: underline;
+}
+
 .footer .site-footer-follow {
   flex: 0 0 16.6667%;
   padding: 0 var(--gutter);

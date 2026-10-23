@@ -21,7 +21,8 @@
     input.value = '';
     syncClear();
   });
-  // Live never navigates on submit (the component runs the query in place); the query itself is Phase 5.
+  // Live never navigates on submit (the component runs the query in place); the query itself is
+  // Phase 5.
   form.addEventListener('submit', (e) => e.preventDefault());
   syncClear();
 })();

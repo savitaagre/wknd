@@ -259,3 +259,60 @@ Preview only (`--no-publish`) through delivery. **Published live on the owner's 
 - gate-all reads `status: deployed` + `liveUrl`, which state.mjs cannot write; it ran on a derived copy
   (stardust/.work/rollout/state-deployed.json) — state.json itself is `migrated`.
 - Publish: still preview-only. Nothing published live.
+
+## Run 2 — C0 foundation (canon3, site `wknd`, 2026-10-23)
+
+Target: DA `savitaagre/wknd` (content.da.live/savitaagre/wknd), preview `main--wknd--savitaagre.aem.page`
+(code still from savitaagre/edsmsm main — the feature branch is NOT pushed). Owner: preview only, nothing live.
+Reused from the pilot C0 unchanged: brand.css tokens (h1 40 / h5 14 already canon), fonts/, favicon,
+head.html, the fixed-chrome shell, buttons, header/footer template-slotted decode (tier: template-slotted).
+
+- **Canon3 deltas applied.** Current-page state (canon2): `markCurrentNav()` in scripts.js puts
+  `aria-current="page"` on the link to the current page and `li.is-active` on the level-1 item whose link
+  is an ancestor of the path (header list before the mobile clone, footer list); header CSS paints both
+  yellow, footer CSS light + underline (descendant selectors, EW2). Locale chrome (canon3): `<html lang>`
+  from the path (`getLocale()`: `/{country}/{language}` → `en-CA`, `es-US` …; en-US otherwise); the
+  toggle flag stays derived from the authored locale label (`--lang-flag`, code-served `/icons/flags/`)
+  — the EDS equivalent of the canon `.lang-toggle--<cc>` class, no per-locale CSS. Utilities as section
+  styles: `separator` + `space-small` / `space-medium` / `no-rule`, `text-small` (styles.css).
+- **Open canon requests folded in.** (1) standalone hero-teaser heights: stay per-block (not foundation).
+  (2) coming-soon nav markup: the EDS nav list already keeps the level-0 `ul > li` wrapper; the
+  coming-soon documents author the level-0 item only (`<ul><li><a href="/us/es">Español</a></li></ul>`),
+  no nested list; the 16px item margin is scoped to `li li`, so the level-0 item stays 0 high, as live.
+  (3) en-CA active-link wording: the active locale link's href is set to the current page; beyond the
+  request, the live language copies (captured on all 54 US/CA pages) are mirrored — the en-US/en-CA link
+  of the current language points at the counterpart page when `<counterpart>.plain.html` answers HEAD
+  200, checked once on the first menu open (no request at page load), else stays the locale home
+  (US ai-powered-search → /ca/en, CA members-only → /us/en, as live).
+- **Nav/footer selection rule** (`getChromePath()`, runtime-contract.json `chromeSelection`): page
+  metadata `nav`/`footer` wins; else `<locale root>/nav|footer` for every locale except /us/en; else
+  the root `nav` / `footer` documents; a missing locale document falls back to the root ones. No page
+  metadata needed.
+- **Documents** (stardust/deploy/content/, one-shot generator stardust/.work/c0/probes/gen-chrome.mjs):
+  root `nav` + `footer` (en-US), `ca/en/{nav,footer}` (CA toggle label, /ca/en hrefs, Canadian note first
+  in legal), the 9 coming-soon locales `{us/es,ca/fr,ch/de,ch/fr,ch/it,de/de,fr/fr,es/es,it/it}/{nav,footer}`
+  (own toggle label, locale-home logo href, level-0 item labelled Español / Français / Deutsch /
+  Italiano), `drafts/wknd-shell`. Every document ends with a dedicated metadata section
+  `Robots | noindex` (a dedicated section: build-harness drops a section that holds the metadata block,
+  and it can never fold into a chrome slot). Language-menu hrefs are now extensionless (`/us/es` …;
+  all locales migrate — owner 2026-10-23).
+- **Media.** `da-media-upload.mjs --scope chrome` → `media/chrome/wknd-logo-{dk,light}.svg` 201 ×2 (pure
+  vector, no data URIs). NEW ledger `stardust/deploy/media-ledger-wknd.json` — the default ledger holds the
+  pilot's edsmsm uploads and the script keys by media path only (foundation-requests.md, run 2).
+- **Lint.** `npm run lint:fix` + `npm run lint`: 0 errors (1 pre-existing no-console warning in
+  stardust/scripts/deploy/sanitise.js). Fixed: 8 max-len comment lines in the gated prototype JS
+  (us-en-adventures-climbing-new-zealand-html.js, us-en-ai-powered-search-html.js) and their migrated
+  copies — comment wraps only. `lint:breakpoints` not added: DESIGN.json has no
+  `extensions.breakpoints.target` (the script skips; contract condition not met).
+- **Local QA.** `build-harness.mjs` + `qa-gate.mjs` on the shell: PASS 11 ok / 0 warn / 0 fail (one h1,
+  header + footer loaded and non-empty, cap 1164 @2560). `block-roundtrip --ew`: N/A for chrome (fragment-
+  fed blocks; the script decorates in-page block tables only). Chrome probe (local code against the
+  DELIVERED wknd documents, 16 simulated paths, 1440 + 360): 0 page errors; lang / toggle / flag / logo
+  href / level-0 label / markers / mobile list / CA note all as § Locale chrome; FAQs aria-current,
+  article → Magazine is-active, program → Adventures is-active; header 194 / 117, footer 260 / 593 (US),
+  289 / 637 (CA), 260 / 463 (coming-soon) = the gated prototypes us-en-html / ca-en-magazine-members-only-
+  html / us-es-html at both widths.
+- **Deploy (preview only).** `deploy-batch.mjs --no-publish --paths` (ledger stardust/deploy/ledger-c0.json):
+  23/23 PUT 201, preview 200. `.plain.html` 23/23: 200, sections intact, 0 `about:error`, no `/img/`,
+  1 logo `<img>` per chrome document, exactly one h1 on the shell; `<meta name="robots" content="noindex">`
+  delivered. Published-origin chrome gate: PENDING the code push.

@@ -10,7 +10,68 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
 } from './aem.js';
+
+/** wknd.site locale roots are `/{country}/{language}`; `/us/en` uses the root chrome. */
+const DEFAULT_LOCALE_ROOT = '/us/en';
+
+/**
+ * The locale a path belongs to, from its first two segments (`/ca/en/faqs` → en-CA).
+ * @param {string} [pathname] Defaults to the current page
+ * @returns {{root: string, country: string, language: string, tag: string}|null}
+ */
+export function getLocale(pathname = window.location.pathname) {
+  const match = /^\/([a-z]{2})\/([a-z]{2})(?=[/.]|$)/.exec(pathname.toLowerCase());
+  if (!match) return null;
+  const [, country, language] = match;
+  return {
+    root: `/${country}/${language}`,
+    country,
+    language,
+    tag: `${language}-${country.toUpperCase()}`,
+  };
+}
+
+/**
+ * The chrome document (`nav` / `footer`) for the current page:
+ * 1. page metadata `nav` / `footer` (an author override) wins;
+ * 2. else the locale root's own document (`/ca/en/nav`, `/us/es/footer` …);
+ * 3. else the site default (`/nav`, `/footer`) — en-US and any non-locale page.
+ * Callers fall back to the site default when a locale document does not exist.
+ * @param {string} name `nav` or `footer`
+ * @returns {string} the document path
+ */
+export function getChromePath(name) {
+  const meta = getMetadata(name);
+  if (meta) return new URL(meta, window.location).pathname;
+  const locale = getLocale();
+  if (locale && locale.root !== DEFAULT_LOCALE_ROOT) return `${locale.root}/${name}`;
+  return `/${name}`;
+}
+
+const pagePath = (path) => path.replace(/\.html$/, '').replace(/\/+$/, '') || '/';
+
+/**
+ * Current-page markers on a chrome nav list (wknd.site `--active` items): the link to the
+ * current page gets `aria-current="page"`; on a deeper page the level-1 item whose link is an
+ * ancestor of the current path gets `is-active` (e.g. a program page marks Adventures).
+ * @param {Element} list The nav list (level-0 `ul > li` wrapping the level-1 `ul`)
+ */
+export function markCurrentNav(list) {
+  const here = pagePath(window.location.pathname);
+  list.querySelectorAll('a[href]').forEach((a) => {
+    const url = new URL(a.href, window.location);
+    if (url.origin !== window.location.origin) return;
+    const target = pagePath(url.pathname);
+    const item = a.closest('li');
+    if (target === here) {
+      a.setAttribute('aria-current', 'page');
+    } else if (item?.parentElement.closest('li') && here.startsWith(`${target}/`)) {
+      item.classList.add('is-active');
+    }
+  });
+}
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -212,7 +273,6 @@ function restoreImageTitles(main) {
  * Decorates the main element.
  * @param {Element} main The main element
  */
-// eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
   restoreImageTitles(main);
   decorateIcons(main);
@@ -228,7 +288,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  // wknd.site: <html lang> is the page's locale (en-US, en-CA, es-US, de-CH …)
+  document.documentElement.lang = getLocale()?.tag || 'en-US';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {

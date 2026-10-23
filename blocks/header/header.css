@@ -251,6 +251,13 @@
   background-color: var(--brand-yellow);
 }
 
+/* current page / section (source .cmp-navigation--header …--level-1…--active
+   .cmp-navigation__item-link; canon2): markers set by markCurrentNav() in scripts.js */
+.header .header-nav li li a[aria-current="page"],
+.header .header-nav li li.is-active a:any-link {
+  background-color: var(--brand-yellow);
+}
+
 .header .header-search {
   flex: 0 0 var(--button-size);
   width: var(--button-size);

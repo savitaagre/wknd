@@ -1,12 +1,50 @@
 {
-  "_provenance": { "writtenBy": "stardust:deploy (via replica Phase 5)", "writtenAt": "2026-10-16T13:17:00Z", "readArtifacts": ["scripts/scripts.js", "scripts/aem.js", "styles/styles.css"] },
+  "_provenance": {
+    "writtenBy": "stardust:deploy (via replica Phase 5)",
+    "writtenAt": "2026-10-16T13:17:00Z",
+    "updatedAt": "2026-10-23T10:40:00Z",
+    "updatedBy": "replica Phase 5 run 2 — C0 foundation (canon3)",
+    "readArtifacts": ["scripts/scripts.js", "scripts/aem.js", "styles/styles.css", "stardust/prototypes/CANON.md"]
+  },
   "runtime": "vanilla-eds",
   "blockWrapperClass": "block",
   "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
   "buttonization": "bare-links-too",
-  "buttonizationNotes": "decorateButtons() buttonizes any <p> whose only content is one link (no <strong>/<em> needed); strong → primary, em → secondary, both → accent; breadcrumb and image links are skipped; a.title defaults to the link text",
-  "sectionMetadata": "project-owned processSectionMetadata(): style rows → classes on the section, metadata block removed, empty wrappers dropped (after decorateSections, before decorateBlocks)",
+  "buttonizationNotes": "decorateButtons() buttonizes any <p> whose only content is one link (no <strong>/<em> needed); strong → primary, em → secondary, both → accent; breadcrumb and image links are skipped; an authored link title that differs from the text becomes aria-label, else a.title defaults to the link text",
+  "sectionMetadata": "project-owned applySectionMetadata(): style rows → classes on the section, metadata block removed, empty wrappers dropped (after decorateSections, before decorateBlocks)",
+  "sectionStyles": {
+    "separator": "empty section, style `separator` → 1px #ebebeb rule, 64px above/below, inside the 1136px content box",
+    "space-small": "with separator: 1em above/below (source .cmp-separator--space-small)",
+    "space-medium": "with separator: 2em above/below (source .cmp-separator--space-medium)",
+    "no-rule": "with separator: no visible rule (source .cmp-separator--hidden)",
+    "text-small": "section paragraphs 14px, line-height stays 2.5 (source .cmp-text--font-small)"
+  },
   "fragmentScriptPolicy": "inert-innerHTML",
   "emptySectionCollapse": true,
-  "structuralCss": "body{display:none} / body.appear; header{height:var(--nav-height)} + header .header visibility until [data-block-status=loaded]; main > .section scaffold — present in styles/styles.css"
+  "structuralCss": "body{display:none} / body.appear; header{height:var(--nav-height)} + header .header visibility until [data-block-status=loaded]; body > header fixed, main padding-top var(--nav-height) (200 / 130 <=1024), main + body > footer capped at 1680; main > .section scaffold (wrappers 1164 >=1025, 14px gutters) — styles/styles.css",
+  "headings": "h1 40 / h2 36 / h3 24 / h4 16 / h5 14 (canon); a promoted hero title (R-01 / R-02) keeps its h2 size through its block's own class rule — never through the element rule. Every default-content h1/h2 carries the 84px yellow underline (main .default-content-wrapper h1/h2::after).",
+  "locale": {
+    "rule": "getLocale() in scripts/scripts.js: the first two path segments /{country}/{language} (lower-case, two letters each); <html lang> = {language}-{COUNTRY} (en-US when the path has no locale)",
+    "roots": ["/us/en", "/ca/en", "/us/es", "/ca/fr", "/ch/de", "/ch/fr", "/ch/it", "/de/de", "/fr/fr", "/es/es", "/it/it"]
+  },
+  "chromeSelection": {
+    "rule": "getChromePath(name) in scripts/scripts.js, used by blocks/header (nav) and blocks/footer (footer): 1) page metadata `nav` / `footer` wins (author override); 2) else the locale root's own document `<root>/nav`, `<root>/footer` (any locale except /us/en); 3) else `/nav`, `/footer` (en-US, drafts, any non-locale page). A missing locale document falls back to `/nav` / `/footer`.",
+    "documents": {
+      "/us/en (and non-locale pages)": ["/nav", "/footer"],
+      "/ca/en": ["/ca/en/nav", "/ca/en/footer"],
+      "coming-soon locale homes": ["/us/es/nav", "/us/es/footer", "/ca/fr/nav", "/ca/fr/footer", "/ch/de/nav", "/ch/de/footer", "/ch/fr/nav", "/ch/fr/footer", "/ch/it/nav", "/ch/it/footer", "/de/de/nav", "/de/de/footer", "/fr/fr/nav", "/fr/fr/footer", "/es/es/nav", "/es/es/footer", "/it/it/nav", "/it/it/footer"]
+    },
+    "pageMetadataNeeded": false,
+    "derivedFromPage": "current-page markers (link to the current page → aria-current=page; level-1 item whose link is an ancestor of the path → li.is-active; header, mobile nav, footer); toggle flag from the authored locale label (en-CA → /icons/flags/CA.svg); active locale link href = the current page; same-language locale links (en-US <-> en-CA) upgraded to the current page's counterpart on the first menu open when `<counterpart>.plain.html` answers HEAD 200, else the locale home",
+    "navDocumentSections": "0 account (Welcome / Sign In / Sign Out) · 1 language (toggle label + country list) · 2 brand logo · 3 nav (ul > li Home|locale name [> ul level-1]; coming-soon: level-0 item only) · 4 search · 5 metadata (Robots noindex)",
+    "footerDocumentSections": "0 brand logo · 1 nav (as header) · 2 social (h4 Follow Us + ul) · 3 legal paragraphs (/ca/en: Canadian note first) · 4 metadata (Robots noindex)"
+  },
+  "media": {
+    "daOrg": "savitaagre",
+    "daRepo": "wknd",
+    "ledger": "stardust/deploy/media-ledger-wknd.json",
+    "ledgerNote": "use --ledger stardust/deploy/media-ledger-wknd.json for every wknd upload: the default stardust/deploy/media-ledger.json holds the 2026-10-16 pilot's edsmsm uploads, and da-media-upload.mjs keys entries by media path only — a media/home/* re-upload against it is SKIPPED and prints the edsmsm URL",
+    "chrome": ["https://content.da.live/savitaagre/wknd/media/chrome/wknd-logo-dk.svg", "https://content.da.live/savitaagre/wknd/media/chrome/wknd-logo-light.svg"],
+    "decorative": "flags are code-served /icons/flags/<CC>.svg (CSS backgrounds), never DA media"
+  }
 }

@@ -11,3 +11,7 @@ One line per finding: `- <unit> | <what> | <evidence: instrument + numbers> | <t
 ## Applied at C-final (2026-10-16T14:35:56Z, commit 4e3fc33)
 
 All five lines above applied once by the main agent; interim copies removed from the blocks. Re-gated on the preview origin: 1440 0.25% Δh 0 / 360 1.73% Δh −1, 0 structural 🔴 (was 6), chrome quiet, motion 10/10 + 3/3, gate-all PASS ×2.
+
+## Run 2 (2026-10-23)
+
+- C0 | plugin script: `da-media-upload.mjs` ledger keys are the media path only (no org/repo) — run 2 units MUST pass `--ledger stardust/deploy/media-ledger-wknd.json`; with the default ledger a `media/home/*` upload to wknd is SKIPPED as "already uploaded" and prints the pilot's edsmsm URL | stardust/deploy/media-ledger.json holds 13 `media/home/*` edsmsm entries | all templates

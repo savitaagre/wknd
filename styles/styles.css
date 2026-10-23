@@ -481,3 +481,27 @@ main > .section.separator::before {
   margin: 0 auto;
   border: 1px solid var(--surface-grey);
 }
+
+/* separator modifiers (canon2/3; source .cmp-separator--space-small 1em,
+   --space-medium 2em, --hidden no rule) — section-metadata
+   `style: separator, space-small` / `separator, space-medium` / `separator, no-rule`.
+   The hr's own 9px margin collapses into the 1em / 2em, as on the source. */
+main > .section.separator.space-small {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+main > .section.separator.space-medium {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+main > .section.separator.no-rule::before {
+  border: 0;
+}
+
+/* text-small (canon3; source .cmp-text--font-small p, 14px): section-metadata
+   `style: text-small` — line-height stays 2.5 (35px) */
+main .section.text-small p {
+  font-size: var(--fs-small);
+}

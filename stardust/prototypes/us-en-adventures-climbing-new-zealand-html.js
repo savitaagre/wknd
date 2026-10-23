@@ -1,7 +1,9 @@
-// stardust:replica — interaction parity for wknd.site /us/en/adventures/climbing-new-zealand.html (layer 2 of 2).
+// stardust:replica — interaction parity for wknd.site /us/en/adventures/climbing-new-zealand.html
+// (layer 2 of 2).
 // Loaded AFTER canon.js (header scroll morph, language menu, mobile nav live there).
 // Only behaviours motion-observe saw fire on the live page are implemented
-// (stardust/replica/motion/us-en-adventures-climbing-new-zealand-html.json); state class names mirror the live ones.
+// (stardust/replica/motion/us-en-adventures-climbing-new-zealand-html.json); state class names
+// mirror the live ones.
 (() => {
   // Trip gallery carousel: prev / next / indicator switch the active slide (fadeIn .5s via CSS).
   // No autoplay — 0 idle class mutations on live.
@@ -24,7 +26,8 @@
     dots.forEach((d, n) => d.addEventListener('click', () => show(n)));
   });
 
-  // Content tabs: a tab click activates its panel (live: cmp-tabs__tab--active + cmp-tabs__tabpanel--active).
+  // Content tabs: a tab click activates its panel (live: cmp-tabs__tab--active +
+  // cmp-tabs__tabpanel--active).
   document.querySelectorAll('.content-tabs__inner').forEach((tabs) => {
     const tabEls = [...tabs.querySelectorAll('.content-tabs__tab')];
     const panels = tabEls.map((t) => document.getElementById(t.getAttribute('aria-controls')));
