@@ -1,10 +1,10 @@
 {
  "_provenance": {
   "writtenBy": "stardust:dynamics plan",
-  "writtenAt": "2026-10-23T08:13:30.256Z",
+  "writtenAt": "2026-10-23T10:11:32.630Z",
   "input": "stardust/current/_dynamics.json",
-  "target": null,
-  "migrated": null,
+  "target": "https://main--wknd--savitaagre.aem.page",
+  "migrated": "stardust/migrated",
   "knowledge": null,
   "chrome": "stardust/chrome/header-contract.json"
  },
@@ -72,7 +72,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
@@ -92,7 +93,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-libs-granite-security-currentuse",
@@ -112,7 +114,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-jcr-content-c",
@@ -132,7 +135,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-adventures-jc",
@@ -152,7 +156,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-adventures-cl",
@@ -172,7 +177,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-magazine-jcr-",
@@ -192,7 +198,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-ca-en-magazine-memb",
@@ -209,7 +216,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-magazine-guid",
@@ -229,7 +237,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-faqs-jcr-cont",
@@ -249,7 +258,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-about-us-jcr-",
@@ -269,7 +279,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-es-jcr-content-c",
@@ -289,7 +300,8 @@
    "reproducibility": "self",
    "status": "pending",
    "phase": "data",
-   "decision": "none (sync from the source origin)"
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "i18n-locale-variants-ca-ca-ch-ch-ch",
@@ -307,9 +319,10 @@
    "pattern": "locale-tree",
    "disposition": "rebuild-native",
    "reproducibility": "needs-business-decision",
-   "status": "pending",
+   "status": "delivered-by-capture",
    "phase": "locale wave",
-   "decision": "scope of the locale trees"
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://wknd.site/ca/en.html\""
   },
   {
    "id": "i18n-locale-variants-us-us-ch-ch-ch",
@@ -326,9 +339,10 @@
    "pattern": "locale-tree",
    "disposition": "rebuild-native",
    "reproducibility": "needs-business-decision",
-   "status": "pending",
+   "status": "delivered-by-capture",
    "phase": "locale wave",
-   "decision": "scope of the locale trees"
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://wknd.site/us/en.html\""
   },
   {
    "id": "l-listing-candidate-cmp-image-list-16-cards",
@@ -412,11 +426,12 @@
     "GET /content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json → 200"
    ],
    "pattern": "search-index-backed",
-   "disposition": "index-backed",
+   "disposition": "data-fed",
    "reproducibility": "self",
    "status": "pending",
    "phase": "search",
-   "decision": "replace the hosted search service?"
+   "decision": "replace the hosted search service?",
+   "hostBound": "dead on target (404)"
   },
   {
    "id": "s-site-search-form-js-submitted",

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- stardust:provenance
+  writtenBy: stardust:replica
+  phase: recreate
+  againstInput: https://wknd.site/ca/en/magazine/members-only.html
+  readArtifacts: stardust/current/pages/ca-en-magazine-members-only-html.json, stardust/current/pages/ca-en-magazine-members-only-html.html, stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css, stardust/prototypes/CANON.md
+  mode: preserve (clean re-authoring, not a DOM copy)
+  counts: title 1 (plain h1, no underline); image-list 1 with 2 article cards; reconciled from the rendered DOM
+  chrome: canon3 § Locale chrome, first /ca/en page (lang-toggle--ca, en-CA, /ca/en links, Canadian footer paragraph)
+-->
+<html lang="en-CA">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-10-23T10:10:45Z
+  page:             Members Only
+  slug:             ca-en-magazine-members-only-html
+  pagePath:         migrated/ca/en/magazine/members-only.html
+  renderBranch:     A
+  sourceProposed:   stardust/prototypes/ca-en-magazine-members-only-html-proposed.html
+  sourceCurrent:    stardust/current/pages/ca-en-magazine-members-only-html.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 5e39e56380e5)
+  designJson:       DESIGN.json (sha: a824036e0ec7)
+  canonShas:        header:ca41f226d82e footer:208e91ce5a35 css:fa70ee98d9bd
+  decisionTrace:    members-only._meta.json
+  brokenInternalLinks: 29
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --text: #202020;
+  --text-inverse: #ebebeb;
+  --text-muted: dimgray;
+  --link: #0045ff;
+  --brand-yellow: #ffea00;
+  --surface-grey: #ebebeb;
+  --surface-light: #f7f7f7;
+  --body-bg: #fff;
+  --font-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Asar, Georgia, "Times New Roman", Times, serif;
+  --font-icon: wknd-icon-font;
+  --fs-small: 14px;
+  --fs-xsmall: 12px;
+  --button-size: 48px;
+  --utility-height: 25px;
+  --shell: 1164px;
+  --gutter: 14px;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Members Only","url":"https://wknd.site/ca/en/magazine/members-only.html"}</script>
+  <meta charset="UTF-8">
+  <title>Members Only</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFEA00">
+  <link rel="icon" type="image/png" href="../../../assets/favicon.png">
+  <link rel="stylesheet" href="../../../assets/canon.css">
+  <link rel="stylesheet" href="../../../assets/ca-en-magazine-members-only-html.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="utility-bar__inner">
+        <div class="utility-bar__sign-in">
+          <span class="sign-in-greeting">Welcome</span>
+          <a class="sign-in-link" href="#sign-in">Sign In</a>
+          <a class="sign-out-link" href="#sign-out">Sign Out</a>
+        </div>
+        <div class="utility-bar__lang">
+          <a class="lang-toggle lang-toggle--ca" id="langNavToggleHeader" href="#langNavToggle" aria-label="Toggle Language en-CA" aria-expanded="false" aria-controls="lang-menu">en-CA</a>
+          <nav class="lang-menu" id="lang-menu">
+            <ul class="lang-menu__countries">
+              <li class="lang-menu__country lang-menu__country--us">
+                <span class="lang-menu__title">United States</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../../../us/en.html" hreflang="en-US" lang="en-US" title="WKND Adventures and Travel">en-US</a></li>
+                  <li class="lang-menu__locale"><a href="../../../us/es.html" hreflang="es-US" lang="es-US" title="Español">es-US</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ca lang-menu__country--active">
+                <span class="lang-menu__title">Canada</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale lang-menu__locale--active"><a href="../../../ca/en/magazine/members-only.html" hreflang="en-CA" lang="en-CA" title="WKND Adventures and Travel">en-CA</a></li>
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ca/fr.html" hreflang="fr-CA" lang="fr-CA" title="Français" data-broken-link="true">fr-CA</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ch">
+                <span class="lang-menu__title">Switzerland</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ch/de.html" hreflang="de-CH" lang="de-CH" title="Deutsch" data-broken-link="true">de-CH</a></li>
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ch/fr.html" hreflang="fr-CH" lang="fr-CH" title="Français" data-broken-link="true">fr-CH</a></li>
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ch/it.html" hreflang="it-CH" lang="it-CH" title="Italiano" data-broken-link="true">it-CH</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--de">
+                <span class="lang-menu__title">Germany</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/de/de.html" hreflang="de-DE" lang="de-DE" title="Deutsch" data-broken-link="true">de-DE</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--fr">
+                <span class="lang-menu__title">France</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/fr/fr.html" hreflang="fr-FR" lang="fr-FR" title="Français" data-broken-link="true">fr-FR</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--es">
+                <span class="lang-menu__title">Spain</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/es/es.html" hreflang="es-ES" lang="es-ES" title="Español" data-broken-link="true">es-ES</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--it">
+                <span class="lang-menu__title">Italy</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/it/it.html" hreflang="it-IT" lang="it-IT" title="Italiano" data-broken-link="true">it-IT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header-bar">
+      <div class="header-bar__inner">
+        <div class="header-bar__logo">
+          <a href="https://wknd.site/ca/en.html" data-broken-link="true"><img src="../../../assets/media/wknd-logo-dk.svg" alt="WKND Logo" width="300" height="112"></a>
+        </div>
+        <nav class="header-nav">
+          <a class="nav-home" href="https://wknd.site/ca/en.html" hidden data-broken-link="true">Home</a>
+          <ul>
+            <li class="is-active"><a href="https://wknd.site/ca/en/magazine.html" data-broken-link="true">Magazine</a></li>
+            <li><a href="https://wknd.site/ca/en/adventures.html" data-broken-link="true">Adventures</a></li>
+            <li><a href="https://wknd.site/ca/en/faqs.html" data-broken-link="true">FAQs</a></li>
+            <li><a href="https://wknd.site/ca/en/about-us.html" data-broken-link="true">About Us</a></li>
+          </ul>
+        </nav>
+        <a class="header-search" href="../../../us/en/ai-powered-search.html" aria-label="Search" title="Search"><span class="icon icon--search" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-toggle" id="toggleNav"><a class="mobile-toggle__link" href="#mobileNav" aria-label="Open hidden mobile navigation" aria-expanded="false"><span class="icon icon--menu" aria-hidden="true"></span></a></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul>
+      <li class="mobile-nav__home"><a href="https://wknd.site/ca/en.html" data-broken-link="true">Home</a>
+        <ul>
+          <li class="is-active"><a href="https://wknd.site/ca/en/magazine.html" data-broken-link="true">Magazine</a></li>
+          <li><a href="https://wknd.site/ca/en/adventures.html" data-broken-link="true">Adventures</a></li>
+          <li><a href="https://wknd.site/ca/en/faqs.html" data-broken-link="true">FAQs</a></li>
+          <li><a href="https://wknd.site/ca/en/about-us.html" data-broken-link="true">About Us</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="page-root">
+    <main class="page-main" data-template="ca-en-magazine-members-only-html">
+      <div class="fixed-container" data-section="1">
+        <h1>Members Only</h1>
+        <ul class="image-list">
+          <li class="image-list__item"><article>
+            <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html" data-broken-link="true"><div class="image-list__image"><img src="../../../assets/media/alaskan-landscape-01.jpeg" alt="Alaskan Adventure" width="1280" height="853" loading="lazy"></div></a>
+            <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html" data-broken-link="true"><span class="image-list__title">Alaskan Adventure</span></a>
+            <span class="image-list__description">My brother and I had an amazing Alaskan adventure. Read about how we lived on glaciers for 18 days.</span>
+          </article></li>
+          <li class="image-list__item"><article>
+            <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html" data-broken-link="true"><div class="image-list__image"><img src="../../../assets/media/amazon-river-01.jpeg" alt="Fly Fishing the Amazon" width="1280" height="853" loading="lazy"></div></a>
+            <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html" data-broken-link="true"><span class="image-list__title">Fly Fishing the Amazon</span></a>
+            <span class="image-list__description">Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.</span>
+          </article></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__row">
+          <div class="site-footer__logo"><a href="https://wknd.site/ca/en.html" data-broken-link="true"><img src="../../../assets/media/wknd-logo-light.svg" alt="WKND Logo" width="300" height="112"></a></div>
+          <nav class="site-footer__nav" aria-label="Footer navigation">
+            <a class="nav-home" href="https://wknd.site/ca/en.html" hidden data-broken-link="true">Home</a>
+            <ul>
+              <li class="is-active"><a href="https://wknd.site/ca/en/magazine.html" data-broken-link="true">Magazine</a></li>
+              <li><a href="https://wknd.site/ca/en/adventures.html" data-broken-link="true">Adventures</a></li>
+              <li><a href="https://wknd.site/ca/en/faqs.html" data-broken-link="true">FAQs</a></li>
+              <li><a href="https://wknd.site/ca/en/about-us.html" data-broken-link="true">About Us</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__follow"><h4>Follow Us</h4></div>
+          <div class="site-footer__social">
+            <a class="social-btn" href="#facebookwknd" aria-label="Facebook WKND Button"><span class="icon icon--facebook" aria-hidden="true"></span><span class="social-btn__text">Facebook</span></a>
+            <a class="social-btn" href="#twitterWKND" aria-label="Twitter WKND Button"><span class="icon icon--twitter" aria-hidden="true"></span><span class="social-btn__text">Twitter</span></a>
+            <a class="social-btn" href="#instagramwknd" aria-label="Instagram WKND"><span class="icon icon--instagram" aria-hidden="true"></span><span class="social-btn__text">Instagram</span></a>
+          </div>
+        </div>
+        <div class="site-footer__separator"></div>
+        <div class="site-footer__text">
+          <p>Canadian specific footer. This footer serves as an example of <a title="localization" href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html" target="_blank" rel="noopener noreferrer">localization features with Core Components&nbsp;</a></p>
+          <p>Ⓒ 2019,&nbsp;&nbsp;WKND Site.</p>
+          <p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html">Core Components</a>&nbsp;and&nbsp;<a href="https://github.com/adobe/aem-project-archetype">Archetype</a>&nbsp;that are available as open source code to the public. The entire&nbsp;<a href="https://github.com/adobe/aem-guides-wknd/">site source code</a>&nbsp;is available as open source as well and is accompanied with a&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">detailed tutorial</a>&nbsp;on how to recreate the site.</p>
+          <p>Many of the beautiful images in the WKND site are available for purchase via&nbsp;<a href="https://stock.adobe.com/">Adobe Stock</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../../../assets/canon.js" defer></script>
+</body>
+</html>

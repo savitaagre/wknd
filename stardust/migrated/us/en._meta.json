@@ -1,0 +1,162 @@
+{
+  "slug": "us-en-html",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-carousel",
+    "featured-teaser",
+    "image-list",
+    "hero-teaser"
+  ],
+  "slotsFilled": [
+    "hero-carousel",
+    "fixed-container",
+    "hero-teaser",
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "ac708021d0e8",
+    "footer": "dd1d2e324a95",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "WKND Adventures and Travel",
+    "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "WKND Adventures and Travel",
+    "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+    "url": "https://wknd.site/us/en.html"
+  },
+  "migratedAt": "2026-10-23T10:10:31Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "e64fdbb94068",
+  "sourceProposedSha": "0e93c871a717",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 35,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/downhill-skiing-wyoming.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/yosemite-backpacking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/yosemite-backpacking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/whistler-mountain-biking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/whistler-mountain-biking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/west-coast-cycling.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/west-coast-cycling.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/tahoe-skiing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/tahoe-skiing.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en._meta.json",
+  "driverVersion": "1"
+}

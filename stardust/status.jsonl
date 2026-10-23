@@ -19,3 +19,10 @@
 {"ts":"2026-10-23T09:54:09Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"10 archetypes gated by workers (1440 + 360, ≤3 fix iterations each); prototype table + approvals"}
 {"ts":"2026-10-23T10:02:54Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"canon split + 9 archetypes authored by 9 workers in 3 batches; canon2/canon3 maintainer rounds; units.json families declared"}
 {"ts":"2026-10-23T10:02:55Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"10/10 archetypes pass 1440+360 (max 0.23% @1440, 2.08% @360 landing; |dh| <= 1); gate-all prototype tables 10/10 PASS both widths; motion parity 0 missing/0 extra on all; approved hands-off"}
+{"ts":"2026-10-23T10:09:45Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"run 2: 10 gated archetypes → wknd (preview only); code push pending"}
+{"ts":"2026-10-23T10:10:11Z","skill":"stardust:rollout","phase":"A-inventory","event":"start"}
+{"ts":"2026-10-23T10:11:19Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"65 pages: 10 archetypes pending, 55 siblings content-pending (archetypes-first)","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-23T10:11:19Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
+{"ts":"2026-10-23T10:11:30Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"20 distinct module blocks, 27 instances, representative-first plan","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-10-23T10:11:30Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start"}
+{"ts":"2026-10-23T10:11:49Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"30 rows, host-bound 13/13 (row-14 plumbing), no disposition change; preview-only blocks the live query index (search interim)"}

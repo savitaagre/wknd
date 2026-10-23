@@ -1,0 +1,126 @@
+{
+  "slug": "us-en-magazine-html",
+  "type": "magazine-listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "featured-teaser",
+    "image-list",
+    "members-only-teaser"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "87c2019e87c6",
+    "footer": "ff09fcddc50f",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Magazine",
+    "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Magazine",
+    "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+    "url": "https://wknd.site/us/en/magazine.html"
+  },
+  "migratedAt": "2026-10-23T10:10:40Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "3630bdde1c82",
+  "sourceProposedSha": "3ace6b491121",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 14,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/magazine.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/magazine._meta.json",
+  "driverVersion": "1"
+}

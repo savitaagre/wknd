@@ -1284,5 +1284,762 @@
       "prototypePath": "stardust/prototypes/us-es-html-proposed.html",
       "migratedPath": null
     }
-  ]
+  ],
+  "migrate": {
+    "at": "2026-10-23T10:10:45Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/us/en.html",
+        "outputPath": "us/en.html",
+        "slug": "us-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/about-us.html",
+        "outputPath": "ca/en/about-us.html",
+        "slug": "ca-en-about-us-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/bali-surf-camp.html",
+        "outputPath": "ca/en/adventures/bali-surf-camp.html",
+        "slug": "ca-en-adventures-bali-surf-camp-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/beervana-portland.html",
+        "outputPath": "ca/en/adventures/beervana-portland.html",
+        "slug": "ca-en-adventures-beervana-portland-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/climbing-new-zealand.html",
+        "outputPath": "ca/en/adventures/climbing-new-zealand.html",
+        "slug": "ca-en-adventures-climbing-new-zealand-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/colorado-rock-climbing.html",
+        "outputPath": "ca/en/adventures/colorado-rock-climbing.html",
+        "slug": "ca-en-adventures-colorado-rock-climbing-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/cycling-southern-utah.html",
+        "outputPath": "ca/en/adventures/cycling-southern-utah.html",
+        "slug": "ca-en-adventures-cycling-southern-utah-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/cycling-tuscany.html",
+        "outputPath": "ca/en/adventures/cycling-tuscany.html",
+        "slug": "ca-en-adventures-cycling-tuscany-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/downhill-skiing-wyoming.html",
+        "outputPath": "ca/en/adventures/downhill-skiing-wyoming.html",
+        "slug": "ca-en-adventures-downhill-skiing-wyoming-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/gastronomic-marais-tour.html",
+        "outputPath": "ca/en/adventures/gastronomic-marais-tour.html",
+        "slug": "ca-en-adventures-gastronomic-marais-tour-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures.html",
+        "outputPath": "ca/en/adventures.html",
+        "slug": "ca-en-adventures-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/napa-wine-tasting.html",
+        "outputPath": "ca/en/adventures/napa-wine-tasting.html",
+        "slug": "ca-en-adventures-napa-wine-tasting-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/riverside-camping-australia.html",
+        "outputPath": "ca/en/adventures/riverside-camping-australia.html",
+        "slug": "ca-en-adventures-riverside-camping-australia-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/ski-touring-mont-blanc.html",
+        "outputPath": "ca/en/adventures/ski-touring-mont-blanc.html",
+        "slug": "ca-en-adventures-ski-touring-mont-blanc-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/surf-camp-costa-rica.html",
+        "outputPath": "ca/en/adventures/surf-camp-costa-rica.html",
+        "slug": "ca-en-adventures-surf-camp-costa-rica-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/tahoe-skiing.html",
+        "outputPath": "ca/en/adventures/tahoe-skiing.html",
+        "slug": "ca-en-adventures-tahoe-skiing-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/west-coast-cycling.html",
+        "outputPath": "ca/en/adventures/west-coast-cycling.html",
+        "slug": "ca-en-adventures-west-coast-cycling-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/whistler-mountain-biking.html",
+        "outputPath": "ca/en/adventures/whistler-mountain-biking.html",
+        "slug": "ca-en-adventures-whistler-mountain-biking-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/adventures/yosemite-backpacking.html",
+        "outputPath": "ca/en/adventures/yosemite-backpacking.html",
+        "slug": "ca-en-adventures-yosemite-backpacking-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/faqs.html",
+        "outputPath": "ca/en/faqs.html",
+        "slug": "ca-en-faqs-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en.html",
+        "outputPath": "ca/en.html",
+        "slug": "ca-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/arctic-surfing.html",
+        "outputPath": "ca/en/magazine/arctic-surfing.html",
+        "slug": "ca-en-magazine-arctic-surfing-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/guide-la-skateparks.html",
+        "outputPath": "ca/en/magazine/guide-la-skateparks.html",
+        "slug": "ca-en-magazine-guide-la-skateparks-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine.html",
+        "outputPath": "ca/en/magazine.html",
+        "slug": "ca-en-magazine-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/members-only/alaskan-adventure.html",
+        "outputPath": "ca/en/magazine/members-only/alaskan-adventure.html",
+        "slug": "ca-en-magazine-members-only-alaskan-adventure-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+        "outputPath": "ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+        "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/members-only.html",
+        "outputPath": "ca/en/magazine/members-only.html",
+        "slug": "ca-en-magazine-members-only-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/san-diego-surf.html",
+        "outputPath": "ca/en/magazine/san-diego-surf.html",
+        "slug": "ca-en-magazine-san-diego-surf-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/ski-touring.html",
+        "outputPath": "ca/en/magazine/ski-touring.html",
+        "slug": "ca-en-magazine-ski-touring-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/en/magazine/western-australia.html",
+        "outputPath": "ca/en/magazine/western-australia.html",
+        "slug": "ca-en-magazine-western-australia-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca/fr.html",
+        "outputPath": "ca/fr.html",
+        "slug": "ca-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch/de.html",
+        "outputPath": "ch/de.html",
+        "slug": "ch-de-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch/fr.html",
+        "outputPath": "ch/fr.html",
+        "slug": "ch-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch/it.html",
+        "outputPath": "ch/it.html",
+        "slug": "ch-it-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/de.html",
+        "outputPath": "de/de.html",
+        "slug": "de-de-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/es/es.html",
+        "outputPath": "es/es.html",
+        "slug": "es-es-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/fr/fr.html",
+        "outputPath": "fr/fr.html",
+        "slug": "fr-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it/it.html",
+        "outputPath": "it/it.html",
+        "slug": "it-it-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/about-us.html",
+        "outputPath": "us/en/about-us.html",
+        "slug": "us-en-about-us-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/bali-surf-camp.html",
+        "outputPath": "us/en/adventures/bali-surf-camp.html",
+        "slug": "us-en-adventures-bali-surf-camp-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/beervana-portland.html",
+        "outputPath": "us/en/adventures/beervana-portland.html",
+        "slug": "us-en-adventures-beervana-portland-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/climbing-new-zealand.html",
+        "outputPath": "us/en/adventures/climbing-new-zealand.html",
+        "slug": "us-en-adventures-climbing-new-zealand-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/colorado-rock-climbing.html",
+        "outputPath": "us/en/adventures/colorado-rock-climbing.html",
+        "slug": "us-en-adventures-colorado-rock-climbing-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/cycling-southern-utah.html",
+        "outputPath": "us/en/adventures/cycling-southern-utah.html",
+        "slug": "us-en-adventures-cycling-southern-utah-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/cycling-tuscany.html",
+        "outputPath": "us/en/adventures/cycling-tuscany.html",
+        "slug": "us-en-adventures-cycling-tuscany-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/downhill-skiing-wyoming.html",
+        "outputPath": "us/en/adventures/downhill-skiing-wyoming.html",
+        "slug": "us-en-adventures-downhill-skiing-wyoming-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/gastronomic-marais-tour.html",
+        "outputPath": "us/en/adventures/gastronomic-marais-tour.html",
+        "slug": "us-en-adventures-gastronomic-marais-tour-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures.html",
+        "outputPath": "us/en/adventures.html",
+        "slug": "us-en-adventures-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/napa-wine-tasting.html",
+        "outputPath": "us/en/adventures/napa-wine-tasting.html",
+        "slug": "us-en-adventures-napa-wine-tasting-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/riverside-camping-australia.html",
+        "outputPath": "us/en/adventures/riverside-camping-australia.html",
+        "slug": "us-en-adventures-riverside-camping-australia-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/ski-touring-mont-blanc.html",
+        "outputPath": "us/en/adventures/ski-touring-mont-blanc.html",
+        "slug": "us-en-adventures-ski-touring-mont-blanc-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/surf-camp-costa-rica.html",
+        "outputPath": "us/en/adventures/surf-camp-costa-rica.html",
+        "slug": "us-en-adventures-surf-camp-costa-rica-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/tahoe-skiing.html",
+        "outputPath": "us/en/adventures/tahoe-skiing.html",
+        "slug": "us-en-adventures-tahoe-skiing-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/west-coast-cycling.html",
+        "outputPath": "us/en/adventures/west-coast-cycling.html",
+        "slug": "us-en-adventures-west-coast-cycling-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/whistler-mountain-biking.html",
+        "outputPath": "us/en/adventures/whistler-mountain-biking.html",
+        "slug": "us-en-adventures-whistler-mountain-biking-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/adventures/yosemite-backpacking.html",
+        "outputPath": "us/en/adventures/yosemite-backpacking.html",
+        "slug": "us-en-adventures-yosemite-backpacking-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/ai-powered-search.html",
+        "outputPath": "us/en/ai-powered-search.html",
+        "slug": "us-en-ai-powered-search-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/faqs.html",
+        "outputPath": "us/en/faqs.html",
+        "slug": "us-en-faqs-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/magazine/arctic-surfing.html",
+        "outputPath": "us/en/magazine/arctic-surfing.html",
+        "slug": "us-en-magazine-arctic-surfing-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/magazine/guide-la-skateparks.html",
+        "outputPath": "us/en/magazine/guide-la-skateparks.html",
+        "slug": "us-en-magazine-guide-la-skateparks-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/magazine.html",
+        "outputPath": "us/en/magazine.html",
+        "slug": "us-en-magazine-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/magazine/san-diego-surf.html",
+        "outputPath": "us/en/magazine/san-diego-surf.html",
+        "slug": "us-en-magazine-san-diego-surf-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/magazine/ski-touring.html",
+        "outputPath": "us/en/magazine/ski-touring.html",
+        "slug": "us-en-magazine-ski-touring-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/magazine/western-australia.html",
+        "outputPath": "us/en/magazine/western-australia.html",
+        "slug": "us-en-magazine-western-australia-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/es.html",
+        "outputPath": "us/es.html",
+        "slug": "us-es-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 285,
+    "bundledAssets": [
+      "ca-en-magazine-members-only-html.css",
+      "canon.css",
+      "canon.js",
+      "favicon.png",
+      "flags/CA.svg",
+      "flags/CH.svg",
+      "flags/DE.svg",
+      "flags/ES.svg",
+      "flags/FR.svg",
+      "flags/IT.svg",
+      "flags/US.svg",
+      "fonts/asar-400.woff2",
+      "fonts/source-sans-pro-300-italic.woff2",
+      "fonts/source-sans-pro-300.woff2",
+      "fonts/source-sans-pro-400-italic.woff2",
+      "fonts/source-sans-pro-400.woff2",
+      "fonts/source-sans-pro-600-italic.woff2",
+      "fonts/source-sans-pro-600.woff2",
+      "fonts/wknd-icon-font.ttf",
+      "media/adobe-waadobe-wa-b6a7083.jpeg",
+      "media/adobe-waadobe-wa-mg-2466.jpeg",
+      "media/adobestock-122615840.jpeg",
+      "media/adobestock-140634652-1000w.jpeg",
+      "media/adobestock-140634652-100w.jpeg",
+      "media/adobestock-140634652-1100w.jpeg",
+      "media/adobestock-140634652-1200w.jpeg",
+      "media/adobestock-140634652-1600w.jpeg",
+      "media/adobestock-140634652-200w.jpeg",
+      "media/adobestock-140634652-300w.jpeg",
+      "media/adobestock-140634652-400w.jpeg",
+      "media/adobestock-140634652-500w.jpeg",
+      "media/adobestock-140634652-600w.jpeg",
+      "media/adobestock-140634652-700w.jpeg",
+      "media/adobestock-140634652-800w.jpeg",
+      "media/adobestock-140634652-900w.jpeg",
+      "media/adobestock-140634652.jpeg",
+      "media/adobestock-151584995.jpeg",
+      "media/adobestock-156407519.jpeg",
+      "media/adobestock-164735399.jpeg",
+      "media/adobestock-166394648-1000w.jpeg",
+      "media/adobestock-166394648-100w.jpeg",
+      "media/adobestock-166394648-1100w.jpeg",
+      "media/adobestock-166394648-1200w.jpeg",
+      "media/adobestock-166394648-1600w.jpeg",
+      "media/adobestock-166394648-200w.jpeg",
+      "media/adobestock-166394648-300w.jpeg",
+      "media/adobestock-166394648-400w.jpeg",
+      "media/adobestock-166394648-500w.jpeg",
+      "media/adobestock-166394648-600w.jpeg",
+      "media/adobestock-166394648-700w.jpeg",
+      "media/adobestock-166394648-800w.jpeg",
+      "media/adobestock-166394648-900w.jpeg",
+      "media/adobestock-175749320.jpeg",
+      "media/adobestock-184591344.jpeg",
+      "media/adobestock-185234795.jpeg",
+      "media/adobestock-185324648.jpeg",
+      "media/adobestock-200192344.jpeg",
+      "media/adobestock-201222633.jpeg",
+      "media/adobestock-216674449.jpeg",
+      "media/adobestock-231698835.jpeg",
+      "media/adobestock-238230356.jpeg",
+      "media/adobestock-277768563-1000w.jpeg",
+      "media/adobestock-277768563-100w.jpeg",
+      "media/adobestock-277768563-1100w.jpeg",
+      "media/adobestock-277768563-1200w.jpeg",
+      "media/adobestock-277768563-1600w.jpeg",
+      "media/adobestock-277768563-200w.jpeg",
+      "media/adobestock-277768563-300w.jpeg",
+      "media/adobestock-277768563-400w.jpeg",
+      "media/adobestock-277768563-500w.jpeg",
+      "media/adobestock-277768563-600w.jpeg",
+      "media/adobestock-277768563-700w.jpeg",
+      "media/adobestock-277768563-800w.jpeg",
+      "media/adobestock-277768563-900w.jpeg",
+      "media/adobestock-277768563.jpeg",
+      "media/adobestock-277948178-1000w.jpeg",
+      "media/adobestock-277948178-100w.jpeg",
+      "media/adobestock-277948178-1100w.jpeg",
+      "media/adobestock-277948178-1200w.jpeg",
+      "media/adobestock-277948178-1600w.jpeg",
+      "media/adobestock-277948178-200w.jpeg",
+      "media/adobestock-277948178-300w.jpeg",
+      "media/adobestock-277948178-400w.jpeg",
+      "media/adobestock-277948178-500w.jpeg",
+      "media/adobestock-277948178-600w.jpeg",
+      "media/adobestock-277948178-700w.jpeg",
+      "media/adobestock-277948178-800w.jpeg",
+      "media/adobestock-277948178-900w.jpeg",
+      "media/adobestock-278302117.jpeg",
+      "media/adobestock-280313729.jpeg",
+      "media/adobestock-294203896.jpeg",
+      "media/adobestock-59459597.jpeg",
+      "media/alaskan-grizzly.jpeg",
+      "media/alaskan-landscape-01.jpeg",
+      "media/alex-iby-343837-1000w.jpeg",
+      "media/alex-iby-343837-1100w.jpeg",
+      "media/alex-iby-343837-1200w.jpeg",
+      "media/alex-iby-343837-300w.jpeg",
+      "media/alex-iby-343837-400w.jpeg",
+      "media/alex-iby-343837-500w.jpeg",
+      "media/alex-iby-343837-600w.jpeg",
+      "media/alex-iby-343837-700w.jpeg",
+      "media/alex-iby-343837-800w.jpeg",
+      "media/alex-iby-343837-900w.jpeg",
+      "media/alex-iby-343837.jpeg",
+      "media/amazon-river-01.jpeg",
+      "media/amazon-river-02.jpeg",
+      "media/article-01-hero-1000w.png",
+      "media/article-01-hero-100w.png",
+      "media/article-01-hero-1100w.png",
+      "media/article-01-hero-1200w.png",
+      "media/article-01-hero-1600w.png",
+      "media/article-01-hero-200w.png",
+      "media/article-01-hero-300w.png",
+      "media/article-01-hero-400w.png",
+      "media/article-01-hero-500w.png",
+      "media/article-01-hero-600w.png",
+      "media/article-01-hero-700w.png",
+      "media/article-01-hero-800w.png",
+      "media/article-01-hero-900w.png",
+      "media/article-01-picture-01-1000w.png",
+      "media/article-01-picture-01-100w.png",
+      "media/article-01-picture-01-1100w.png",
+      "media/article-01-picture-01-1200w.png",
+      "media/article-01-picture-01-1600w.png",
+      "media/article-01-picture-01-200w.png",
+      "media/article-01-picture-01-300w.png",
+      "media/article-01-picture-01-400w.png",
+      "media/article-01-picture-01-500w.png",
+      "media/article-01-picture-01-600w.png",
+      "media/article-01-picture-01-700w.png",
+      "media/article-01-picture-01-800w.png",
+      "media/article-01-picture-01-900w.png",
+      "media/article-01-picture-01.png",
+      "media/ayo-ogunseinde-237739-1000w.jpeg",
+      "media/ayo-ogunseinde-237739-1100w.jpeg",
+      "media/ayo-ogunseinde-237739-1200w.jpeg",
+      "media/ayo-ogunseinde-237739-300w.jpeg",
+      "media/ayo-ogunseinde-237739-400w.jpeg",
+      "media/ayo-ogunseinde-237739-500w.jpeg",
+      "media/ayo-ogunseinde-237739-600w.jpeg",
+      "media/ayo-ogunseinde-237739-700w.jpeg",
+      "media/ayo-ogunseinde-237739-800w.jpeg",
+      "media/ayo-ogunseinde-237739-900w.jpeg",
+      "media/ayo-ogunseinde-237739.jpeg",
+      "media/beach-walking.jpeg",
+      "media/climber-gear-outdoor-1000w.jpeg",
+      "media/climber-gear-outdoor-100w.jpeg",
+      "media/climber-gear-outdoor-1100w.jpeg",
+      "media/climber-gear-outdoor-1200w.jpeg",
+      "media/climber-gear-outdoor-1600w.jpeg",
+      "media/climber-gear-outdoor-200w.jpeg",
+      "media/climber-gear-outdoor-300w.jpeg",
+      "media/climber-gear-outdoor-400w.jpeg",
+      "media/climber-gear-outdoor-500w.jpeg",
+      "media/climber-gear-outdoor-600w.jpeg",
+      "media/climber-gear-outdoor-700w.jpeg",
+      "media/climber-gear-outdoor-800w.jpeg",
+      "media/climber-gear-outdoor-900w.jpeg",
+      "media/climber-gear-rope-1000w.jpeg",
+      "media/climber-gear-rope-100w.jpeg",
+      "media/climber-gear-rope-1100w.jpeg",
+      "media/climber-gear-rope-1200w.jpeg",
+      "media/climber-gear-rope-1600w.jpeg",
+      "media/climber-gear-rope-200w.jpeg",
+      "media/climber-gear-rope-300w.jpeg",
+      "media/climber-gear-rope-400w.jpeg",
+      "media/climber-gear-rope-500w.jpeg",
+      "media/climber-gear-rope-600w.jpeg",
+      "media/climber-gear-rope-700w.jpeg",
+      "media/climber-gear-rope-800w.jpeg",
+      "media/climber-gear-rope-900w.jpeg",
+      "media/equipment-4-1000w.jpeg",
+      "media/equipment-4-100w.jpeg",
+      "media/equipment-4-1100w.jpeg",
+      "media/equipment-4-1200w.jpeg",
+      "media/equipment-4-1600w.jpeg",
+      "media/equipment-4-200w.jpeg",
+      "media/equipment-4-300w.jpeg",
+      "media/equipment-4-400w.jpeg",
+      "media/equipment-4-500w.jpeg",
+      "media/equipment-4-600w.jpeg",
+      "media/equipment-4-700w.jpeg",
+      "media/equipment-4-800w.jpeg",
+      "media/equipment-4-900w.jpeg",
+      "media/ian-provo-1000w.jpeg",
+      "media/ian-provo-1100w.jpeg",
+      "media/ian-provo-1200w.jpeg",
+      "media/ian-provo-300w.jpeg",
+      "media/ian-provo-400w.jpeg",
+      "media/ian-provo-500w.jpeg",
+      "media/ian-provo-600w.jpeg",
+      "media/ian-provo-700w.jpeg",
+      "media/ian-provo-800w.jpeg",
+      "media/ian-provo-900w.jpeg",
+      "media/ian-provo.jpeg",
+      "media/jacob-wester-1000w.jpeg",
+      "media/jacob-wester-1100w.jpeg",
+      "media/jacob-wester-1200w.jpeg",
+      "media/jacob-wester-300w.jpeg",
+      "media/jacob-wester-400w.jpeg",
+      "media/jacob-wester-500w.jpeg",
+      "media/jacob-wester-600w.jpeg",
+      "media/jacob-wester-700w.jpeg",
+      "media/jacob-wester-800w.jpeg",
+      "media/jacob-wester-900w.jpeg",
+      "media/jacob-wester.jpeg",
+      "media/justin-barr-1000w.jpeg",
+      "media/justin-barr-1100w.jpeg",
+      "media/justin-barr-1200w.jpeg",
+      "media/justin-barr-300w.jpeg",
+      "media/justin-barr-400w.jpeg",
+      "media/justin-barr-500w.jpeg",
+      "media/justin-barr-600w.jpeg",
+      "media/justin-barr-700w.jpeg",
+      "media/justin-barr-800w.jpeg",
+      "media/justin-barr-900w.jpeg",
+      "media/justin-barr.jpeg",
+      "media/kumar-selvaraj-1000w.jpeg",
+      "media/kumar-selvaraj-1100w.jpeg",
+      "media/kumar-selvaraj-1200w.jpeg",
+      "media/kumar-selvaraj-300w.jpeg",
+      "media/kumar-selvaraj-400w.jpeg",
+      "media/kumar-selvaraj-500w.jpeg",
+      "media/kumar-selvaraj-600w.jpeg",
+      "media/kumar-selvaraj-700w.jpeg",
+      "media/kumar-selvaraj-800w.jpeg",
+      "media/kumar-selvaraj-900w.jpeg",
+      "media/kumar-selvaraj.jpeg",
+      "media/robson-hatsukami-morgan-280159-1000w.jpeg",
+      "media/robson-hatsukami-morgan-280159-100w.jpeg",
+      "media/robson-hatsukami-morgan-280159-1100w.jpeg",
+      "media/robson-hatsukami-morgan-280159-1200w.jpeg",
+      "media/robson-hatsukami-morgan-280159-1600w.jpeg",
+      "media/robson-hatsukami-morgan-280159-200w.jpeg",
+      "media/robson-hatsukami-morgan-280159-300w.jpeg",
+      "media/robson-hatsukami-morgan-280159-400w.jpeg",
+      "media/robson-hatsukami-morgan-280159-500w.jpeg",
+      "media/robson-hatsukami-morgan-280159-600w.jpeg",
+      "media/robson-hatsukami-morgan-280159-700w.jpeg",
+      "media/robson-hatsukami-morgan-280159-800w.jpeg",
+      "media/robson-hatsukami-morgan-280159-900w.jpeg",
+      "media/skitouring5sjoeberg.jpeg",
+      "media/sport-climbing-1000w.jpeg",
+      "media/sport-climbing-100w.jpeg",
+      "media/sport-climbing-1100w.jpeg",
+      "media/sport-climbing-1200w.jpeg",
+      "media/sport-climbing-1600w.jpeg",
+      "media/sport-climbing-200w.jpeg",
+      "media/sport-climbing-300w.jpeg",
+      "media/sport-climbing-400w.jpeg",
+      "media/sport-climbing-500w.jpeg",
+      "media/sport-climbing-600w.jpeg",
+      "media/sport-climbing-700w.jpeg",
+      "media/sport-climbing-800w.jpeg",
+      "media/sport-climbing-900w.jpeg",
+      "media/sport-climbing.jpeg",
+      "media/stacey-roswells-1000w.jpeg",
+      "media/stacey-roswells-1100w.jpeg",
+      "media/stacey-roswells-1200w.jpeg",
+      "media/stacey-roswells-300w.jpeg",
+      "media/stacey-roswells-400w.jpeg",
+      "media/stacey-roswells-500w.jpeg",
+      "media/stacey-roswells-600w.jpeg",
+      "media/stacey-roswells-700w.jpeg",
+      "media/stacey-roswells-800w.jpeg",
+      "media/stacey-roswells-900w.jpeg",
+      "media/stacey-roswells.jpeg",
+      "media/surfer-wave-02.jpeg",
+      "media/wknd-logo-dk.svg",
+      "media/wknd-logo-light.svg",
+      "us-en-about-us-html.css",
+      "us-en-adventures-climbing-new-zealand-html.css",
+      "us-en-adventures-climbing-new-zealand-html.js",
+      "us-en-adventures-html.css",
+      "us-en-adventures-html.js",
+      "us-en-ai-powered-search-html.css",
+      "us-en-ai-powered-search-html.js",
+      "us-en-faqs-html.css",
+      "us-en-faqs-html.js",
+      "us-en-html.css",
+      "us-en-html.js",
+      "us-en-magazine-guide-la-skateparks-html.css",
+      "us-en-magazine-html.css",
+      "us-es-html.css"
+    ],
+    "pages": [
+      {
+        "slug": "us-en-html",
+        "file": "stardust/migrated/us/en.html",
+        "assetsBundled": 35
+      },
+      {
+        "slug": "us-en-adventures-html",
+        "file": "stardust/migrated/us/en/adventures.html",
+        "assetsBundled": 24
+      },
+      {
+        "slug": "us-en-adventures-climbing-new-zealand-html",
+        "file": "stardust/migrated/us/en/adventures/climbing-new-zealand.html",
+        "assetsBundled": 111
+      },
+      {
+        "slug": "us-en-faqs-html",
+        "file": "stardust/migrated/us/en/faqs.html",
+        "assetsBundled": 21
+      },
+      {
+        "slug": "us-en-magazine-guide-la-skateparks-html",
+        "file": "stardust/migrated/us/en/magazine/guide-la-skateparks.html",
+        "assetsBundled": 46
+      },
+      {
+        "slug": "us-en-magazine-html",
+        "file": "stardust/migrated/us/en/magazine.html",
+        "assetsBundled": 14
+      },
+      {
+        "slug": "us-en-about-us-html",
+        "file": "stardust/migrated/us/en/about-us.html",
+        "assetsBundled": 83
+      },
+      {
+        "slug": "ca-en-magazine-members-only-html",
+        "file": "stardust/migrated/ca/en/magazine/members-only.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "us-en-ai-powered-search-html",
+        "file": "stardust/migrated/us/en/ai-powered-search.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "us-es-html",
+        "file": "stardust/migrated/us/es.html",
+        "assetsBundled": 7
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-23T10:10:45Z",
+      "rendered": [
+        "us-en-html",
+        "us-en-adventures-html",
+        "us-en-adventures-climbing-new-zealand-html",
+        "us-en-faqs-html",
+        "us-en-magazine-guide-la-skateparks-html",
+        "us-en-magazine-html",
+        "us-en-about-us-html",
+        "ca-en-magazine-members-only-html",
+        "us-en-ai-powered-search-html",
+        "us-es-html"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
 }

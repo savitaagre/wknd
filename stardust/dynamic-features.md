@@ -60,3 +60,12 @@ One message to the owner (hands-off: recorded, interim tiers ship, nothing decid
 | feature | reason | production statement |
 |---|---|---|
 | (none — decided-out needs an owner statement) | | |
+
+## B2 verification (rollout, 2026-10-23)
+
+Re-planned against the target host `https://main--wknd--savitaagre.aem.page` with the migrated archetypes:
+30 draft rows · self 19 · owner batch 8 · delivered by the capture pipeline 2 · **host-bound 13/13** — the 13
+first-party paths are the AEM session / ContextHub / CSRF / current-user files of row 14 (render nothing on
+the source either). No disposition changes; every row keeps its disposition. Owner batch unchanged: D1, D2, D4.
+Delivery note: the owner chose **preview only**; the search query index (row 6) builds from the LIVE tree,
+so the search page can only be wired once pages are published — recorded as an interim (static UI) until then.

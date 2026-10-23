@@ -247,3 +247,13 @@ published (preview) origin.
 - Open canon requests carried to Phase 5 foundation: promote standalone hero-teaser heights; keep the
   level-0 nav list on coming-soon chrome; CANON.md wording for the en-CA active link.
 - Register R-01/R-02/R-03 apply at delivery (prototypes mirror the source outline).
+
+## Handoff A/B/B2 — inventory, block plan, dynamics re-verified on the wknd host (2026-10-23)
+
+- Remote prerequisites (owner approval 2026-10-23): MSM removed (DA org `msm` sheet; MSM rows in the
+  prepare/apps sheets of edsmsm, ema, savisite — POST 201 ×4, verified); site `wknd` created on the
+  configuration service (content `content.da.live/savitaagre/wknd`, code temporarily `savitaagre/edsmsm`
+  until the repo rename). Git push still unavailable → deploy precondition "code branch pushed" open.
+- migrate render of the 10 approved archetypes → stardust/migrated (10 sidecars, modules recorded).
+- A-inventory: 65 pages (10 pending archetypes, 55 content-pending siblings). B-block: 20 distinct blocks,
+  27 instances, each converted once. B2: host-bound 13/13 = row-14 plumbing; no disposition change.

@@ -20,11 +20,11 @@ Grows from: the bounded `/us/en` pilot (`stardust/replica-plan.md`, PR #1)
 
 | # | Item | Who | Status |
 |---|---|---|---|
-| R1 | Explicit chat approval for remote changes (DA config, site config, DA upload, preview) | user | **waiting** |
+| R1 | Explicit chat approval for remote changes (DA config, site config, DA upload, preview) | user | **done 2026-10-23** ("Yes, remove MSM config, create wknd site, upload and preview") |
 | R2 | Rename GitHub repo `savitaagre/edsmsm` → `savitaagre/wknd` (no GitHub access from the agent) | user | **waiting** |
 | R3 | Enable git push (Settings → LLM Permissions) to push `feat/wknd-full-replica` | user | **waiting** |
-| R4 | Remove MSM: org `msm` sheet; "Multi-site Manager" rows in `prepare`/`apps` of edsmsm, ema, savisite | agent after R1 | pending |
-| R5 | Create site config `wknd` (code `savitaagre/wknd`, content `https://content.da.live/savitaagre/wknd`) + DA site config | agent after R1+R2 | pending |
+| R4 | Remove MSM: org `msm` sheet; "Multi-site Manager" rows in `prepare`/`apps` of edsmsm, ema, savisite | agent after R1 | **done** 10:07Z (POST 201 ×4, verified) |
+| R5 | Create site config `wknd` (content `https://content.da.live/savitaagre/wknd`) | agent after R1 | **done** 10:08Z — code temporarily `savitaagre/edsmsm` (repo not renamed yet); switch `code.repo` to `wknd` after R2 |
 | R6 | Decide what happens to the old `edsmsm` site config and DA content (kept as backup until told) | user | open |
 
 Backups of every config touched: `stardust/wknd-rename/backups/` (taken 2026-10-23, before any change).

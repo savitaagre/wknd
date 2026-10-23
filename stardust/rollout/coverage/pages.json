@@ -1,0 +1,1461 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-23T10:11:11.379Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-23T10:11:11.379Z",
+  "pages": [
+    {
+      "slug": "ca-en-about-us-html",
+      "path": "/ca/en/about-us",
+      "title": "About Us",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cdbe7ca1287eda981efa1caf71ec01ea165a423a621d0ebcc5c4dab20f7ef5b9",
+        "currentStatePath": "stardust/current/pages/ca-en-about-us-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/about-us.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-bali-surf-camp-html",
+      "path": "/ca/en/adventures/bali-surf-camp",
+      "title": "Bali Surf Camp",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ee56990d456eaccd84a15ad02e3e5c5f0a4819b5cfbb268a0e6b8ec90848ce5d",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-bali-surf-camp-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/bali-surf-camp.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-beervana-portland-html",
+      "path": "/ca/en/adventures/beervana-portland",
+      "title": "Beervana in Portland",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:88f6dc96be15ff72ef8bc0dbacfef13a247b5a2ad3ee0aa19b6eef389a324157",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-beervana-portland-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/beervana-portland.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-climbing-new-zealand-html",
+      "path": "/ca/en/adventures/climbing-new-zealand",
+      "title": "Climbing New Zealand",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d63ad3cb6553da82db237c521a405e54a64cd71c43ab3bc588259aba65ec7369",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-climbing-new-zealand-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/climbing-new-zealand.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-colorado-rock-climbing-html",
+      "path": "/ca/en/adventures/colorado-rock-climbing",
+      "title": "Colorado Rock Climbing",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a9bc5211eb5048e046437fa77aeffcadf4545a59e81b75f4c962f417ae36bef3",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-colorado-rock-climbing-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-cycling-southern-utah-html",
+      "path": "/ca/en/adventures/cycling-southern-utah",
+      "title": "Cycling Southern Utah",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f2e7f38bd5030f9cfa99cb0fbc1410de6df3ce9193971cc687185e0b168ed659",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-cycling-southern-utah-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/cycling-southern-utah.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-cycling-tuscany-html",
+      "path": "/ca/en/adventures/cycling-tuscany",
+      "title": "Cycling Tuscany",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:a2092a0f4b68145fddb3b90bc9b362cd19885fd293f2ce084250d409f241e49b",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-cycling-tuscany-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/cycling-tuscany.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-downhill-skiing-wyoming-html",
+      "path": "/ca/en/adventures/downhill-skiing-wyoming",
+      "title": "Downhill Skiing Wyoming",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0ad71ee9c391ec1718233e4b024e576bae0048ecec059c871d98eadf2ccdcccd",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-downhill-skiing-wyoming-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-gastronomic-marais-tour-html",
+      "path": "/ca/en/adventures/gastronomic-marais-tour",
+      "title": "Gastronomic Marais Tour",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3d9dc7797a554cf69261533baabf2b8de447e532b474e1152ac0ae7b5f6255e4",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-gastronomic-marais-tour-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/gastronomic-marais-tour.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-html",
+      "path": "/ca/en/adventures",
+      "title": "Adventures",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5a89cee64a47866d4c32c4e25fea55ebcd27f524f2db12e87aa362526a9659a8",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-napa-wine-tasting-html",
+      "path": "/ca/en/adventures/napa-wine-tasting",
+      "title": "Napa Wine Tasting",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3c3ff1cfe991fa2b32f1d557bedacc69090d72e1a18002cf1fe6a7d4698fa343",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-napa-wine-tasting-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/napa-wine-tasting.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-riverside-camping-australia-html",
+      "path": "/ca/en/adventures/riverside-camping-australia",
+      "title": "Riverside Camping",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0232a89429a99a66eb3a1740623f22167971049e0eb2c5484421070230a5be59",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-riverside-camping-australia-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/riverside-camping-australia.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-ski-touring-mont-blanc-html",
+      "path": "/ca/en/adventures/ski-touring-mont-blanc",
+      "title": "Ski Touring Mont Blanc",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:52a199d64760bd38721fd654f7bd9a8fc3a47e566897b3215cbd7b5487dd6644",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-ski-touring-mont-blanc-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-surf-camp-costa-rica-html",
+      "path": "/ca/en/adventures/surf-camp-costa-rica",
+      "title": "Surf Camp in Costa Rica",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3534f37239a0ad42732e47ec25a45b220e3732a60ebb2322e436cf6511e12793",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-surf-camp-costa-rica-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/surf-camp-costa-rica.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-tahoe-skiing-html",
+      "path": "/ca/en/adventures/tahoe-skiing",
+      "title": "Tahoe Skiing",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:98f01273768ed0ab53a02d52c32b85f86f4b25d0d9586680c44d82bd119b8072",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-tahoe-skiing-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/tahoe-skiing.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-west-coast-cycling-html",
+      "path": "/ca/en/adventures/west-coast-cycling",
+      "title": "West Coast Cycling",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:82df8773689933f7200762d0eae8a3b338d91f24cd23ac2cdb5a60ddd5e02aae",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-west-coast-cycling-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/west-coast-cycling.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-whistler-mountain-biking-html",
+      "path": "/ca/en/adventures/whistler-mountain-biking",
+      "title": "Whistler Mountain Biking",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8238e3dc0b8b840fe4ea3044fb25828d7462d324f5874d9f82cb09d2f96ff8ba",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-whistler-mountain-biking-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/whistler-mountain-biking.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-adventures-yosemite-backpacking-html",
+      "path": "/ca/en/adventures/yosemite-backpacking",
+      "title": "Yosemite Backpacking",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:df3e5e1e16c3ea45c4aceb130c28aab10b8bbe93c8d0e15be6a06a7b997364b5",
+        "currentStatePath": "stardust/current/pages/ca-en-adventures-yosemite-backpacking-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/adventures/yosemite-backpacking.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-faqs-html",
+      "path": "/ca/en/faqs",
+      "title": "FAQs",
+      "templateId": "faq",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:acfd5052d821528b6768c80e37fe48ccc0ed178fc5068f9fcdea7370f41a8edf",
+        "currentStatePath": "stardust/current/pages/ca-en-faqs-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/faqs.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-html",
+      "path": "/ca/en",
+      "title": "WKND Adventures and Travel",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d6ba416c60d0dfec0e6a23b379f9c041206c051ca9f2668395401ad83461ec2b",
+        "currentStatePath": "stardust/current/pages/ca-en-html.json",
+        "sourceUrl": "https://wknd.site/ca/en.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-arctic-surfing-html",
+      "path": "/ca/en/magazine/arctic-surfing",
+      "title": "Arctic Surfing",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:02a75100e85040a665e6cfba765b0e085bdee4601a412c24f4aa4ae03e18335f",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-arctic-surfing-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/arctic-surfing.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-guide-la-skateparks-html",
+      "path": "/ca/en/magazine/guide-la-skateparks",
+      "title": "Ultimate Guide to LA Skateparks",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6942c1dbbac0c1d10d442246d709751d650ff81c4d62ba752ce3c2e464f8c84b",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-guide-la-skateparks-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-html",
+      "path": "/ca/en/magazine",
+      "title": "Magazine",
+      "templateId": "magazine-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f51db138515308bb60e557f42880f07f65a2342e1abea12cea1b29a8fb559df9",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-members-only-alaskan-adventure-html",
+      "path": "/ca/en/magazine/members-only/alaskan-adventure",
+      "title": "Alaskan Adventure",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3128add10f5cc300111063079f1f9c228d397c2f84fd5b9b737561e1cfaf2ded",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-members-only-alaskan-adventure-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+      "path": "/ca/en/magazine/members-only/fly-fishing-the-amazon",
+      "title": "Fly Fishing the Amazon",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0f8a45a37f0cb2ffe0fb283525f43cecb61dd517a0b4260752b23560c08078e0",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-members-only-fly-fishing-the-amazon-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-members-only-html",
+      "path": "/ca/en/magazine/members-only",
+      "title": "Members Only",
+      "templateId": "ca-en-magazine-members-only-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/ca/en/magazine/members-only.html",
+        "metaJson": "stardust/migrated/ca/en/magazine/members-only._meta.json",
+        "sourceHash": "sha256:bd6e0bde32555bba294518976411a3301d628320adde54eb51673e1e61535407",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/members-only.html"
+      },
+      "blocks": [
+        "image-list"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-san-diego-surf-html",
+      "path": "/ca/en/magazine/san-diego-surf",
+      "title": "San Diego Surf Spots",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f77fa08d169a5e6892ff5e6d3dde834291f618c2110ad1ea90adcf80a8a5efd4",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-san-diego-surf-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/san-diego-surf.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-ski-touring-html",
+      "path": "/ca/en/magazine/ski-touring",
+      "title": "Ski Touring",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:968d8c3483dc3985afb1f4f35e366b6fd096175e77333fe5e86fc80a30640891",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-ski-touring-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/ski-touring.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-en-magazine-western-australia-html",
+      "path": "/ca/en/magazine/western-australia",
+      "title": "Western Australia",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e56be20058c4243adcbd3f7b3a5b5f28486094c2622864ade46b155729f5f940",
+        "currentStatePath": "stardust/current/pages/ca-en-magazine-western-australia-html.json",
+        "sourceUrl": "https://wknd.site/ca/en/magazine/western-australia.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ca-fr-html",
+      "path": "/ca/fr",
+      "title": "Français",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0835eed1b6e92d22511ae8f5894504d59fdd60ea3df52c69b5b47aa9514bd33e",
+        "currentStatePath": "stardust/current/pages/ca-fr-html.json",
+        "sourceUrl": "https://wknd.site/ca/fr.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ch-de-html",
+      "path": "/ch/de",
+      "title": "Deutsch",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:771c79938f7a1f08e392f611d668546a2f698bec2bedf07326a1027635d11e01",
+        "currentStatePath": "stardust/current/pages/ch-de-html.json",
+        "sourceUrl": "https://wknd.site/ch/de.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ch-fr-html",
+      "path": "/ch/fr",
+      "title": "Français",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:485500379c160ca826d3450636d15db811d9de170ae89f5b3d3c739f0b5c2911",
+        "currentStatePath": "stardust/current/pages/ch-fr-html.json",
+        "sourceUrl": "https://wknd.site/ch/fr.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "ch-it-html",
+      "path": "/ch/it",
+      "title": "Italiano",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08d15e9f3ac74d8b500f68143bee5061c5433b2b2fa90588c0109f6cb5c15375",
+        "currentStatePath": "stardust/current/pages/ch-it-html.json",
+        "sourceUrl": "https://wknd.site/ch/it.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "de-de-html",
+      "path": "/de/de",
+      "title": "Deutsch",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e1edebe3c5155bf06890e7c3d64804a18b91775fdb5931bb1d550d6abfb77b4e",
+        "currentStatePath": "stardust/current/pages/de-de-html.json",
+        "sourceUrl": "https://wknd.site/de/de.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "es-es-html",
+      "path": "/es/es",
+      "title": "Español",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ba7e691613f947246c3c9393c1629861ccdc87058bc62ca0b987926ab8cc79b4",
+        "currentStatePath": "stardust/current/pages/es-es-html.json",
+        "sourceUrl": "https://wknd.site/es/es.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "fr-fr-html",
+      "path": "/fr/fr",
+      "title": "Français",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e7b71101d450e40f24838bc203f1d505837a4b097bf545b50e4dc18072c7c828",
+        "currentStatePath": "stardust/current/pages/fr-fr-html.json",
+        "sourceUrl": "https://wknd.site/fr/fr.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "it-it-html",
+      "path": "/it/it",
+      "title": "Italiano",
+      "templateId": "coming-soon",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0715e92751500a432685002b286cd514800944a487f4fe7c9254bc2e7a665722",
+        "currentStatePath": "stardust/current/pages/it-it-html.json",
+        "sourceUrl": "https://wknd.site/it/it.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-about-us-html",
+      "path": "/us/en/about-us",
+      "title": "About Us",
+      "templateId": "us-en-about-us-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/about-us.html",
+        "metaJson": "stardust/migrated/us/en/about-us._meta.json",
+        "sourceHash": "sha256:de6badd0fa8ea2ab3f1f5fefefbd27d73372e9e82f02b0f00ef7bd8c391ccbd5",
+        "sourceUrl": "https://wknd.site/us/en/about-us.html"
+      },
+      "blocks": [
+        "contributor-card"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-bali-surf-camp-html",
+      "path": "/us/en/adventures/bali-surf-camp",
+      "title": "Bali Surf Camp",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7f1257b469e8fd660ccc423d93c702ca7d93de859b61a32679e6ab85558cdc27",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-bali-surf-camp-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/bali-surf-camp.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-beervana-portland-html",
+      "path": "/us/en/adventures/beervana-portland",
+      "title": "Beervana in Portland",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:d732c5aa3223ff63c8e7dc27da78ade6bb280d4f66034799d8996ae5750f402a",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-beervana-portland-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/beervana-portland.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-climbing-new-zealand-html",
+      "path": "/us/en/adventures/climbing-new-zealand",
+      "title": "Climbing New Zealand",
+      "templateId": "us-en-adventures-climbing-new-zealand-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/adventures/climbing-new-zealand.html",
+        "metaJson": "stardust/migrated/us/en/adventures/climbing-new-zealand._meta.json",
+        "sourceHash": "sha256:a021c11574e6aa0cf644b49f7167b4b9189371c3663a75a790f203a76c511517",
+        "sourceUrl": "https://wknd.site/us/en/adventures/climbing-new-zealand.html"
+      },
+      "blocks": [
+        "breadcrumb",
+        "trip-gallery-carousel",
+        "trip-facts",
+        "content-tabs",
+        "share-bar"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-colorado-rock-climbing-html",
+      "path": "/us/en/adventures/colorado-rock-climbing",
+      "title": "Colorado Rock Climbing",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f1a432530050a0f69b39a0da32fa7ca32c306766792dc8cc7da184718809f758",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-colorado-rock-climbing-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/colorado-rock-climbing.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-cycling-southern-utah-html",
+      "path": "/us/en/adventures/cycling-southern-utah",
+      "title": "Cycling Southern Utah",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ccf69e1c8403a04fa862e8e0e86eb3985b0ea294a191bde5a1432a2aeb333dd9",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-cycling-southern-utah-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/cycling-southern-utah.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-cycling-tuscany-html",
+      "path": "/us/en/adventures/cycling-tuscany",
+      "title": "Cycling Tuscany",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9d791bb6f580529c61cbb0ca5bba928c823c3d24dc2c2e3a3e4f6cb4be80e7d0",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-cycling-tuscany-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/cycling-tuscany.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-downhill-skiing-wyoming-html",
+      "path": "/us/en/adventures/downhill-skiing-wyoming",
+      "title": "Downhill Skiing Wyoming",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7daa34f53fb77e1805ee6997d40c1da167a483d51f4ceed1139e78e5f1a22ed6",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-downhill-skiing-wyoming-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/downhill-skiing-wyoming.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-gastronomic-marais-tour-html",
+      "path": "/us/en/adventures/gastronomic-marais-tour",
+      "title": "Gastronomic Marais Tour",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7976cb3516cc3084815eaea8281689744ff75c08038d30f86a9e24003fe755d1",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-gastronomic-marais-tour-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/gastronomic-marais-tour.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-html",
+      "path": "/us/en/adventures",
+      "title": "Adventures",
+      "templateId": "us-en-adventures-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/adventures.html",
+        "metaJson": "stardust/migrated/us/en/adventures._meta.json",
+        "sourceHash": "sha256:ee54f9371120d371968a6ef37e735a1a21b732a0cc7b12413347f5b7db873417",
+        "sourceUrl": "https://wknd.site/us/en/adventures.html"
+      },
+      "blocks": [
+        "hero-teaser",
+        "adventure-category-tabs",
+        "adventure-card-grid"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-napa-wine-tasting-html",
+      "path": "/us/en/adventures/napa-wine-tasting",
+      "title": "Napa Wine Tasting",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e71b19ee2d48dd0ccf254eeb7da59e89ed46e0e04c06aac31e03491de34519de",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-napa-wine-tasting-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/napa-wine-tasting.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-riverside-camping-australia-html",
+      "path": "/us/en/adventures/riverside-camping-australia",
+      "title": "Riverside Camping",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:7857d498b2f599424f9c80db41adaee0b48ff08511e7c4f185c35247b5995ee4",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-riverside-camping-australia-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/riverside-camping-australia.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-ski-touring-mont-blanc-html",
+      "path": "/us/en/adventures/ski-touring-mont-blanc",
+      "title": "Ski Touring Mont Blanc",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0770326d161eb24c7a60afcadae01aafb0ff4561094a5cf2b41c0d3b8c786613",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-ski-touring-mont-blanc-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/ski-touring-mont-blanc.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-surf-camp-costa-rica-html",
+      "path": "/us/en/adventures/surf-camp-costa-rica",
+      "title": "Surf Camp in Costa Rica",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08af3a51bf148cb0f02018de78f0ab3c6c91a8aec822d69e0882b0d1d71c1e5c",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-surf-camp-costa-rica-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/surf-camp-costa-rica.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-tahoe-skiing-html",
+      "path": "/us/en/adventures/tahoe-skiing",
+      "title": "Tahoe Skiing",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ceaa9dbf1af5fe980fa17e1a1da2e6af6016ae4474ac7eef4602abe963e5b7d1",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-tahoe-skiing-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/tahoe-skiing.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-west-coast-cycling-html",
+      "path": "/us/en/adventures/west-coast-cycling",
+      "title": "West Coast Cycling",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:64f51b63f056fcbad931cf0f79c5c0da640e949102856ee395eabc16c9f4ebe4",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-west-coast-cycling-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/west-coast-cycling.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-whistler-mountain-biking-html",
+      "path": "/us/en/adventures/whistler-mountain-biking",
+      "title": "Whistler Mountain Biking",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:125cf0e541c0875d9ccff1fe88c93d5e47e473e2bec1b3462eeb9038cc4e368e",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-whistler-mountain-biking-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/whistler-mountain-biking.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-adventures-yosemite-backpacking-html",
+      "path": "/us/en/adventures/yosemite-backpacking",
+      "title": "Yosemite Backpacking",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:0adc4b54a1fa915952d6ba5501704c6355b353c3877525f2b6a0ecc3ce60ccd9",
+        "currentStatePath": "stardust/current/pages/us-en-adventures-yosemite-backpacking-html.json",
+        "sourceUrl": "https://wknd.site/us/en/adventures/yosemite-backpacking.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-ai-powered-search-html",
+      "path": "/us/en/ai-powered-search",
+      "title": "AI-Powered Search",
+      "templateId": "us-en-ai-powered-search-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/ai-powered-search.html",
+        "metaJson": "stardust/migrated/us/en/ai-powered-search._meta.json",
+        "sourceHash": "sha256:25522ea140ed10a0f4314e5616f51b13e7184f49a888d33ca9dcac467f49dd1a",
+        "sourceUrl": "https://wknd.site/us/en/ai-powered-search.html"
+      },
+      "blocks": [
+        "ai-search"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-faqs-html",
+      "path": "/us/en/faqs",
+      "title": "FAQs",
+      "templateId": "us-en-faqs-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/faqs.html",
+        "metaJson": "stardust/migrated/us/en/faqs._meta.json",
+        "sourceHash": "sha256:d7c2de0ff02272b50b948b3db31cc150cac3653bedee482237c3db093e27f36c",
+        "sourceUrl": "https://wknd.site/us/en/faqs.html"
+      },
+      "blocks": [
+        "faq-accordion",
+        "help-contact-block"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-html",
+      "path": "/us/en",
+      "title": "WKND Adventures and Travel",
+      "templateId": "us-en-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en.html",
+        "metaJson": "stardust/migrated/us/en._meta.json",
+        "sourceHash": "sha256:8fc593a74334ceef83d354003b629446923f0f682406a20c7cbc1bd5c8ad5313",
+        "sourceUrl": "https://wknd.site/us/en.html"
+      },
+      "blocks": [
+        "hero-carousel",
+        "featured-teaser",
+        "image-list",
+        "hero-teaser"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-magazine-arctic-surfing-html",
+      "path": "/us/en/magazine/arctic-surfing",
+      "title": "Arctic Surfing",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e61100a82955befeec8c8797bf2bee46ff1e85a040b06f7c46434b050ba14162",
+        "currentStatePath": "stardust/current/pages/us-en-magazine-arctic-surfing-html.json",
+        "sourceUrl": "https://wknd.site/us/en/magazine/arctic-surfing.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-magazine-guide-la-skateparks-html",
+      "path": "/us/en/magazine/guide-la-skateparks",
+      "title": "Ultimate Guide to LA Skateparks",
+      "templateId": "us-en-magazine-guide-la-skateparks-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/magazine/guide-la-skateparks.html",
+        "metaJson": "stardust/migrated/us/en/magazine/guide-la-skateparks._meta.json",
+        "sourceHash": "sha256:2cf738372d65fc9643e15c50ac68b70f1ed8ad0b01c30cf95fa74ad5256ab963",
+        "sourceUrl": "https://wknd.site/us/en/magazine/guide-la-skateparks.html"
+      },
+      "blocks": [
+        "breadcrumb",
+        "share-bar",
+        "pull-quote",
+        "download-card",
+        "author-byline-card",
+        "up-next-list"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-magazine-html",
+      "path": "/us/en/magazine",
+      "title": "Magazine",
+      "templateId": "us-en-magazine-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/magazine.html",
+        "metaJson": "stardust/migrated/us/en/magazine._meta.json",
+        "sourceHash": "sha256:62584ef15554c6180bfbced640b483e8342977f49f7036784c377e7274da664e",
+        "sourceUrl": "https://wknd.site/us/en/magazine.html"
+      },
+      "blocks": [
+        "featured-teaser",
+        "image-list",
+        "members-only-teaser"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-magazine-san-diego-surf-html",
+      "path": "/us/en/magazine/san-diego-surf",
+      "title": "San Diego Surf Spots",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:33505f2a41e1ede7cabaebe74271db0a16a4d24984a67127a867c12a37abaab3",
+        "currentStatePath": "stardust/current/pages/us-en-magazine-san-diego-surf-html.json",
+        "sourceUrl": "https://wknd.site/us/en/magazine/san-diego-surf.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-magazine-ski-touring-html",
+      "path": "/us/en/magazine/ski-touring",
+      "title": "Ski Touring",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8b54ec9d03b8f05bbf823647371c7b17e7290678050a0c42ef73d3782a7218e1",
+        "currentStatePath": "stardust/current/pages/us-en-magazine-ski-touring-html.json",
+        "sourceUrl": "https://wknd.site/us/en/magazine/ski-touring.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-en-magazine-western-australia-html",
+      "path": "/us/en/magazine/western-australia",
+      "title": "Western Australia",
+      "templateId": "article",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8640996538e4abd57f8b4e5cdd57a5346e4203b73260662eafa1cb3999cce3a7",
+        "currentStatePath": "stardust/current/pages/us-en-magazine-western-australia-html.json",
+        "sourceUrl": "https://wknd.site/us/en/magazine/western-australia.html"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "content-pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    },
+    {
+      "slug": "us-es-html",
+      "path": "/us/es",
+      "title": "Español",
+      "templateId": "us-es-html",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/es.html",
+        "metaJson": "stardust/migrated/us/es._meta.json",
+        "sourceHash": "sha256:4bc62d471947229dad1d286a7f6805b1ee6f634cdcbfdaf41c5a55f5f8a35109",
+        "sourceUrl": "https://wknd.site/us/es.html"
+      },
+      "blocks": [
+        "hero-teaser"
+      ],
+      "delivery": {
+        "status": "pending",
+        "deployedUrl": null,
+        "deployedAt": null,
+        "verifiedAt": null,
+        "error": null
+      }
+    }
+  ]
+}
