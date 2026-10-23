@@ -28,3 +28,6 @@ tools/importer/reports/
 
 # byte copy of the stardust plugin-root deps so the stardust/scripts copies resolve (never npm-installed into the project)
 stardust/scripts/node_modules/
+
+# local config backups taken before remote changes (never committed)
+stardust/wknd-rename/
