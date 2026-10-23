@@ -476,3 +476,44 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   capture tier (ROLE SWAP eyebrow/body, ICON DIFF), counts equal.
 - Deviations (both pages): `heading-level` (R-01), `attribute` (hidden Previous/Next labels → aria-label, #100).
 - Residual 🟡: Climbing NZ image title == alt, dropped by the pipeline.
+
+## Run 3 — C-archetype static / us-en-about-us-html + /ca/en sibling (cluster `static`, preview only)
+
+- Block `contributor-card` (NEW; the older `contributors` block rebuilt text from `textContent` — EW-banned —
+  and is not reused). Reconstructive (repeat group): one authored row per person, image | text (h3 name,
+  h5 role, `<ul>` of social links, each `<a href title="source aria-label">Label</a>`); nodes classified by
+  content, flattened single-row segmentation, leftovers pass, re-entrant. Each card is `section.contributor`
+  (units.json build selector) > `.contributor-image` (picture `display: contents`, inline 164×164 img, 50 %
+  radius, cover) / `.contributor-name` / `.contributor-role` / `.contributor-social` (authored ul moved; the
+  title becomes aria-label; generated text-free glyph span `contributor-social-icon-<network>` from the link
+  LABEL — several source hrefs are `#`; label moved into a hidden span, `@ew-exempt`). Kumar Selveraj keeps
+  Facebook–Instagram–Twitter; avatar alt empty as on live. Grid undoes the wrapper gutter (−14px) so the
+  columns are 25 % of 1164px as the source aem-Grid.
+- Schema `stardust/eds-schema/us-en-about-us-html.json` from the annotated copy
+  `stardust/.work/rollout/static/annotated.html` (grids as `data-section`, card `<section>`s demoted to divs in
+  the copy only): 2 sections, 4 + 3 uniform units (2 headings, 3 ctas, 1 img). style-fingerprint: no groups.
+- Document: metadata (Title, Description, Template static; no Image — the source has no og:image) + one
+  section: h1, h2 + intro, contributor-card, h2 + intro, contributor-card; section style `text-small`.
+  Headings reconciled 18 = h1 1 + h2 2 + h3 7 + h5 7 + footer h4 1. Encoder
+  `stardust/.work/rollout/static/probes/encode.mjs` (capture → DA doc) reproduces it byte-identical.
+- Interim scoped section rules (foundation requests): default-content wrapper as a flex column (source
+  columns are BFCs: h1→h2 gap 40.5px, not the collapsed 27px); h1 without the underline (h2s keep it).
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 21/21; qa-gate 16 ok / 1 fail = the 2560
+  content-cap probe-tier artifact (as listing); measure.mjs prototype vs harness 1440/360: scrollHeight
+  1604/3730 both, every h1/h2/p/card Δ 0; lint 0 errors in own files (faq worker's files had 2 at the time).
+- Media: 7 avatars → `media/static/` (media-ledger-wknd.json); 5 big-endian-Exif files (all orientation 1)
+  uploaded APP1-stripped (stardust/.work/rollout/static/media/). media-reconcile 7 hosted; plain.html 200,
+  one h1, 7 img/alt, 0 about:error, no /img/.
+- Archetype gate (preview): pub1 1440 0.10 % / 360 0.19 % Δh 0 but unit-geometry 7 off (the pipeline's inline
+  `<picture>` box 164×23 paired with the source img) → `picture { display: contents }` (push 5ea9827).
+  pub2 (2 of 3 rounds): 1440 0.10 % Δh 0 · 360 0.19 % Δh 0 · 0 structural 🔴 (main 0 findings) · clip 0 ·
+  units 42/42 within · crops header 100.00 / 99.86 %, footer 100.00 / 100.00 % · chrome-parity 2 = DA logo
+  hashes · motion 4 parity / 0 missing (`motion/us-en-about-us-html-delivered.json`) · gate-all PASS 1440 +
+  360 (private state stardust/.work/rollout/static/state-gate-all.json). Style guard: flex grid, 7 cards,
+  21 buttons named + glyphed, 7 imgs > 0px, 0 pageerror.
+- Sibling ca-en-about-us-html: variance 0 deltas (8 probes) → no variant; A′ clone (probes/clone.mjs, en-CA
+  chrome from the members-only prototype) → migrate render; DA doc = archetype doc (no internal links in
+  main). content-diff capture→preview main 40/40, 7/7 img, 21/21 aria-labels, 0 🔴. gate-all 1440 0.11 % /
+  360 0.14 % Δh 0 PASS; CA chrome crops header 100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity =
+  logo hashes + CA footer Δw −2px (queued by members-only). Sidecar gatesPassed 7/7, modules [contributor-card].
+- Residual 🟡: the pipeline derives an og:image from the first avatar (the source page has none).
