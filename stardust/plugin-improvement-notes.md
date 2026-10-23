@@ -142,3 +142,17 @@ Same format. Numbering continues.
 35. **Carousel slides beyond the active one are absent from `media.imgs`** (home + 32 adventure pages).
     The rendered DOM sidecar has them, so recreation is safe, but media-reconcile counts will be low.
     → Walk hidden carousel slides (`[aria-hidden]` slide containers) in the media capture.
+
+## Recreate / gate (run 2)
+
+36. **unit-geometry caches live unit measurements per slug, not per width**
+    (`stardust/current/measure/<slug>-units.json`). A 360 round after a 1440 round — or both in parallel,
+    which run-bg's slots invite — compares against the other width's positions and reports every unit "off".
+    Two workers hit it independently. → Key the cache by `<slug>-<width>`.
+37. **gate.sh loses its executable bit when the skill's `cp -r` copy step is followed** (plugin file mode);
+    `run-bg … -- stardust/scripts/replica/gate.sh` then fails with EACCES (exit 127). → Document
+    `bash gate.sh`, or have the copy step `chmod +x`.
+38. **Cumulative canon needs a request queue the skill doesn't define.** With parallel archetype workers,
+    "import the shared layers" requires a single writer; a `canon-requests.md` queue + one canon
+    maintainer round (move rules, re-gate every gated archetype, ±0.10 % bar) worked: 15 requests,
+    8 re-gates, no number moved. → Ship this as the fan-out contract for Phase 3.
