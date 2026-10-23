@@ -10,23 +10,31 @@
  * Contract: stardust/eds-schema/us-en-magazine-html.json → sections[2]
  *   "members-only-teaser" (repeat DIV.members-teaser ×2: 1 heading + 1 img +
  *   description + action label).
- * Model: cards — ONE ROW PER TEASER, two cells: image | text
- *   image cell: <picture>/<img> (alt verbatim — empty on the source)
- *   text cell : <h2> title, <p> description, <p> action — "Read More" as plain
- *               text where the source has no link (/us/en), <p><a href>Read
- *               More</a></p> where it links (/ca/en); render exactly as authored.
+ * Model: cards — ONE ROW PER TEASER; cells by content, in reading order:
+ *   image       : <picture>/<img> (alt verbatim — empty on the source)
+ *   title       : <h2>
+ *   description : a RICH-TEXT description (the source's <p>) is authored in the
+ *                 title cell, below the heading — it keeps its paragraph margin;
+ *                 a PLAIN-TEXT description (the source's bare text) is a cell of
+ *                 its own — its slot gets the `plain` wrapper class (no margin)
+ *   action      : its own cell — "Read More" as plain text where the source has
+ *                 no link (/us/en), a link where it links (/ca/en); rendered
+ *                 exactly as authored. (A <p> action in the title cell works too.)
  * Decode tier: reconstructive (repeat group). One teaser per row when the block
  * has several rows; a flattened single cell is segmented on its headings.
  * Nodes are classified by content, never by index: media → image; the first
  * heading → title; a link-only paragraph → action; otherwise, when two or more
  * text nodes follow the heading, the LAST one is the action label; everything
- * else (leftovers pass) → description. Authored nodes are MOVED (EW1); the
- * action moves as its <p> (EW3); no <button> hosts text (EW7); re-entrant (EW9).
+ * else (leftovers pass) → description. Authored nodes are MOVED (EW1) — every
+ * <p> survives (the editor attaches to it); the action moves as its <p> (EW3)
+ * and is styled through `.action p` (EW2); no <button> hosts text (EW7);
+ * re-entrant (EW9).
  * Hook: every teaser is `div.item.members-teaser` — the build selector of the
  * unit-geometry row `members-only-teaser` in stardust/replica/units.json.
  */
 
 const HEADING = 'h1, h2, h3, h4, h5, h6';
+const BLOCK_LEVEL = 'p, h1, h2, h3, h4, h5, h6, ul, ol, div, blockquote, pre, table, hr';
 
 function el(tag, className) {
   const n = document.createElement(tag);
@@ -34,30 +42,33 @@ function el(tag, className) {
   return n;
 }
 
-// Cell-level collector (#62/#68/#104) — expands a media-led cell folded into one <p>.
-function collectNodes(scope) {
+// Cell-level collector (#62/#68/#104). A one-paragraph cell is delivered as bare
+// inline content and aem.js wrapTextNodes() gives it a lone <p>: that <p> is
+// recorded in `lone` (a cell of its own). A cell with block-level children
+// yields those children (a media-led <p> gives up its picture).
+function collectNodes(scope, lone) {
   const out = [];
   scope.querySelectorAll(':scope > div').forEach((cell) => {
-    let kids = [...cell.children];
-    if (kids.length === 1 && kids[0].tagName === 'P' && kids[0].querySelector('picture, img')) {
-      kids = [...kids[0].childNodes].map((n) => {
-        if (n.nodeType === 1) return n;
-        // HARNESS-ONLY fallback (EW5): bare text beside an image → move the node into a <p>
-        if (n.textContent.trim()) {
-          const p = document.createElement('p');
-          p.append(n);
-          return p;
-        }
-        return null;
-      }).filter(Boolean);
-    }
-    if (kids.length) out.push(...kids);
-    else if (cell.textContent.trim()) {
-      // a single-paragraph cell is delivered as bare text: wrap the existing
-      // text nodes, never copy text (EW1)
-      const p = document.createElement('p');
+    const kids = [...cell.children];
+    if (kids.some((k) => k.matches(BLOCK_LEVEL))) {
+      const only = kids.length === 1 && kids[0].matches('p')
+        && cell.textContent.trim() === kids[0].textContent.trim();
+      kids.forEach((k) => {
+        const pic = k.matches('p') && k.querySelector(':scope > picture, :scope > img');
+        if (pic && k.textContent.trim()) out.push(pic);
+        if (only && k.textContent.trim()) lone.add(k);
+        out.push(k);
+      });
+    } else if (cell.textContent.trim()) {
+      // HARNESS-ONLY fallback (EW5; wrapTextNodes does it at runtime): move the
+      // cell's inline nodes into a <p>, never copy text
+      const p = el('p');
       p.append(...cell.childNodes);
+      cell.append(p);
+      lone.add(p);
       out.push(p);
+    } else if (cell.querySelector('picture, img')) {
+      out.push(cell.querySelector('picture') || cell.querySelector('img'));
     }
   });
   return out;
@@ -70,12 +81,12 @@ const isLinkOnly = (n) => {
   return links.length === 1 && n.textContent.trim() === links[0].textContent.trim();
 };
 
-function toGroups(block) {
+function toGroups(block, lone) {
   const rows = [...block.children];
-  if (rows.length > 1) return rows.map((row) => collectNodes(row));
+  if (rows.length > 1) return rows.map((row) => collectNodes(row, lone));
   const groups = [];
   let group = [];
-  collectNodes(rows[0] || block).forEach((n) => {
+  collectNodes(rows[0] || block, lone).forEach((n) => {
     if (n.matches(HEADING) && group.some((g) => g.matches(HEADING))) {
       groups.push(group);
       group = [];
@@ -124,7 +135,8 @@ function unbutton(p) {
 
 export default async function decorate(block) {
   if (block.querySelector(':scope > .item.members-teaser')) return; // re-entrant (EW9)
-  const teasers = toGroups(block)
+  const lone = new WeakSet();
+  const teasers = toGroups(block, lone)
     .map(classify)
     .filter((t) => t.media || t.title || t.description.length || t.action);
 
@@ -139,6 +151,7 @@ export default async function decorate(block) {
     }
     if (t.description.length) {
       const description = el('div', 'description');
+      if (t.description.every((n) => lone.has(n))) description.classList.add('plain');
       description.append(...t.description);
       content.append(description);
     }

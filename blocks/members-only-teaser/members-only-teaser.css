@@ -83,11 +83,12 @@ main > .section > .members-only-teaser-wrapper {
   text-align: left;
 }
 
+/* source .cmp-teaser__action-container: the float on the slot, the grey box on
+   the authored paragraph (the text box the source paints), flow-root so a
+   floated action link stays inside it */
 .members-only-teaser .action {
   float: left;
   margin: 1em 0;
-  padding: 0.5em 1em;
-  background-color: var(--surface-grey);
   color: var(--text-muted);
   font-size: var(--fs-small);
   line-height: 1.5;
@@ -95,7 +96,10 @@ main > .section > .members-only-teaser-wrapper {
 }
 
 .members-only-teaser .action p {
+  display: flow-root;
   margin: 0;
+  padding: 0.5em 1em;
+  background-color: var(--surface-grey);
   color: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -113,6 +117,16 @@ main > .section > .members-only-teaser-wrapper {
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+/* a plain-text description (source bare text, its own cell): no paragraph margin */
+.members-only-teaser .description.plain p {
+  margin: 0;
+}
+
+/* the pipeline's <picture> wrapper adds no box: the img measures as the source img */
+.members-only-teaser .image picture {
+  display: contents;
 }
 
 /* the source image is INLINE (baseline gap below it) */
