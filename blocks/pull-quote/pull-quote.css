@@ -1,0 +1,49 @@
+/* pull-quote — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-magazine-guide-la-skateparks-html.css: .pull-quote*;
+   source .cmp-text--quote). The block is the source grid column: grey panel, 1em
+   vertical margin, 14px gutters; `.inner` is the source .cmp-text (1em padding). */
+
+.pull-quote {
+  margin: 1em 0;
+  padding: 0 var(--gutter);
+  background-color: var(--surface-grey);
+}
+
+.pull-quote .inner {
+  display: flow-root;
+  padding: 1em;
+}
+
+.pull-quote blockquote,
+.pull-quote .quotation {
+  margin: 0 0 0.5em;
+  padding: 14px;
+  border: none;
+  font-family: var(--font-serif);
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+/* the pipeline wraps the quotation text in a <p>: it takes the quote's type */
+.pull-quote blockquote p,
+.pull-quote .quotation p {
+  margin: 0;
+  font: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+.pull-quote blockquote::after,
+.pull-quote .quotation::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 0.25em;
+  width: 80px;
+  border-bottom: 2px solid var(--brand-yellow);
+}
+
+.pull-quote u {
+  font-family: var(--font-sans);
+  text-decoration: none;
+}

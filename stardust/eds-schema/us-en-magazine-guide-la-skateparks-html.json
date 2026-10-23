@@ -1,0 +1,239 @@
+{
+ "source": "http://localhost:3000/stardust/.work/rollout/article/annotated.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Magazine",
+     "href": "/us/en/magazine.html"
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "Ultimate Guide to LA Skateparks"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.breadcrumb__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "pull-quote",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "\"There is no better place to shred then Los Angeles\""
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Jacob Wester - Pro Skater"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "author-byline-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Stacey Roswells"
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "Artist, Photographer, Traveler"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Facebook",
+     "href": "#facebook-staceyroswell"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Twitter",
+     "href": "#twitter-staceyroswells"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Instagram",
+     "href": "#insta-staceyroswells"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.article-grid__col",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "A.social-btn",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "share-bar",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SHARE THIS STORY"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "download-card",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Download PDF",
+     "href": "/content/dam/wknd-shared/en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf.coredownload.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "Get the Full Story"
+    },
+    {
+     "role": "eyebrow",
+     "order": 2,
+     "text": "Filename"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "ultimateguidetolaskateparks.pdf"
+    },
+    {
+     "role": "eyebrow",
+     "order": 4,
+     "text": "Size"
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "139 KB"
+    },
+    {
+     "role": "eyebrow",
+     "order": 6,
+     "text": "Format"
+    },
+    {
+     "role": "eyebrow",
+     "order": 7,
+     "text": "application/pdf"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Download PDF",
+     "href": "/content/dam/wknd-shared/en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf.coredownload.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.download-card__property",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "up-next-list",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Ultimate Guide to LA Skateparks Wednesday, 30 Sep 2020",
+     "href": "/us/en/magazine/guide-la-skateparks.html"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Ski Touring Wednesday, 30 Sep 2020",
+     "href": "/us/en/magazine/ski-touring.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Western Australia Thursday, 9 Jul 2020",
+     "href": "/us/en/magazine/western-australia.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "San Diego Surf Spots Thursday, 9 Jul 2020",
+     "href": "/us/en/magazine/san-diego-surf.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.up-next__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

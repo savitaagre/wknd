@@ -1,0 +1,211 @@
+/* up-next-list — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-magazine-guide-la-skateparks-html.css: .up-next*; source
+   .cmp-list, .cmp-list--upnext). The block is the source 3/12 aside grid column (14px
+   gutters, 2rem above). The source boxes are content-box (the site's universal
+   border-box would shrink the 90pt tile). */
+
+.up-next-list {
+  display: flow-root;
+  padding: 2rem var(--gutter) 0;
+}
+
+.up-next-list .items {
+  float: left;
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.up-next-list .item {
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+.up-next-list .link,
+.up-next-list .title,
+.up-next-list .date {
+  box-sizing: content-box;
+}
+
+.up-next-list .link {
+  float: left;
+  height: 90pt;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid var(--surface-grey);
+  font-weight: 400;
+}
+
+.up-next-list a.link:hover {
+  border-color: var(--text);
+  background: var(--brand-yellow);
+}
+
+.up-next-list .title {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+.up-next-list .date {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  color: var(--text-muted);
+  font-size: var(--fs-xsmall);
+  text-transform: uppercase;
+}
+
+/* the authored paragraphs take the tile's type (source: bare spans) */
+.up-next-list .title p,
+.up-next-list .date p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+/* =====================================================================================
+   ARTICLE TEMPLATE — INTERIM scoped rules (queued in stardust/rollout/foundation-requests.md;
+   every article page carries this block, so the template's section layout rides here
+   until C-final moves it to styles.css / the owning block):
+   1. section styles `article-lead`, `article-body`, `article-aside` — the source article
+      grid (lead image 12/12, body 8/12, aside 3/12 offset 1 inside the 1164px fixed
+      container; full width ≤1024);
+   2. the in-grid breadcrumb variant `breadcrumb (grid)` (reuse request to the breadcrumb
+      owner: source .cmp-breadcrumb without --fixed);
+   3. the legacy scripts/magazine-sidebar.js aside (a duplicate "SHARE THIS STORY" h5
+      appended to the first section on /us/en/magazine/*) is hidden.
+   ===================================================================================== */
+
+/* 1a. lead image (source .cmp-image in a 12/12 column: inline img, 7px above/below) */
+main .section.article-lead .default-content-wrapper p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+main .section.article-lead picture {
+  display: contents;
+}
+
+main .section.article-lead img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  margin: 7px 0;
+}
+
+/* 1b. body column: every source title / image sits in its own float column (a BFC), so
+   no margin collapses — a flex column keeps every child margin; the h1 → h4 byline gap is
+   the h4's own 21.28px (the source's collapsed margins) */
+main > .section.article-body > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.article-body > .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main .section.article-body .default-content-wrapper h1 {
+  margin-bottom: 0;
+}
+
+main .section.article-body .default-content-wrapper h1::after {
+  content: none;
+}
+
+/* the content fragment's own title is hidden on the source (.cmp-contentfragment__title) */
+main .section.article-body .default-content-wrapper h4 + h3 {
+  display: none;
+}
+
+/* source .cmp-title in a guttered grid column */
+main .section.article-body .default-content-wrapper :is(h2, h3, h5, h6) {
+  margin-right: var(--gutter);
+  margin-left: var(--gutter);
+}
+
+/* source .cmp-image in a guttered grid column: inline img, 7px above/below */
+main .section.article-body .default-content-wrapper p:has(img) {
+  margin: 0;
+  padding: 0 var(--gutter);
+  line-height: 1.5;
+}
+
+main .section.article-body .default-content-wrapper picture {
+  display: contents;
+}
+
+main .section.article-body .default-content-wrapper p img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  margin: 7px 0;
+}
+
+/* 1c. aside column */
+main > .section.article-aside > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.article-aside .share-bar {
+  padding: 0 var(--gutter);
+}
+
+main > .section.article-aside .share-bar h5 {
+  margin: 23.38px 0;
+}
+
+@media (width >= 1025px) {
+  /* the 1164px fixed container: body 8/12 floated left, aside 3/12 offset 1 floated
+     right, each aside section below the previous one */
+  main > .section.article-body {
+    float: left;
+    width: calc(min(100%, var(--shell)) * 2 / 3);
+    margin-left: max(0px, (100% - var(--shell)) / 2);
+  }
+
+  main > .section.article-aside {
+    float: right;
+    clear: right;
+    width: calc(min(100%, var(--shell)) / 4);
+    margin-right: max(0px, (100% - var(--shell)) / 2);
+  }
+
+  main:has(> .section.article-body)::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* 2. breadcrumb (grid): the trail is a 12/12 grid column of the fixed container — a
+   1164px border box with 14px gutters (not the --fixed 1164px content box), list 1em
+   below the lead image + 12px padding (0 margin ≤1024) */
+main > .section > .breadcrumb-wrapper:has(> .breadcrumb.grid) {
+  box-sizing: border-box;
+}
+
+main .breadcrumb.grid .items {
+  margin-top: 1em;
+  padding-top: 12px;
+}
+
+@media (width <= 1024px) {
+  main .breadcrumb.grid .items {
+    margin-top: 0;
+  }
+}
+
+/* 3. legacy magazine-sidebar.js output (frozen foundation script) */
+main .magazine-article-body {
+  display: none;
+}
