@@ -30,3 +30,5 @@
 {"ts":"2026-10-23T10:30:16Z","skill":"stardust:rollout","phase":"C-deliver","event":"blocked","detail":"C0 authored (c141691, local) + 23 chrome docs previewed on wknd; foundation gate needs the feature branch pushed — git push unavailable (owner: enable git permission + rename repo to wknd)","owner":"savitaagre"}
 {"ts":"2026-10-23T15:10:10Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"run 3 (/ca/en): freshness re-capture of 29 /ca/en pages + 7 us/en archetypes into stardust/.work/fresh (no state change)"}
 {"ts":"2026-10-23T15:11:32Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"run 3 freshness: 36/36 re-captured live, 0 content changes vs run-2 captures"}
+{"ts":"2026-10-23T15:14:45Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"run 3: /ca/en — wave 1 program (1+16), listing (1+1), members-only (1)"}
+{"ts":"2026-10-23T16:44:02Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"run 3 wave 1: program 17/17, listing 2/2, members-only 1/1 previewed; all gate-all PASS 1440+360"}

@@ -7,7 +7,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T10:11:19.727Z",
+  "generatedAt": "2026-10-23T16:40:31.737Z",
   "blocks": [
     {
       "id": "adventure-card-grid",
@@ -105,7 +105,7 @@
       ],
       "instanceCount": 2,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "breadcrumb",
         "blockPath": null,
         "convertedAt": null
@@ -125,7 +125,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "content-tabs",
         "blockPath": null,
         "convertedAt": null
@@ -295,7 +295,7 @@
       ],
       "instanceCount": 3,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "image-list",
         "blockPath": null,
         "convertedAt": null
@@ -357,7 +357,7 @@
       ],
       "instanceCount": 2,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "share-bar",
         "blockPath": null,
         "convertedAt": null
@@ -377,7 +377,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "trip-facts",
         "blockPath": null,
         "convertedAt": null
@@ -397,7 +397,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "trip-gallery-carousel",
         "blockPath": null,
         "convertedAt": null

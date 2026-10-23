@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T11:45:52.166Z",
+  "generatedAt": "2026-10-23T16:40:20.513Z",
   "pages": [
     {
       "slug": "ca-en-about-us-html",
@@ -47,9 +47,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/bali-surf-camp",
+        "deployedAt": "2026-10-23T16:40:15.722Z",
         "verifiedAt": null,
         "error": null
       }
@@ -69,9 +69,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/beervana-portland",
+        "deployedAt": "2026-10-23T16:40:16.043Z",
         "verifiedAt": null,
         "error": null
       }
@@ -91,9 +91,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/climbing-new-zealand",
+        "deployedAt": "2026-10-23T16:40:16.364Z",
         "verifiedAt": null,
         "error": null
       }
@@ -113,9 +113,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/colorado-rock-climbing",
+        "deployedAt": "2026-10-23T16:40:16.680Z",
         "verifiedAt": null,
         "error": null
       }
@@ -135,9 +135,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/cycling-southern-utah",
+        "deployedAt": "2026-10-23T16:40:17.003Z",
         "verifiedAt": null,
         "error": null
       }
@@ -157,9 +157,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/cycling-tuscany",
+        "deployedAt": "2026-10-23T16:40:17.318Z",
         "verifiedAt": null,
         "error": null
       }
@@ -179,9 +179,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/downhill-skiing-wyoming",
+        "deployedAt": "2026-10-23T16:40:17.641Z",
         "verifiedAt": null,
         "error": null
       }
@@ -201,9 +201,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/gastronomic-marais-tour",
+        "deployedAt": "2026-10-23T16:40:17.955Z",
         "verifiedAt": null,
         "error": null
       }
@@ -223,9 +223,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures",
+        "deployedAt": "2026-10-23T15:37:27.932Z",
         "verifiedAt": null,
         "error": null
       }
@@ -245,9 +245,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/napa-wine-tasting",
+        "deployedAt": "2026-10-23T16:40:18.266Z",
         "verifiedAt": null,
         "error": null
       }
@@ -267,9 +267,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/riverside-camping-australia",
+        "deployedAt": "2026-10-23T16:40:18.593Z",
         "verifiedAt": null,
         "error": null
       }
@@ -289,9 +289,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/ski-touring-mont-blanc",
+        "deployedAt": "2026-10-23T16:40:18.918Z",
         "verifiedAt": null,
         "error": null
       }
@@ -311,9 +311,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/surf-camp-costa-rica",
+        "deployedAt": "2026-10-23T16:40:19.231Z",
         "verifiedAt": null,
         "error": null
       }
@@ -333,9 +333,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/tahoe-skiing",
+        "deployedAt": "2026-10-23T16:40:19.559Z",
         "verifiedAt": null,
         "error": null
       }
@@ -355,9 +355,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/west-coast-cycling",
+        "deployedAt": "2026-10-23T16:40:19.862Z",
         "verifiedAt": null,
         "error": null
       }
@@ -377,9 +377,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/whistler-mountain-biking",
+        "deployedAt": "2026-10-23T16:40:20.196Z",
         "verifiedAt": null,
         "error": null
       }
@@ -399,9 +399,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/yosemite-backpacking",
+        "deployedAt": "2026-10-23T16:40:20.513Z",
         "verifiedAt": null,
         "error": null
       }
@@ -576,8 +576,8 @@
       ],
       "delivery": {
         "status": "deployed",
-        "deployedUrl": "https://aem-20261023-1633--wknd--savitaagre.aem.page/ca/en/magazine/members-only",
-        "deployedAt": "2026-10-23T11:45:52.166Z",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only",
+        "deployedAt": "2026-10-23T15:23:14.754Z",
         "verifiedAt": null,
         "error": null
       }
@@ -909,9 +909,9 @@
         "share-bar"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/adventures/climbing-new-zealand",
+        "deployedAt": "2026-10-23T15:40:27.860Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1043,9 +1043,9 @@
         "adventure-card-grid"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/adventures",
+        "deployedAt": "2026-10-23T15:23:38.959Z",
         "verifiedAt": null,
         "error": null
       }

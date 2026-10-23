@@ -180,3 +180,14 @@ Same format. Numbering continues.
 44. **No force / re-upload path in da-media-upload.mjs.** After the owner moved DA folders, the ledger said
     "uploaded" for 27 images that no longer existed in the target folder; the only remedy was rotating the
     ledger file. → `--verify` (HEAD each ledger entry against DA) and `--force`.
+45. **gate-all.mjs `--eds-host` drops the URL scheme** when given a bare host (the card's own example is a bare
+    host); all three workers had to pass `https://…`. → Accept both forms.
+46. **gate-all.mjs reads `deployed` + `liveUrl` from state.json**, which cluster workers must not edit under the
+    fan-out rules; each worker ran it on a private state copy. → Read coverage/pages.json (lock-safe) instead,
+    or take `--urls`.
+47. **Big-endian Exif JPEGs come back as `about:error` from the delivery pipeline** (17 WKND images); the
+    worker stripped the Exif block (orientation 1, no pixel change) before upload. → da-media-upload.mjs should
+    detect big-endian Exif and re-encode metadata, or warn before upload.
+48. **The EMA command guard blocks any command that combines `rmdir` with a path or text containing
+    "content"**, so the documented git-lock release (`…; rmdir stardust/.work/locks/git.lock`) fails next to a
+    `stardust/deploy/content` path. → Ship a `lock.mjs acquire|release <name>` helper instead of shell idioms.

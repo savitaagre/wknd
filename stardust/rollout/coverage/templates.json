@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T11:45:52.166Z",
+  "generatedAt": "2026-10-23T16:40:31.737Z",
   "templates": [
     {
       "id": "article",
@@ -114,8 +114,8 @@
       "blocks": [],
       "delivery": {
         "verified": 0,
-        "deployed": 0,
-        "contentPending": 1,
+        "deployed": 1,
+        "contentPending": 0,
         "pending": 0
       }
     },
@@ -174,8 +174,8 @@
       "blocks": [],
       "delivery": {
         "verified": 0,
-        "deployed": 0,
-        "contentPending": 31,
+        "deployed": 16,
+        "contentPending": 15,
         "pending": 0
       }
     },
@@ -227,9 +227,9 @@
       ],
       "delivery": {
         "verified": 0,
-        "deployed": 0,
+        "deployed": 1,
         "contentPending": 0,
-        "pending": 1
+        "pending": 0
       }
     },
     {
@@ -246,9 +246,9 @@
       ],
       "delivery": {
         "verified": 0,
-        "deployed": 0,
+        "deployed": 1,
         "contentPending": 0,
-        "pending": 1
+        "pending": 0
       }
     },
     {

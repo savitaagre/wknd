@@ -293,3 +293,16 @@ published (preview) origin.
   `--pages` capture into stardust/.work/fresh (36/36 live, 0 failed); compared title, description,
   headings, body, CTAs + hrefs, image files + alt against stardust/current → 36 same, 0 changed.
   The run-2 captures, prototypes and gates stay valid; no `--refresh` needed.
+
+## C-deliver run 3 wave 1 — program, listing, members-only on the /ca/en branch (2026-10-23)
+
+- 3 cluster workers (brief: stardust/rollout/cluster-brief.md + cluster-brief-ca.md), preview host
+  feat-wknd-ca-en--wknd--savitaagre.aem.page, preview only.
+- program: us/en archetype + 16 /ca/en adventures, 17/17 previewed; archetype 1440 0.03 % / 360 2.48 %
+  (3 rounds), siblings gate-all 16/16 PASS both widths (worst 1.00 % / 3.14 %); variant trip-facts (grid) ×8.
+- listing: us/en + /ca/en adventures, 2/2; 1440 0.23 % / 360 0.64 %; sibling clone (0 variance deltas).
+  Deviation logged: tab panels → one filtered grid; Cycling tab order follows All.
+- members-only: re-delivered after the DA folder move; 0.01 % / 0.07 %; en-CA chrome crops 99.87–100 %.
+- State: 20 pages → migrated (21 incl. the pilot landing). Foundation unchanged (32 files).
+- Foundation requests queued: big-endian Exif → about:error (interim: Exif stripped), chrome-parity DA
+  media-hash match, trimmed &nbsp; in the CA footer link, decorateButtons drops title.
