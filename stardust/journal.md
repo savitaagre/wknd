@@ -272,3 +272,4 @@ published (preview) origin.
 - Owner decision surfaced: preview-only vs the contract's "publish always" (Phase D sitemap / root, D2 query
   index for search and E2 link audit read the live tree).
 - Foundation requests queued: media-ledger keying (use stardust/deploy/media-ledger-wknd.json per unit).
+- Owner decision (2026-10-23): keep preview only. Live-only checks are recorded as pending-until-publish.
