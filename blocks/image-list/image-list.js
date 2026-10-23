@@ -3,8 +3,11 @@
  * go?): 260px cards — 260×200 image, uppercase title link, one-line
  * ellipsised description.
  *
- * Contract: stardust/eds-schema/us-en-html.json → sections[2] / sections[4]
- * "image-list" (4 × LI unit, uniform: 1 cta + 1 img + description).
+ * Contract (canon3 .image-list, one module for every page that lists cards):
+ *   stardust/eds-schema/us-en-html.json → sections[2] / sections[4] (home, 4 cards)
+ *   stardust/eds-schema/ca-en-magazine-members-only-html.json → sections[0] (2 cards)
+ *   (magazine "All Articles", 5 cards — same unit: 1 cta + 1 img + description;
+ *   a card without a description renders title-only).
  * Model: cards — ONE ROW PER CARD, two cells: image | text
  *   image cell: <picture>/<img> (alt + title carried verbatim)
  *   text cell : <p><a href>Title</a></p> (the card link), <p> description

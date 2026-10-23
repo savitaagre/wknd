@@ -65,6 +65,31 @@ main .image-list-container > div {
   white-space: nowrap;
 }
 
+/* INTERIM section styles (foundation request, stardust/rollout/foundation-requests.md):
+   the members-only listing's content root is the source .cmp-container with no aem-Grid —
+   no 14px column gutters (content edge x 138 w 1164 @1440, x 0 w 360 @360) and a plain
+   .cmp-title h1 (no 84px underline). Authored as section-metadata
+   `Style | no-gutter, plain-title` on the section that holds the list. The 1164px cap moves
+   from the wrappers to the section (one content column holding title + list, as the source
+   .cmp-container). */
+main > .section.no-gutter > div {
+  max-width: none;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (width >= 1025px) {
+  main > .section.no-gutter {
+    max-width: var(--shell);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+main .section.plain-title .default-content-wrapper :is(h1, h2)::after {
+  content: none;
+}
+
 @media (width <= 767px) {
   .image-list .items {
     justify-content: space-between;
