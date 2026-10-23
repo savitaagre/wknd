@@ -101,6 +101,12 @@
   line-height: 1.75;
 }
 
+/* the source answer 2 carries an `<h3>&nbsp;</h3>` (one empty 36px line); the delivery
+   pipeline trims it to an empty h3 — restore its line box */
+.faq-accordion .panel :is(h2, h3, h4, h5, h6):empty::before {
+  content: "\a0";
+}
+
 .faq-accordion .panel.cmp-accordion__panel--hidden {
   display: none;
 }
