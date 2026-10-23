@@ -306,3 +306,11 @@ published (preview) origin.
 - State: 20 pages → migrated (21 incl. the pilot landing). Foundation unchanged (32 files).
 - Foundation requests queued: big-endian Exif → about:error (interim: Exif stripped), chrome-parity DA
   media-hash match, trimmed &nbsp; in the CA footer link, decorateButtons drops title.
+
+## C-deliver run 3 wave 2 — faq, static, landing (2026-10-23)
+
+- faq 2/2: 1440 0.04 % / 360 0.86 % (sibling 0.89 %); new faq-accordion + help-contact-block (old blocks fail EW).
+- static 2/2: 0.10 % / 0.19 % (sibling 0.11 % / 0.14 %); new contributor-card; avatars Exif-stripped (5).
+- landing 2/2: 0.25 % / 1.73 % (sibling 0.25 % / 1.46 %); R-01 h1 computes Asar 36/54; document now on wknd
+  media (was edsmsm media/home). Carousel has 3 slides (inventory corrected from 4).
+- State: 26 migrated. Lint 0 errors after the faq fix; foundation unchanged (32 files).

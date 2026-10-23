@@ -22,7 +22,7 @@ its interim tier and names the decision; nothing is `decided-out` without an own
 
 | # | id | feature | class | reach | disposition | reproducibility | status | pattern | decision / owner | evidence |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | m-hero-carousel | home hero carousel (4 slides, prev/next, dots) | M | 2 landing | rebuild-native | self | pending | chrome-interaction | none | `.cmp-carousel` us-en-html.html; vision: 4 slides |
+| 1 | m-hero-carousel | home hero carousel (3 slides, prev/next, dots — corrected from 4 at delivery) | M | 2 landing | rebuild-native | self | pending | chrome-interaction | none | `.cmp-carousel` us-en-html.html; vision: 4 slides |
 | 2 | m-trip-gallery-carousel | adventure gallery carousel (multi-slide sub-template; single-image on the other 8 trips) | M | 32 program | rebuild-native | self | pending | chrome-interaction | none | module `trip-gallery-carousel` 32 instances |
 | 3 | m-content-tabs | adventure Overview / Itinerary / What to Bring tabs | M | 32 program | rebuild-native | self | pending | chrome-interaction | none | module `content-tabs` 32 instances |
 | 4 | c-adventure-category-filter | adventures category tabs (6: All, Climbing, Cycling, Skiing, Surfing, Travel) over 16 cards | M (client-only) | 2 listing | client-only | self | pending | listing-client-filter | none | module `adventure-category-tabs` 2; 6 tab panels each |

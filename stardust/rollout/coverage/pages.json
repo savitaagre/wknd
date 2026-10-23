@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T16:40:20.513Z",
+  "generatedAt": "2026-10-23T17:22:21.674Z",
   "pages": [
     {
       "slug": "ca-en-about-us-html",
@@ -25,9 +25,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/about-us",
+        "deployedAt": "2026-10-23T17:16:58.731Z",
         "verifiedAt": null,
         "error": null
       }
@@ -421,9 +421,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/faqs",
+        "deployedAt": "2026-10-23T17:22:21.674Z",
         "verifiedAt": null,
         "error": null
       }
@@ -443,9 +443,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en",
+        "deployedAt": "2026-10-23T17:14:23.427Z",
         "verifiedAt": null,
         "error": null
       }
@@ -839,9 +839,9 @@
         "contributor-card"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/about-us",
+        "deployedAt": "2026-10-23T17:00:29.123Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1264,9 +1264,9 @@
         "help-contact-block"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/faqs",
+        "deployedAt": "2026-10-23T17:04:32.704Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1289,9 +1289,9 @@
         "hero-teaser"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
+        "deployedAt": "2026-10-23T17:01:11.266Z",
         "verifiedAt": null,
         "error": null
       }

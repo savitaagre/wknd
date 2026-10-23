@@ -120,6 +120,104 @@
       "startedAt": "2026-10-23T15:14:45Z",
       "endedAt": "2026-10-23T15:14:45Z",
       "verdict": "ca-chrome: 6/6 previewed (re-delivered after DA folder moves)"
+    },
+    "faq": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "faq"
+      ],
+      "pages": 2,
+      "blocks": 2,
+      "gates": {
+        "1440": {
+          "archetype": "0.04%",
+          "worstSibling": "0.04%"
+        },
+        "360": {
+          "archetype": "0.86%",
+          "worstSibling": "0.89%"
+        },
+        "crop": "h 100.00/99.86, f 100.00/99.99; CA h 100.00/99.87",
+        "chrome": "logo DA hash (+3 known CA deltas)"
+      },
+      "startedAt": "2026-10-23T16:44:27Z",
+      "endedAt": "2026-10-23T17:29:35Z",
+      "verdict": "faq: pages 2/2 previewed, blocks 2, gate 1440 0.04 % / 360 0.86 % (archetype; worst sibling 0.04 % / 0.89 %), requests 2"
+    },
+    "static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "blocks": 1,
+      "gates": {
+        "1440": {
+          "archetype": "0.10%",
+          "worstSibling": "0.11%"
+        },
+        "360": {
+          "archetype": "0.19%",
+          "worstSibling": "0.14%"
+        },
+        "crop": "h 100.00/99.86, f 100.00/100.00; CA h 100.00/99.87",
+        "chrome": "logo DA hash (+CA footer note \u0394w 2px)"
+      },
+      "startedAt": "2026-10-23T16:44:27Z",
+      "endedAt": "2026-10-23T17:29:35Z",
+      "verdict": "static: pages 2/2 previewed, blocks 1, gate 1440 0.10 % / 360 0.19 % (archetype; sibling 0.11 % / 0.14 %), requests 3"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 2,
+      "blocks": 4,
+      "gates": {
+        "1440": {
+          "archetype": "0.25%",
+          "worstSibling": "0.25%"
+        },
+        "360": {
+          "archetype": "1.73%",
+          "worstSibling": "1.46%"
+        },
+        "crop": "h 100.00/99.86, f 100.00/99.23; CA h 100.00/99.87 f 100.00/99.13",
+        "chrome": "logo DA hash"
+      },
+      "startedAt": "2026-10-23T16:44:27Z",
+      "endedAt": "2026-10-23T17:29:35Z",
+      "verdict": "landing: pages 2/2 previewed, blocks 4 (2 converted, 2 reused), gate 1440 0.25 % / 360 1.73 % (archetype; worst sibling 0.25 % / 1.46 %), requests 0"
+    },
+    "article": {
+      "status": "running",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "pages": 8,
+      "blocks": null,
+      "gates": {},
+      "startedAt": "2026-10-23T17:29:35Z",
+      "endedAt": null,
+      "verdict": null
+    },
+    "magazine-listing": {
+      "status": "running",
+      "kind": "cluster",
+      "templates": [
+        "magazine-listing"
+      ],
+      "pages": 2,
+      "blocks": null,
+      "gates": {},
+      "startedAt": "2026-10-23T17:29:35Z",
+      "endedAt": null,
+      "verdict": null
     }
   },
   "run1": {

@@ -7,7 +7,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T16:40:31.737Z",
+  "generatedAt": "2026-10-23T17:00:29.400Z",
   "blocks": [
     {
       "id": "adventure-card-grid",
@@ -145,7 +145,7 @@
       ],
       "instanceCount": 1,
       "delivery": {
-        "status": "pending",
+        "status": "deployed",
         "edsBlockName": "contributor-card",
         "blockPath": null,
         "convertedAt": null

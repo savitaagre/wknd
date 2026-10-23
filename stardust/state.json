@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-10-23T16:43:22Z",
+    "writtenAt": "2026-10-23T17:29:15Z",
     "stardustVersion": "plugin@excat-extended"
   },
   "site": {
@@ -56,7 +56,7 @@
       "url": "https://wknd.site/ca/en/about-us.html",
       "title": "About Us",
       "type": "static",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -65,13 +65,17 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-23T17:29:14Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-about-us-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/about-us.html"
     },
     {
       "slug": "ca-en-adventures-bali-surf-camp-html",
@@ -520,7 +524,7 @@
       "url": "https://wknd.site/ca/en/faqs.html",
       "title": "FAQs",
       "type": "faq",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -529,20 +533,24 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-23T17:29:14Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-faqs-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/faqs.html"
     },
     {
       "slug": "ca-en-html",
       "url": "https://wknd.site/ca/en.html",
       "title": "WKND Adventures and Travel",
       "type": "landing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -551,13 +559,17 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-23T17:29:14Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en.html"
     },
     {
       "slug": "ca-en-magazine-arctic-surfing-html",
@@ -947,7 +959,7 @@
       "url": "https://wknd.site/us/en/about-us.html",
       "title": "About Us",
       "type": "static",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -961,13 +973,17 @@
           "status": "approved",
           "at": "2026-10-23T10:02:54Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-23T17:29:14Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-about-us-html.json",
       "prototypePath": "stardust/prototypes/us-en-about-us-html-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/us/en/about-us.html"
     },
     {
       "slug": "us-en-adventures-bali-surf-camp-html",
@@ -1393,7 +1409,7 @@
       "url": "https://wknd.site/us/en/faqs.html",
       "title": "FAQs",
       "type": "faq",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1407,13 +1423,17 @@
           "status": "approved",
           "at": "2026-10-23T10:02:54Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-23T17:29:15Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-faqs-html.json",
       "prototypePath": "stardust/prototypes/us-en-faqs-html-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/us/en/faqs.html"
     },
     {
       "slug": "us-en-magazine-arctic-surfing-html",
@@ -1586,7 +1606,7 @@
     }
   ],
   "migrate": {
-    "at": "2026-10-23T16:33:54Z",
+    "at": "2026-10-23T17:21:13Z",
     "outputDir": "stardust/migrated/",
     "selfContained": true,
     "pageMap": [
@@ -2404,15 +2424,29 @@
         "slug": "ca-en-adventures-yosemite-backpacking-html",
         "file": "stardust/migrated/ca/en/adventures/yosemite-backpacking.html",
         "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-html",
+        "file": "stardust/migrated/ca/en.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-en-about-us-html",
+        "file": "stardust/migrated/ca/en/about-us.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-en-faqs-html",
+        "file": "stardust/migrated/ca/en/faqs.html",
+        "assetsBundled": 16
       }
     ],
     "missingAssets": [],
     "cleanedAssets": [],
     "lastRun": {
-      "at": "2026-10-23T16:33:54Z",
+      "at": "2026-10-23T17:21:13Z",
       "rendered": [
-        "ca-en-adventures-cycling-tuscany-html",
-        "ca-en-adventures-napa-wine-tasting-html"
+        "ca-en-faqs-html"
       ],
       "unchanged": [],
       "refused": [],

@@ -32,3 +32,4 @@
 {"ts":"2026-10-23T15:11:32Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"run 3 freshness: 36/36 re-captured live, 0 content changes vs run-2 captures"}
 {"ts":"2026-10-23T15:14:45Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"run 3: /ca/en — wave 1 program (1+16), listing (1+1), members-only (1)"}
 {"ts":"2026-10-23T16:44:02Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"run 3 wave 1: program 17/17, listing 2/2, members-only 1/1 previewed; all gate-all PASS 1440+360"}
+{"ts":"2026-10-23T16:44:28Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"run 3 wave 2 (continues C-deliver): faq, static, landing — us/en archetype + /ca/en sibling each"}
