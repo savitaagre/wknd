@@ -10,13 +10,13 @@
  *   cell 2: the answer — any default content (p, h2–h6, ul/ol, picture …)
  *   A one-cell row is split on its first heading: heading = question, the rest = answer.
  * Decode tier: reconstructive (repeat group: one item per row). Authored nodes are MOVED (EW1)
- * into generated wrappers (.item > .header > .title + button.toggle, .panel). EW7: the question
- * sits in the sibling div.title, the whole header row takes the click, and the generated
- * text-less button is the glyph-only toggle (name via aria-labelledby → the title wrapper).
+ * into generated wrappers (.item > .header[role=button] > .title + span.toggle-icon, .panel).
+ * EW7: no <button> hosts authored text — the header row is a div[role=button] (focusable,
+ * Enter/Space) that hosts the question and takes the click; the glyph is an empty span.
  * The question's own nodes sit in a style-free span.label inside the authored heading, as
  * the source's text sits in span.cmp-accordion__title inside its h3 (no styling depends on it).
- * State classes mirror the live ones (cmp-accordion__button--expanded,
- * cmp-accordion__panel--expanded / --hidden).
+ * State classes mirror the live ones (cmp-accordion__button--expanded on the header row,
+ * cmp-accordion__panel--expanded / --hidden on the panel).
  */
 
 function el(tag, className, attrs = {}) {
@@ -68,7 +68,7 @@ export default function decorate(block) {
     const n = i + 1;
     const item = el('div', 'item faq-accordion__item');
     const header = el('div', 'header');
-    const title = el('div', 'title', { id: `${id}-item-${n}-title` });
+    const title = el('div', 'title');
     question.forEach((q) => {
       // the source keeps the question text in an inline span inside its h3
       // (h3 > button > span.cmp-accordion__title): the authored element stays, its
@@ -79,29 +79,25 @@ export default function decorate(block) {
       q.append(label);
     });
     title.append(...question);
-    const toggle = el('button', 'toggle', {
-      type: 'button',
-      id: `${id}-item-${n}-button`,
-      'aria-controls': `${id}-item-${n}-panel`,
-      'aria-expanded': 'false',
-      'aria-labelledby': title.id,
-    });
-    toggle.append(el('span', 'toggle-icon', { 'aria-hidden': 'true' }));
-    header.append(title, toggle);
+    header.id = `${id}-item-${n}-button`;
+    header.setAttribute('role', 'button');
+    header.setAttribute('tabindex', '0');
+    header.setAttribute('aria-controls', `${id}-item-${n}-panel`);
+    header.setAttribute('aria-expanded', 'false');
+    header.append(title, el('span', 'toggle-icon', { 'aria-hidden': 'true' }));
 
     const panel = el('div', 'panel cmp-accordion__panel--hidden', {
       id: `${id}-item-${n}-panel`,
       role: 'region',
-      'aria-labelledby': title.id,
+      'aria-labelledby': header.id,
       'aria-hidden': 'true',
     });
     panel.append(...answer);
 
-    header.addEventListener('click', () => {
-      const open = !toggle.classList.contains('cmp-accordion__button--expanded');
-      toggle.classList.toggle('cmp-accordion__button--expanded', open);
-      header.classList.toggle('expanded', open);
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    const toggle = () => {
+      const open = !header.classList.contains('cmp-accordion__button--expanded');
+      header.classList.toggle('cmp-accordion__button--expanded', open);
+      header.setAttribute('aria-expanded', open ? 'true' : 'false');
       // live order: the incoming state class is added before the outgoing one is removed
       const [add, remove] = open
         ? ['cmp-accordion__panel--expanded', 'cmp-accordion__panel--hidden']
@@ -109,6 +105,13 @@ export default function decorate(block) {
       panel.classList.add(add);
       panel.classList.remove(remove);
       panel.setAttribute('aria-hidden', open ? 'false' : 'true');
+    };
+    header.addEventListener('click', toggle);
+    header.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
     });
 
     item.append(header, panel);
