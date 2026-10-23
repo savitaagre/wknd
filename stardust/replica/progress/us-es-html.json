@@ -1,0 +1,82 @@
+{
+  "slug": "us-es-html",
+  "type": "coming-soon",
+  "liveUrl": "https://wknd.site/us/es.html",
+  "prototype": "stardust/prototypes/us-es-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-es-html-proposed.html",
+    "stardust/prototypes/us-es-html.css"
+  ],
+  "assetsAdded": [],
+  "counts": {
+    "heroTeaser": 1,
+    "heroParts": "title only (no pretitle, description, CTA); image adobestock-216674449.jpeg (already in assets/media, byte-identical to the harvested file)",
+    "separators": 1,
+    "navLevel1Items": 0,
+    "source": "stardust/current/pages/us-es-html.html (main) + us-es-html.json headings/slots"
+  },
+  "breakpoints": {
+    "1440": {
+      "iterations": 1,
+      "rounds": ["iter1 --full (0.19 %, Δh 0, 0 🔴, 2 🟡 EDITABLE COUNT header/footer)", "iter2 --full confirmation (0.19 %, Δh 0, content-diff none)", "motion pixel round 0.19 %"],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": "1 advisory — STRETCHED IMAGE adobestock-216674449.jpeg 1440x640 (justified)",
+        "pixelPct": 0.19,
+        "heightDelta": 0,
+        "chromeParity": "✓ within tolerance; crop-compare header y0+200 0.00 % PASS, footer y1018+260 0.00 % PASS",
+        "clipped": 0,
+        "overflow": "scrollWidth 1440 = viewport",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff STRETCHED IMAGE (hero): intentional object-fit: cover crop lifted from source .cmp-teaser--hero .cmp-image__image; live renders the same 1440x640 box"
+      ],
+      "residuals": [
+        "0.19 % all in the hero band (crop y200+820 0.29 %, thin-edge texture): image-rendition resample — live serves the srcset rendition, the prototype one 1280x720 file"
+      ]
+    },
+    "360": {
+      "iterations": 0,
+      "rounds": ["iter1 --full (first = confirmation, no fix needed)", "motion pixel round 0.75 %"],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": "none",
+        "pixelPct": 0.75,
+        "heightDelta": 0,
+        "chromeParity": "✓ within tolerance; crop-compare header y0+130 0.13 % PASS, footer y698+463 0.00 % PASS",
+        "clipped": 0,
+        "overflow": "scrollWidth 360 = viewport",
+        "pass": true
+      },
+      "justified": [],
+      "residuals": [
+        "0.75 % all in the hero band (crop y130+330 2.51 %, thin-edge texture): image-rendition resample (live srcset rendition vs the single prototype file)"
+      ]
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/us-es-html-2560/cap-iter.json)",
+  "units": [],
+  "motion": {
+    "observed": "stardust/replica/motion/us-es-html.json (1440: header scroll-morph, lang toggle click, hero hover) + us-es-html-360.json (360: mobile toggle) — header scroll-morph (body.scrolly, padding transitions 500ms), language menu (open/showMenu), mobile nav (navPanel-visible, transform 500ms)",
+    "implemented": [
+      "header scroll-morph, language menu, mobile nav — all canon.js; no page JS"
+    ],
+    "dead": [
+      "hover .cmp-teaser__image (no measured change on live)"
+    ],
+    "compare": "1440: 6 parity, 0 missing, 0 extra; 360: 3 parity, 0 missing, 0 extra (build: stardust/replica/motion/us-es-html-build.json, us-es-html-360-build.json); post-motion pixel rounds 1440 0.19 % / 360 0.75 % = gated values",
+    "files": [
+      "stardust/replica/motion/us-es-html.json",
+      "stardust/replica/motion/us-es-html-build.json",
+      "stardust/replica/motion/us-es-html-360.json",
+      "stardust/replica/motion/us-es-html-360-build.json"
+    ]
+  },
+  "canonRequests": [
+    "[us-es-html] promote the standalone .cmp-teaser--hero heights (us-en-adventures-html.css) into canon — second template (coming-soon) uses them; copied into us-es-html.css",
+    "[us-es-html] § Locale chrome coming-soon nav: keep the level-0 list (<ul><li class=\"nav-home-item\"> around .nav-home, header + footer) + <=1024 footer li.nav-home-item margin-bottom 0 — canon markup gave 🟡 EDITABLE COUNT header 1 vs 2, footer 4 vs 5; compensated in this archetype"
+  ],
+  "registerRequests": [],
+  "notes": "First coming-soon page; proves the canon3 § Locale chrome: toggle lang-toggle--us + label/aria-label es-US, lang-menu active markers on US / es-US, <html lang=\"es-US\">, logo (header + footer) -> /us/es.html, no level-1 nav items, hidden .nav-home labelled Español with aria-current=page, single mobile-nav item Español, search href unchanged, footer without the Canadian note. One deviation from the CANON.md markup (filed): the hidden .nav-home is wrapped in <ul><li class=\"nav-home-item\"> to mirror live granularity. Register R-02 (hero title h2 -> h1, styled identically) is applied AT DELIVERY, like R-01 on the home: the prototype mirrors the source outline (h2) so content-diff compares like for like; the delivered h1 must keep the hero-teaser__title class (36px/54px, margin 18px 0 0 beats the canon h1 40px). Separator sits directly in .fixed-container (no .col), as on live (cmp-layout-container--fixed > cmp-container > separator, no grid column). The 8 sibling locale homes (/ca/fr --ca fr-CA Français, /ch/de|fr|it --ch de-CH|fr-CH|it-CH Deutsch|Français|Italiano, /de/de --de de-DE Deutsch, /fr/fr --fr fr-FR Français, /es/es --es es-ES Español, /it/it --it it-IT Italiano) are this template with only the chrome locale deltas + links changed. No repeated-unit families on the page (units.json untouched)."
+}

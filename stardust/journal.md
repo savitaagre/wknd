@@ -226,3 +226,24 @@ published (preview) origin.
   curated to 14 features. Search probe "surf" on the source → 8 results, top-3 recorded for parity.
   Owner decision batch: D1 sign-in/members-only, D2 tags, D4 AI summary (interim tiers ship);
   locale scope decided by the owner (all locales). Gate: every row has a disposition.
+
+## Recreate + source-fidelity gate — 9 new archetypes, all 10 gated and approved hands-off (2026-10-23)
+
+- Canon split of the gated landing prototype (canon.css/canon.js + per-archetype files): landing re-gated
+  at its approved numbers (1440 0.20 % Δ0 · 360 2.08 % Δ−1).
+- 3 batches of 3 parallel workers (brief: stardust/replica/archetype-brief.md), each: verbatim content,
+  values lifted from source CSS, gate 1440 + 360 (≤ 3 fix iterations), cap-probe, clip, overflow,
+  unit families, motion-observe parity. Between batches a canon maintainer applied the request queue
+  (canon2: 15 requests, canon3: locale chrome markup-driven) and re-gated every gated archetype — no
+  number moved (±0.00).
+- Results (pixel % / Δh, 1440 · 360): program 0.03/0 · 0.40/0 · listing 0.19/0 · 1.02/0 · faq 0.03/0 ·
+  0.03/0 · article 0.09/0 · 0.15/−1 · magazine-listing 0.23/0 · 0.16/0 · static 0.10/0 · 0.18/0 ·
+  members-only-listing (first /ca/en page) 0.01/0 · 0.08/0 · unique (search) 0.00/0 · 0.02/0 ·
+  coming-soon 0.19/0 · 0.75/0. 0 structural red everywhere; flags justified (object-fit: cover crops).
+- gate-all --stage prototype: 10/10 PASS at 1440 and at 360 (all four criteria); all probed on the
+  degraded browser tier (no real Chrome in the image → bundled Chromium + stealth args).
+- Findings: adventures listing has 6 tabs, not 7 (inventory corrected); unit-geometry live cache is not
+  width-keyed (workaround: delete before each round); gate.sh copy not executable (run via bash).
+- Open canon requests carried to Phase 5 foundation: promote standalone hero-teaser heights; keep the
+  level-0 nav list on coming-soon chrome; CANON.md wording for the en-CA active link.
+- Register R-01/R-02/R-03 apply at delivery (prototypes mirror the source outline).

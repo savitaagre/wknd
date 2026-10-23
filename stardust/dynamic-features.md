@@ -6,8 +6,8 @@ its interim tier and names the decision; nothing is `decided-out` without an own
 
 ## Listings contract
 
-- **Adventures listing** (`/us/en/adventures`, `/ca/en/adventures`): 16 authored adventure cards in 7
-  category tab panels (All, Camping, Cycling, Rock Climbing, Skiing, Social, Surfing). On the source the
+- **Adventures listing** (`/us/en/adventures`, `/ca/en/adventures`): 16 authored adventure cards in 6
+  category tab panels (All 16, Climbing 2, Cycling 3, Skiing 3, Surfing 2, Travel 6 — counted in the rendered DOM by the listing worker). On the source the
   panels are pre-rendered AEM `image-list` components (no query at runtime) → authored rows in the
   document; the tab filter is client-only. No index is read. If the owner later wants them index-driven,
   each adventure page emits `<meta name="activity">`, `<meta name="adventure-type">`, `<meta name="trip-length">`,
@@ -25,7 +25,7 @@ its interim tier and names the decision; nothing is `decided-out` without an own
 | 1 | m-hero-carousel | home hero carousel (4 slides, prev/next, dots) | M | 2 landing | rebuild-native | self | pending | chrome-interaction | none | `.cmp-carousel` us-en-html.html; vision: 4 slides |
 | 2 | m-trip-gallery-carousel | adventure gallery carousel (multi-slide sub-template; single-image on the other 8 trips) | M | 32 program | rebuild-native | self | pending | chrome-interaction | none | module `trip-gallery-carousel` 32 instances |
 | 3 | m-content-tabs | adventure Overview / Itinerary / What to Bring tabs | M | 32 program | rebuild-native | self | pending | chrome-interaction | none | module `content-tabs` 32 instances |
-| 4 | c-adventure-category-filter | adventures category tabs (7) over 16 cards | M (client-only) | 2 listing | client-only | self | pending | listing-client-filter | none | module `adventure-category-tabs` 2; 6 tab panels each |
+| 4 | c-adventure-category-filter | adventures category tabs (6: All, Climbing, Cycling, Skiing, Surfing, Travel) over 16 cards | M (client-only) | 2 listing | client-only | self | pending | listing-client-filter | none | module `adventure-category-tabs` 2; 6 tab panels each |
 | 5 | m-faq-accordion | FAQ accordion (7 items, collapsed) | M | 2 faq | rebuild-native | self | pending | chrome-interaction | none | module `faq-accordion` 2 |
 | 6 | s-site-search | AI-Powered Search page: JS-submitted query over site pages; probe "surf" → 8 results, top: Surf Camp in Costa Rica · San Diego Surf Spots · Bali Surf Camp | S | 1 unique | index-backed | self | pending | search-index-backed | none (corpus = the migrated pages) | dynamics/search-probe-surf.json; generated rows 22–23 |
 | 7 | s-ai-summary | "Show AI-generated summary" toggle (Adobe Content AI generative answer + sources) | S / X | 1 unique | rebuild-native (UI) | needs-backend | pending | — | **D4** owner: generative answers on the new host? | `.cmp-contentaisearch__summary*` |

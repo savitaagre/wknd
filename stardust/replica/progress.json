@@ -1,10 +1,11 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "writtenAt": "2026-10-16T13:13:00Z",
+    "writtenAt": "2026-10-23T09:54:41.925Z",
     "liveUrl": "https://wknd.site/us/en.html",
     "prototype": "stardust/prototypes/us-en-html-proposed.html",
-    "iterationNote": "iter1 = first --full map; fix iterations: 1 (column BFC + hidden nodes + footer) \u2192 iter2 pixel; 2 (content cap, toggle size, greeting role) \u2192 iter4 --full; 3 (titles, aria, social font, toggle line-height) \u2192 iter5 --full; iter6 = confirmation of the Home-link visibility finding from iter5 (no new fix scope). Cap of 3 fix iterations per breakpoint respected."
+    "iterationNote": "iter1 = first --full map; fix iterations: 1 (column BFC + hidden nodes + footer) → iter2 pixel; 2 (content cap, toggle size, greeting role) → iter4 --full; 3 (titles, aria, social font, toggle line-height) → iter5 --full; iter6 = confirmation of the Home-link visibility finding from iter5 (no new fix scope). Cap of 3 fix iterations per breakpoint respected.",
+    "run2": "canon split (canon.css/js) + 9 archetypes by parallel workers; canon2/canon3 maintainer rounds re-gated every gated archetype with no number moving"
   },
   "pageTypes": {
     "landing": {
@@ -12,6 +13,55 @@
       "status": "approved",
       "approvedBy": "hands-off",
       "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "8 justified",
+            "pixelPct": 2.08,
+            "heightDelta": -1,
+            "chromeParity": "quiet",
+            "clipped": 0,
+            "overflow": "ok",
+            "pass": true
+          },
+          "crops": {
+            "header": "99.86% match (y0+117)",
+            "footer": "96.92% match (y5281+593) — residual below"
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "STRETCHED IMAGE ×8",
+              "why": "object-fit: cover crops, as in the source CSS"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "y 3000–3500",
+              "pct": 5.6,
+              "cause": "resampling texture on the Climbing New Zealand photo: live serves a 290×193 rendition upscaled to 360px, prototype a 1280×853 original downscaled; geometry identical",
+              "flaggedFor": "delivery"
+            },
+            {
+              "band": "y 4000–4500",
+              "pct": 4.7,
+              "cause": "same rendition texture on the adventure card photos (live 172×120 renditions at 260×200)",
+              "flaggedFor": "delivery"
+            },
+            {
+              "region": "footer",
+              "pct": 3.08,
+              "cause": "1px vertical offset: the 1280×853 original vs the live 290×193 rendition gives the Climbing NZ image a 0.32px taller box (teaser 615.41 vs 614.89px), which rounds the footer 1px lower; ghosting is glyph edges only",
+              "parity": "gates/us-en-html-360/chrome-parity-iter6.txt (quiet)",
+              "texture": {
+                "thickPct": 34.4
+              },
+              "flaggedFor": "delivery"
+            }
+          ],
+          "captureState": []
+        },
         "1440": {
           "iterations": 3,
           "result": {
@@ -31,13 +81,13 @@
           "justified": [
             {
               "probe": "visual",
-              "flag": "STRETCHED IMAGE \u00d711",
-              "why": "object-fit: cover crops \u2014 the source CSS sets object-fit: cover on the same images (hero, featured teaser, image-list cards, Climbing NZ teaser)"
+              "flag": "STRETCHED IMAGE ×11",
+              "why": "object-fit: cover crops — the source CSS sets object-fit: cover on the same images (hero, featured teaser, image-list cards, Climbing NZ teaser)"
             }
           ],
           "residuals": [
             {
-              "band": "y 1000\u20131500",
+              "band": "y 1000–1500",
               "pct": 0.9,
               "cause": "image resampling texture (live serves width renditions, prototype the 1280px originals)",
               "flaggedFor": "delivery"
@@ -45,58 +95,9 @@
           ],
           "captureState": []
         },
-        "360": {
-          "iterations": 3,
-          "result": {
-            "structuralRed": 0,
-            "visualFlags": "8 justified",
-            "pixelPct": 2.08,
-            "heightDelta": -1,
-            "chromeParity": "quiet",
-            "clipped": 0,
-            "overflow": "ok",
-            "pass": true
-          },
-          "crops": {
-            "header": "99.86% match (y0+117)",
-            "footer": "96.92% match (y5281+593) \u2014 residual below"
-          },
-          "justified": [
-            {
-              "probe": "visual",
-              "flag": "STRETCHED IMAGE \u00d78",
-              "why": "object-fit: cover crops, as in the source CSS"
-            }
-          ],
-          "residuals": [
-            {
-              "band": "y 3000\u20133500",
-              "pct": 5.6,
-              "cause": "resampling texture on the Climbing New Zealand photo: live serves a 290\u00d7193 rendition upscaled to 360px, prototype a 1280\u00d7853 original downscaled; geometry identical",
-              "flaggedFor": "delivery"
-            },
-            {
-              "band": "y 4000\u20134500",
-              "pct": 4.7,
-              "cause": "same rendition texture on the adventure card photos (live 172\u00d7120 renditions at 260\u00d7200)",
-              "flaggedFor": "delivery"
-            },
-            {
-              "region": "footer",
-              "pct": 3.08,
-              "cause": "1px vertical offset: the 1280\u00d7853 original vs the live 290\u00d7193 rendition gives the Climbing NZ image a 0.32px taller box (teaser 615.41 vs 614.89px), which rounds the footer 1px lower; ghosting is glyph edges only",
-              "parity": "gates/us-en-html-360/chrome-parity-iter6.txt (quiet)",
-              "texture": {
-                "thickPct": 34.4
-              },
-              "flaggedFor": "delivery"
-            }
-          ],
-          "captureState": []
-        },
         "2560": {
           "result": {
-            "capProbe": "PASS \u2014 0 of 5 rows failed (shell 1680, modules 1192/1164/1192/1164)",
+            "capProbe": "PASS — 0 of 5 rows failed (shell 1680, modules 1192/1164/1192/1164)",
             "evidence": "gates/us-en-html-2560/cap-iter.json"
           }
         }
@@ -108,10 +109,10 @@
           "stardust/replica/motion/us-en-html-360.json"
         ],
         "implemented": [
-          "header scroll morph: body.scrolly at scrollTop > 15; .header-bar padding 50/50 \u2192 15/5 (\u22651025), box-shadow 0 8px 20px rgba(0,0,0,.26); transition padding .5s (the -webkit- fallback Chrome applies)",
-          "hero carousel: prev / next / indicator click \u2192 cmp-carousel__item--active + cmp-carousel__indicator--active; slide fadeIn .5s",
-          "language menu: toggle click \u2192 left = toggle.position().left \u2212 240, showMenu / open; window click elsewhere closes",
-          "mobile nav (\u22641024): toggle click \u2192 body.navPanel-visible; transform .5s on panel, toggle and page root",
+          "header scroll morph: body.scrolly at scrollTop > 15; .header-bar padding 50/50 → 15/5 (≥1025), box-shadow 0 8px 20px rgba(0,0,0,.26); transition padding .5s (the -webkit- fallback Chrome applies)",
+          "hero carousel: prev / next / indicator click → cmp-carousel__item--active + cmp-carousel__indicator--active; slide fadeIn .5s",
+          "language menu: toggle click → left = toggle.position().left − 240, showMenu / open; window click elsewhere closes",
+          "mobile nav (≤1024): toggle click → body.navPanel-visible; transform .5s on panel, toggle and page root",
           "hover: header nav links background #ffea00; header search background #ffea00; footer nav links underline (text-decoration, verified by named-deviation probe)"
         ],
         "dead": [
@@ -120,25 +121,11 @@
         ],
         "compare": "motion-compare: 10 parity, 0 missing, 0 extra, 0 advisory (stardust/replica/motion/us-en-html-compare.json); mobile: 3 parity",
         "pixelAfterMotion": {
-          "1440": 0.2,
-          "360": 2.08
+          "360": 2.08,
+          "1440": 0.2
         }
       },
       "published": {
-        "origin": "https://feat-wknd-home-replica--edsmsm--savitaagre.aem.page/us/en",
-        "regime": "published (preview origin, never published live)",
-        "1440": {
-          "pixel": 0.25,
-          "heightDelta": 0,
-          "structuralRed": 0,
-          "clipped": 0,
-          "presence": "MISSING 0 / HIDDEN 0",
-          "crops": {
-            "header": "100.00%",
-            "footer": "100.00%"
-          },
-          "gateAll": "PASS"
-        },
         "360": {
           "pixel": 1.73,
           "heightDelta": -1,
@@ -151,38 +138,52 @@
           },
           "gateAll": "PASS"
         },
+        "1440": {
+          "pixel": 0.25,
+          "heightDelta": 0,
+          "structuralRed": 0,
+          "clipped": 0,
+          "presence": "MISSING 0 / HIDDEN 0",
+          "crops": {
+            "header": "100.00%",
+            "footer": "100.00%"
+          },
+          "gateAll": "PASS"
+        },
+        "origin": "https://feat-wknd-home-replica--edsmsm--savitaagre.aem.page/us/en",
+        "regime": "published (preview origin, never published live)",
         "justified": [
           {
             "probe": "content",
-            "flag": "\ud83d\udfe0 EXTRA [header] nav links / Home / Search",
+            "flag": "🟠 EXTRA [header] nav links / Home / Search",
             "why": "the EDS header block hosts the mobile nav panel and toggle, which live renders outside <header>; Search is the hidden label of the icon link (DA cannot author an icon-only link); content-presence extra 0"
           },
           {
             "probe": "content",
-            "flag": "\ud83d\udfe1 EXTRA TITLE [footer] links",
+            "flag": "🟡 EXTRA TITLE [footer] links",
             "why": "boilerplate decorateButtons() sets title = text on paragraph links (runtime convention)"
           },
           {
             "probe": "content",
-            "flag": "\ud83d\udfe1 MISSING TITLE Climbing NZ image",
+            "flag": "🟡 MISSING TITLE Climbing NZ image",
             "why": "pipeline drops an image title equal to its alt; not recoverable client-side"
           },
           {
             "probe": "chrome",
-            "flag": "ICON signature wknd-logo-*.svg \u2192 media_<hash>",
+            "flag": "ICON signature wknd-logo-*.svg → media_<hash>",
             "why": "DA content-addresses uploaded media; bytes identical"
           }
         ],
         "residuals": [
           {
-            "band": "1440 y 1000\u20131500",
+            "band": "1440 y 1000–1500",
             "pct": 0.9,
             "cause": "image texture: live renditions vs EDS optimized renditions",
             "flaggedFor": "user"
           },
           {
-            "band": "360 y 3000\u20135000",
-            "pct": "3.5\u20135.1",
+            "band": "360 y 3000–5000",
+            "pct": "3.5–5.1",
             "cause": "same rendition texture on the Climbing NZ and card photos",
             "flaggedFor": "user"
           },
@@ -197,6 +198,803 @@
           "R-01 applied: delivery-required h1 on hero slide 1 (no visual change)"
         ]
       }
+    },
+    "members-only-listing": {
+      "archetype": "ca-en-magazine-members-only-html",
+      "liveUrl": "https://wknd.site/ca/en/magazine/members-only.html",
+      "prototype": "stardust/prototypes/ca-en-magazine-members-only-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 2,
+            "pixelPct": 0.08,
+            "heightDelta": 0,
+            "chromeParity": "parity (header 2/2, footer 15/15); crop header 99.87 %, footer 100.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE x2 — intentional cover crop, as at 1440"
+          ],
+          "residuals": [
+            "0.08 % — image-rendition resample (live srcset 300w rendition 288x191 vs harvested 1280x853 file) inside fixed 260x200 cover boxes; no hot band"
+          ]
+        },
+        "1440": {
+          "iterations": 1,
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 2,
+            "pixelPct": 0.01,
+            "heightDelta": 0,
+            "chromeParity": "parity (header 6/6, footer 15/15); crop header 99.99 %, footer 100.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE x2 (alaskan-landscape-01, amazon-river-01) — intentional cover crop: canon .image-list img 260x200 object-fit cover, identical on live (source side flags the same 1152x767 -> 260x200)"
+          ],
+          "residuals": [
+            "0.01 % — image-rendition resample (live srcset 1600w rendition 1152x767 vs harvested 1280x853 file) inside fixed 260x200 cover boxes; no hot band"
+          ]
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/ca-en-magazine-members-only-html-2560/cap-iter.json)",
+      "units": [
+        "members-only-card-grid (.cmp-image-list .cmp-image-list__item -> .image-list .image-list__item, n 2): Units 2 compared, off 0, missing 0 -> PASS @1440 and @360"
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-morph (body.scrolly, padding transitions 500ms)"
+        ],
+        "implemented": [
+          "header scroll-morph (canon.js, unchanged)"
+        ],
+        "dead": [
+          "hover .cmp-image-list__item a (no measured diff)"
+        ],
+        "compare": "motion summary: 4 parity, 0 missing, 0 extra, 0 advisory",
+        "pixelAfterMotion": {
+          "360": 0.08,
+          "1440": 0.01
+        }
+      },
+      "canonRequests": [
+        "§ Locale chrome (CA) documentation: CA markup gated as written on the first /ca/en page; active en-CA locale link href = current page path (not /ca/en.html); deeper-page li.is-active markers"
+      ],
+      "registerRequests": [],
+      "notes": [
+        "First /ca/en page: canon3 § Locale chrome CA markup used unchanged and proven (chrome-parity + crop-compare at both widths); no compensation needed.",
+        "No module of its own: canon h1 (plain .cmp-title, NOT the underlined variant — live has no cmp-title--underline here), canon .image-list (2 article cards), canon .fixed-container WITHOUT .col (live main.cmp-layout-container--fixed holds title + image list directly, no aem-Grid gutters: content x138 @1440, x0 @360). ca-en-magazine-members-only-html.css carries only a comment; no .js.",
+        "Gate rounds: iter1 --full (first build, a page-level .page-main--fixed rule) passed 0.01 % / 0.08 %; iter2 --full = confirmation after replacing it with canon .fixed-container (reuse), identical 0.01 % / 0.08 %, Δh 0.",
+        "Register entries for members-only-listing: none. Dynamics: none (Sign In stays the canon static link).",
+        "Images: alaskan-landscape-01.jpeg, amazon-river-01.jpeg copied to stardust/prototypes/assets/media/ (new files, hash suffix stripped)."
+      ],
+      "source": "stardust/replica/progress/ca-en-magazine-members-only-html.json"
+    },
+    "static": {
+      "archetype": "us-en-about-us-html",
+      "liveUrl": "https://wknd.site/us/en/about-us.html",
+      "prototype": "stardust/prototypes/us-en-about-us-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 0,
+          "rounds": [
+            "iter1 (--full, first + confirmation: no fix needed)",
+            "motion (pixel round after interaction parity)"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 5,
+            "pixelPct": 0.18,
+            "heightDelta": 0,
+            "chromeParity": "header ✓ 2/2 texts 1/1 icons, footer ✓ 13/13 texts 1/1 icons; crop header 0.13 % (59 px), footer 0.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "unitGeometry": "contributor-card 7 units compared, 42 elements within, 0 off → PASS",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE ×5: same intentional 164×164 object-fit: cover avatar crop as at 1440 (build selects the 400w rendition = live natural 360×N)"
+          ],
+          "residuals": [],
+          "evidence": "stardust/replica/gates/us-en-about-us-html-360/"
+        },
+        "1440": {
+          "iterations": 0,
+          "rounds": [
+            "iter1 (--full, first + confirmation: no fix needed)",
+            "motion (pixel round after interaction parity)"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 5,
+            "pixelPct": 0.1,
+            "heightDelta": 0,
+            "chromeParity": "header ✓ 6/6 texts 1/1 icons, footer ✓ 13/13 texts 1/1 icons; crop header 0.00 %, footer 0.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "unitGeometry": "contributor-card 7 units compared, 42 elements within, 0 off → PASS",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE ×5 (contributor avatars 164×164 from portrait/landscape renditions): intentional object-fit: cover round crop — source `.cmp-experience-fragment--contributor .cmp-image .cmp-image__image { border-radius: 50%; height: 164px; width: 164px; object-fit: cover }`; the live side carries the same flags (visual-diff-iter1.txt source.images stretched:true)"
+          ],
+          "residuals": [],
+          "evidence": "stardust/replica/gates/us-en-about-us-html-1440/"
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/us-en-about-us-html-2560/cap-iter.json); advisory: live 12 vs build 7 top-level sections (live grid columns vs build .col/.contributor-grid wrappers — rows compared by order)",
+      "units": [
+        "contributor-card"
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/us-en-about-us-html.json — header scroll-morph only (body.scrolly + header padding transitions 500ms); hover pokes on contributor buttons and avatars: no measured change",
+        "implemented": [
+          "header scroll-morph (canon.js, no page JS needed)"
+        ],
+        "dead": [
+          "hover .cmp-experience-fragment--contributor .cmp-button",
+          "hover .cmp-experience-fragment--contributor .cmp-image__image"
+        ],
+        "compare": "motion summary: 4 parity, 0 missing, 0 extra (build: stardust/replica/motion/us-en-about-us-html-build.json)"
+      },
+      "canonRequests": [
+        "`.social-btn--secondary` dark icon-only button modifier (source .cmp-button--secondary .cmp-button) — shared with magazine article author cards (authored identically in us-en-magazine-guide-la-skateparks-html.css)",
+        "`.text-small p { font-size: 14px }` (source .cmp-text--font-small p) — shared with the FAQ help-contact text"
+      ],
+      "registerRequests": [],
+      "notes": "Counts reconciled against the rendered DOM before authoring: 18 headings = h1 ×1 (About Us), h2 ×2 (underlined: Our Contributors, WKND Guides), h3 ×7 + h5 ×7 (4 contributors + 3 guides), h4 ×1 (footer Follow Us); 7 cards × 3 social buttons = 21; 2 italic 14px intro paragraphs. Card order/labels verbatim incl. per-card aria-labels/hrefs and Kumar Selveraj's Facebook–Instagram–Twitter button order; avatar alt is empty on live and kept empty. Nav current state: About Us carries aria-current=\"page\" in header, mobile nav and footer (live markup). Canon reused unchanged: h1 40px / h3 / h5 sizes, .section-title--underline, .social-btn base + .icon--facebook/twitter/instagram glyphs, header/footer markup. contributor-card stays per-archetype (DESIGN.json module candidate-f7f01b3: 14 instances on us/ca about only). No JS file (no page behaviour fired). Sibling /ca/en/about-us shares this template for migrate.",
+      "source": "stardust/replica/progress/us-en-about-us-html.json"
+    },
+    "program": {
+      "archetype": "us-en-adventures-climbing-new-zealand-html",
+      "liveUrl": "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+      "prototype": "stardust/prototypes/us-en-adventures-climbing-new-zealand-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "rounds": [
+            "iter1 --full 3.17% Δh -1",
+            "iter2 3.42% Δh -1",
+            "iter3 0.40% Δh 0",
+            "confirm --full 0.40% (units false-FAIL: stale cache)",
+            "confirm2 --full 0.40% Δh 0 exit 0"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 1,
+            "pixelPct": 0.4,
+            "heightDelta": 0,
+            "chromeParity": "pass (header crop 0.14%, footer crop 0.00%)",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "12/12 within 4px (all Δ 0)",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff advisory STRETCHED IMAGE sport-climbing-400w.jpeg → 360x400: intentional cover crop (same source rule; live selects the same 400w rendition)"
+          ],
+          "residuals": [
+            "band y1500–2000 2.0% (crop y1300+320 4.08%): Overview h2 'Let us take you on a spectacular climbing experience unique to New Zealand' (Asar, synthetic bold via <b>) wraps 'climbing' alone on live, 'climbing experience' on build — same 5 lines, same height (Δh 0). Same font file (md5 ebee597d… = gstatic Asar v24 latin), same bytes, every computed font prop equal (measure nz-m-h2c); the live inline box measures 5px wider at 1440 with pixel-identical glyphs (crop 0.01%), so it is a sub-pixel line-breaking difference, not a style fork. No instrument names a fixable rule (pixel 0.40% is within the bar); logged as a residual rather than guessed at."
+          ]
+        },
+        "1440": {
+          "iterations": 2,
+          "rounds": [
+            "iter1 --full 0.76% Δh 0",
+            "iter2 0.03%",
+            "iter3 0.03%",
+            "confirm --full 0.03% Δh 0"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 1,
+            "pixelPct": 0.03,
+            "heightDelta": 0,
+            "chromeParity": "pass (header crop 0.00%, footer crop 0.00%)",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "12/12 within 4px",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff advisory STRETCHED IMAGE sport-climbing-1600w.jpeg → 1440x400: intentional cover crop, source `.cmp-carousel--mini .cmp-image__image { height: 25pc; object-fit: cover }` (live renders the same rendition the same way)"
+          ],
+          "residuals": []
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/us-en-adventures-climbing-new-zealand-html-2560/cap-iter.json); the 873px tabs cap is the 9/12 grid column, replicated as measured",
+      "units": [
+        "program-trip-facts",
+        "program-content-tabs",
+        "program-gallery-indicators"
+      ],
+      "motion": {
+        "observed": [
+          "carousel prev/next/indicator → cmp-carousel__item--active + cmp-carousel__indicator--active, fadeIn .5s on the entering slide (3 pokes)",
+          "content tabs click → cmp-tabs__tab--active + cmp-tabs__tabpanel--active (3 pokes)",
+          "header scroll morph body.scrolly, padding transitions 0.5s (canon)"
+        ],
+        "implemented": [
+          "trip-gallery carousel prev/next/indicator (us-en-adventures-climbing-new-zealand-html.js; fadeIn .5s in CSS)",
+          "content-tabs click switching with aria-selected / tabindex / aria-hidden (same js)",
+          "header morph — canon.js, unchanged"
+        ],
+        "dead": [
+          "carousel autoplay (0 idle class mutations)",
+          "hover: tab, breadcrumb link, carousel arrow, carousel indicator, trip-fact item (no measured hover diff)"
+        ],
+        "compare": "motion-compare: 9 parity, 0 missing, 0 extra, 0 advisory (11 dead or unobserved on live)",
+        "pixelAfterMotion": {
+          "360": 0.4,
+          "1440": 0.03
+        }
+      },
+      "canonRequests": [
+        "h5 base rule 14px (+ corroborates h1 40px)",
+        "active nav item (Adventures) — corroborates us-en-faqs-html request; build uses <li class=\"is-active\">",
+        "promote breadcrumb module",
+        "promote share-bar module",
+        "icon glyph .icon--play3 (\\ea1c)"
+      ],
+      "registerRequests": [
+        "873px tabs cap = 9/12 grid column (intent) — informational, replicated as measured"
+      ],
+      "notes": [
+        "Content: verbatim from the page JSON + rendered DOM, &nbsp; byte patterns kept, <b> inside tab h2s mirrored, hidden contentfragment <h3> titles (display:none) mirrored ×4, inactive tab panels mirrored hidden (aria-hidden), img title attributes carried over (content-diff iter1 🟡 ×6 → none).",
+        "Layout: the source float grid is mirrored (.trip-layout = .cmp-layout-container--fixed 1164 content-box + 14px padding = 1192; .trip-grid clearfix tables; 3/9 float columns; trip-facts dl/items floated content-box). An intermediate non-BFC wrapper inside the aside (.trip-aside__inner, live div.cmp-container) is load-bearing: without it Chrome placed the floated facts 23px higher (h5 margin strut).",
+        "Carousel action icon: live computed font-family wknd-icon-font 20px / 20px on .cmp-carousel__action-icon with no rule in the captured sheets — lifted from computed style (fixed a 4px button offset).",
+        "Image renditions: live srcset 100…1200,1600w with no sizes; a fresh 360 load selects 400w, 1440 selects 1600w — authored the same srcset on local renditions (fixed 360 from 3.42% to 0.40% and Δh -1 → 0).",
+        "Header/footer: canon markup verbatim; content changes only — en-US / en-CA locale links point at this adventure (as on live), Adventures marked active.",
+        "Script trap (report to coordinator): unit-geometry's origin cache stardust/current/measure/<slug>-units.json is NOT width-keyed — a 1440 run's cache made the first 360 confirm read 1440 origin boxes (12 'off'). Cleared and re-ran (confirm2, exit 0); cache removed again afterwards. gate-all at 1440 then 360 will hit the same trap.",
+        "Fonts: canon Asar / Source Sans Pro (same public source, no substitution)."
+      ],
+      "source": "stardust/replica/progress/us-en-adventures-climbing-new-zealand-html.json"
+    },
+    "listing": {
+      "archetype": "us-en-adventures-html",
+      "liveUrl": "https://wknd.site/us/en/adventures.html",
+      "prototype": "stardust/prototypes/us-en-adventures-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 1,
+          "rounds": [
+            "iter1 --full 1.06% PASS",
+            "iter2 pixel 1.02%",
+            "confirm --full 1.02%"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 16,
+            "pixelPct": 1.02,
+            "heightDelta": 0,
+            "chromeParity": "pass (chrome-parity ✓; crop header 99.86%, footer 100.00%)",
+            "clipped": 0,
+            "overflow": 0,
+            "unitGeometry": "12 compared, 0 off → PASS",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE x16 (card images): intentional object-fit: cover crops lifted from source"
+          ],
+          "residuals": [
+            "1.02% — image rendition (live srcset 400w vs harvested 1280w file downscaled), no hot band"
+          ]
+        },
+        "1440": {
+          "iterations": 1,
+          "rounds": [
+            "iter1 --full 10.54% FAIL (hot 0-1000: hero img 810 tall, h1 +14px gutter)",
+            "iter2 pixel 0.19%",
+            "confirm --full 0.19%"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 17,
+            "pixelPct": 0.19,
+            "heightDelta": 0,
+            "chromeParity": "pass (chrome-parity ✓; crop header 100.00%, footer 100.00%)",
+            "clipped": 0,
+            "overflow": 0,
+            "unitGeometry": "12 compared, 0 off → PASS",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE x17 (16 card images + hero): intentional object-fit: cover crops lifted from source (.cmp-image-list .cmp-image__image / .cmp-teaser--hero .cmp-image__image object-fit: cover); live renders the same boxes (260x200, 1440x640)"
+          ],
+          "residuals": [
+            "0.19% — anti-aliasing / JPEG rendition (harvested 1280w file vs live srcset 1600w), no hot band"
+          ]
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 5 rows failed (stardust/replica/gates/us-en-adventures-html-2560/cap-iter.json)",
+      "units": [
+        "adventure-card-grid",
+        "adventure-category-tab"
+      ],
+      "motion": {
+        "observed": [
+          "tab click → cmp-tabs__tab--active / cmp-tabs__tabpanel--active moved (3 pokes)",
+          "header scroll-morph (canon)"
+        ],
+        "implemented": [
+          "tab click switching (us-en-adventures-html.js): active classes, aria-selected, tabindex, aria-hidden on panels"
+        ],
+        "dead": [
+          "tab hover (no style change)",
+          "card link hover (no style change)",
+          "tab transitions/animations (none)"
+        ],
+        "compare": "6 parity, 0 missing, 0 extra (motion-compare)",
+        "files": [
+          "stardust/replica/motion/us-en-adventures-html.json",
+          "stardust/replica/motion/us-en-adventures-html-build.json"
+        ]
+      },
+      "canonRequests": [
+        "h1 font-size 40px",
+        "nav aria-current=page active state (header yellow bg, footer underline)",
+        "promote .hero-teaser* with cmp-teaser--hero standalone heights",
+        "promote .image-list*",
+        "list underlined-section-title as shared module in CANON.md"
+      ],
+      "registerRequests": [],
+      "notes": "Brief listed 7 tabs (All, Camping, Cycling, Rock Climbing, Skiing, Social, Surfing); the rendered DOM of both /us/en/adventures and /ca/en/adventures has 6 tabs (All, Climbing, Cycling, Skiing, Surfing, Travel) with 16/2/3/3/2/6 cards — authored as captured; dynamic-features.md row #4 / Listings contract ('7 category tab panels') should be corrected to 6. Hidden panels are mirrored in the DOM (aria-hidden, display:none). Tab state classes reuse the live names (cmp-tabs__tab--active, cmp-tabs__tabpanel--active) so motion-compare matches. Keyboard arrow navigation was not observed and is not implemented. /ca/en/adventures shares this archetype (same structure/counts; locale hrefs /ca/en/…, tab ids differ, lang toggle en-CA needs the CA flag canon request noted in CANON.md).",
+      "source": "stardust/replica/progress/us-en-adventures-html.json"
+    },
+    "unique": {
+      "archetype": "us-en-ai-powered-search-html",
+      "liveUrl": "https://wknd.site/us/en/ai-powered-search.html",
+      "prototype": "stardust/prototypes/us-en-ai-powered-search-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 0,
+          "rounds": [
+            "iter1 --full (run on the final code, after the 1440 icon fix) — PASS, serves as confirmation",
+            "motion pixel round — 0.02 %, Δh 0"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 0,
+            "pixelPct": 0.02,
+            "heightDelta": 0,
+            "chromeParity": "within tolerance (crop header 99.87 % — the canon 360 header residual also recorded on faqs, footer 100.00 %, main band 100.00 %)",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "n/a",
+            "pass": true
+          },
+          "justified": [
+            "content-diff 🟡 MISSING BODY ×3 [main]: runtime x-template scripts, as at 1440."
+          ],
+          "residuals": []
+        },
+        "1440": {
+          "iterations": 1,
+          "rounds": [
+            "iter1 --full (0.00 %, Δh 0; 1 structural 🔴 ICON DIFF: search/clear icons rehosted as files vs source data-URI SVGs)",
+            "iter2 --full confirmation (icons = the source data-URI SVGs verbatim) — PASS",
+            "motion pixel round — 0.00 %, Δh 0"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 0,
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "chromeParity": "within tolerance (crop header 100.00 %, footer 100.00 %, main band 100.00 %)",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "n/a (no repeated-unit family on this page)",
+            "pass": true
+          },
+          "justified": [
+            "content-diff 🟡 MISSING BODY ×3 [main]: the source's three <script type=\"x-template\"> runtime item templates (card row, list row, source chip) — markup strings, never rendered; results/sources are produced at runtime by search (row #6) / AI summary (row #7) and are delivered in Phase 5. Not authored in the prototype (no faked results)."
+          ],
+          "residuals": []
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/us-en-ai-powered-search-html-2560/cap-iter.json)",
+      "units": [],
+      "motion": {
+        "observed": [
+          "summary toggle click: native checkbox checked ⇄ unchecked (default checked), transitions background-color .15s (#ffea00 ⇄ #cacaca) and knob ::before transform .15s (translateX 1rem)",
+          "input focus: :focus outline 2px solid #202020, offset -1px (computed-style probe; pseudo-class, not sampled by motion-observe)",
+          "typing one character: clear button un-hidden (hidden=false, display block) — icon at the field's right edge (1264,208 16×16 @1440); no request, loading indicator stays hidden",
+          "clear (click on its icon — the button itself is 0×0): input emptied, button hidden again, focus falls to body",
+          "Enter submit: no navigation (component runs the query in place) — the query/results/summary themselves need the backend (rows #6/#7, Phase 5)"
+        ],
+        "implemented": [
+          "us-en-ai-powered-search-html.js: input → clear.hidden = (value === ''); clear click → value '' + hidden; form submit preventDefault (no navigation, no request)",
+          "CSS: toggle :checked colour + knob transform with the source .15s ease transitions, :focus-visible ring; input :focus outline",
+          "header morph via canon.js (unchanged; page too short to scroll on live — reported dead)"
+        ],
+        "dead": [
+          "header scroll-morph — page shorter than the viewport, no scroll on live",
+          "hover on .cmp-contentaisearch__ai-toggle (no measured change)",
+          "widget frame sampling on input / clear / toggle (no track/scroll/box change — state is class/attribute/pseudo, confirmed by the computed-style probe above)"
+        ],
+        "compare": "motion-compare: 2 parity, 0 missing, 0 extra, 0 advisory (5 dead or unobserved on live)",
+        "pixelAfterMotion": {
+          "360": 0.02,
+          "1440": 0
+        }
+      },
+      "canonRequests": [],
+      "registerRequests": [],
+      "notes": [
+        "Register R-03 (visually hidden <h1> \"AI-Powered Search\") is applied AT DELIVERY, like R-01 on the home: the gated prototype mirrors the source heading outline (no h1 in main; only the footer h4), so content-diff compares like for like. The delivered block/page must add the visually hidden h1 as the main content root's first child (zero rendered pixels).",
+        "At-rest state replicated: visually hidden label \"Search\", search icon, input (placeholder verbatim, name q, autocomplete off), clear button hidden, loading indicator display none, toggle \"Show AI-generated summary\" checked (36×20, radius 16px). The runtime panels (summary-loading, summary, error, results section with Cards/List toggle and Load more) are authored hidden with their verbatim strings, so Phase 5 fills them without new copy.",
+        "Values lifted from the source .cmp-contentaisearch* rules (clientlib-base dee90560…); the component has no @media rules. Icons are the source data-URI SVGs inline, verbatim (rehosting them as files raised a structural ICON DIFF in iter1).",
+        "Layout: main = .page-main.fixed-container > .col (live main.container.responsivegrid cmp-layout-container--fixed, cap 1164, .contentaisearch 14px gutters). Section height 71 = field 32 + toggle margin 12 + the inline-flex toggle on a 27px strut line — reproduced by the same CSS, measure.mjs Δ 0 on every box at 1440 and 360.",
+        "Live geometry kept: page content (579 px @1440, 843 px @360) shorter than the 900 viewport — white area below the footer on both sides.",
+        "Source quirk replicated as captured: the clear <button> is 0×0 (its icon child is absolutely positioned against the field), so the click lands on the icon; noted for the Phase 5 block (not an inconsistency-register item — no visual delta).",
+        "Nav current state: live marks only the hidden level-0 Home item on this page (no level-1 --active, no aria-current) — canon chrome used without current-page markers.",
+        "Prototype never calls the live search service and renders no results (checked: no requests on type/Enter). Row #6 (index-backed search, self) and row #7 (AI summary, needs-backend, D4) are Phase 5.",
+        "Instrument discipline: stardust/current/measure/us-en-ai-powered-search-html-units.json deleted before every gate round; the 1440 and 360 rounds were run one after the other, never concurrently."
+      ],
+      "source": "stardust/replica/progress/us-en-ai-powered-search-html.json"
+    },
+    "faq": {
+      "archetype": "us-en-faqs-html",
+      "liveUrl": "https://wknd.site/us/en/faqs.html",
+      "prototype": "stardust/prototypes/us-en-faqs-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "rounds": [
+            "iter1 --full (map, 0.86 % — intro band 2.4 % from image rendition ratio)",
+            "iter2 pixel (srcset 1600w only — no-op at 360: live selects 400w)",
+            "iter3 --full (full live srcset 100w…1600w)",
+            "motion pixel round"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 0,
+            "pixelPct": 0.03,
+            "heightDelta": 0,
+            "chromeParity": "within tolerance (crop header 99.87 %, footer 100.00 %)",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "7 compared, 14 within, 0 off",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": []
+        },
+        "1440": {
+          "iterations": 2,
+          "rounds": [
+            "iter1 --full (map)",
+            "iter2 pixel (srcset 1600w)",
+            "iter3 --full (full live srcset) — unit-geometry instrument-invalidated, re-run as iter3b --full (not counted)",
+            "motion pixel round"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 0,
+            "pixelPct": 0.03,
+            "heightDelta": 0,
+            "chromeParity": "within tolerance (crop header 100.00 %, footer 100.00 %)",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "7 compared, 14 within, 0 off",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": []
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/us-en-faqs-html-2560/cap-iter.json)",
+      "units": [
+        "faq-accordion-item (.cmp-accordion__item = .faq-accordion__item, n 7, required)"
+      ],
+      "motion": {
+        "observed": [
+          "faq-accordion click toggle: button +cmp-accordion__button--expanded, panel +cmp-accordion__panel--expanded / +cmp-accordion__panel--hidden (incoming class added before outgoing removed)",
+          "multi-expansion: opening item 2 left item 1 open; second click on item 1 collapsed it",
+          "panel entrance animation fadeIn .5s both on expand",
+          "header scrolly morph (canon, padding .5s)"
+        ],
+        "implemented": [
+          "us-en-faqs-html.js accordion state machine with the live state class names, aria-expanded / aria-hidden",
+          "CSS fadeIn .5s both on .faq-accordion__panel, expanded button border none, icon \\e911 → \\e910",
+          "header morph via canon.js (unchanged)"
+        ],
+        "dead": [
+          "hover on .cmp-accordion__button (no measured change)",
+          "hover on help-contact links (no measured change)",
+          "accordion widget frames — no transform/scroll/height transition sampled (display swap + fadeIn only)"
+        ],
+        "compare": "motion-compare: 8 parity, 0 missing, 0 extra",
+        "pixelAfterMotion": {
+          "360": 0.03,
+          "1440": 0.03
+        }
+      },
+      "canonRequests": [
+        "h1 { font-size: 40px } base rule",
+        "underlined-section-title = canon .section-title--underline promoted/documented for h1 + h2",
+        "header/footer current-page active modifier (FAQs active)",
+        ".separator--space-small / .separator--hidden modifiers",
+        ".icon--plus \\e911 / .icon--minus \\e910 glyph classes"
+      ],
+      "registerRequests": [],
+      "notes": [
+        "Source quirk replicated as captured: accordion buttons keep the UA font (Arial 13.33px, color #000) — only the title span carries Source Sans Pro 600 16px uppercase.",
+        "Content verbatim incl. AEM byte patterns: &nbsp; runs in answers, the empty <h3>&nbsp;</h3> inside answer 2, <b> names in answer 7, the 'WKDN' / 'to to' / 'is create' source typos, help text <br> breaks and the 'info<a>@wknd.com</a>' split link.",
+        "Layout: main = .page-main.fixed-container (live main.container.responsivegrid cap 1164); ≥1025 flex 66.6667 % primary + 25 % aside with 8.3333 % offset (aem default--8 / default--3 offset 1); ≤1024 stacked; lead image 66.6667 % ≤1024 (tablet/phone--8), intro 66.6667 % at 768–1024 (tablet--8). Aside children carry no 14px gutter (live .responsivegrid.aem-GridColumn padding 0, no inner grid) — replicated.",
+        "Lead image: live srcset (100w…1600w AEM renditions, no sizes) authored verbatim on rehosted renditions fetched from the live coreimg URLs; live selects 400w at 360 and 1600w (1447×964) at 1440 — the 360 intro band 2.4 % in iter1 was this rendition-ratio sub-pixel shift (0.3 px).",
+        "Help paragraph text-align left mirrors the live computed value (source p is justify; all lines end in <br> so the render is identical).",
+        "Instrument defect (not a page defect): unit-geometry's origin cache stardust/current/measure/<slug>-units.json is keyed by slug, not width — the 1440 and 360 --full rounds run concurrently read each other's origin (iter3 1440 compared against 360 origin boxes: Δx +138 Δw +416 on all 7 units). Deleted the cache and re-ran 1440 alone (iter3b PASS). The cache now holds 1440 origin data; delete it before any further 360 --full round of this slug.",
+        "ca-en sibling (/ca/en/faqs) differs only in locale chrome (CA flag/active locale, /ca/en hrefs) and its own accordion ids — template-apply in migrate."
+      ],
+      "source": "stardust/replica/progress/us-en-faqs-html.json"
+    },
+    "article": {
+      "archetype": "us-en-magazine-guide-la-skateparks-html",
+      "liveUrl": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
+      "prototype": "stardust/prototypes/us-en-magazine-guide-la-skateparks-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 0,
+          "confirmationRound": "iter1 (--full --main main; first round passed, no fix needed)",
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 1,
+            "pixelPct": 0.15,
+            "heightDelta": -1,
+            "chromeParity": "✓ within tolerance; crop header y0+117 0.14 %, footer y6289+593 0.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "article-up-next 4 units, 12 elements within 4 px",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff advisory STRETCHED IMAGE stacey-roswells.jpeg → 60x60: intentional cover crop (as 1440)"
+          ],
+          "residuals": [
+            "Δh −1 px (live 6882 vs build 6883): sub-pixel rounding below the footer — the footer crop at the same y on both sides matches 100 %"
+          ]
+        },
+        "1440": {
+          "iterations": 1,
+          "confirmationRound": "iter2 (--full --main main)",
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": 1,
+            "pixelPct": 0.09,
+            "heightDelta": 0,
+            "chromeParity": "✓ within tolerance; crop header y0+194 0.00 %, footer y4547+260 0.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "units": "article-up-next 4 units, 12 elements within 4 px",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff advisory STRETCHED IMAGE stacey-roswells.jpeg 1280x853 → 60x60: intentional cover crop, source .cmp-byline .cmp-byline__image .cmp-image__image { width/height 60px; object-fit: cover; border-radius: 30px } — identical on live"
+          ],
+          "residuals": [],
+          "fixLog": [
+            "iter1 → iter2: up-next title/date spans separated by a space (live byte pattern; cleared 4 MISSING CTA 🔴 + 4 EXTRA 🟠), up-next link/title/date box-sizing content-box (source content-box under canon border-box: link 120 → 136 px, title 226 → 236 px; unit-geometry FAIL → PASS)"
+          ]
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 6 rows failed (advisory: live 4 vs build 3 top-level sections — live inner <main> + <aside> are grid siblings of the image/breadcrumb columns; build wraps them in .article-layout)",
+      "units": [
+        "article-up-next"
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-morph (canon)",
+          "hover .cmp-list--upnext .cmp-list__item-link → background #ffea00 + border-color #202020"
+        ],
+        "implemented": [
+          "header scroll-morph (canon.js)",
+          "hover .up-next__link (CSS :hover, source values)"
+        ],
+        "dead": [
+          ".cmp-breadcrumb__item-link hover",
+          ".cmp-download__action hover",
+          ".cmp-download__title-link hover",
+          ".cmp-button--secondary .cmp-button hover"
+        ],
+        "compare": "stardust/replica/motion/us-en-magazine-guide-la-skateparks-html-compare.json — 5 parity, 0 missing, 0 extra",
+        "pixelAfterMotion": {
+          "360": 0.15,
+          "1440": 0.09
+        }
+      },
+      "canonRequests": [
+        "breadcrumb grid variant .breadcrumb-bar--grid (plain .cmp-breadcrumb as a grid column; list margin-top 1em + padding-top 12px, ≤1024 margin-top 0) — document as per-archetype divergence",
+        ".social-btn--secondary (source .cmp-button--secondary) — promote next to canon .social-btn"
+      ],
+      "registerRequests": [],
+      "notes": "Modules reused from canon: header/footer (Magazine li.is-active in header, mobile nav, footer — live marks the section --active without aria-current), breadcrumb, share-bar (h5 'SHARE THIS STORY'; FB/Pinterest placeholders unhydrated, height 0 as live), underlined section titles (h2 in grid columns), separator + --space-small/--hidden, .social-btn, h1 40px / h4 / h5. Article-only modules authored here: lead image (srcset 100–1600w, sizes 100vw as live), 12-col float grid, pull-quote (.cmp-text--quote), author-byline-card (60px avatar, 30px radius), download-card (verified present on this page; glyph \\e907 as pseudo content), up-next-list (4 items, self-link first). The contentfragment title h3 is kept hidden as on live. Empty AEM grid wrappers omitted (0 height, no margin effect — measured). Content verbatim incl. source typos ('achievment', 'then') and &nbsp; patterns. Media copied to stardust/prototypes/assets/media/: article-01-hero-*w.png, article-01-picture-01-*w.png, robson-hatsukami-morgan-280159-*w.jpeg (live renditions .coreimg.60.<w>); stacey-roswells.jpeg already present (identical bytes). No JS file (no observed page behaviour beyond canon).",
+      "source": "stardust/replica/progress/us-en-magazine-guide-la-skateparks-html.json"
+    },
+    "magazine-listing": {
+      "archetype": "us-en-magazine-html",
+      "liveUrl": "https://wknd.site/us/en/magazine.html",
+      "prototype": "stardust/prototypes/us-en-magazine-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 0,
+          "rounds": [
+            "iter1 --full",
+            "confirm --full"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "7 advisory (justified)",
+            "pixelPct": 0.16,
+            "heightDelta": 0,
+            "chromeParity": "✓ within tolerance; crop-compare header 0.13 %, footer 0.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "unitGeometry": "7 compared, 0 off/hidden/missing → PASS",
+            "pass": true
+          },
+          "justified": [
+            "STRETCHED IMAGE on every object-fit:cover image (featured @1440, 5 article cards, 2 members teasers) — identical list flagged on the SOURCE side (source cover crops: .cmp-teaser--featured img object-fit cover, .cmp-image-list img 200px cover, .cmp-teaser--list img max-height 200px cover)"
+          ],
+          "residuals": [
+            "live 360 height is load-timing dependent: featured image box measured 173 px (scrollHeight 4389) in one live measure run and 194 px (4410) in the next and in the gated live.png; build matches the 4410 state (Δh 0)"
+          ]
+        },
+        "1440": {
+          "iterations": 0,
+          "rounds": [
+            "iter1 --full",
+            "confirm --full"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "8 advisory (justified)",
+            "pixelPct": 0.23,
+            "heightDelta": 0,
+            "chromeParity": "✓ within tolerance; crop-compare header 0.00 %, footer 0.00 %",
+            "clipped": 0,
+            "overflow": 0,
+            "unitGeometry": "7 compared, 0 off/hidden/missing → PASS",
+            "pass": true
+          },
+          "justified": [
+            "STRETCHED IMAGE on every object-fit:cover image (featured @1440, 5 article cards, 2 members teasers) — identical list flagged on the SOURCE side (source cover crops: .cmp-teaser--featured img object-fit cover, .cmp-image-list img 200px cover, .cmp-teaser--list img max-height 200px cover)"
+          ],
+          "residuals": [
+            "0.23 % — featured image rendition (live 1181×665 via srcset, build single 1280×720 file); no hot band"
+          ]
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/us-en-magazine-html-2560/cap-iter.json); advisory: live 9 vs build 8 top-level sections (the two members-teaser grid columns sit in one .members-teasers float wrapper)",
+      "units": [
+        "article-card-grid",
+        "members-only-teaser"
+      ],
+      "motion": {
+        "observed": [
+          "header scroll-morph (canon: body.scrolly, padding transitions 500ms)"
+        ],
+        "implemented": [
+          "header scroll-morph (canon.js, unchanged)"
+        ],
+        "dead": [
+          "hover .cmp-image-list__item a (no measured diff)",
+          "hover featured .cmp-teaser__action-link (no measured diff)",
+          "hover .cmp-teaser--secure .cmp-teaser (no measured diff)"
+        ],
+        "compare": "motion summary: 4 parity, 0 missing, 0 extra, 0 advisory",
+        "pixelAfterMotion": {
+          "360": 0.16,
+          "1440": 0.23
+        }
+      },
+      "canonRequests": [
+        ".featured-teaser* promote from us-en-html.css (home + magazine)",
+        ".separator--space-medium { margin: 2em 0 }",
+        ".members-teaser* (+ .icon--lock \\e98f) promote if a second template uses it"
+      ],
+      "registerRequests": [],
+      "notes": [
+        "Register entries for magazine-listing: none applied.",
+        "No <slug>.js — no page behaviour beyond canon (motion-observe: only the header morph fired).",
+        "Featured CTA reads Read More (captured), home reads Full Article.",
+        "Members teasers: image drops below the floated text/button on /us/en too (live measure @1440 img y2009 under content bottom 2002) — the origin layout, replicated via the same float + inline-img model.",
+        "section-cta-button: no instance on /us/en/magazine (DESIGN.json lists it on the home only).",
+        "Sign In (row #10) stays the canon static link."
+      ],
+      "source": "stardust/replica/progress/us-en-magazine-html.json"
+    },
+    "coming-soon": {
+      "archetype": "us-es-html",
+      "liveUrl": "https://wknd.site/us/es.html",
+      "prototype": "stardust/prototypes/us-es-html-proposed.html",
+      "status": "gated",
+      "breakpoints": {
+        "360": {
+          "iterations": 0,
+          "rounds": [
+            "iter1 --full (first = confirmation, no fix needed)",
+            "motion pixel round 0.75 %"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.75,
+            "heightDelta": 0,
+            "chromeParity": "✓ within tolerance; crop-compare header y0+130 0.13 % PASS, footer y698+463 0.00 % PASS",
+            "clipped": 0,
+            "overflow": "scrollWidth 360 = viewport",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [
+            "0.75 % all in the hero band (crop y130+330 2.51 %, thin-edge texture): image-rendition resample (live srcset rendition vs the single prototype file)"
+          ]
+        },
+        "1440": {
+          "iterations": 1,
+          "rounds": [
+            "iter1 --full (0.19 %, Δh 0, 0 🔴, 2 🟡 EDITABLE COUNT header/footer)",
+            "iter2 --full confirmation (0.19 %, Δh 0, content-diff none)",
+            "motion pixel round 0.19 %"
+          ],
+          "result": {
+            "structuralRed": 0,
+            "visualFlags": "1 advisory — STRETCHED IMAGE adobestock-216674449.jpeg 1440x640 (justified)",
+            "pixelPct": 0.19,
+            "heightDelta": 0,
+            "chromeParity": "✓ within tolerance; crop-compare header y0+200 0.00 % PASS, footer y1018+260 0.00 % PASS",
+            "clipped": 0,
+            "overflow": "scrollWidth 1440 = viewport",
+            "pass": true
+          },
+          "justified": [
+            "visual-diff STRETCHED IMAGE (hero): intentional object-fit: cover crop lifted from source .cmp-teaser--hero .cmp-image__image; live renders the same 1440x640 box"
+          ],
+          "residuals": [
+            "0.19 % all in the hero band (crop y200+820 0.29 %, thin-edge texture): image-rendition resample — live serves the srcset rendition, the prototype one 1280x720 file"
+          ]
+        }
+      },
+      "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/us-es-html-2560/cap-iter.json)",
+      "units": [],
+      "motion": {
+        "observed": "stardust/replica/motion/us-es-html.json (1440: header scroll-morph, lang toggle click, hero hover) + us-es-html-360.json (360: mobile toggle) — header scroll-morph (body.scrolly, padding transitions 500ms), language menu (open/showMenu), mobile nav (navPanel-visible, transform 500ms)",
+        "implemented": [
+          "header scroll-morph, language menu, mobile nav — all canon.js; no page JS"
+        ],
+        "dead": [
+          "hover .cmp-teaser__image (no measured change on live)"
+        ],
+        "compare": "1440: 6 parity, 0 missing, 0 extra; 360: 3 parity, 0 missing, 0 extra (build: stardust/replica/motion/us-es-html-build.json, us-es-html-360-build.json); post-motion pixel rounds 1440 0.19 % / 360 0.75 % = gated values",
+        "files": [
+          "stardust/replica/motion/us-es-html.json",
+          "stardust/replica/motion/us-es-html-build.json",
+          "stardust/replica/motion/us-es-html-360.json",
+          "stardust/replica/motion/us-es-html-360-build.json"
+        ]
+      },
+      "canonRequests": [
+        "[us-es-html] promote the standalone .cmp-teaser--hero heights (us-en-adventures-html.css) into canon — second template (coming-soon) uses them; copied into us-es-html.css",
+        "[us-es-html] § Locale chrome coming-soon nav: keep the level-0 list (<ul><li class=\"nav-home-item\"> around .nav-home, header + footer) + <=1024 footer li.nav-home-item margin-bottom 0 — canon markup gave 🟡 EDITABLE COUNT header 1 vs 2, footer 4 vs 5; compensated in this archetype"
+      ],
+      "registerRequests": [],
+      "notes": "First coming-soon page; proves the canon3 § Locale chrome: toggle lang-toggle--us + label/aria-label es-US, lang-menu active markers on US / es-US, <html lang=\"es-US\">, logo (header + footer) -> /us/es.html, no level-1 nav items, hidden .nav-home labelled Español with aria-current=page, single mobile-nav item Español, search href unchanged, footer without the Canadian note. One deviation from the CANON.md markup (filed): the hidden .nav-home is wrapped in <ul><li class=\"nav-home-item\"> to mirror live granularity. Register R-02 (hero title h2 -> h1, styled identically) is applied AT DELIVERY, like R-01 on the home: the prototype mirrors the source outline (h2) so content-diff compares like for like; the delivered h1 must keep the hero-teaser__title class (36px/54px, margin 18px 0 0 beats the canon h1 40px). Separator sits directly in .fixed-container (no .col), as on live (cmp-layout-container--fixed > cmp-container > separator, no grid column). The 8 sibling locale homes (/ca/fr --ca fr-CA Français, /ch/de|fr|it --ch de-CH|fr-CH|it-CH Deutsch|Français|Italiano, /de/de --de de-DE Deutsch, /fr/fr --fr fr-FR Français, /es/es --es es-ES Español, /it/it --it it-IT Italiano) are this template with only the chrome locale deltas + links changed. No repeated-unit families on the page (units.json untouched).",
+      "source": "stardust/replica/progress/us-es-html.json"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "_provenance": {
-    "writtenBy": "stardust:extract",
-    "writtenAt": "2026-10-23T07:17:58Z",
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-10-23T10:02:54Z",
     "stardustVersion": "plugin@excat-extended"
   },
   "site": {
@@ -15,6 +15,7 @@
     "captureGapsNote": "crawl.mjs locale-root detector reported none (\".html\" locale roots not recognised); gaps closed manually by two --pages re-crawls (25 + 13 pages) until no same-origin .html link was uncaptured."
   },
   "direction": null,
+  "handsOff": true,
   "flow": "replica",
   "flowChosenAt": "2026-10-16T12:21:55Z",
   "flowSource": "user-phrase",
@@ -505,17 +506,26 @@
       "url": "https://wknd.site/ca/en/magazine/members-only.html",
       "title": "Members Only",
       "type": "members-only-listing",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:26.632Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-members-only-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/ca-en-magazine-members-only-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -721,17 +731,26 @@
       "url": "https://wknd.site/us/en/about-us.html",
       "title": "About Us",
       "type": "static",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:43.026Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-about-us-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-about-us-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -775,17 +794,26 @@
       "url": "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
       "title": "Climbing New Zealand",
       "type": "program",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:53.087Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:53Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-adventures-climbing-new-zealand-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-adventures-climbing-new-zealand-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -883,17 +911,26 @@
       "url": "https://wknd.site/us/en/adventures.html",
       "title": "Adventures",
       "type": "listing",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:40.362Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:17Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:53Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-adventures-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-adventures-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -1045,17 +1082,26 @@
       "url": "https://wknd.site/us/en/ai-powered-search.html",
       "title": "AI-Powered Search",
       "type": "unique",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:41.726Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-ai-powered-search-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-ai-powered-search-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -1063,17 +1109,26 @@
       "url": "https://wknd.site/us/en/faqs.html",
       "title": "FAQs",
       "type": "faq",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:43.041Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-faqs-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-faqs-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -1099,17 +1154,26 @@
       "url": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
       "title": "Ultimate Guide to LA Skateparks",
       "type": "article",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:53.011Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-magazine-guide-la-skateparks-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-magazine-guide-la-skateparks-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -1117,17 +1181,26 @@
       "url": "https://wknd.site/us/en/magazine.html",
       "title": "Magazine",
       "type": "magazine-listing",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:38.775Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-magazine-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-en-magazine-html-proposed.html",
       "migratedPath": null
     },
     {
@@ -1189,19 +1262,27 @@
       "url": "https://wknd.site/us/es.html",
       "title": "Español",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:26.829Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-23T09:54:18Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-23T10:02:54Z",
+          "approvedBy": "hands-off"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-es-html.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/us-es-html-proposed.html",
       "migratedPath": null
     }
-  ],
-  "handsOff": true
+  ]
 }

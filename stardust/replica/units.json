@@ -122,5 +122,17 @@
     "templates": [
       "article"
     ]
+  },
+  "members-only-card-grid": {
+    "origin": ".cmp-image-list .cmp-image-list__item",
+    "build": ".image-list .image-list__item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "ca-en-magazine-members-only-html"
+    ],
+    "templates": [
+      "members-only-listing"
+    ]
   }
 }

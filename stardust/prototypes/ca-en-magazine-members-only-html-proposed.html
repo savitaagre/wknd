@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- stardust:provenance
+  writtenBy: stardust:replica
+  phase: recreate
+  againstInput: https://wknd.site/ca/en/magazine/members-only.html
+  readArtifacts: stardust/current/pages/ca-en-magazine-members-only-html.json, stardust/current/pages/ca-en-magazine-members-only-html.html, stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css, stardust/prototypes/CANON.md
+  mode: preserve (clean re-authoring, not a DOM copy)
+  counts: title 1 (plain h1, no underline); image-list 1 with 2 article cards; reconciled from the rendered DOM
+  chrome: canon3 § Locale chrome, first /ca/en page (lang-toggle--ca, en-CA, /ca/en links, Canadian footer paragraph)
+-->
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <title>Members Only</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFEA00">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="canon.css">
+  <link rel="stylesheet" href="ca-en-magazine-members-only-html.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="utility-bar__inner">
+        <div class="utility-bar__sign-in">
+          <span class="sign-in-greeting">Welcome</span>
+          <a class="sign-in-link" href="#sign-in">Sign In</a>
+          <a class="sign-out-link" href="#sign-out">Sign Out</a>
+        </div>
+        <div class="utility-bar__lang">
+          <a class="lang-toggle lang-toggle--ca" id="langNavToggleHeader" href="#langNavToggle" aria-label="Toggle Language en-CA" aria-expanded="false" aria-controls="lang-menu">en-CA</a>
+          <nav class="lang-menu" id="lang-menu">
+            <ul class="lang-menu__countries">
+              <li class="lang-menu__country lang-menu__country--us">
+                <span class="lang-menu__title">United States</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="/us/en.html" hreflang="en-US" lang="en-US" title="WKND Adventures and Travel">en-US</a></li>
+                  <li class="lang-menu__locale"><a href="/us/es.html" hreflang="es-US" lang="es-US" title="Español">es-US</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ca lang-menu__country--active">
+                <span class="lang-menu__title">Canada</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale lang-menu__locale--active"><a href="/ca/en/magazine/members-only.html" hreflang="en-CA" lang="en-CA" title="WKND Adventures and Travel">en-CA</a></li>
+                  <li class="lang-menu__locale"><a href="/ca/fr.html" hreflang="fr-CA" lang="fr-CA" title="Français">fr-CA</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ch">
+                <span class="lang-menu__title">Switzerland</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="/ch/de.html" hreflang="de-CH" lang="de-CH" title="Deutsch">de-CH</a></li>
+                  <li class="lang-menu__locale"><a href="/ch/fr.html" hreflang="fr-CH" lang="fr-CH" title="Français">fr-CH</a></li>
+                  <li class="lang-menu__locale"><a href="/ch/it.html" hreflang="it-CH" lang="it-CH" title="Italiano">it-CH</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--de">
+                <span class="lang-menu__title">Germany</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="/de/de.html" hreflang="de-DE" lang="de-DE" title="Deutsch">de-DE</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--fr">
+                <span class="lang-menu__title">France</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="/fr/fr.html" hreflang="fr-FR" lang="fr-FR" title="Français">fr-FR</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--es">
+                <span class="lang-menu__title">Spain</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="/es/es.html" hreflang="es-ES" lang="es-ES" title="Español">es-ES</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--it">
+                <span class="lang-menu__title">Italy</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="/it/it.html" hreflang="it-IT" lang="it-IT" title="Italiano">it-IT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header-bar">
+      <div class="header-bar__inner">
+        <div class="header-bar__logo">
+          <a href="/ca/en.html"><img src="assets/media/wknd-logo-dk.svg" alt="WKND Logo" width="300" height="112"></a>
+        </div>
+        <nav class="header-nav">
+          <a class="nav-home" href="/ca/en.html" hidden>Home</a>
+          <ul>
+            <li class="is-active"><a href="/ca/en/magazine.html">Magazine</a></li>
+            <li><a href="/ca/en/adventures.html">Adventures</a></li>
+            <li><a href="/ca/en/faqs.html">FAQs</a></li>
+            <li><a href="/ca/en/about-us.html">About Us</a></li>
+          </ul>
+        </nav>
+        <a class="header-search" href="/us/en/ai-powered-search.html" aria-label="Search" title="Search"><span class="icon icon--search" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-toggle" id="toggleNav"><a class="mobile-toggle__link" href="#mobileNav" aria-label="Open hidden mobile navigation" aria-expanded="false"><span class="icon icon--menu" aria-hidden="true"></span></a></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul>
+      <li class="mobile-nav__home"><a href="/ca/en.html">Home</a>
+        <ul>
+          <li class="is-active"><a href="/ca/en/magazine.html">Magazine</a></li>
+          <li><a href="/ca/en/adventures.html">Adventures</a></li>
+          <li><a href="/ca/en/faqs.html">FAQs</a></li>
+          <li><a href="/ca/en/about-us.html">About Us</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="page-root">
+    <main class="page-main">
+      <div class="fixed-container">
+        <h1>Members Only</h1>
+        <ul class="image-list">
+          <li class="image-list__item"><article>
+            <a class="image-list__image-link" href="/ca/en/magazine/members-only/alaskan-adventure.html"><div class="image-list__image"><img src="assets/media/alaskan-landscape-01.jpeg" alt="Alaskan Adventure" width="1280" height="853" loading="lazy"></div></a>
+            <a class="image-list__title-link" href="/ca/en/magazine/members-only/alaskan-adventure.html"><span class="image-list__title">Alaskan Adventure</span></a>
+            <span class="image-list__description">My brother and I had an amazing Alaskan adventure. Read about how we lived on glaciers for 18 days.</span>
+          </article></li>
+          <li class="image-list__item"><article>
+            <a class="image-list__image-link" href="/ca/en/magazine/members-only/fly-fishing-the-amazon.html"><div class="image-list__image"><img src="assets/media/amazon-river-01.jpeg" alt="Fly Fishing the Amazon" width="1280" height="853" loading="lazy"></div></a>
+            <a class="image-list__title-link" href="/ca/en/magazine/members-only/fly-fishing-the-amazon.html"><span class="image-list__title">Fly Fishing the Amazon</span></a>
+            <span class="image-list__description">Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.</span>
+          </article></li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__row">
+          <div class="site-footer__logo"><a href="/ca/en.html"><img src="assets/media/wknd-logo-light.svg" alt="WKND Logo" width="300" height="112"></a></div>
+          <nav class="site-footer__nav" aria-label="Footer navigation">
+            <a class="nav-home" href="/ca/en.html" hidden>Home</a>
+            <ul>
+              <li class="is-active"><a href="/ca/en/magazine.html">Magazine</a></li>
+              <li><a href="/ca/en/adventures.html">Adventures</a></li>
+              <li><a href="/ca/en/faqs.html">FAQs</a></li>
+              <li><a href="/ca/en/about-us.html">About Us</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__follow"><h4>Follow Us</h4></div>
+          <div class="site-footer__social">
+            <a class="social-btn" href="#facebookwknd" aria-label="Facebook WKND Button"><span class="icon icon--facebook" aria-hidden="true"></span><span class="social-btn__text">Facebook</span></a>
+            <a class="social-btn" href="#twitterWKND" aria-label="Twitter WKND Button"><span class="icon icon--twitter" aria-hidden="true"></span><span class="social-btn__text">Twitter</span></a>
+            <a class="social-btn" href="#instagramwknd" aria-label="Instagram WKND"><span class="icon icon--instagram" aria-hidden="true"></span><span class="social-btn__text">Instagram</span></a>
+          </div>
+        </div>
+        <div class="site-footer__separator"></div>
+        <div class="site-footer__text">
+          <p>Canadian specific footer. This footer serves as an example of <a title="localization" href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html" target="_blank" rel="noopener noreferrer">localization features with Core Components&nbsp;</a></p>
+          <p>Ⓒ 2019,&nbsp;&nbsp;WKND Site.</p>
+          <p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html">Core Components</a>&nbsp;and&nbsp;<a href="https://github.com/adobe/aem-project-archetype">Archetype</a>&nbsp;that are available as open source code to the public. The entire&nbsp;<a href="https://github.com/adobe/aem-guides-wknd/">site source code</a>&nbsp;is available as open source as well and is accompanied with a&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">detailed tutorial</a>&nbsp;on how to recreate the site.</p>
+          <p>Many of the beautiful images in the WKND site are available for purchase via&nbsp;<a href="https://stock.adobe.com/">Adobe Stock</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="canon.js" defer></script>
+</body>
+</html>
