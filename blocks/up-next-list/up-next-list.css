@@ -45,7 +45,6 @@
 .up-next-list .title {
   float: left;
   width: 100%;
-  padding: 5px;
   color: var(--text);
   text-transform: uppercase;
 }
@@ -53,16 +52,19 @@
 .up-next-list .date {
   float: left;
   width: 100%;
-  padding: 5px;
   color: var(--text-muted);
   font-size: var(--fs-xsmall);
   text-transform: uppercase;
 }
 
-/* the authored paragraphs take the tile's type (source: bare spans) */
+/* the authored paragraphs are the source spans' boxes (float, full width + 5px padding,
+   content-box) and take the tile's type */
 .up-next-list .title p,
 .up-next-list .date p {
+  box-sizing: content-box;
+  width: 100%;
   margin: 0;
+  padding: 5px;
   font-size: inherit;
   line-height: inherit;
   text-align: inherit;
