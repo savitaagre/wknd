@@ -286,3 +286,10 @@ published (preview) origin.
   gap /us/en/errors/sign-in for E2). Remaining 2 = modal backdrop page difference (shell vs home hero);
   re-run on the delivered /us/en. The "search input" error was the modal's inputs (comparer labelling).
 - foundation-freeze freeze; unit `foundation` done.
+
+## Extract — /ca/en freshness re-capture, 36/36 unchanged (2026-10-23)
+
+- Run 3 scope: /ca/en (29 pages) + the 7 us/en archetypes its siblings depend on. Fresh crawl.mjs
+  `--pages` capture into stardust/.work/fresh (36/36 live, 0 failed); compared title, description,
+  headings, body, CTAs + hrefs, image files + alt against stardust/current → 36 same, 0 changed.
+  The run-2 captures, prototypes and gates stay valid; no `--refresh` needed.

@@ -173,3 +173,10 @@ Same format. Numbering continues.
     still exists (HEAD) before reporting "skips pages already live".
 42. **crop-compare default `--out crop-diff.png` writes into the CWD** — a stray file landed in the repo root
     and was committed and served by EDS. → Default the diff into the gate dir or `stardust/.work/`.
+43. **deploy-batch.mjs passes `--branch` verbatim into admin URLs.** A git branch with a slash
+    (`feat/wknd-ca-en`) becomes `/preview/<org>/<site>/feat/wknd-ca-en/<path>`: the admin API reads branch
+    `feat` and path `/wknd-ca-en/…`, so every preview 404s while the PUTs succeed. → Normalise to the host
+    label (slash to hyphen) or refuse a slash.
+44. **No force / re-upload path in da-media-upload.mjs.** After the owner moved DA folders, the ledger said
+    "uploaded" for 27 images that no longer existed in the target folder; the only remedy was rotating the
+    ledger file. → `--verify` (HEAD each ledger entry against DA) and `--force`.

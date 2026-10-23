@@ -48,8 +48,8 @@ E2 decides deliver vs repoint; /us/en/errors/sign-in (Sign In failure target) = 
 | # | Step | Status | Notes |
 |---|---|---|---|
 | 0 | Branch, plan, tracking | done | feat/wknd-ca-en @ c795fb2, branch host serves code |
-| 1 | Source freshness check of the 29 /ca/en captures (+ the 7 archetypes) | pending | refresh any page whose live content changed |
-| 2 | Chrome documents back into DA wknd (nav, footer, /ca/en/nav, /ca/en/footer, fragments/sign-in, shell) + preview | pending | |
+| 1 | Source freshness check of the 29 /ca/en captures (+ the 7 archetypes) | done | 36/36 re-captured live, 0 content changes |
+| 2 | Chrome documents back into DA wknd (nav, footer, /ca/en/nav, /ca/en/footer, fragments/sign-in, shell) + preview | done | 6/6 PUT + previewed on feat-wknd-ca-en; .plain.html 200, 0 about:error |
 | 3 | C-archetype units: program, listing, faq, static, landing, article, magazine-listing (us/en reps) on the preview | pending | resume the paused program/listing work |
 | 4 | Members-only: finish its published-origin gate | pending | pub1 at 1440 ran: chrome-parity 3 deltas, unit-geometry selector error |
 | 5 | Cluster units: the 28 /ca/en siblings (sibling-variance, migrate render, chain, gate-all) | pending | |
@@ -60,3 +60,7 @@ E2 decides deliver vs repoint; /us/en/errors/sign-in (Sign In failure target) = 
 
 - 2026-10-23 Paused wave-1a cluster work committed (c795fb2, lint 0 errors, foundation unchanged 32 files);
   `feat/wknd-ca-en` created from it and pushed; branch host serves the new blocks (200).
+- 2026-10-23 Freshness: 36/36 unchanged. Media ledger rotated (stale after the owner's folder moves:
+  27 images listed as uploaded to wknd are in wknd-test) → media-ledger-wknd.pre-folder-move.json; chrome
+  logos re-recorded (byte-identical in wknd/media/chrome). Chrome docs 6/6 re-delivered (branch must be the
+  host form `feat-wknd-ca-en` in admin calls — the slash form 404s every preview).
