@@ -1,7 +1,7 @@
 {
   "units": {
     "foundation": {
-      "status": "running",
+      "status": "done",
       "kind": "foundation",
       "templates": [
         "landing",
@@ -18,11 +18,23 @@
       "pages": 0,
       "blocks": 2,
       "gates": {
-        "note": "published-origin chrome gate pending: feature-branch code not pushed (git push unavailable)"
+        "1440": {
+          "headerCrop": "100.00%",
+          "footerCrop": "100.00%",
+          "chromeParity": "header 0 deltas (DA logo hash only)"
+        },
+        "360": {
+          "headerCrop": "99.86%",
+          "footerCrop": "99.21%",
+          "chromeParity": "header 0 deltas"
+        },
+        "headerContract": "2 errors / 4 warnings on /drafts/wknd-shell \u2014 modal backdrop shows the short shell vs the live home hero (panel 0.26\u20130.39 %); re-run on delivered /us/en in C-archetype landing",
+        "crop": "header 100.00/99.86, footer 100.00/99.21 on /drafts/wknd-shell",
+        "chrome": "0 header style/geometry deltas"
       },
       "startedAt": "2026-10-23T10:12:15Z",
-      "endedAt": null,
-      "verdict": "foundation: lint pass, harness pass, docs PUT 23/23 preview 23/23, code committed c141691 (not pushed), gate pending push"
+      "endedAt": "2026-10-23T11:28:49Z",
+      "verdict": "foundation: header contract 2/4 (backdrop-only, re-check on /us/en), crops 1440 h 0.00% f 0.00% \u00b7 360 h 0.14% f 0.79%, pushed 7ee4fec (code b5c4bb1)"
     }
   },
   "run1": {
@@ -106,7 +118,8 @@
   "target": {
     "org": "savitaagre",
     "site": "wknd",
-    "previewHost": "main--wknd--savitaagre.aem.page",
-    "publish": false
+    "previewHost": "aem-20261023-1633--wknd--savitaagre.aem.page",
+    "publish": false,
+    "branch": "aem-20261023-1633"
   }
 }

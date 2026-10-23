@@ -273,3 +273,16 @@ published (preview) origin.
   index for search and E2 link audit read the live tree).
 - Foundation requests queued: media-ledger keying (use stardust/deploy/media-ledger-wknd.json per unit).
 - Owner decision (2026-10-23): keep preview only. Live-only checks are recorded as pending-until-publish.
+
+## C-deliver C0 — foundation gated on the wknd preview and frozen (2026-10-23)
+
+- Owner pushed via the UI to branch `aem-20261023-1633` (Sync added one commit with untracked helper files;
+  cleaned in 71324fd: .hlxignore for aem-msm/ + docs/, stray screenshot + config backups untracked).
+  Git push now works from the workspace. Preview host: aem-20261023-1633--wknd--savitaagre.aem.page.
+- Gate (live /us/en vs /drafts/wknd-shell): crops header 100.00 % / 99.86 %, footer 100.00 % / 99.21 %;
+  chrome-parity header 0 deltas (logo DA hash only), footer uniform Δy (short shell).
+- Header contract: 6 → 2 errors after the foundation added the Sign In modal (fragment /fragments/sign-in,
+  no credentials sent — inputs unnamed, submit blocked, redirects to the source's failed-login URL = capture
+  gap /us/en/errors/sign-in for E2). Remaining 2 = modal backdrop page difference (shell vs home hero);
+  re-run on the delivered /us/en. The "search input" error was the modal's inputs (comparer labelling).
+- foundation-freeze freeze; unit `foundation` done.
