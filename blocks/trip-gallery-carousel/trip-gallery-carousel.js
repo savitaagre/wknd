@@ -62,7 +62,8 @@ export default async function decorate(block) {
   actions.append(prev, next);
 
   const indicators = el('ol', 'indicators', { role: 'tablist', 'aria-label': 'Choose a slide to display' });
-  const dots = slides.map((s, i) => el('li', 'indicator', {
+  // trip-gallery__indicator: the units.json build hook (program-gallery-indicators)
+  const dots = slides.map((s, i) => el('li', 'indicator trip-gallery__indicator', {
     role: 'tab',
     'aria-label': `Slide ${i + 1}`,
     'aria-controls': s.id,

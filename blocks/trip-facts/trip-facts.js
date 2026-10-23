@@ -38,7 +38,8 @@ export default async function decorate(block) {
     }
     const [labelCell, ...valueCells] = cells.length ? cells : [row];
     if (!labelCell.textContent.trim() && !valueCells.some((c) => c.textContent.trim())) return;
-    const item = el('div', 'item');
+    // trip-facts__item: the units.json build hook (program-trip-facts)
+    const item = el('div', 'item trip-facts__item');
     const dt = el('dt', 'label');
     dt.append(...labelCell.childNodes);
     item.append(dt);

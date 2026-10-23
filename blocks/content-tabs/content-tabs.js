@@ -73,7 +73,11 @@ export default async function decorate(block) {
   const blocks = [...document.querySelectorAll('.content-tabs')];
   const id = `content-tabs-${Math.max(blocks.indexOf(block), 0) + 1}`;
   const inner = el('div', 'tabs', { id });
-  const tablist = el('ol', 'tablist', { role: 'tablist', 'aria-label': TABLIST_LABEL });
+  // content-tabs__tablist / __tab: the units.json build hooks (program-content-tabs)
+  const tablist = el('ol', 'tablist content-tabs__tablist', {
+    role: 'tablist',
+    'aria-label': TABLIST_LABEL,
+  });
   const tabs = [];
   const panels = [];
 
@@ -83,7 +87,7 @@ export default async function decorate(block) {
     const bodyCell = cells.length > 1 ? cells[cells.length - 1] : null;
     const titleCell = cells.length > 2 ? cells[1] : null;
 
-    const tab = el('li', 'tab', {
+    const tab = el('li', 'tab content-tabs__tab', {
       id: `${id}-tab-${i + 1}`,
       role: 'tab',
       'aria-controls': `${id}-panel-${i + 1}`,
