@@ -1,6 +1,32 @@
 {
   "units": {
     "foundation": {
+      "status": "running",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "faq",
+        "article",
+        "magazine-listing",
+        "static",
+        "members-only-listing",
+        "unique",
+        "coming-soon"
+      ],
+      "pages": 0,
+      "blocks": 2,
+      "gates": {
+        "note": "published-origin chrome gate pending: feature-branch code not pushed (git push unavailable)"
+      },
+      "startedAt": "2026-10-23T10:12:15Z",
+      "endedAt": null,
+      "verdict": "foundation: lint pass, harness pass, docs PUT 23/23 preview 23/23, code committed c141691 (not pushed), gate pending push"
+    }
+  },
+  "run1": {
+    "foundation": {
       "status": "done",
       "kind": "foundation",
       "templates": [
@@ -76,5 +102,11 @@
       "endedAt": "2026-10-16T14:35:56Z",
       "verdict": "final: foundation-freeze check ok, 5 requests applied (4e3fc33), pub3 1440 0.25% \u0394h 0 / 360 1.73% \u0394h -1, 0 red, presence MISSING 0 / HIDDEN 0, clip 0, motion 10/10 + 3/3, gate-all PASS 1440 + 360"
     }
+  },
+  "target": {
+    "org": "savitaagre",
+    "site": "wknd",
+    "previewHost": "main--wknd--savitaagre.aem.page",
+    "publish": false
   }
 }

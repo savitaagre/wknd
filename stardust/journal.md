@@ -257,3 +257,18 @@ published (preview) origin.
 - migrate render of the 10 approved archetypes → stardust/migrated (10 sidecars, modules recorded).
 - A-inventory: 65 pages (10 pending archetypes, 55 content-pending siblings). B-block: 20 distinct blocks,
   27 instances, each converted once. B2: host-bound 13/13 = row-14 plumbing; no disposition change.
+
+## C-deliver C0 — foundation authored, chrome documents previewed; gate blocked on git push (2026-10-23)
+
+- Foundation subagent: canon3 → styles/, blocks/header, blocks/footer, scripts.js locale + chrome selection
+  (`getChromePath`: metadata → locale root → /nav,/footer), runtime-contract.json. Lint 0 errors; harness
+  qa-gate 11/11 on /drafts/wknd-shell; local locale probe 16 paths × 2 widths, chrome heights equal the
+  gated prototypes (header 194/117; footer US 260/593, CA 289/637, coming-soon 260/463).
+- DA (savitaagre/wknd): 2 chrome logos uploaded; 23 documents PUT 201 + preview 200 (/nav, /footer,
+  /ca/en/*, 9 coming-soon locale nav/footer pairs, /drafts/wknd-shell), robots noindex on each. Never published.
+- Blocked: the deploy precondition "code branch pushed" — `git ls-remote` unauthenticated, no git
+  permission. The preview host runs savitaagre/edsmsm `main` code, so the foundation-first gate
+  (pixel 1440/360, crop bands, chrome parity) cannot run, and no cluster may fan out before it (contract § 3).
+- Owner decision surfaced: preview-only vs the contract's "publish always" (Phase D sitemap / root, D2 query
+  index for search and E2 link audit read the live tree).
+- Foundation requests queued: media-ledger keying (use stardust/deploy/media-ledger-wknd.json per unit).
