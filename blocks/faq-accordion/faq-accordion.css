@@ -1,0 +1,183 @@
+/* faq-accordion — wknd.site FAQ (source .cmp-accordion; prototype us-en-faqs-html.css).
+   The header row repaints the source's UA <button> box (Arial 13.33px, padding 1em,
+   2px #ebebeb rule, black text) — replicated as captured. */
+
+/* stylelint-disable selector-class-pattern -- live state class names (motion parity) */
+
+.faq-accordion .item {
+  margin: 0;
+}
+
+.faq-accordion .header {
+  display: block;
+  padding: 13.3333px;
+  border-bottom: 2px solid var(--surface-grey);
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 13.3333px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-accordion .header.expanded {
+  border: none;
+}
+
+/* the question: source span.cmp-accordion__title (16px semibold uppercase, .5em left) */
+.faq-accordion .title {
+  display: inline;
+  padding-left: 0.5em;
+  color: #000;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.faq-accordion .title :is(h1, h2, h3, h4, h5, h6, p) {
+  display: inline;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+}
+
+/* glyph-only toggle: source span.cmp-accordion__icon (wknd-icon-font 1.25rem, float right) */
+.faq-accordion .toggle {
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #000;
+  font-family: var(--font-icon);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-accordion .toggle:focus {
+  outline: none;
+}
+
+.faq-accordion .toggle-icon {
+  display: block;
+  font-family: var(--font-icon) !important;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.faq-accordion .toggle-icon::before {
+  content: "\e911";
+}
+
+.faq-accordion .toggle.cmp-accordion__button--expanded .toggle-icon::before {
+  content: "\e910";
+}
+
+/* the answer: source .cmp-accordion__panel (.5em top/left, 14px, fadeIn .5s on show) */
+.faq-accordion .panel {
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  font-size: var(--fs-small);
+  animation: fadeIn 0.5s both;
+}
+
+.faq-accordion .panel p {
+  font-size: var(--fs-small);
+  line-height: 1.75;
+}
+
+.faq-accordion .panel.cmp-accordion__panel--hidden {
+  display: none;
+}
+
+.faq-accordion .panel.cmp-accordion__panel--expanded {
+  display: block;
+}
+
+/* stylelint-disable-next-line keyframes-name-pattern -- live animation name (motion parity) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* stylelint-enable selector-class-pattern */
+
+/* ---------- FAQ page layout (source aem-Grid: title + image + intro + accordion in the
+   8/12 primary column; the help-contact aside 3/12 at offset 1/12 beside it >= 1025px).
+   Scoped to the section that hosts both FAQ blocks; the default content of that section
+   is the page title, the lead image and the intro. ---------- */
+
+/* lead image: source .cmp-image__image (inline, width 100%, 7px above/below, line-height 27px) */
+main > .section.faq-accordion-container .default-content-wrapper p:has(img) {
+  margin: 0;
+  line-height: 27px;
+  text-align: left;
+}
+
+main > .section.faq-accordion-container .default-content-wrapper p:has(img) img {
+  display: inline;
+  width: 100%;
+  height: auto;
+  margin: 7px 0;
+}
+
+@media (width >= 1025px) {
+  main > .section.faq-accordion-container.help-contact-block-container {
+    display: grid;
+    grid-template-columns: 66.6667% 8.3333% 25%;
+    align-items: start;
+    max-width: var(--shell);
+    margin: 0 auto;
+  }
+
+  main > .section.faq-accordion-container.help-contact-block-container > div {
+    grid-column: 1;
+    max-width: none;
+    margin: 0;
+  }
+
+  main > .section.faq-accordion-container.help-contact-block-container > .help-contact-block-wrapper {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+    padding: 0;
+  }
+}
+
+@media (width <= 1024px) {
+  /* the aside spans the page without the column gutter (source --phone/--tablet--12, no padding) */
+  main > .section.faq-accordion-container > .help-contact-block-wrapper {
+    padding: 0;
+  }
+
+  /* image: aem-GridColumn--tablet--8 / --phone--8 of the 14px-guttered row */
+  main > .section.faq-accordion-container .default-content-wrapper p:has(img) {
+    width: calc((100% + 2 * var(--gutter)) * 2 / 3 - 2 * var(--gutter));
+  }
+}
+
+@media (width >= 768px) and (width <= 1024px) {
+  /* intro text: aem-GridColumn--tablet--8 (phone--12) */
+  main > .section.faq-accordion-container .default-content-wrapper p {
+    width: calc((100% + 2 * var(--gutter)) * 2 / 3 - 2 * var(--gutter));
+  }
+}

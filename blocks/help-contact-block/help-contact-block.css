@@ -1,0 +1,16 @@
+/* help-contact-block — "Need more help?" (source .title h3 + .text.cmp-text--font-small;
+   prototype us-en-faqs-html.css .help-contact*). flow-root keeps the last paragraph's
+   13.5px margin inside the aside, as the source container does. */
+
+.help-contact-block {
+  display: flow-root;
+
+  /* source .cmp-separator--hidden.cmp-separator--space-small: an invisible rule, 1em above */
+  padding-top: 18px;
+}
+
+/* source .cmp-text--font-small p: 14px (line-height stays 2.5), left-aligned */
+.help-contact-block .body :is(p, li) {
+  font-size: var(--fs-small);
+  text-align: left;
+}
