@@ -17,6 +17,9 @@
  * its link (decorateButtons' button classes and derived title are undone —
  * a card link is not a CTA); the image is wrapped in a generated, text-free
  * anchor to the same href (the source's image link).
+ * Hook: every card is `li.item.image-list__item` — the build selector of the
+ * unit-geometry rows in stardust/replica/units.json (members-only-card-grid,
+ * article-card-grid: `.image-list .image-list__item`); styling stays on `.item`.
  */
 
 function el(tag, className) {
@@ -111,7 +114,7 @@ export default async function decorate(block) {
   const list = el('ul', 'items');
 
   cards.forEach((card) => {
-    const li = el('li', 'item');
+    const li = el('li', 'item image-list__item');
     const article = el('article');
     const link = card.title ? unbutton(card.title) : null;
     const href = link ? link.getAttribute('href') : null;
