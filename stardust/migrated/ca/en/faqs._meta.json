@@ -1,0 +1,110 @@
+{
+  "slug": "ca-en-faqs-html",
+  "type": "faq",
+  "renderBranch": "A'",
+  "template": "us-en-faqs-html",
+  "modules": [
+    "faq-accordion",
+    "help-contact-block"
+  ],
+  "slotsFilled": [
+    "faq-layout__primary",
+    "faq-layout__aside"
+  ],
+  "canonShas": {
+    "header": "960739106d60",
+    "footer": "d4992c49f3b0",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "FAQs",
+    "description": "Here we answer some of the questions that we hear most often from the community.",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "FAQs",
+    "description": "Here we answer some of the questions that we hear most often from the community.",
+    "url": "https://wknd.site/ca/en/faqs.html"
+  },
+  "migratedAt": "2026-10-23T17:21:13Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "122be8b5597b",
+  "sourceProposedSha": "d9bf1482dd7a",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-faqs-html",
+  "archetypeSha": "22bf56de938b",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance us→ca/en/faqs 5 probes @1440: 0 deltas (stardust/.work/rollout/faq/variance.json)",
+    "content-count": "content-diff capture→preview stardust/.work/rollout/faq/content-diff-ca.txt: main 22/22 text nodes, 2/2 headings, 2/2 CTAs, 1/1 img; ROLE SWAP/ICON DIFF = unstyled capture; live→preview stardust/.work/rollout/faq/content-diff-ca-live.txt 0 structural",
+    "content-fidelity": "DA doc encoded by gen-faq.mjs from the hydrated capture (byte-identical to the archetype doc; captured main differs only in the AEM image path); typos + empty answer-2 h3 verbatim",
+    "delivery-lint": "delivery-lint /ca/en/faqs 0 P0 / 0 P1 / 0 P2",
+    "media-reconcile": "media-reconcile 1 hosted (media/faq/adobestock-277768563.jpeg, media-ledger-wknd.json)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/faqs.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/faqs._meta.json",
+  "driverVersion": "1"
+}

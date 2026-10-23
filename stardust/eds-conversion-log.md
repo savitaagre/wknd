@@ -517,3 +517,45 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   360 0.14 % Δh 0 PASS; CA chrome crops header 100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity =
   logo hashes + CA footer Δw −2px (queued by members-only). Sidecar gatesPassed 7/7, modules [contributor-card].
 - Residual 🟡: the pipeline derives an og:image from the first avatar (the source page has none).
+
+## Run 3 — C-archetype faq / us-en-faqs-html + /ca/en sibling (cluster `faq`, preview only)
+
+- Blocks (new; old `accordion` / `faq-sidebar` not reused — summary/innerHTML rebuild, retagging):
+  `faq-accordion` reconstructive (one row per question: question cell | answer cell; a one-cell row
+  splits on its first heading). Header row = generated `div.header[role=button]` (tabindex 0,
+  Enter/Space, aria-expanded/controls) hosting `.title` > the authored h3 — EW7: no `<button>` hosts
+  text; the h3 fills the source UA-button box (padding 13.33px, +8px left, 2px #ebebeb rule, none while
+  expanded) through descendant selectors; the question's own nodes sit in a style-free `span.label`
+  inside the h3, as the source's span.cmp-accordion__title (classifier parity: eyebrow on both sides).
+  Glyph = empty `span.toggle-icon` (wknd-icon-font U+E911 / U+E910, absolute at the source float's
+  position; `.icon` was avoided — the global 24×24 utility). Live state classes
+  (`cmp-accordion__button--expanded`, `cmp-accordion__panel--expanded/--hidden`), `@keyframes fadeIn`
+  .5s, multi-open, all collapsed at rest (dynamics row 5). `help-contact-block` template-slotted
+  (`.title` + `.body`; separator = 18px padding-top, flow-root). davids-model D1 🟡 on it: kept as a
+  block — it is the source's 3/12 aside column (placement + spacing), plan.json `convert`.
+- FAQ layout (interim in faq-accordion.css, foundation request): `main > .section.faq-accordion-container
+  .help-contact-block-container` grid 66.6667 % / 8.3333 % / 25 % ≥1025 (cap 1164), aside unguttered
+  ≤1024, lead image `p:has(img)` margin 0 / line-height 27px / inline img 7px margins, 8-of-12 widths.
+  The pre-replica `.section.faq` rule in styles.css is not used (request: remove).
+- Schema `stardust/eds-schema/us-en-faqs-html.json` from the annotated copy
+  `stardust/.work/rollout/faq/annotated.html`. Encoder `stardust/.work/rollout/faq/probes/gen-faq.mjs`
+  (hydrated capture → DA doc) reproduces the archetype doc byte-identical; /ca/en doc = /us/en doc.
+- Pipeline carries: the verbatim `<h3>&nbsp;</h3>` (answer 2) is delivered as an empty h3 → its 36px line
+  restored by `.panel :is(h2…h6):empty::before { content: "\a0" }` (open-state docH 1895 = prototype).
+  Lead image adobestock-277768563 is big-endian Exif (orientation 1) → APP1-stripped copy uploaded to
+  `media/faq/` (stardust/.work/rollout/faq/probes/strip-exif.mjs).
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 16/16; qa-gate PASS 16/0/0; harness
+  geometry = prototype ±0.3px (1440 / 360 / 1440 with items 1+2 open); lint 0 errors.
+- Chain (both pages): localize-links check 0, davids-model-lint PASS (1 🟡 above), delivery-lint 0/0/0,
+  media-reconcile 1 hosted, sanitise, deploy-batch --force --no-publish (ledger-faq.json). `.plain.html`
+  200, one h1, 1 img/alt, 0 about:error, no /img/. Style guard: grid 776/97/291 px, 7 items collapsed,
+  image 748 / 212 px, docH 1672 / 2017 (US), 1701 / 2060 (CA footer), lang en-US / en-CA, 0 pageerror.
+- Archetype gate pub1 (1 round): 1440 0.04 % Δh 0 · 360 0.86 % Δh 0 (0.3px rendition-aspect shift under
+  the lead image + text AA) · 0 structural 🔴 · clip 0 · units 7/7 (0 off) · crops header 100.00 / 99.86 %,
+  footer 100.00 / 99.99 % · chrome-parity 2 = DA logo hashes · gate-all PASS 1440 + 360 (state copy
+  stardust/.work/rollout/faq/state-gate-all.json) · motion 8 parity / 0 missing / 0 extra
+  (`motion/us-en-faqs-html-delivered.json`) · ai-readability code 100 %.
+- Sibling ca-en-faqs-html: variance 0 deltas (no variant); A′ clone stardust/.work/rollout/faq/clones/
+  (en-CA chrome from the CA prototype); gate-all 1440 0.04 % Δh 0 · 360 0.89 % Δh 0, PASS both; CA chrome
+  crops header 100.00 / 99.87 %, footer 100.00 / 99.99 %; chrome-parity = the 3 queued /ca/en deltas.
+- Residual 🟡: EXTRA TITLE on the help links (decorateButtons default title → request).

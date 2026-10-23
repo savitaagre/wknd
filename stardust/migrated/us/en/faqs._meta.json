@@ -40,8 +40,12 @@
   "archetypeSource": null,
   "archetypeSha": null,
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "DA doc encoded by gen-faq.mjs from the hydrated capture; content-diff live→preview 0 structural (gates/us-en-faqs-html-1440/content-diff-pub1.txt)"
+  },
   "contentDeviations": [],
   "assetsBundled": 21,
   "missingAssets": [],
