@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  WKND Blueprint Configuration (PDF §1)
+  Enables source-side Rollout and the Create Site wizard for the language masters.
+  The wizard offers each child of sitePath (en, es, fr, de, it) as a selectable language
+  and each child of a language root (adventures, magazine, ...) as a selectable section.
+-->
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WKND Language Masters"
+        jcr:description="Source for all WKND country sites."
+        cq:template="/libs/wcm/msm/templates/blueprint"
+        sling:resourceType="wcm/msm/components/blueprint"
+        sitePath="/content/wknd/language-masters"/>
+</jcr:root>

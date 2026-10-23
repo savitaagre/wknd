@@ -1,0 +1,30 @@
+{
+  "version": 4,
+  "code": {
+    "source": {
+      "type": "github",
+      "url": "https://github.com/savitaagre/savisite"
+    },
+    "owner": "savitaagre",
+    "repo": "savisite"
+  },
+  "access": {
+    "admin": {
+      "role": {
+        "admin": [
+          "sagre@adobe.com"
+        ]
+      },
+      "requireAuth": "auto"
+    }
+  },
+  "content": {
+    "source": {
+      "url": "https://content.da.live/savitaagre/savisite/",
+      "type": "markup"
+    },
+    "contentBusId": "ace05f701805c48634880efed6be33cabbd11a4ec179e4f9f481641188b"
+  },
+  "lastModified": "2026-10-19T07:29:37.575Z",
+  "created": "2026-07-13T06:26:41.068Z"
+}

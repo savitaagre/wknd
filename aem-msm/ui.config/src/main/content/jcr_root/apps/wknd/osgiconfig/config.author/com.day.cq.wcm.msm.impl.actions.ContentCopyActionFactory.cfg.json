@@ -1,0 +1,18 @@
+{
+  "cq.wcm.msm.action.excludednodetypes": [
+    "cq:LiveSyncAction",
+    "cq:LiveSyncConfig",
+    "cq:BlueprintSyncConfig",
+    "cq:LiveCopy"
+  ],
+  "cq.wcm.msm.action.excludedparagraphitems": [
+    "cq:propertyInheritanceCancelled"
+  ],
+  "cq.wcm.msm.action.excludedprops": [
+    "jcr:(?!(title|description)$).*",
+    "sling:(?!(resourceType|resourceSuperType)$).*",
+    "cq:(?!(designPath|template|lastTranslationUpdate|tags)$).*",
+    "publishCampaignId",
+    "wkndLocal.*"
+  ]
+}

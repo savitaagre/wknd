@@ -1,0 +1,27 @@
+{
+  "version": 12,
+  "code": {
+    "source": {
+      "type": "github",
+      "url": "https://github.com/savitaagre/ema"
+    },
+    "owner": "savitaagre",
+    "repo": "ema"
+  },
+  "content": {
+    "source": {
+      "type": "markup",
+      "url": "https://content.da.live/savitaagre/ema"
+    },
+    "contentBusId": "4c51ad1b7109fc2d04edaee6c78d4c5cae8a2128a431eab989447a11f04"
+  },
+  "lastModified": "2026-10-19T12:20:40.142Z",
+  "created": "2026-08-28T09:23:19.598Z",
+  "apiKeys": {},
+  "access": {
+    "admin": {
+      "role": {},
+      "requireAuth": "auto"
+    }
+  }
+}
