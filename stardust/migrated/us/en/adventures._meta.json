@@ -42,9 +42,26 @@
   "archetypeSource": null,
   "archetypeSha": null,
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
-  "contentDeviations": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "doc reproduced byte-identical by gen-listing.mjs from the capture; gate.sh pub1 content-diff 17 red = the hidden tab-panel copies (deviation restructure); gate-all content MISSING 0 / HIDDEN 0 at 1440 and 360"
+  },
+  "contentDeviations": [
+    {
+      "kind": "restructure",
+      "source": "6 cmp-tabs panels carrying 32 card copies (All 16, Climbing 2, Cycling 3, Skiing 3, Surfing 2, Travel 6); 5 panels hidden",
+      "target": "one adventure-card-grid of 16 authored rows with a categories cell, filtered client-side by adventure-category-tabs (dynamic-features row 4)",
+      "reason": "document-first listing: each card authored once; the 16 hidden-panel copies are the same cards (content-diff MISSING CTA x16 + Siegel River eyebrow = those copies; every visible link, image and text present; filter counts 16/2/3/3/2/6 verified on the preview)"
+    },
+    {
+      "kind": "order",
+      "source": "Cycling panel order: Whistler Mountain Biking, Cycling Tuscany, West Coast Cycling",
+      "target": "Cycling tab shows the All order: Cycling Tuscany, West Coast Cycling, Whistler Mountain Biking",
+      "reason": "the client filter hides non-matching cards and keeps the authored All order; only the Cycling panel orders differently on the source (Climbing/Skiing/Surfing/Travel match); visible only after a Cycling click, not in any gated state"
+    }
+  ],
   "assetsBundled": 24,
   "missingAssets": [],
   "brokenInternalLinks": [

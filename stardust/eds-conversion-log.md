@@ -375,3 +375,36 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   chrome-parity 3 deltas both widths (logo DA hash ×2, CA footer Δw −2px trimmed &nbsp;) → request line ·
   gate-all PASS 1440 + 360 (derived state stardust/.work/rollout/members-only/state-deployed.json) ·
   motion 4 parity, 0 missing.
+
+## Run 3 — C-archetype listing / us-en-adventures-html + /ca/en sibling (cluster `listing`, preview only)
+
+- Blocks (authored by the paused run-2 worker, re-verified, unchanged): `hero-teaser` (template-slotted;
+  variant `standalone` + section style `page-title`, both scoped additions — home's default variant
+  untouched, its round-trip still closes with `--map hero-teaser=.hero-teaser--imagebottom`),
+  `adventure-category-tabs` (reconstructive, 6 tabs, li[role=tab] hosts, client-only filter, dynamics
+  row 4), `adventure-card-grid` (reconstructive, one authored row per card + categories cell, no index).
+- Schema: `stardust/eds-schema/us-en-adventures-html.json` from the `data-section`-annotated prototype
+  copy `stardust/.work/rollout/listing/annotated.html` (the served prototype carries no section markers).
+- Local asserts: block-roundtrip --ew per block + whole page 0 🔴, EW 55/55 (15 🟡 = the hidden
+  categories cell, `@ew-exempt`); qa-gate 18 ok / 1 fail — the 2560 content-cap row reads the 1680 shell
+  because EDS caps per section wrapper (no single content container); measure.mjs prototype vs harness
+  @2560 identical (h1 698/1164, tabs + grid 712/1136, hero 1680, scrollHeight 2769), so it is a probe
+  tier artifact, not a sizing defect; lint 0 errors.
+- Encoder `stardust/.work/rollout/listing/probes/gen-listing.mjs` (hydrated capture → DA doc; categories
+  from tab-panel membership) reproduces the archetype doc byte-identical; sibling doc = archetype doc
+  with /ca/en hrefs (variance probe 0 deltas, 7 probes).
+- Chain (both pages): localize-links check 0, davids-model-lint PASS, delivery-lint 0/0/0, media
+  re-uploaded into wknd `media/listing/` (17 files, media-ledger-wknd.json), media-reconcile 17 hosted,
+  sanitise unchanged, deploy-batch --force --no-publish 2/2. `.plain.html` 200, one h1, 17 img/alt,
+  0 about:error, no /img/. Style guard 1440/360: hero/tablist/grid flex, 16 cards, 17 imgs > 0 px,
+  0 pageerror, overflow 0; tab clicks show 16/2/3/3/2/6.
+- Archetype gate pub1 (1 round): 1440 0.23 % Δh 0 · 360 0.64 % Δh 0 · clip 0 · units 12/12 · crops
+  header 100.00 / 99.86 %, footer 100.00 / 100.00 % · chrome-parity 2 deltas = DA logo hashes · content-diff
+  17 🔴 = the 5 hidden source tab panels' card copies (deviation `restructure`) · gate-all PASS 1440 + 360
+  (content MISSING 0 / HIDDEN 0; temp state stardust/.work/rollout/listing/state-gate-all.json) · motion 6
+  parity, 0 missing (`motion/us-en-adventures-html-delivered.json`).
+- Sibling ca-en-adventures-html: gate-all 1440 0.23 % Δh 0 · 360 0.63 % Δh 0, PASS both; CA chrome crops
+  header 100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity = logo hashes + CA footer Δw −2px
+  (already queued by members-only).
+- Deviations (both pages): `restructure` (6 panels / 32 card copies → one 16-row grid + filter), `order`
+  (Cycling tab keeps the All order; source panel orders Whistler first).
