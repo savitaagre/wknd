@@ -156,3 +156,20 @@ Same format. Numbering continues.
     "import the shared layers" requires a single writer; a `canon-requests.md` queue + one canon
     maintainer round (move rules, re-gate every gated archetype, ±0.10 % bar) worked: 15 requests,
     8 re-gates, no number moved. → Ship this as the fan-out contract for Phase 3.
+
+# Run 3 — /ca/en scope on top of run 2 (2026-10-23)
+
+39. **No documented "scope narrows / grows within an existing inventory" entry.** A follow-up ask for a
+    subset already captured and gated (here /ca/en) has two readings: re-run Phase 1–4 from zero, or
+    deliver from the existing inventory. The skills only describe `--refresh <slug>` and the pilot → site
+    growth path. → Add a "scoped follow-up" entry to replica: freshness check of the subset's captures
+    (content hash vs live), then Phase 5 for the subset plus the archetypes it depends on (#126).
+40. **Workspace guard vs. delivery scripts.** In EMA the admin/DA guard blocked batched `curl` loops and
+    every `preview` / `DELETE` call even after an explicit owner request, while single PUTs and the
+    node delivery scripts went through. → The deploy card should name the EMA path that is allowed
+    (deploy-batch.mjs) and say that chat approval is evaluated per call.
+41. **Owner-side DA folder moves silently invalidate delivered documents** (C0 chrome moved to a renamed
+    folder, old content moved in). → `deploy-batch.mjs` should verify the DA source of every ledger entry
+    still exists (HEAD) before reporting "skips pages already live".
+42. **crop-compare default `--out crop-diff.png` writes into the CWD** — a stray file landed in the repo root
+    and was committed and served by EDS. → Default the diff into the gate dir or `stardust/.work/`.
