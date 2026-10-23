@@ -357,3 +357,21 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
 - **Crops** (gate.sh wknd-shell … c0b, crop-compare, header y0 h194 / h117): 1440 header 100.00 %,
   footer 100.00 % (y3494 / y-b 404 h260); 360 header 99.86 %, footer 99.21 % (y5280 / y-b 424 h593) —
   unchanged; the modal is `display: none` at rest.
+
+## Run 3 — members-only archetype /ca/en/magazine/members-only (feat-wknd-ca-en, preview only)
+
+- Block `image-list` (reconstructive, unchanged model: one row per card, image | text). Added the generic
+  hook `li.item.image-list__item` — the units.json build selector `.image-list .image-list__item`
+  (members-only-card-grid, article-card-grid) never matched the delivered `li.item` (pub1 "1 selector
+  error → FAIL"); styling stays on `.item`, so home (4 cards) and magazine (5 cards) are unaffected.
+- Local asserts: block-roundtrip --ew (block + page) 0 🔴, EW 5/5; qa-gate PASS 14/0/0; lint 0 errors.
+- Chain: localize-links check 0, davids-model-lint PASS, delivery-lint 0/0/0, media re-uploaded into wknd
+  (`media/members-only/`, 2 files, media-ledger-wknd.json), media-reconcile 2 hosted, sanitise unchanged,
+  deploy-batch --force --no-publish 1/1 (PUT 201, preview 200). `.plain.html` 200, one h1, 0 about:error,
+  no /img/. Style guard 1440/360: image-list flex, 2 cards, imgs 260px loaded, h1 x138 w1164 / x0 w360,
+  lang en-CA, CA footer, 0 pageerror.
+- Gate pub2 (preview): 1440 0.01 % Δh 0 · 360 0.07 % Δh 0 · 0 structural 🔴 · clip 0 · presence MISSING 0
+  / HIDDEN 0 · units 2 compared, 0 off · crops header 99.99 / 99.87 %, footer 100.00 / 100.00 % ·
+  chrome-parity 3 deltas both widths (logo DA hash ×2, CA footer Δw −2px trimmed &nbsp;) → request line ·
+  gate-all PASS 1440 + 360 (derived state stardust/.work/rollout/members-only/state-deployed.json) ·
+  motion 4 parity, 0 missing.
