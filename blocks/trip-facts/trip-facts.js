@@ -8,6 +8,8 @@
  * Model: key/value rows
  *   optional first row, one cell: <h3> fragment title (hidden, as on live)
  *   ONE ROW PER FACT, two cells: label | value
+ * Variant: "Trip Facts (Grid)" (class grid) — the aem-Grid program sub-template
+ * (guttered facts + share columns); the layout rules live in content-tabs.css.
  * Decode tier: reconstructive (repeat group: one fact per two-cell row; a
  * one-cell row holding a heading is the title, any other one-cell row is a
  * label without a value). Authored nodes are MOVED (EW1) into generated

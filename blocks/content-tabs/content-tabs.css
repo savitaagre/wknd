@@ -65,6 +65,54 @@ main > .section:has(> .content-tabs-wrapper) .share-bar h5 {
   }
 }
 
+/* ---------- grid variant: Trip Facts (Grid) ----------
+   The "aem-Grid" program sub-template (8 of 16 /ca/en trips). Source: the fixed program
+   container is itself an aem-GridColumn (.responsivegrid.aem-GridColumn → padding 0), and the
+   facts fragment and the share title each sit in their own guttered aem-GridColumn
+   (padding 0 14px): 3/3 of the aside ≥1025, 9/12 + 3/12 at 768–1024, 7/12 + 5/12 ≤767, side
+   by side. The facts column holds its list (no 23px pre-gap); the share title keeps its h5
+   margins. Measured on live bali-surf-camp (1440: items x152 w263, h5 y1503; 360: facts
+   x0 w210, share x210 w150, h1 / tabs x14 w332). */
+main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) {
+  padding: 0;
+}
+
+main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid)
+  > :is(.trip-facts-wrapper, .share-bar-wrapper) {
+  box-sizing: border-box;
+  padding: 0 var(--gutter);
+}
+
+main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) .share-bar h5 {
+  margin-top: 23.38px;
+}
+
+@media (width <= 1024px) {
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .trip-facts-wrapper {
+    float: left;
+    width: 75%;
+  }
+
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .share-bar-wrapper {
+    float: left;
+    width: 25%;
+  }
+
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .content-tabs-wrapper {
+    clear: both;
+  }
+}
+
+@media (width <= 767px) {
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .trip-facts-wrapper {
+    width: 58.3333%;
+  }
+
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .share-bar-wrapper {
+    width: 41.6667%;
+  }
+}
+
 /* ---------- tabs ---------- */
 .content-tabs .tablist {
   display: flex;
