@@ -182,5 +182,13 @@
     "put": 201,
     "preview": 200,
     "verify": "ok"
+  },
+  "/fragments/sign-in": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T11:20:07.134Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
   }
 }

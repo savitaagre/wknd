@@ -316,3 +316,33 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   23/23 PUT 201, preview 200. `.plain.html` 23/23: 200, sections intact, 0 `about:error`, no `/img/`,
   1 logo `<img>` per chrome document, exactly one h1 on the shell; `<meta name="robots" content="noindex">`
   delivered. Published-origin chrome gate: PENDING the code push.
+
+### C0 round 2 — header contract (coordinator gate: crops PASS, chrome-compare 6 🔴 / 2 🟡)
+
+- **Sign In modal (🔴 state-missing + keyboard, 1440 + 390).** Live: `[data-modal-url]` click → GET the
+  `language-masters/en/site/sign-in` experience fragment → `#wknd-modal` appended, jQuery fadeIn(300);
+  any document click outside it fadeOut(200) + removed (the click swallowed); no Escape, focus stays on the
+  trigger, no scroll lock. Rebuilt UI-only (D1): authored `/fragments/sign-in` (h1 Sign In, h3 Welcome
+  Back, USERNAME / PASSWORD label paragraphs, FORGOT YOUR PASSWORD? `#`, SIGN IN link) decorated by
+  `blocks/header/sign-in.js` into the source structure (fixed 450px box, `.cmp-layout-container--modal`
+  panel: margin 2rem, padding 2rem 1.75rem, #202020, shadow 0 10px 20px dimgray; inputs 14px, 1px #ebebeb
+  r4, 2rem 1rem; yellow 180px SIGN IN; gradient 2px separator; ≤767 margin 0 / max-width 340). Values
+  from clientlib-site + the live fragment (fetched to stardust/.work/c0/signin/). Fade by WAAPI (no CSS
+  transition, so no motion delta — live animates via jQuery). Measured vs live with the modal open: every
+  element rect identical at 1440 and 390; panel crop pixel diff 0.00 % at both widths. Hidden at rest:
+  `display: none` until opened.
+- **D1 interim (no credentials ever sent).** Inputs carry no `name`; submit is always prevented; Enter in a
+  field or the SIGN IN control navigates by plain GET to the authored target
+  `/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login` — the page the
+  source lands on after its (always invalid here) POST. That page is NOT in the inventory: a capture gap
+  for E2 (until delivered it 404s on EDS).
+- **🔴 control-missing "search" was the modal.** chrome-compare's `searches()` collects every input the
+  explorer typed into; on the source those are the Sign In modal's USERNAME / PASSWORD fields (probe
+  "sign", submit → the invalid-login URL). The header Search link itself pairs fine by key `search`
+  (source `#button-f5a05c82f1` / build `.header-search a`: both role link, kind search, rect
+  1240,85,48,48 @1440 / 342,40,48,48 @390, href ai-powered-search). Fixed by the modal's fields.
+- **🟡 link-missing /us/en (top-level).** Not the nav-home item: it is the LOGO link (source
+  `#image-1f45f4e6a7>a`, name "", rect 152,119,128,23 @1440 / 28,77,128,23 @390, href /us/en.html); the
+  build logo link has the same empty name, rect and href (/us/en). pairControls pairs by `key` (empty on
+  both sides) or by family (`link` is not a family), so an unnamed link can never pair — a comparer
+  false positive, left as 🟡 (no header-decisions entry).

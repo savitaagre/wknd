@@ -39,6 +39,13 @@
     "navDocumentSections": "0 account (Welcome / Sign In / Sign Out) · 1 language (toggle label + country list) · 2 brand logo · 3 nav (ul > li Home|locale name [> ul level-1]; coming-soon: level-0 item only) · 4 search · 5 metadata (Robots noindex)",
     "footerDocumentSections": "0 brand logo · 1 nav (as header) · 2 social (h4 Follow Us + ul) · 3 legal paragraphs (/ca/en: Canadian note first) · 4 metadata (Robots noindex)"
   },
+  "signIn": {
+    "document": "/fragments/sign-in (one for every locale, as the source's language-masters/en experience fragment)",
+    "code": "blocks/header/sign-in.js — prefetched after the header decorates; the modal lives inside the header block, fixed to the viewport, hidden at rest",
+    "sections": "0: h1 Sign In · h3 Welcome Back · one <p> per field label (a /password/ label → password field) · link <p>s, the LAST one = the SIGN IN control (href = landing target) · 1: metadata (Robots noindex)",
+    "d1Interim": "no auth backend: inputs carry no name, submission is always prevented, Enter / SIGN IN navigate (plain GET, no credentials) to the authored target /us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login — the source's invalid-login landing page (capture gap: not in the inventory)",
+    "behaviour": "click or Enter on Sign In → fade in 300 ms; any outside click (the trigger included) → fade out 200 ms and is swallowed; focus stays on the trigger; no scroll lock; Escape does not close (as live)"
+  },
   "media": {
     "daOrg": "savitaagre",
     "daRepo": "wknd",

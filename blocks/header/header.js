@@ -1,5 +1,6 @@
 import { getChromePath, getLocale, markCurrentNav } from '../../scripts/scripts.js';
 import { loadFragment } from '../fragment/fragment.js';
+import decorateSignIn from './sign-in.js';
 
 /**
  * WKND header — template-slotted (#95) from the authored /nav document.
@@ -25,6 +26,8 @@ import { loadFragment } from '../fragment/fragment.js';
  * is-active), the toggle flag from the authored locale label, the active locale link pointing
  * at the current page, and same-language locale links (en-US / en-CA) upgraded to the current
  * page's counterpart when it exists (checked once, on the first menu open).
+ *
+ * The Sign In control opens the UI-only Sign In modal (sign-in.js, /fragments/sign-in; D1).
  *
  * @ew-exempt <ul> mobile-nav — presentational clone of the header nav list (EW4, instrumentation
  * stripped); the header nav list is the editable original
@@ -298,6 +301,8 @@ export default async function decorate(block) {
   );
 
   block.replaceChildren(site, ...buildMobile(navList));
+  // Sign In modal (live data-modal-url fragment); built in the background, never blocks the bar
+  decorateSignIn(block, unbutton);
 
   // header scroll morph (live: body.scrolly while scrollTop > 15)
   const updateScrolly = () => {
