@@ -1,0 +1,285 @@
+{
+  "url": "https://wknd.site/us/en/about-us.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 704,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 704,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 704,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".cmp-experience-fragment--contributor .cmp-button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(235, 235, 235)",
+          "background": "rgb(32, 32, 32)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.cmp-button__icon.cmp-button__icon--facebook",
+            "transform": "none",
+            "color": "rgb(235, 235, 235)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(235, 235, 235)",
+          "background": "rgb(32, 32, 32)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.cmp-button__icon.cmp-button__icon--facebook",
+            "transform": "none",
+            "color": "rgb(235, 235, 235)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".cmp-experience-fragment--contributor .cmp-image__image",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 306,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 306,
+        "dur": "0.5s, 0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 306
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "us-en-adventures-climbing-new-zealand-html",
+  "type": "program",
+  "liveUrl": "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+  "prototype": "stardust/prototypes/us-en-adventures-climbing-new-zealand-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-en-adventures-climbing-new-zealand-html-proposed.html",
+    "stardust/prototypes/us-en-adventures-climbing-new-zealand-html.css",
+    "stardust/prototypes/us-en-adventures-climbing-new-zealand-html.js",
+    "stardust/prototypes/assets/media/{sport-climbing,climber-gear-rope,adobestock-277768563,adobestock-277948178,climber-gear-outdoor,adobestock-140634652,adobestock-166394648,equipment-4}-{100..1200,1600}w.jpeg (live srcset renditions; adobestock-277768563-*w pre-existed, reused)"
+  ],
+  "breakpoints": {
+    "1440": {
+      "iterations": 2,
+      "rounds": [
+        "iter1 --full 0.76% Δh 0",
+        "iter2 0.03%",
+        "iter3 0.03%",
+        "confirm --full 0.03% Δh 0"
+      ],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": 1,
+        "pixelPct": 0.03,
+        "heightDelta": 0,
+        "chromeParity": "pass (header crop 0.00%, footer crop 0.00%)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "12/12 within 4px",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff advisory STRETCHED IMAGE sport-climbing-1600w.jpeg → 1440x400: intentional cover crop, source `.cmp-carousel--mini .cmp-image__image { height: 25pc; object-fit: cover }` (live renders the same rendition the same way)"
+      ],
+      "residuals": []
+    },
+    "360": {
+      "iterations": 2,
+      "rounds": [
+        "iter1 --full 3.17% Δh -1",
+        "iter2 3.42% Δh -1",
+        "iter3 0.40% Δh 0",
+        "confirm --full 0.40% (units false-FAIL: stale cache)",
+        "confirm2 --full 0.40% Δh 0 exit 0"
+      ],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": 1,
+        "pixelPct": 0.4,
+        "heightDelta": 0,
+        "chromeParity": "pass (header crop 0.14%, footer crop 0.00%)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "12/12 within 4px (all Δ 0)",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff advisory STRETCHED IMAGE sport-climbing-400w.jpeg → 360x400: intentional cover crop (same source rule; live selects the same 400w rendition)"
+      ],
+      "residuals": [
+        "band y1500–2000 2.0% (crop y1300+320 4.08%): Overview h2 'Let us take you on a spectacular climbing experience unique to New Zealand' (Asar, synthetic bold via <b>) wraps 'climbing' alone on live, 'climbing experience' on build — same 5 lines, same height (Δh 0). Same font file (md5 ebee597d… = gstatic Asar v24 latin), same bytes, every computed font prop equal (measure nz-m-h2c); the live inline box measures 5px wider at 1440 with pixel-identical glyphs (crop 0.01%), so it is a sub-pixel line-breaking difference, not a style fork. No instrument names a fixable rule (pixel 0.40% is within the bar); logged as a residual rather than guessed at."
+      ]
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/us-en-adventures-climbing-new-zealand-html-2560/cap-iter.json); the 873px tabs cap is the 9/12 grid column, replicated as measured",
+  "units": [
+    "program-trip-facts",
+    "program-content-tabs",
+    "program-gallery-indicators"
+  ],
+  "motion": {
+    "observed": [
+      "carousel prev/next/indicator → cmp-carousel__item--active + cmp-carousel__indicator--active, fadeIn .5s on the entering slide (3 pokes)",
+      "content tabs click → cmp-tabs__tab--active + cmp-tabs__tabpanel--active (3 pokes)",
+      "header scroll morph body.scrolly, padding transitions 0.5s (canon)"
+    ],
+    "implemented": [
+      "trip-gallery carousel prev/next/indicator (us-en-adventures-climbing-new-zealand-html.js; fadeIn .5s in CSS)",
+      "content-tabs click switching with aria-selected / tabindex / aria-hidden (same js)",
+      "header morph — canon.js, unchanged"
+    ],
+    "dead": [
+      "carousel autoplay (0 idle class mutations)",
+      "hover: tab, breadcrumb link, carousel arrow, carousel indicator, trip-fact item (no measured hover diff)"
+    ],
+    "compare": "motion-compare: 9 parity, 0 missing, 0 extra, 0 advisory (11 dead or unobserved on live)",
+    "pixelAfterMotion": {
+      "1440": 0.03,
+      "360": 0.4
+    }
+  },
+  "captureState": [
+    {
+      "element": "share-bar FB/Pinterest buttons",
+      "state": "SDK placeholders (empty div.fb-share-button + empty Pinterest anchor, height 0) — the live capture never hydrates them; replicated as captured",
+      "restoreAtDelivery": "none observed on live (no SDK load); decide share widgets at delivery"
+    }
+  ],
+  "canonRequests": [
+    "h5 base rule 14px (+ corroborates h1 40px)",
+    "active nav item (Adventures) — corroborates us-en-faqs-html request; build uses <li class=\"is-active\">",
+    "promote breadcrumb module",
+    "promote share-bar module",
+    "icon glyph .icon--play3 (\\ea1c)"
+  ],
+  "registerRequests": [
+    "873px tabs cap = 9/12 grid column (intent) — informational, replicated as measured"
+  ],
+  "notes": [
+    "Content: verbatim from the page JSON + rendered DOM, &nbsp; byte patterns kept, <b> inside tab h2s mirrored, hidden contentfragment <h3> titles (display:none) mirrored ×4, inactive tab panels mirrored hidden (aria-hidden), img title attributes carried over (content-diff iter1 🟡 ×6 → none).",
+    "Layout: the source float grid is mirrored (.trip-layout = .cmp-layout-container--fixed 1164 content-box + 14px padding = 1192; .trip-grid clearfix tables; 3/9 float columns; trip-facts dl/items floated content-box). An intermediate non-BFC wrapper inside the aside (.trip-aside__inner, live div.cmp-container) is load-bearing: without it Chrome placed the floated facts 23px higher (h5 margin strut).",
+    "Carousel action icon: live computed font-family wknd-icon-font 20px / 20px on .cmp-carousel__action-icon with no rule in the captured sheets — lifted from computed style (fixed a 4px button offset).",
+    "Image renditions: live srcset 100…1200,1600w with no sizes; a fresh 360 load selects 400w, 1440 selects 1600w — authored the same srcset on local renditions (fixed 360 from 3.42% to 0.40% and Δh -1 → 0).",
+    "Header/footer: canon markup verbatim; content changes only — en-US / en-CA locale links point at this adventure (as on live), Adventures marked active.",
+    "Script trap (report to coordinator): unit-geometry's origin cache stardust/current/measure/<slug>-units.json is NOT width-keyed — a 1440 run's cache made the first 360 confirm read 1440 origin boxes (12 'off'). Cleared and re-ran (confirm2, exit 0); cache removed again afterwards. gate-all at 1440 then 360 will hit the same trap.",
+    "Fonts: canon Asar / Source Sans Pro (same public source, no substitution)."
+  ]
+}

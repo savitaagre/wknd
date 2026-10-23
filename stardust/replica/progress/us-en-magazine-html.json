@@ -1,0 +1,107 @@
+{
+  "slug": "us-en-magazine-html",
+  "type": "magazine-listing",
+  "liveUrl": "https://wknd.site/us/en/magazine.html",
+  "prototype": "stardust/prototypes/us-en-magazine-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-en-magazine-html-proposed.html",
+    "stardust/prototypes/us-en-magazine-html.css",
+    "stardust/prototypes/assets/media/adobe-waadobe-wa-b6a7083.jpeg",
+    "stardust/prototypes/assets/media/alaskan-grizzly.jpeg",
+    "stardust/prototypes/assets/media/amazon-river-02.jpeg"
+  ],
+  "breakpoints": {
+    "360": {
+      "iterations": 0,
+      "rounds": [
+        "iter1 --full",
+        "confirm --full"
+      ],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": "7 advisory (justified)",
+        "pixelPct": 0.16,
+        "heightDelta": 0,
+        "chromeParity": "✓ within tolerance; crop-compare header 0.13 %, footer 0.00 %",
+        "clipped": 0,
+        "overflow": 0,
+        "unitGeometry": "7 compared, 0 off/hidden/missing → PASS",
+        "pass": true
+      },
+      "justified": [
+        "STRETCHED IMAGE on every object-fit:cover image (featured @1440, 5 article cards, 2 members teasers) — identical list flagged on the SOURCE side (source cover crops: .cmp-teaser--featured img object-fit cover, .cmp-image-list img 200px cover, .cmp-teaser--list img max-height 200px cover)"
+      ],
+      "residuals": [
+        "live 360 height is load-timing dependent: featured image box measured 173 px (scrollHeight 4389) in one live measure run and 194 px (4410) in the next and in the gated live.png; build matches the 4410 state (Δh 0)"
+      ]
+    },
+    "1440": {
+      "iterations": 0,
+      "rounds": [
+        "iter1 --full",
+        "confirm --full"
+      ],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": "8 advisory (justified)",
+        "pixelPct": 0.23,
+        "heightDelta": 0,
+        "chromeParity": "✓ within tolerance; crop-compare header 0.00 %, footer 0.00 %",
+        "clipped": 0,
+        "overflow": 0,
+        "unitGeometry": "7 compared, 0 off/hidden/missing → PASS",
+        "pass": true
+      },
+      "justified": [
+        "STRETCHED IMAGE on every object-fit:cover image (featured @1440, 5 article cards, 2 members teasers) — identical list flagged on the SOURCE side (source cover crops: .cmp-teaser--featured img object-fit cover, .cmp-image-list img 200px cover, .cmp-teaser--list img max-height 200px cover)"
+      ],
+      "residuals": [
+        "0.23 % — featured image rendition (live 1181×665 via srcset, build single 1280×720 file); no hot band"
+      ]
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/us-en-magazine-html-2560/cap-iter.json); advisory: live 9 vs build 8 top-level sections (the two members-teaser grid columns sit in one .members-teasers float wrapper)",
+  "units": [
+    "article-card-grid",
+    "members-only-teaser"
+  ],
+  "motion": {
+    "observed": [
+      "header scroll-morph (canon: body.scrolly, padding transitions 500ms)"
+    ],
+    "implemented": [
+      "header scroll-morph (canon.js, unchanged)"
+    ],
+    "dead": [
+      "hover .cmp-image-list__item a (no measured diff)",
+      "hover featured .cmp-teaser__action-link (no measured diff)",
+      "hover .cmp-teaser--secure .cmp-teaser (no measured diff)"
+    ],
+    "compare": "motion summary: 4 parity, 0 missing, 0 extra, 0 advisory",
+    "pixelAfterMotion": {
+      "360": 0.16,
+      "1440": 0.23
+    }
+  },
+  "captureState": [
+    {
+      "element": "members-only teasers (row #11)",
+      "state": "body.anonymous locked state: lock badge, opacity .65, grey non-link Read More label",
+      "restoreAtDelivery": "static-snapshot per dynamics row #11 — render as captured; no sign-in backend (D1)"
+    }
+  ],
+  "canonRequests": [
+    ".featured-teaser* promote from us-en-html.css (home + magazine)",
+    ".separator--space-medium { margin: 2em 0 }",
+    ".members-teaser* (+ .icon--lock \\e98f) promote if a second template uses it"
+  ],
+  "registerRequests": [],
+  "notes": [
+    "Register entries for magazine-listing: none applied.",
+    "No <slug>.js — no page behaviour beyond canon (motion-observe: only the header morph fired).",
+    "Featured CTA reads Read More (captured), home reads Full Article.",
+    "Members teasers: image drops below the floated text/button on /us/en too (live measure @1440 img y2009 under content bottom 2002) — the origin layout, replicated via the same float + inline-img model.",
+    "section-cta-button: no instance on /us/en/magazine (DESIGN.json lists it on the home only).",
+    "Sign In (row #10) stays the canon static link."
+  ]
+}

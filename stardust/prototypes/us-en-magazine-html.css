@@ -1,0 +1,63 @@
+/* stardust:replica — wknd.site /us/en/magazine.html recreation (layer 2 of 2: magazine-listing modules).
+   Loaded AFTER canon.css (tokens, base, chrome, shell, buttons, section titles, separator,
+   image-list, footer). Every value below is lifted from the source stylesheet
+   (stardust/replica/capture/css/clientlib-site…css) or measured on the live page (measure.mjs).
+   Source breakpoints kept verbatim: 767/768, 1024/1025, 1164/1165, 1200/1201.
+   canon3: .featured-teaser* and .separator--space-medium moved to canon.css, unchanged.
+   .members-teaser* stays here (KEPT PER-ARCHETYPE until a second template uses it, canon-requests.md). */
+
+/* ---------- members-only teasers (source .cmp-teaser--list.cmp-teaser--secure in body.anonymous —
+   captured logged-out state, dynamics row #11 static-snapshot). Grid columns: default 4/12, tablet 6/12,
+   phone 12/12 (aem-GridColumn, padding 0 14px, float left). The content floats left; the image's inline
+   img (width 100%) cannot sit beside it and drops below the float — the origin's own layout. ---------- */
+.members-teasers { display: flow-root; }
+.members-teaser { float: left; width: 33.3333333333%; padding: 0 var(--gutter); }
+.members-teaser::before {          /* lock badge: yellow top-left triangle + lock glyph (\e98f) */
+  content: "\e98f";
+  position: relative;
+  top: 49px;
+  z-index: 2;
+  padding: 12px;
+  background: linear-gradient(to top left, hsla(0, 0%, 100%, 0) 0, hsla(0, 0%, 100%, 0) 50%, var(--brand-yellow) 50%, var(--brand-yellow) 100%);
+  color: #000;
+  font-family: var(--font-icon) !important;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.members-teaser__inner { opacity: .65; }
+.members-teaser__content { float: left; }
+.members-teaser__title {
+  margin: .5em 0;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.members-teaser__description { margin: 0; color: var(--text-muted); font-size: var(--fs-small); line-height: 1.75; text-transform: uppercase; }
+.members-teaser__description p { font-size: var(--fs-small); line-height: 1.75; }
+.members-teaser__action {
+  float: left;
+  margin: 1em 0;
+  padding: .5em 1em;
+  background-color: var(--surface-grey);
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+}
+.members-teaser__image img { width: 100%; height: auto; max-height: 200px; margin: 7px 0; object-fit: cover; }
+
+/* ---------- breakpoints (source values) ---------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .members-teaser { width: 50%; }
+}
+
+@media (max-width: 767px) {
+  .members-teaser { width: 100%; }
+}

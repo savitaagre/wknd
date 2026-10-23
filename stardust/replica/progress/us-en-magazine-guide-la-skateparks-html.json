@@ -1,0 +1,70 @@
+{
+  "slug": "us-en-magazine-guide-la-skateparks-html",
+  "type": "article",
+  "liveUrl": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
+  "prototype": "stardust/prototypes/us-en-magazine-guide-la-skateparks-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-en-magazine-guide-la-skateparks-html-proposed.html",
+    "stardust/prototypes/us-en-magazine-guide-la-skateparks-html.css"
+  ],
+  "breakpoints": {
+    "1440": {
+      "iterations": 1,
+      "confirmationRound": "iter2 (--full --main main)",
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": 1,
+        "pixelPct": 0.09,
+        "heightDelta": 0,
+        "chromeParity": "✓ within tolerance; crop header y0+194 0.00 %, footer y4547+260 0.00 %",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "article-up-next 4 units, 12 elements within 4 px",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff advisory STRETCHED IMAGE stacey-roswells.jpeg 1280x853 → 60x60: intentional cover crop, source .cmp-byline .cmp-byline__image .cmp-image__image { width/height 60px; object-fit: cover; border-radius: 30px } — identical on live"
+      ],
+      "residuals": [],
+      "fixLog": [
+        "iter1 → iter2: up-next title/date spans separated by a space (live byte pattern; cleared 4 MISSING CTA 🔴 + 4 EXTRA 🟠), up-next link/title/date box-sizing content-box (source content-box under canon border-box: link 120 → 136 px, title 226 → 236 px; unit-geometry FAIL → PASS)"
+      ]
+    },
+    "360": {
+      "iterations": 0,
+      "confirmationRound": "iter1 (--full --main main; first round passed, no fix needed)",
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": 1,
+        "pixelPct": 0.15,
+        "heightDelta": -1,
+        "chromeParity": "✓ within tolerance; crop header y0+117 0.14 %, footer y6289+593 0.00 %",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "article-up-next 4 units, 12 elements within 4 px",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff advisory STRETCHED IMAGE stacey-roswells.jpeg → 60x60: intentional cover crop (as 1440)"
+      ],
+      "residuals": [
+        "Δh −1 px (live 6882 vs build 6883): sub-pixel rounding below the footer — the footer crop at the same y on both sides matches 100 %"
+      ]
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 6 rows failed (advisory: live 4 vs build 3 top-level sections — live inner <main> + <aside> are grid siblings of the image/breadcrumb columns; build wraps them in .article-layout)",
+  "units": ["article-up-next"],
+  "motion": {
+    "observed": ["header scroll-morph (canon)", "hover .cmp-list--upnext .cmp-list__item-link → background #ffea00 + border-color #202020"],
+    "implemented": ["header scroll-morph (canon.js)", "hover .up-next__link (CSS :hover, source values)"],
+    "dead": [".cmp-breadcrumb__item-link hover", ".cmp-download__action hover", ".cmp-download__title-link hover", ".cmp-button--secondary .cmp-button hover"],
+    "compare": "stardust/replica/motion/us-en-magazine-guide-la-skateparks-html-compare.json — 5 parity, 0 missing, 0 extra",
+    "pixelAfterMotion": { "1440": 0.09, "360": 0.15 }
+  },
+  "canonRequests": [
+    "breadcrumb grid variant .breadcrumb-bar--grid (plain .cmp-breadcrumb as a grid column; list margin-top 1em + padding-top 12px, ≤1024 margin-top 0) — document as per-archetype divergence",
+    ".social-btn--secondary (source .cmp-button--secondary) — promote next to canon .social-btn"
+  ],
+  "registerRequests": [],
+  "notes": "Modules reused from canon: header/footer (Magazine li.is-active in header, mobile nav, footer — live marks the section --active without aria-current), breadcrumb, share-bar (h5 'SHARE THIS STORY'; FB/Pinterest placeholders unhydrated, height 0 as live), underlined section titles (h2 in grid columns), separator + --space-small/--hidden, .social-btn, h1 40px / h4 / h5. Article-only modules authored here: lead image (srcset 100–1600w, sizes 100vw as live), 12-col float grid, pull-quote (.cmp-text--quote), author-byline-card (60px avatar, 30px radius), download-card (verified present on this page; glyph \\e907 as pseudo content), up-next-list (4 items, self-link first). The contentfragment title h3 is kept hidden as on live. Empty AEM grid wrappers omitted (0 height, no margin effect — measured). Content verbatim incl. source typos ('achievment', 'then') and &nbsp; patterns. Media copied to stardust/prototypes/assets/media/: article-01-hero-*w.png, article-01-picture-01-*w.png, robson-hatsukami-morgan-280159-*w.jpeg (live renditions .coreimg.60.<w>); stacey-roswells.jpeg already present (identical bytes). No JS file (no observed page behaviour beyond canon)."
+}

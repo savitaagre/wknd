@@ -1,0 +1,445 @@
+{
+  "url": "https://wknd.site/us/en/faqs.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 772,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 772,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 772,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#accordion-8d368fed37-item-619af8ccc1-button",
+      "frames": [
+        {
+          "t": 14091.39999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14293.89999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14495.699999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14697.699999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#accordion-8d368fed37-item-492f5b0392-button",
+      "frames": [
+        {
+          "t": 15708.39999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15910.10000038147,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16112,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16314,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#accordion-8d368fed37-item-619af8ccc1-button",
+      "frames": [
+        {
+          "t": 17321.39999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17523.199999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17728.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17931.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".cmp-accordion__button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.cmp-accordion__icon",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.cmp-accordion__icon",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#text-c58c5ff307 a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 69, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 69, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "fadeIn",
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--12 > div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > div.cmp-accordion__panel.cmp-accordion__panel--expanded",
+        "txt": "We believe the best adventures and activities are ",
+        "y": 598
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--12 > div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > div.cmp-accordion__panel.cmp-accordion__panel--expanded",
+        "txt": "WKND charges a small fee for local promoters that ",
+        "y": 738
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 598,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 598,
+        "dur": "0.5s, 0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 598
+      },
+      {
+        "added": [
+          "cmp-accordion__button--expanded"
+        ],
+        "el": "div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > h3.cmp-accordion__header > button.cmp-accordion__button.cmp-accordion__button--expanded",
+        "y": 598
+      },
+      {
+        "added": [
+          "cmp-accordion__panel--expanded"
+        ],
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--12 > div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > div.cmp-accordion__panel.cmp-accordion__panel--expanded",
+        "y": 598
+      },
+      {
+        "added": [
+          "cmp-accordion__button--expanded"
+        ],
+        "el": "div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > h3.cmp-accordion__header > button.cmp-accordion__button.cmp-accordion__button--expanded",
+        "y": 738
+      },
+      {
+        "added": [
+          "cmp-accordion__panel--expanded"
+        ],
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--12 > div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > div.cmp-accordion__panel.cmp-accordion__panel--expanded",
+        "y": 738
+      },
+      {
+        "added": [
+          "cmp-accordion__panel--hidden"
+        ],
+        "el": "div.aem-Grid.aem-Grid--8.aem-Grid--tablet--12 > div.accordion.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-accordion > div.cmp-accordion__item > div.cmp-accordion__panel.cmp-accordion__panel--hidden",
+        "y": 597
+      }
+    ]
+  }
+}
