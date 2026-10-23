@@ -346,3 +346,14 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   build logo link has the same empty name, rect and href (/us/en). pairControls pairs by `key` (empty on
   both sides) or by family (`link` is not a family), so an unnamed link can never pair — a comparer
   false positive, left as 🟡 (no header-decisions entry).
+- **Re-run on the branch host** (b5c4bb1 pushed, served at poll 1): chrome-compare 6 🔴 / 2 🟡 → 2 🔴 / 4 🟡.
+  Gone: state-missing ×2, keyboard ×2, control-missing search ×2. Left 🔴: panel-visual@1440 7.4 % and
+  @390 16.2 % — the explorer crops the modal BOX, whose transparent 2rem margins (1440) / the strip right
+  of the 340px panel (390) show the page behind it: the live HOME hero/carousel vs the short build shell
+  (white main + its footer). On the explorer's own crops the panel alone differs 0.39 % / 0.26 % (1440
+  click / key) and 0.32 % (390), the 80px backdrop strip at 390 78 %. Clears once the build is explored
+  on the delivered /us/en (same backdrop). 🟡: link-missing logo ×2 (above); link-href ×2 — FORGOT
+  YOUR PASSWORD? `#` resolves to the current page (/us/en on the source, /drafts/wknd-shell here).
+- **Crops** (gate.sh wknd-shell … c0b, crop-compare, header y0 h194 / h117): 1440 header 100.00 %,
+  footer 100.00 % (y3494 / y-b 404 h260); 360 header 99.86 %, footer 99.21 % (y5280 / y-b 424 h593) —
+  unchanged; the modal is `display: none` at rest.

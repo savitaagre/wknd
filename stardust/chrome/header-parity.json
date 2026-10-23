@@ -1,0 +1,71 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-23T11:25:25.026Z",
+ "source": "https://wknd.site/us/en.html",
+ "build": "https://aem-20261023-1633--wknd--savitaagre.aem.page/drafts/wknd-shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 2,
+  "warn": 4,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-href@390 Sign In [click]",
+   "width": 390,
+   "path": "Sign In",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: FORGOT YOUR PASSWORD?: /us/en → /drafts/wknd-shell"
+  },
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en not in the build header"
+  },
+  {
+   "key": "link-href@1440 Sign In [click]",
+   "width": 1440,
+   "path": "Sign In",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: FORGOT YOUR PASSWORD?: /us/en → /drafts/wknd-shell"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en not in the build header"
+  },
+  {
+   "key": "panel-visual@390 Sign In [click]",
+   "width": 390,
+   "path": "Sign In",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 16.2% (bar 2%; source 390×507, build 390×507; texture 98% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Sign In [click]",
+   "width": 1440,
+   "path": "Sign In",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 7.4% (bar 2%; source 450×571, build 450×571; texture 92% thick)"
+  }
+ ]
+}
