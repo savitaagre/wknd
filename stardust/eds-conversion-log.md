@@ -408,3 +408,32 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   (already queued by members-only).
 - Deviations (both pages): `restructure` (6 panels / 32 card copies → one 16-row grid + filter), `order`
   (Cycling tab keeps the All order; source panel orders Whistler first).
+
+## C-ARCHETYPE + cluster program (run 3, branch feat/wknd-ca-en, preview host feat-wknd-ca-en--wknd--savitaagre.aem.page)
+
+- Blocks (owned, resumed from the paused run-2 worker): breadcrumb, trip-gallery-carousel, share-bar
+  (template-slotted / reconstructive, generic models — reused later by article), trip-facts, content-tabs
+  (reconstructive). Tiers unchanged from the schema `stardust/eds-schema/us-en-adventures-climbing-new-zealand-html.json`.
+- Fixes this run: units.json build hooks (`trip-facts__item`, `content-tabs__tablist/__tab`,
+  `trip-gallery__indicator`); a lone runtime `<p>` (wrapTextNodes) in a fact / tab label cell gives up its
+  children so the text sits in dt / dd / li as on live (unit-geometry program-trip-facts 12 off → 0);
+  gallery slide-title cell (row: image | optional title → the visually hidden indicator label; Napa only).
+- Variant (8 of 16 /ca/en trips, the aem-Grid sub-template — NOT the slide count: napa has 2 slides):
+  `Trip Facts (Grid)` → `trip-facts grid`; layout rules in content-tabs.css keyed `:has(.trip-facts.grid)`:
+  section padding 0, facts + share columns padding 0 14px, 9/12 + 3/12 at 768–1024, 7/12 + 5/12 ≤767
+  (source `.aem-GridColumn{padding:0 14px}`, `.responsivegrid.aem-GridColumn{padding:0}`; measured on live
+  bali-surf-camp). The gallery needs no variant (a 1-slide carousel is the same block).
+- Media: EDS ingest returns `about:error` for big-endian-Exif JPEGs → APP1-stripped copies uploaded (all
+  orientation 1) — foundation-requests.md line. 74 program media in `media/program/` (ledger media-ledger-wknd.json).
+- Archetype /us/en/adventures/climbing-new-zealand, published-origin gate pub3: 1440 0.03 % Δh 0 · 360 2.48 %
+  Δh −1 · 0 structural 🔴 · clip 0 · presence MISSING 0 / HIDDEN 0 · units 12/12 within · crops header
+  100.00 / 99.86 %, footer 100.00 / 100.00 % · chrome-parity = the 2 logo media hashes · motion 9 parity /
+  0 missing / 0 extra · gate-all PASS both widths. qa-gate: 2 instrument FAILs documented (template cap 1192 =
+  live, DESIGN.json site cap 1164; float-laid trip-facts list not counted by the grid/flex proxy).
+- Siblings: 16 /ca/en/adventures/* — A′ renders from structural clones (stardust/.work/rollout/program/clones,
+  en-CA chrome from the members-only prototype), DA documents by the archetype encoder from the captures;
+  block-roundtrip --ew 16/16 closed; gate-all 16/16 PASS at 1440 (worst riverside-camping-australia 1.00 %)
+  and 360 (worst gastronomic-marais-tour 3.14 % Δh −1). Encoder fix: text-only rich-text divs → `<p>`
+  (Tuscany "What to Bring" paragraph). CA chrome on bali: crops header 100.00 / 99.87 %, footer 99.38 / 99.12 %.
+- Residuals 🟡: image title == alt dropped by the pipeline (23 images); visually hidden Previous/Next
+  labels rendered as aria-label (#100).

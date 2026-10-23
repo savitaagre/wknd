@@ -50,8 +50,8 @@
   "/ca/en/adventures/cycling-tuscany": {
     "status": "previewed",
     "attempts": 1,
-    "ts": "2026-10-23T15:58:29.979Z",
-    "put": 201,
+    "ts": "2026-10-23T16:34:59.873Z",
+    "put": 200,
     "preview": 200,
     "verify": "ok"
   },
@@ -74,8 +74,8 @@
   "/ca/en/adventures/napa-wine-tasting": {
     "status": "previewed",
     "attempts": 1,
-    "ts": "2026-10-23T15:58:56.343Z",
-    "put": 201,
+    "ts": "2026-10-23T16:35:04.458Z",
+    "put": 200,
     "preview": 200,
     "verify": "ok"
   },
