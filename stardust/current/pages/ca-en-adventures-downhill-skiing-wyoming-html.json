@@ -1,0 +1,536 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:08:14.103Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-adventures-downhill-skiing-wyoming-html",
+  "url": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:08:14.103Z",
+  "finalUrl": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html",
+  "title": "Downhill Skiing Wyoming",
+  "description": "A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.  With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/adventures/downhill-skiing-wyoming/adobestock-185234795.jpeg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Downhill Skiing Wyoming"
+    },
+    {
+      "tag": "h5",
+      "text": "Share this Adventure"
+    },
+    {
+      "tag": "h2",
+      "text": "Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter."
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Adventures",
+    "Downhill Skiing Wyoming",
+    "Overview",
+    "Itinerary",
+    "What to Bring",
+    "The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation. Jackson Hole is unlike anywhere else in the US. A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted. With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#sign-in",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#sign-out",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#langNavToggle",
+    "https://wknd.site/us/en/adventures/downhill-skiing-wyoming.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#facebookwknd",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#twitterWKND",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/carousel/image.coreimg.60.1600.jpeg/1660323784078/adobestock-185234795.jpeg",
+        "alt": "A skier does action skiing at the Rolle Pass in the Dolomites, Italy.",
+        "w": 1062,
+        "h": 708
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/container/tabs/item_1570890135033/par1/image.coreimg.60.1600.jpeg/1660323791127/adobestock-93049279.jpeg",
+        "alt": "Snowy Winter Dawn on the Teton Range, Grand Teton National Park",
+        "w": 1210,
+        "h": 807
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 4,
+    "mainTextLen": 2577,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 306,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 382,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-adventures-downhill-skiing-wyoming-html.png",
+  "renderedHtml": "pages/ca-en-adventures-downhill-skiing-wyoming-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "program",
+    "_source": "stardust/current/pages/ca-en-adventures-downhill-skiing-wyoming-html.html (rendered DOM, Playwright) + ca-en-adventures-downhill-skiing-wyoming-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "program-headline": {
+      "text": "Downhill Skiing Wyoming",
+      "selector": "#title-0ab7b8af67 > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "breadcrumb": {
+      "selector": "#breadcrumb-c4fdf955ca",
+      "items": [
+        {
+          "label": "Adventures",
+          "href": "https://wknd.site/ca/en/adventures.html",
+          "current": false
+        },
+        {
+          "label": "Downhill Skiing Wyoming",
+          "href": null,
+          "current": true
+        }
+      ]
+    },
+    "gallery": {
+      "selector": "#carousel-64039724f5",
+      "slides": [
+        {
+          "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323784078/adobestock-185234795.jpeg",
+          "alt": "A skier does action skiing at the Rolle Pass in the Dolomites, Italy.",
+          "localPath": "stardust/current/assets/media/adobestock-185234795-01c1bdca.jpeg",
+          "selector": "#image-70128d4e64 > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/carousel/item_1572032225765.coreimg.jpeg/1660323769901/freeride-steep.jpeg",
+          "alt": "Steep skiing above valley",
+          "localPath": "stardust/current/assets/media/freeride-steep-241018a9.jpeg",
+          "selector": "#image-92f481b689 > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/carousel/item_1572025260171.coreimg.jpeg/1660323769744/adobestock-170334891.jpeg",
+          "alt": "Jackson Hole Tram",
+          "localPath": "stardust/current/assets/media/adobestock-170334891-3c73159c.jpeg",
+          "selector": "#image-a304b30590 > img.cmp-image__image"
+        }
+      ]
+    },
+    "trip-facts": {
+      "selector": "#contentfragment-c570b01111 > dl.cmp-contentfragment__elements",
+      "facts": [
+        {
+          "label": "Activity",
+          "value": "Skiing"
+        },
+        {
+          "label": "Adventure Type",
+          "value": "Overnight Trip"
+        },
+        {
+          "label": "Trip Length",
+          "value": "2-3 days"
+        },
+        {
+          "label": "Group Size",
+          "value": "4"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Intermediate"
+        },
+        {
+          "label": "Price",
+          "value": "400.0"
+        }
+      ]
+    },
+    "summary": {
+      "text": "The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation. Jackson Hole is unlike anywhere else in the US. A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted. With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.",
+      "ref": "body[5]",
+      "source": "tabs[0] (Overview) first paragraph"
+    },
+    "tabs": {
+      "selector": "#tabs-8eafdaf4a8",
+      "panels": [
+        {
+          "label": "Overview",
+          "selector": "#tabs-8eafdaf4a8-item-8f22fa2a19-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Experience wild untamed, rolling, wide-open terrain of Wyoming in the winter.",
+              "selector": "#contentfragment-8f22fa2a19 > div.cmp-contentfragment__elements > div:nth-child(2) > h2"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/container/tabs/item_1570890135033/par1/image.coreimg.jpeg/1660323791127/adobestock-93049279.jpeg",
+              "alt": "Snowy Winter Dawn on the Teton Range, Grand Teton National Park",
+              "localPath": "stardust/current/assets/media/adobestock-93049279-1702a1a2.jpeg",
+              "selector": "#image-9d7e841c0c > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "The spectacular Tetons of Wyoming provide a wonderous backdrop for your Jackson Hole ski vacation. Jackson Hole is unlike anywhere else in the US. A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted. With 2,500 acres of legendary terrain, unmatched levels of snowfall each winter, and unparalleled backcountry access, Jackson Hole offers a truly unique skiing experience.",
+              "ref": "body[5]"
+            }
+          ]
+        },
+        {
+          "label": "Itinerary",
+          "selector": "#tabs-8eafdaf4a8-item-55a6e0b538-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Day 1 - Hit the Slopes",
+              "selector": "#contentfragment-55a6e0b538 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(1)"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/container/tabs/item_1570890140330/par1/image.coreimg.jpeg/1660323785655/freeride.jpeg",
+              "alt": "Skier in deep powder, extreme mountain freeride",
+              "localPath": "stardust/current/assets/media/freeride-eb3b2754.jpeg",
+              "selector": "#image-2a312313b3 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "We get going bright and early in Wyoming. The lifts at Jackson Hole Mountain Resort start running at 8 am and we intend to be among the first up the slopes! With more than 2,500 acres of inbounds terrain and a nice blend of beginner, intermediate and expert-level terrain, there's so much to explore on the mountain. Once you're ready to call it a day, check out one of the cozy apres ski spots in Jackson.",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Day 2 - Keep it Going",
+              "selector": "#contentfragment-55a6e0b538 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(5)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Now that you're acclimated to the glorious ski conditions of Northwestern Wyoming, let's really get after it. Spend the day skiing the world renowned steeps and deeps at Knoblach Mountain Resort. Find out why this place is known as the birthplace of big-mountain freeskiing and home to many of the pioneers of the sport.",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Day 3 - Snowmobile Tour",
+              "selector": "#contentfragment-55a6e0b538 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(9)"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/root/container/container/tabs/item_1570890140330/par5/image.coreimg.jpeg/1660323776803/adobestock-166718157.jpeg",
+              "alt": "A woman riding a snowmobile in the middle of wyoming.",
+              "localPath": "stardust/current/assets/media/adobestock-166718157-ccb1a34b.jpeg",
+              "selector": "#image-37f9105f3b > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Take a day off from skiing and head to Taneja Pass, just northeast of Jackson, to enjow a day on snowmobiles. It's a great way to enjoy views of the Tetons and explore the terrain on a sunny day. Weather permitting, we can make a trip to Granite Hot Spring and soak in all the goodness.",
+              "ref": null
+            }
+          ]
+        },
+        {
+          "label": "What to Bring",
+          "selector": "#tabs-8eafdaf4a8-item-e66c773e4a-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "We'll provide the ski gear, but feel free to bring your own.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Ski & Snowboard Clothing",
+              "ref": null
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Jacket – 1 – 3 waterproof ski jackets",
+                "Pants – 1 – 3 waterproof ski pants",
+                "Snowsuits – 1 – 2 waterproof snowsuits",
+                "Additional insulation – down or fleece vest",
+                "Base Layer Tops – 1 -4 non-cotton base layer tops",
+                "Base Layer Bottoms – 1 – 4 non-cotton base layer bottoms",
+                "Gloves & Mittens – waterproof and insulated ski gloves or mittens",
+                "Sweaters – 1 – 4 fleece or wool sweaters",
+                "Warm winter hat",
+                "Socks – 3 – 4 wool ski socks",
+                "Neck Gaiter – non-cotton balaclava or ski mask"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Tip: Remember to pack lots of warm layers, as the weather conditions on the mountains can change quickly and dramatically.",
+              "ref": null
+            }
+          ]
+        }
+      ]
+    },
+    "share": {
+      "text": "Share this Adventure",
+      "selector": "#title-5990e180e1 > h5.cmp-title__text",
+      "ref": "headings[1]"
+    },
+    "feature-grid": null,
+    "cta-band": null,
+    "_absent": [
+      "feature-grid — adventure detail pages carry no feature grid; the trip-facts list is the structured summary",
+      "cta-band — no booking/sign-up CTA band in the rendered DOM"
+    ]
+  }
+}

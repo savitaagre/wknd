@@ -1,0 +1,566 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:09:20.685Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-adventures-ski-touring-mont-blanc-html",
+  "url": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:09:20.685Z",
+  "finalUrl": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html",
+  "title": "Ski Touring Mont Blanc",
+  "description": "This adventure includes 5 days of ski touring topped off with the ascent of Mont Blanc, the highest point in Western Europe. ",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/adventures/ski-touring-mont-blanc/adobestock-238230356.jpeg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Ski Touring Mont Blanc"
+    },
+    {
+      "tag": "h5",
+      "text": "Share this Adventure"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Adventures",
+    "Ski Touring Mont Blanc",
+    "Overview",
+    "Itinerary",
+    "What to Bring",
+    "If you’re a slopes enthusiast, you know that one run in the backcountry is worth ten in the front country. This adventure includes 5 days of ski touring topped off with the ascent of Mont Blanc, the highest point in Western Europe. An acclimatization phase of the trip will prepare the team physically and mentally for a two-day summit attempt. During this phase, some of the classic routes around Chamonix will be explored. The final two days we’ll take the summit of Mont Blanc via the Arete Royal and Dome Du Goute."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#sign-in",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#sign-out",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#langNavToggle",
+    "https://wknd.site/us/en/adventures/ski-touring-mont-blanc.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#facebookwknd",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#twitterWKND",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/carousel/item_1571168419252.coreimg.60.1600.jpeg/1660323789507/adobestock-238230356.jpeg",
+        "alt": "Aiguille du Midi Hiver 2018",
+        "w": 1202,
+        "h": 801
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890135033/par1/image.coreimg.60.1600.jpeg/1660323776866/ice-climbing.jpeg",
+        "alt": "Mountaineer on a route of snow and rock during the winter. Western Alps, Italy, Europe",
+        "w": 1440,
+        "h": 959
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890135033/par1/image_2117301697.coreimg.60.1600.jpeg/1660323769743/skitouring.jpeg",
+        "alt": "Ski touring hiking uphill in the mountains.",
+        "w": 1440,
+        "h": 959
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 12,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 3,
+    "mainTextLen": 3216,
+    "realImageCount": 5,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 291,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-adventures-ski-touring-mont-blanc-html.png",
+  "renderedHtml": "pages/ca-en-adventures-ski-touring-mont-blanc-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "program",
+    "_source": "stardust/current/pages/ca-en-adventures-ski-touring-mont-blanc-html.html (rendered DOM, Playwright) + ca-en-adventures-ski-touring-mont-blanc-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "program-headline": {
+      "text": "Ski Touring Mont Blanc",
+      "selector": "#title-abef693701 > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "breadcrumb": {
+      "selector": "#breadcrumb-d9df2eae0d",
+      "items": [
+        {
+          "label": "Adventures",
+          "href": "https://wknd.site/ca/en/adventures.html",
+          "current": false
+        },
+        {
+          "label": "Ski Touring Mont Blanc",
+          "href": null,
+          "current": true
+        }
+      ]
+    },
+    "gallery": {
+      "selector": "#carousel-5c8d98ee37",
+      "slides": [
+        {
+          "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/carousel/item_1571168419252.coreimg.jpeg/1660323789507/adobestock-238230356.jpeg",
+          "alt": "Aiguille du Midi Hiver 2018",
+          "localPath": "stardust/current/assets/media/adobestock-238230356-30a7a186.jpeg",
+          "selector": "#image-b9e6e9313c > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/carousel/item_1571168422510.coreimg.jpeg/1660323789108/adobestock-21422513.jpeg",
+          "alt": "Male skier moving down in snow powder; envers du plan, vallèe blanche, Chamonix, Mont Blanc massif, France, Europe.",
+          "localPath": "stardust/current/assets/media/adobestock-21422513-d1419c7f.jpeg",
+          "selector": "#image-1367042e7f > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/carousel/item_1572028007823.coreimg.jpeg/1660323777363/adobestock-291339093.jpeg",
+          "alt": "Alpiniste sur l'ascension du Mont-Blanc (4810m) au niveau du dôme du Goûter, Alpiniste sur l'ascension du Mont-Blanc (4810m) au niveau du dô",
+          "localPath": "stardust/current/assets/media/adobestock-291339093-55f7acb7.jpeg",
+          "selector": "#image-cc490e6415 > img.cmp-image__image"
+        }
+      ]
+    },
+    "trip-facts": {
+      "selector": "#contentfragment-11ceaced33 > dl.cmp-contentfragment__elements",
+      "facts": [
+        {
+          "label": "Activity",
+          "value": "Skiing"
+        },
+        {
+          "label": "Adventure Type",
+          "value": "Overnight Trip"
+        },
+        {
+          "label": "Trip Length",
+          "value": "5 Days"
+        },
+        {
+          "label": "Group Size",
+          "value": "4"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Advanced"
+        },
+        {
+          "label": "Price",
+          "value": "2600.0"
+        }
+      ]
+    },
+    "summary": {
+      "text": "If you’re a slopes enthusiast, you know that one run in the backcountry is worth ten in the front country. This adventure includes 5 days of ski touring topped off with the ascent of Mont Blanc, the highest point in Western Europe. An acclimatization phase of the trip will prepare the team physically and mentally for a two-day summit attempt. During this phase, some of the classic routes around Chamonix will be explored. The final two days we’ll take the summit of Mont Blanc via the Arete Royal and Dome Du Goute.",
+      "ref": "body[5]",
+      "source": "tabs[0] (Overview) first paragraph"
+    },
+    "tabs": {
+      "selector": "#tabs-20318c806b",
+      "panels": [
+        {
+          "label": "Overview",
+          "selector": "#tabs-20318c806b-item-8c9bdebcf9-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "If you’re a slopes enthusiast, you know that one run in the backcountry is worth ten in the front country. This adventure includes 5 days of ski touring topped off with the ascent of Mont Blanc, the highest point in Western Europe. An acclimatization phase of the trip will prepare the team physically and mentally for a two-day summit attempt. During this phase, some of the classic routes around Chamonix will be explored. The final two days we’ll take the summit of Mont Blanc via the Arete Royal and Dome Du Goute.",
+              "ref": "body[5]"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890135033/par1/image.coreimg.jpeg/1660323776866/ice-climbing.jpeg",
+              "alt": "Mountaineer on a route of snow and rock during the winter. Western Alps, Italy, Europe",
+              "localPath": "stardust/current/assets/media/ice-climbing-9f63dbfe.jpeg",
+              "selector": "#image-d47a3a26b7 > img.cmp-image__image"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890135033/par1/image_2117301697.coreimg.jpeg/1660323769743/skitouring.jpeg",
+              "alt": "Ski touring hiking uphill in the mountains.",
+              "localPath": "stardust/current/assets/media/skitouring-7207b65b.jpeg",
+              "selector": "#image-f280595f71 > img.cmp-image__image"
+            }
+          ]
+        },
+        {
+          "label": "Itinerary",
+          "selector": "#tabs-20318c806b-item-3dda6a0b3d-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Day 1",
+              "ref": null
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890140330/par1/image.coreimg.jpeg/1660323786807/adobestock-75620750.jpeg",
+              "alt": "View to Mont Blanc Glacier from Chamonix, France",
+              "localPath": "stardust/current/assets/media/adobestock-75620750-d8b51e1f.jpeg",
+              "selector": "#image-36acf7a956 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Arrive in Chamonix and meet up with our group at the chalet in the afternoon. Your guides will take you through the plan for the week and will discuss logistics, equipment, conditions and guidelines.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Day 2",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Our first ski day is usually at the Grands Montets where there are some excellent runs from the top lift station. During the afternoon your guide will do a short ski tour and run a mountain awareness session on avalanche rescue.",
+              "ref": null
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890140330/par4/image.coreimg.jpeg/1660323777363/adobestock-291339093.jpeg",
+              "alt": "Alpiniste sur l'ascension du Mont-Blanc (4810m) au niveau du dôme du Goûter, Alpiniste sur l'ascension du Mont-Blanc (4810m) au niveau du dô",
+              "localPath": "stardust/current/assets/media/adobestock-291339093-55f7acb7.jpeg",
+              "selector": "#image-245c1327f0 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Day 3",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "A second day ski tour from the Argentiere hut typically you will head to the Col du Tour Noir on the Glacier des Amethystes, usually a 4 hour run. Then we’ll return to the hut for a second night.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Day 4",
+              "ref": null
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890140330/par7/image.coreimg.jpeg/1660323769851/alpinists-rochefort-ridge.jpeg",
+              "alt": "Team of two alpinists on Rochefort Ridge, France",
+              "localPath": "stardust/current/assets/media/alpinists-rochefort-ridge-cef11de6.jpeg",
+              "selector": "#image-c838db54f9 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Starting from the hut you will ski tour the Col du Passon and enjoy a long ski descent to the village of Le Tour. Return to the chalet for a well deserved shower and dinner.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Day 5",
+              "ref": null
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890140330/par9/image.coreimg.jpeg/1660323784195/hiking-campaign.jpeg",
+              "alt": "",
+              "localPath": "stardust/current/assets/media/hiking-campaign-1c305276.jpeg",
+              "selector": "#image-116cf50985 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Summit ascent. A leisurely start before the Aiguille du Midi cable car and ascent to the Grand Mulets Refuge. This is a 3hr ski tour to the hut where you stay overnight.",
+              "ref": null
+            }
+          ]
+        },
+        {
+          "label": "What to Bring",
+          "selector": "#tabs-20318c806b-item-aee7103922-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "When choosing clothing for ski touring you want to think light, warm, and versatile. Weather can change from warm and sunny in the afternoon to frigid bone-chilling temperatures in the evening. Be prepared to switch from carrying most of your clothes and gear in your rucksack to avoid the heat to wearing nearly everything you have to keep warm! Preparing for the unpredictable conditions is definitely part of the adventure!",
+              "ref": null
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Headwear: warm hat, sun-cap, or wide-brim hat for sun protection, ski helmet, snow cap/beanie.",
+                "An outer shell jacket made of waterproof and breathable material like Gore-Tex. One with a hood is preferable to avoid letting snow inside.",
+                "Multiple layers of thin fleece - rather than a single thick layer. Multiple layers allow for easy adding or removing of layers depending on the temperature and activity.",
+                "Insulation layer like a down or Primaloft jacket is a good item to have ready to wear in the event of cold weather, it can live in your rucksack as a spare layer and can come in very handy for sudden changes in the weather.",
+                "A pair of thermal base layer pants under a shell."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "As with all ski touring trips, you’ll want to go with all-mountain/freeride skis, ski touring boots and ski touring bindings. Dedicated ski touring boots or hybrid freeride boots are required for all touring trips to make it easier and more comfortable to walk uphill.",
+              "ref": null
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/root/container/container_fixed/tabs/item_1570890147607/par2/image.coreimg.jpeg/1660323784010/alpinists-himalayas.jpeg",
+              "alt": "Group of climbers reaching the summit. Nepal",
+              "localPath": "stardust/current/assets/media/alpinists-himalayas-49e69c8a.jpeg",
+              "selector": "#image-16c5e2d870 > img.cmp-image__image"
+            }
+          ]
+        }
+      ]
+    },
+    "share": {
+      "text": "Share this Adventure",
+      "selector": "#title-75368901de > h5.cmp-title__text",
+      "ref": "headings[1]"
+    },
+    "feature-grid": null,
+    "cta-band": null,
+    "_absent": [
+      "feature-grid — adventure detail pages carry no feature grid; the trip-facts list is the structured summary",
+      "cta-band — no booking/sign-up CTA band in the rendered DOM"
+    ]
+  }
+}

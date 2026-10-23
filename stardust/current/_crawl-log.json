@@ -1,8 +1,8 @@
 {
   "discovery": {
     "fetchTechnique": "headless",
-    "count": 1,
-    "concurrency": 4
+    "count": 14,
+    "concurrency": 6
   },
   "consent": {
     "method": "auto"
@@ -19,26 +19,12 @@
     "detail": "uncaptured first-level targets: none (no locale root captured)"
   },
   "dynamicSurface": {
-    "pages": 1,
-    "pagesWithSameSiteData": 1,
+    "pages": 14,
+    "pagesWithSameSiteData": 14,
     "pagesWithSearchForm": 0,
-    "pagesHydrated": 1,
+    "pagesHydrated": 14,
     "truncatedPages": 0,
     "endpoints": [
-      {
-        "method": "GET",
-        "host": "wknd.site",
-        "path": "/content/wknd/us/en/_jcr_content/contexthub.pagedata.json",
-        "query": [],
-        "resourceType": "xhr",
-        "contentType": "application/json",
-        "sameSite": true,
-        "example": "https://wknd.site/content/wknd/us/en/_jcr_content/contexthub.pagedata.json",
-        "pages": 1,
-        "examples": [
-          "us-en-html"
-        ]
-      },
       {
         "method": "GET",
         "host": "wknd.site",
@@ -48,9 +34,61 @@
         "contentType": "text/javascript",
         "sameSite": true,
         "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
-        "pages": 1,
+        "pages": 14,
         "examples": [
-          "us-en-html"
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "pages": 14,
+        "examples": [
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "pages": 14,
+        "examples": [
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "pages": 14,
+        "examples": [
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
         ]
       },
       {
@@ -70,71 +108,215 @@
         "contentType": "application/json",
         "sameSite": false,
         "example": "https://dpm.demdex.net/id",
-        "pages": 1,
+        "pages": 6,
         "examples": [
-          "us-en-html"
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
         ]
       },
       {
         "method": "GET",
         "host": "wknd.site",
-        "path": "/libs/granite/csrf/token.json",
+        "path": "/content/wknd/ca/en/adventures/cycling-southern-utah/_jcr_content/contexthub.pagedata.json",
         "query": [],
         "resourceType": "xhr",
         "contentType": "application/json",
         "sameSite": true,
-        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/cycling-southern-utah/_jcr_content/contexthub.pagedata.json",
         "pages": 1,
         "examples": [
-          "us-en-html"
+          "ca-en-adventures-cycling-southern-utah-html"
         ]
       },
       {
         "method": "GET",
         "host": "wknd.site",
-        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "path": "/content/wknd/us/en/_jcr_content/contexthub.pagedata.json",
         "query": [],
         "resourceType": "xhr",
         "contentType": "application/json",
         "sameSite": true,
-        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "example": "https://wknd.site/content/wknd/us/en/_jcr_content/contexthub.pagedata.json",
         "pages": 1,
         "examples": [
-          "us-en-html"
+          "index"
         ]
       },
       {
         "method": "GET",
         "host": "wknd.site",
-        "path": "/libs/granite/security/currentuser.json",
-        "query": [
-          "nocache"
-        ],
+        "path": "/content/wknd/ca/en/adventures/beervana-portland/_jcr_content/contexthub.pagedata.json",
+        "query": [],
         "resourceType": "xhr",
         "contentType": "application/json",
         "sameSite": true,
-        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/beervana-portland/_jcr_content/contexthub.pagedata.json",
         "pages": 1,
         "examples": [
-          "us-en-html"
+          "ca-en-adventures-beervana-portland-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/colorado-rock-climbing/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/colorado-rock-climbing/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-colorado-rock-climbing-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/cycling-tuscany/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/cycling-tuscany/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-cycling-tuscany-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/bali-surf-camp/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/bali-surf-camp/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-bali-surf-camp-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/gastronomic-marais-tour/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/gastronomic-marais-tour/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-gastronomic-marais-tour-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/napa-wine-tasting/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/napa-wine-tasting/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-napa-wine-tasting-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/riverside-camping-australia/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/riverside-camping-australia/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-riverside-camping-australia-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/surf-camp-costa-rica/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/surf-camp-costa-rica/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-surf-camp-costa-rica-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-adventures-ski-touring-mont-blanc-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/magazine/members-only/alaskan-adventure/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/magazine/members-only/alaskan-adventure/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-magazine-members-only-alaskan-adventure-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/magazine/members-only/fly-fishing-the-amazon/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://wknd.site/content/wknd/ca/en/magazine/members-only/fly-fishing-the-amazon/_jcr_content/contexthub.pagedata.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-magazine-members-only-fly-fishing-the-amazon-html"
         ]
       }
     ],
     "thirdPartyScriptHosts": [
       {
         "host": "assets.adobedtm.com",
-        "pages": 1,
+        "pages": 14,
         "examples": [
-          "us-en-html"
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
         ]
       }
     ],
     "frameworkHints": [
       {
         "hint": "aem-sites",
-        "pages": 1,
+        "pages": 14,
         "examples": [
-          "us-en-html"
+          "ca-en-adventures-cycling-southern-utah-html",
+          "index",
+          "ca-en-adventures-beervana-portland-html"
         ]
       }
     ],
@@ -143,9 +325,334 @@
   },
   "visionCheck": [
     {
+      "slug": "ca-fr-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "ch-de-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "ch-fr-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "ch-it-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "de-de-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "es-es-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "fr-fr-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "[home landing] Rendered; logo visible; hero carousel (4 slides, arrows + dots) with headline \"WKND Adventures\" matching recorded h2; featured-article teaser (Camping in Western Australia), Recent Articles 4-card row, Next Adventures large teaser (Climbing New Zealand), \"Where do you want to go?\" adventure card grid with ALL TRIPS CTA, dark footer. media.imgs records only the first carousel slide image (hidden slides not captured)."
+    },
+    {
+      "slug": "it-it-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+    },
+    {
+      "slug": "us-en-about-us-html",
+      "verdict": "ok",
+      "notes": "[about page] Rendered; logo; h1 \"About Us\" matches; Our Contributors (4 circular avatars + role + social buttons) and WKND Guides (3) sections; no hero image."
+    },
+    {
+      "slug": "us-en-adventures-bali-surf-camp-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Bali Surf Camp\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-beervana-portland-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Beervana in Portland\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-climbing-new-zealand-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Climbing New Zealand\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-colorado-rock-climbing-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Colorado Rock Climbing\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-cycling-southern-utah-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Cycling Southern Utah\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-cycling-tuscany-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Cycling Tuscany\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-downhill-skiing-wyoming-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Downhill Skiing Wyoming\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-gastronomic-marais-tour-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Gastronomic Marais Tour\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-html",
+      "verdict": "ok",
+      "notes": "[adventures listing with filter tabs and card grid] Rendered; logo; h1 \"Adventures\"; hero image with overlapping card \"Experience the world with us\"; Current Adventures with activity filter tabs (All/Camping/Cycling/Rock Climbing/Skiing/Surfing/Travel) and 4-col card grid of 16 adventures; 35 imgs recorded, none visibly broken."
+    },
+    {
+      "slug": "us-en-adventures-napa-wine-tasting-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Napa Wine Tasting\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-riverside-camping-australia-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Riverside Camping\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-ski-touring-mont-blanc-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Ski Touring Mont Blanc\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-surf-camp-costa-rica-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Surf Camp in Costa Rica\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-tahoe-skiing-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Tahoe Skiing\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-west-coast-cycling-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"West Coast Cycling\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-whistler-mountain-biking-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Whistler Mountain Biking\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-adventures-yosemite-backpacking-html",
+      "verdict": "ok",
+      "notes": "[adventure detail] Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Yosemite Backpacking\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+    },
+    {
+      "slug": "us-en-ai-powered-search-html",
+      "verdict": "ok",
+      "notes": "[search page] Rendered; logo; no h1/hero (record has no content headings, consistent); single search input with \"Show AI-generated summary\" yellow toggle, then footer; page shorter than 900px viewport so blank below footer. mainTextLen 1725 likely hidden/template text. Dynamic search UI."
+    },
+    {
+      "slug": "us-en-faqs-html",
+      "verdict": "ok",
+      "notes": "[FAQ accordion] Rendered; logo; FAQs nav item active; h1 \"FAQs\" matches; large image, intro paragraph, 7-item accordion (all collapsed, + icons), right sidebar \"Need more help?\" contact block."
+    },
+    {
       "slug": "us-en-html",
       "verdict": "ok",
-      "notes": "thumbnail (2 slices) shows header, 3-slide hero carousel (slide 1 visible), featured teaser, Recent Articles 4-up, Next Adventures full-bleed teaser, Where do you want to go 4-up + All Trips, dark footer; logo captured; no consent wall. Hidden carousel slides 2-3 filtered from page JSON body by the visibility filter — present in pages/us-en-html.html."
+      "notes": "[home landing] Rendered; logo visible; hero carousel (4 slides, arrows + dots) with headline \"WKND Adventures\" matching recorded h2; featured-article teaser (Camping in Western Australia), Recent Articles 4-card row, Next Adventures large teaser (Climbing New Zealand), \"Where do you want to go?\" adventure card grid with ALL TRIPS CTA, dark footer. media.imgs records only the first carousel slide image (hidden slides not captured). Pixel-identical to index (duplicateOf index)."
+    },
+    {
+      "slug": "us-en-magazine-arctic-surfing-html",
+      "verdict": "ok",
+      "notes": "[magazine article] Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Aloha Spirits in Northern Norway\" matches; byline Jacob Wester; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+    },
+    {
+      "slug": "us-en-magazine-guide-la-skateparks-html",
+      "verdict": "ok",
+      "notes": "[magazine article] Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Ultimate Guide to LA Skateparks\" matches; byline Stacey Roswells; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+    },
+    {
+      "slug": "us-en-magazine-html",
+      "verdict": "ok",
+      "notes": "[magazine listing] Rendered; logo; h1 \"Magazine\"; featured-article teaser (Camping in Western Australia, image left / grey panel right with READ MORE); All Articles 4-col card grid (5 cards); Members Only section with sign-in prompt and 2 greyed lock-icon gated teasers (Alaskan Adventure, Fishing the Amazon) - gated/sign-in dependent content."
+    },
+    {
+      "slug": "us-en-magazine-san-diego-surf-html",
+      "verdict": "ok",
+      "notes": "[magazine article] Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"San Diego Surf Spots\" matches; byline Justin Barr; long body with h2 sections, inline images; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+    },
+    {
+      "slug": "us-en-magazine-ski-touring-html",
+      "verdict": "ok",
+      "notes": "[magazine article] Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Ski Touring\" matches; byline Sofia Sjöberg; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+    },
+    {
+      "slug": "us-en-magazine-western-australia-html",
+      "verdict": "ok",
+      "notes": "[magazine article] Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Western Australia by Camper Van\" matches; byline Sofia Sjöberg; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+    },
+    {
+      "slug": "us-es-html",
+      "verdict": "ok",
+      "notes": "[coming-soon placeholder] Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. Canonical of the coming-soon group."
+    },
+    {
+      "slug": "ca-en-html",
+      "verdict": "ok",
+      "notes": "[home landing] h1 absent in record (first heading h2 \"WKND Adventures\") matches pixels: hero carousel (dots+arrows) with WKND Adventures panel; featured Camping in Western Australia, Recent Articles 4-card row, Next Adventures large teaser (Climbing New Zealand), \"Where do you want to go?\" adventure grid, All Trips CTA. _signals.duplicateOf=\"index\" is set - check that is intended. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-about-us-html",
+      "verdict": "ok",
+      "notes": "[about page (contributor/guide avatar grid)] h1 \"About Us\" matches; Our Contributors (4) and WKND Guides (3) circular avatars with social buttons. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-faqs-html",
+      "verdict": "ok",
+      "notes": "[FAQ accordion] h1 \"FAQs\" matches; hero image, intro, 7 collapsed accordion items, right \"Need more help?\" contact aside. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-html",
+      "verdict": "ok",
+      "notes": "[adventures listing with filter tabs and card grid] h1 \"Adventures\" matches; hero image with \"Experience the world with us\" panel, filter tabs (All/Camping/Cycling/Rock climbing/Skiing/Surfing/Travel), 16-card 4-col grid. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-html",
+      "verdict": "ok",
+      "notes": "[magazine listing] h1 \"Magazine\" matches; featured article (Camping in Western Australia), All Articles 5-card grid, Members Only section with lock-icon teasers (Alaskan Adventure, Fly Fishing the Amazon) whose images sit below the text/Read more button - unusual layout, likely origin. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-members-only-html",
+      "verdict": "ok",
+      "notes": "[members-only listing] h1 \"Members Only\" matches; NOT gated - shows 2 article cards (Alaskan Adventure, Fly Fishing the Amazon), short page (940px). Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-members-only-alaskan-adventure-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"Alaskan Adventure\" matches; NOT gated - full article body visible (pull quote, bear and fish images), breadcrumb Magazine > Members Only > Alaskan Adventure. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"Fly Fishing the Amazon\" matches; NOT gated - full article body visible, breadcrumb includes Members Only. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-arctic-surfing-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"Aloha Spirits in Northern Norway\" matches (title is Arctic Surfing); pull quote, aurora image. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-guide-la-skateparks-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"Ultimate Guide to LA Skateparks\" matches; grey pull-quote box, right rail also has a download/podcast-style CTA above related articles. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-san-diego-surf-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"San Diego Surf Spots\" matches; many h2 spot sections. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-ski-touring-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"Ski Touring\" matches; large pull quote. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-magazine-western-australia-html",
+      "verdict": "ok",
+      "notes": "[magazine article (full-width hero image, breadcrumb, h1, byline, body w/ h2 sections + inline images, right related-articles rail, author bio + social)] h1 \"Western Australia by Camper Van\" matches; grey definition/pull-quote box. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-bali-surf-camp-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Bali Surf Camp\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-beervana-portland-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Beervana in Portland\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-climbing-new-zealand-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Climbing New Zealand\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-colorado-rock-climbing-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Colorado Rock Climbing\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-cycling-southern-utah-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Cycling Southern Utah\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-cycling-tuscany-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Cycling Tuscany\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-downhill-skiing-wyoming-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Downhill Skiing Wyoming\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-gastronomic-marais-tour-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Gastronomic Marais Tour\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-napa-wine-tasting-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Napa Wine Tasting\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-riverside-camping-australia-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Riverside Camping\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-ski-touring-mont-blanc-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Ski Touring Mont Blanc\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-surf-camp-costa-rica-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Surf Camp in Costa Rica\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-tahoe-skiing-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Tahoe Skiing\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-west-coast-cycling-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"West Coast Cycling\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-whistler-mountain-biking-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Whistler Mountain Biking\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
+    },
+    {
+      "slug": "ca-en-adventures-yosemite-backpacking-html",
+      "verdict": "ok",
+      "notes": "[adventure detail (breadcrumb, hero image carousel w/ dots+arrows, h1, left facts sidebar, Overview/Itinerary/What to Bring tabs, body images, share)] h1 \"Yosemite Backpacking\" matches; hero carousel and tabs rendered. Header: WKND logo, Sign In, CA flag EN-CA language selector, nav + search; footer carries the Canada-specific localization note. cssBackgrounds empty but all imagery is <img> and renders; no broken images."
     }
   ],
   "siblingCandidates": [],

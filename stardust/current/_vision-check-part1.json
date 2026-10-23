@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "ca-fr-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "ch-de-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "ch-fr-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "ch-it-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "de-de-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "es-es-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "fr-fr-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "index",
+    "verdict": "ok",
+    "template": "home landing",
+    "notes": "Rendered; logo visible; hero carousel (4 slides, arrows + dots) with headline \"WKND Adventures\" matching recorded h2; featured-article teaser (Camping in Western Australia), Recent Articles 4-card row, Next Adventures large teaser (Climbing New Zealand), \"Where do you want to go?\" adventure card grid with ALL TRIPS CTA, dark footer. media.imgs records only the first carousel slide image (hidden slides not captured)."
+  },
+  {
+    "slug": "it-it-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. duplicateOf us-es-html."
+  },
+  {
+    "slug": "us-en-about-us-html",
+    "verdict": "ok",
+    "template": "about page",
+    "notes": "Rendered; logo; h1 \"About Us\" matches; Our Contributors (4 circular avatars + role + social buttons) and WKND Guides (3) sections; no hero image."
+  },
+  {
+    "slug": "us-en-adventures-bali-surf-camp-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Bali Surf Camp\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-beervana-portland-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Beervana in Portland\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-climbing-new-zealand-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Climbing New Zealand\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-colorado-rock-climbing-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Colorado Rock Climbing\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-cycling-southern-utah-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Cycling Southern Utah\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-cycling-tuscany-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Cycling Tuscany\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-downhill-skiing-wyoming-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Downhill Skiing Wyoming\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-gastronomic-marais-tour-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Gastronomic Marais Tour\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-html",
+    "verdict": "ok",
+    "template": "adventures listing with filter tabs and card grid",
+    "notes": "Rendered; logo; h1 \"Adventures\"; hero image with overlapping card \"Experience the world with us\"; Current Adventures with activity filter tabs (All/Camping/Cycling/Rock Climbing/Skiing/Surfing/Travel) and 4-col card grid of 16 adventures; 35 imgs recorded, none visibly broken."
+  },
+  {
+    "slug": "us-en-adventures-napa-wine-tasting-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Napa Wine Tasting\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-riverside-camping-australia-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Riverside Camping\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-ski-touring-mont-blanc-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Ski Touring Mont Blanc\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-surf-camp-costa-rica-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Surf Camp in Costa Rica\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-tahoe-skiing-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Tahoe Skiing\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-west-coast-cycling-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"West Coast Cycling\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-whistler-mountain-biking-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Whistler Mountain Biking\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-adventures-yosemite-backpacking-html",
+    "verdict": "ok",
+    "template": "adventure detail",
+    "notes": "Rendered; logo; breadcrumb; full-width hero image carousel (dots + arrows); h1 \"Yosemite Backpacking\" matches; left sidebar of trip facts (activity, type, length, group size, difficulty, price) + Share this Adventure; tabs (Overview / Itinerary / What to Bring) with body image(s). media.imgs holds only the active carousel slide; non-active slides not captured."
+  },
+  {
+    "slug": "us-en-ai-powered-search-html",
+    "verdict": "ok",
+    "template": "search page",
+    "notes": "Rendered; logo; no h1/hero (record has no content headings, consistent); single search input with \"Show AI-generated summary\" yellow toggle, then footer; page shorter than 900px viewport so blank below footer. mainTextLen 1725 likely hidden/template text. Dynamic search UI."
+  },
+  {
+    "slug": "us-en-faqs-html",
+    "verdict": "ok",
+    "template": "FAQ accordion",
+    "notes": "Rendered; logo; FAQs nav item active; h1 \"FAQs\" matches; large image, intro paragraph, 7-item accordion (all collapsed, + icons), right sidebar \"Need more help?\" contact block."
+  },
+  {
+    "slug": "us-en-html",
+    "verdict": "ok",
+    "template": "home landing",
+    "notes": "Rendered; logo visible; hero carousel (4 slides, arrows + dots) with headline \"WKND Adventures\" matching recorded h2; featured-article teaser (Camping in Western Australia), Recent Articles 4-card row, Next Adventures large teaser (Climbing New Zealand), \"Where do you want to go?\" adventure card grid with ALL TRIPS CTA, dark footer. media.imgs records only the first carousel slide image (hidden slides not captured). Pixel-identical to index (duplicateOf index)."
+  },
+  {
+    "slug": "us-en-magazine-arctic-surfing-html",
+    "verdict": "ok",
+    "template": "magazine article",
+    "notes": "Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Aloha Spirits in Northern Norway\" matches; byline Jacob Wester; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+  },
+  {
+    "slug": "us-en-magazine-guide-la-skateparks-html",
+    "verdict": "ok",
+    "template": "magazine article",
+    "notes": "Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Ultimate Guide to LA Skateparks\" matches; byline Stacey Roswells; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+  },
+  {
+    "slug": "us-en-magazine-html",
+    "verdict": "ok",
+    "template": "magazine listing",
+    "notes": "Rendered; logo; h1 \"Magazine\"; featured-article teaser (Camping in Western Australia, image left / grey panel right with READ MORE); All Articles 4-col card grid (5 cards); Members Only section with sign-in prompt and 2 greyed lock-icon gated teasers (Alaskan Adventure, Fishing the Amazon) - gated/sign-in dependent content."
+  },
+  {
+    "slug": "us-en-magazine-san-diego-surf-html",
+    "verdict": "ok",
+    "template": "magazine article",
+    "notes": "Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"San Diego Surf Spots\" matches; byline Justin Barr; long body with h2 sections, inline images; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+  },
+  {
+    "slug": "us-en-magazine-ski-touring-html",
+    "verdict": "ok",
+    "template": "magazine article",
+    "notes": "Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Ski Touring\" matches; byline Sofia Sjöberg; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+  },
+  {
+    "slug": "us-en-magazine-western-australia-html",
+    "verdict": "ok",
+    "template": "magazine article",
+    "notes": "Rendered (whole page checked across offset thumbnails); logo; large hero image; breadcrumb; h1 \"Western Australia by Camper Van\" matches; byline Sofia Sjöberg; long body with h2 sections, inline images, pull quote; right rail \"Share this story\" + related-articles list; author bio card with social buttons at end."
+  },
+  {
+    "slug": "us-es-html",
+    "verdict": "ok",
+    "template": "coming-soon placeholder",
+    "notes": "Rendered; WKND logo in header; locale flag in language toggle matches; h2 \"WKND Adventures and Travel - Coming Soon!\" matches pixels on overlapping card over full-width hero photo. Hero is an <img> (in media.imgs), so empty cssBackgrounds is correct. Canonical of the coming-soon group."
+  }
+]

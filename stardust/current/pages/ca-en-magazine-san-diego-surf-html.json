@@ -1,0 +1,637 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:08:08.686Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-magazine-san-diego-surf-html",
+  "url": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:08:08.686Z",
+  "finalUrl": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+  "title": "San Diego Surf Spots",
+  "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/beach-walking.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "San Diego Surf Spots"
+    },
+    {
+      "tag": "h4",
+      "text": "By Justin Barr"
+    },
+    {
+      "tag": "h2",
+      "text": "Swami's"
+    },
+    {
+      "tag": "h2",
+      "text": "Cardiff by the Sea"
+    },
+    {
+      "tag": "h2",
+      "text": "Del Mar"
+    },
+    {
+      "tag": "h2",
+      "text": "Black's Beach"
+    },
+    {
+      "tag": "h2",
+      "text": "La Jolla Shores"
+    },
+    {
+      "tag": "h2",
+      "text": "Old Man's at Tourmaline"
+    },
+    {
+      "tag": "h2",
+      "text": "Justin Barr"
+    },
+    {
+      "tag": "h5",
+      "text": "SHARE THIS STORY"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Magazine",
+    "San Diego Surf Spots",
+    "San Diego's 70 miles of open ocean coastline cannot be beat for surfers of all ages and ability levels. Whether you are a beginner (kook) with your first WaveStorm from Costco or a grizzled veteran with a quiver of boards there is a surf spot for you. Always check the tide and conditions. San Diego waves tend to be best at mid-tide and early in the morning or late in the evening (sunset surf!) Below are some of our favorites!",
+    "Swami's is named for a self-realization temple on the bluff overlooking the ocean and beach. Swamis is a point break with a long right-hander. On big days, Swami's can hold the swell and expect a large crowd. Bring a big long board if you want to catch any waves, as the crowd can be pretty competitive.",
+    "Cardiff / San Elijo Beach is a short cobblestone beach just south of Swami's. It has a small reef with fun should-high waves. Home to famous pros like Rob Machado. Great for a long board or fish. Both right and left breaks can be found.",
+    "Del Mar (sometimes called the new Malibu) is one of the more reliable spots in San Diego. It has a good mix of reef and sand breaks. Expect a big crowd at the main peaks but you can typically fan out and find something for yourself.",
+    "Black's is often considered San Diego's best wave. The best conditions and swell will always be found here. Even on smaller days, Black's will be better than surrounding breaks. A subterranean trench runs offshore and creates huge peaks with high energy. There is a very long hike down a steep cliff, which thins out weekend warriors but not the best surfers in the area.",
+    "La Jolla shores is one of the most popular beaches in San Diego. This is a great spot for beginners to learn. On the weekends you will see countless surf schools teaching aspiring surfers. Can get very crowded but most people are out there just to have a good time.",
+    "Named Old Man's because many of the older surfers come here. The wave tends to roll in a little slower, giving beginners (and older surfers) plenty of time to get to their feet and hang 10.",
+    "Ceramic Artist, Rock Climber, Writer",
+    "Ultimate Guide to LA Skateparks Wednesday, 30 Sep 2020",
+    "Ski Touring Wednesday, 30 Sep 2020",
+    "Western Australia Thursday, 9 Jul 2020",
+    "San Diego Surf Spots Thursday, 9 Jul 2020",
+    "Members Only Thursday, 9 Jul 2020"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#jbarr"
+    },
+    {
+      "label": "Twitter",
+      "href": "#jbarr"
+    },
+    {
+      "label": "Instagram",
+      "href": "#jbarr"
+    },
+    {
+      "label": "Ultimate Guide to LA Skateparks Wednesday, 30 Sep 2020",
+      "href": "/ca/en/magazine/guide-la-skateparks.html"
+    },
+    {
+      "label": "Ski Touring Wednesday, 30 Sep 2020",
+      "href": "/ca/en/magazine/ski-touring.html"
+    },
+    {
+      "label": "Western Australia Thursday, 9 Jul 2020",
+      "href": "/ca/en/magazine/western-australia.html"
+    },
+    {
+      "label": "San Diego Surf Spots Thursday, 9 Jul 2020",
+      "href": "/ca/en/magazine/san-diego-surf.html"
+    },
+    {
+      "label": "Members Only Thursday, 9 Jul 2020",
+      "href": "/ca/en/magazine/members-only.html"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#sign-in",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#sign-out",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#langNavToggle",
+    "https://wknd.site/us/en/magazine/san-diego-surf.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#jbarr",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+    "https://wknd.site/ca/en/magazine/ski-touring.html",
+    "https://wknd.site/ca/en/magazine/western-australia.html",
+    "https://wknd.site/ca/en/magazine/members-only.html",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#facebookwknd",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#twitterWKND",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/image.coreimg.60.1600.jpeg/1660323822923/beach-walking.jpeg",
+        "alt": "Young lady with surfboard going to the ocean at surf spot",
+        "w": 1312,
+        "h": 810
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.60.1600.jpeg/1660323790169/adobestock-164735399.jpeg",
+        "alt": "Longboarding",
+        "w": 1152,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par2/image.coreimg.60.1600.jpeg/1660323785861/adobestock-166388792.jpeg",
+        "alt": "Famous bay for surf on Nicaragua aerial drone view on sunset time",
+        "w": 859,
+        "h": 644
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par4/image.coreimg.60.1600.jpeg/1660323789400/adobestock-266406767.jpeg",
+        "alt": "Guy surfing in Costa Rica",
+        "w": 1105,
+        "h": 736
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par5/image.coreimg.60.1600.jpeg/1660323790890/adobestock-272184938.jpeg",
+        "alt": "beach and sea",
+        "w": 1440,
+        "h": 953
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/contributors/justin-barr/byline/_jcr_content/root/container/byline_copy.coreimg.jpeg/1660323786548/justin-barr.jpeg",
+        "alt": "",
+        "w": 672,
+        "h": 1008
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 11,
+    "mainTextLen": 2532,
+    "realImageCount": 8,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 312,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/magazine/san-diego-surf/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 273,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/magazine/san-diego-surf/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-magazine-san-diego-surf-html.png",
+  "renderedHtml": "pages/ca-en-magazine-san-diego-surf-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "article",
+    "_source": "stardust/current/pages/ca-en-magazine-san-diego-surf-html.html (rendered DOM, Playwright) + ca-en-magazine-san-diego-surf-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "headline": {
+      "text": "San Diego Surf Spots",
+      "selector": "#title-14c1e0a425 > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "deck": null,
+    "byline": {
+      "text": "By Justin Barr",
+      "selector": "#title-045d66e7ba > h4.cmp-title__text",
+      "ref": "headings[1]",
+      "author": {
+        "selector": "#container-5f6bd6ef70 > div > div.byline.image > div.cmp-byline",
+        "name": "Justin Barr",
+        "occupations": "Ceramic Artist, Rock Climber, Writer",
+        "image": {
+          "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/contributors/justin-barr/byline/_jcr_content/root/container/byline_copy.coreimg.jpeg/1660323786548/justin-barr.jpeg",
+          "alt": "",
+          "localPath": "stardust/current/assets/media/justin-barr-55c423e5.jpeg",
+          "selector": "#image-8864bec4f5 > img.cmp-image__image"
+        },
+        "social": [
+          "Facebook",
+          "Twitter",
+          "Instagram"
+        ]
+      }
+    },
+    "meta": {
+      "title": "San Diego Surf Spots",
+      "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+      "ogImage": "https://wknd.site/content/dam/wknd-shared/en/magazine/san-diego-surf-spots/beach-walking.jpg",
+      "url": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+      "date": "Thursday, 9 Jul 2020",
+      "dateSource": "aside up-next list entry linking to this page",
+      "membersOnly": false,
+      "breadcrumb": {
+        "selector": "#breadcrumb-44e862cd87",
+        "items": [
+          {
+            "label": "Magazine",
+            "href": "https://wknd.site/ca/en/magazine.html",
+            "current": false
+          },
+          {
+            "label": "San Diego Surf Spots",
+            "href": null,
+            "current": true
+          }
+        ]
+      }
+    },
+    "lead-image": {
+      "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/image.coreimg.jpeg/1660323822923/beach-walking.jpeg",
+      "alt": "Young lady with surfboard going to the ocean at surf spot",
+      "localPath": "stardust/current/assets/media/beach-walking-f5623687.jpeg",
+      "selector": "#image-9628f3bd85 > img.cmp-image__image"
+    },
+    "body": {
+      "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "San Diego's 70 miles of open ocean coastline cannot be beat for surfers of all ages and ability levels. Whether you are a beginner (kook) with your first WaveStorm from Costco or a grizzled veteran with a quiver of boards there is a surf spot for you. Always check the tide and conditions. San Diego waves tend to be best at mid-tide and early in the morning or late in the evening (sunset surf!) Below are some of our favorites!",
+          "ref": "body[2]"
+        },
+        {
+          "type": "image",
+          "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323790169/adobestock-164735399.jpeg",
+          "alt": "Longboarding",
+          "localPath": "stardust/current/assets/media/adobestock-164735399-f2759b1f.jpeg",
+          "selector": "#image-d843d06500 > img.cmp-image__image"
+        },
+        {
+          "type": "subhead",
+          "level": "h2",
+          "text": "Swami's",
+          "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(3)"
+        },
+        {
+          "type": "image",
+          "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par2/image.coreimg.jpeg/1660323785861/adobestock-166388792.jpeg",
+          "alt": "Famous bay for surf on Nicaragua aerial drone view on sunset time",
+          "localPath": "stardust/current/assets/media/adobestock-166388792-2bfe282c.jpeg",
+          "selector": "#image-18ceaa2887 > img.cmp-image__image"
+        },
+        {
+          "type": "paragraph",
+          "text": "Swami's is named for a self-realization temple on the bluff overlooking the ocean and beach. Swamis is a point break with a long right-hander. On big days, Swami's can hold the swell and expect a large crowd. Bring a big long board if you want to catch any waves, as the crowd can be pretty competitive.",
+          "ref": "body[3]"
+        },
+        {
+          "type": "subhead",
+          "level": "h2",
+          "text": "Cardiff by the Sea",
+          "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(7)"
+        },
+        {
+          "type": "image",
+          "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par4/image.coreimg.jpeg/1660323789400/adobestock-266406767.jpeg",
+          "alt": "Guy surfing in Costa Rica",
+          "localPath": "stardust/current/assets/media/adobestock-266406767-98a4bd2e.jpeg",
+          "selector": "#image-dc5ba453b2 > img.cmp-image__image"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cardiff / San Elijo Beach is a short cobblestone beach just south of Swami's. It has a small reef with fun should-high waves. Home to famous pros like Rob Machado. Great for a long board or fish. Both right and left breaks can be found.",
+          "ref": "body[4]"
+        },
+        {
+          "type": "image",
+          "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par5/image.coreimg.jpeg/1660323790890/adobestock-272184938.jpeg",
+          "alt": "beach and sea",
+          "localPath": "stardust/current/assets/media/adobestock-272184938-203e1f51.jpeg",
+          "selector": "#image-1db32156c2 > img.cmp-image__image"
+        },
+        {
+          "type": "subhead",
+          "level": "h2",
+          "text": "Del Mar",
+          "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(11)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Del Mar (sometimes called the new Malibu) is one of the more reliable spots in San Diego. It has a good mix of reef and sand breaks. Expect a big crowd at the main peaks but you can typically fan out and find something for yourself.",
+          "ref": "body[5]"
+        },
+        {
+          "type": "subhead",
+          "level": "h2",
+          "text": "Black's Beach",
+          "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(15)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Black's is often considered San Diego's best wave. The best conditions and swell will always be found here. Even on smaller days, Black's will be better than surrounding breaks. A subterranean trench runs offshore and creates huge peaks with high energy. There is a very long hike down a steep cliff, which thins out weekend warriors but not the best surfers in the area.",
+          "ref": "body[6]"
+        },
+        {
+          "type": "subhead",
+          "level": "h2",
+          "text": "La Jolla Shores",
+          "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(19)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Jolla shores is one of the most popular beaches in San Diego. This is a great spot for beginners to learn. On the weekends you will see countless surf schools teaching aspiring surfers. Can get very crowded but most people are out there just to have a good time.",
+          "ref": "body[7]"
+        },
+        {
+          "type": "subhead",
+          "level": "h2",
+          "text": "Old Man's at Tourmaline",
+          "selector": "#contentfragment-d444f75a11 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(23)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Named Old Man's because many of the older surfers come here. The wave tends to roll in a little slower, giving beginners (and older surfers) plenty of time to get to their feet and hang 10.",
+          "ref": "body[8]"
+        }
+      ]
+    },
+    "pullquotes": [],
+    "related": [
+      {
+        "title": "Ultimate Guide to LA Skateparks",
+        "date": "Wednesday, 30 Sep 2020",
+        "href": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html"
+      },
+      {
+        "title": "Ski Touring",
+        "date": "Wednesday, 30 Sep 2020",
+        "href": "https://wknd.site/ca/en/magazine/ski-touring.html"
+      },
+      {
+        "title": "Western Australia",
+        "date": "Thursday, 9 Jul 2020",
+        "href": "https://wknd.site/ca/en/magazine/western-australia.html"
+      },
+      {
+        "title": "San Diego Surf Spots",
+        "date": "Thursday, 9 Jul 2020",
+        "href": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+        "self": true
+      },
+      {
+        "title": "Members Only",
+        "date": "Thursday, 9 Jul 2020",
+        "href": "https://wknd.site/ca/en/magazine/members-only.html"
+      }
+    ],
+    "share": {
+      "text": "SHARE THIS STORY",
+      "selector": "#title-cf8356a489 > h5.cmp-title__text"
+    },
+    "download": null,
+    "_absent": [
+      "deck — no standfirst/deck element in the rendered DOM (meta.description is the closest captured field)"
+    ]
+  }
+}

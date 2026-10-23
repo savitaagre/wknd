@@ -194,3 +194,35 @@ published (preview) origin.
 **Decisions:** see Handoff entry. **Artifacts touched:** stardust/rollout/progress.json — updated. **Open questions:** none new. **Next:** PR.
 
 ---
+
+## Extract — full --prep --dynamics inventory of wknd.site, all locales (2026-10-23)
+
+- Run 2 grows the 2026-10-16 bounded `/us/en` pilot to site scope (user: all locales, all pages, overwrite).
+- crawl.mjs `--max 0 --dynamics`: 28 pages; the locale-root gap detector reported "no locale root
+  captured" (`.html` roots) although 38 linked pages were missing. Closed by an offline link-closure
+  probe + two `--pages` re-crawls (25 + 13) → 66 records / 65 unique URLs, 0 failures, 65/65 live.
+- Inventory: /us/en 27 · /ca/en 29 (incl. 3 members-only magazine pages; no ai-powered-search) ·
+  9 identical "Coming Soon!" locale homes (us/es, ca/fr, ch/de|fr|it, de/de, fr/fr, es/es, it/it).
+- Types (per-site catalog): landing 2 · program 32 · article 12 · listing 2 · magazine-listing 2 ·
+  members-only-listing 1 · faq 2 · static 2 · coming-soon 9 · unique 1 (ai-powered-search).
+- Vision check (2 subagents, thumb.mjs): 66/66 ok. /ca/en carries its own header (CA flag, EN-CA) and footer note.
+- style-census 1440+360: split by the run-bg 900 s deadline (51 + 14 pages), merged, aggregate recomputed.
+- Phases 3–5 (subagent): brand surface site-wide, 259 image sources harvested (0 failed), fonts complete
+  (Asar, Source Sans Pro, wknd icon font), PRODUCT/DESIGN refreshed, brand-review re-rendered (6 + 4 tensions),
+  22 module candidates, typed slots on every page. Adventure pages: two DOM sub-templates (single image vs
+  gallery carousel) with the same rendered module set → variant, to be measured with sibling-variance.
+- Header contract (chrome-explore, 1440 + 390): us/en, ca/en, coming-soon — 2 controls, 4 states, 12 links each.
+- cap-probe over the 10 archetypes → DESIGN.json extensions.breakpoints: shell 1680, content 1164 (1192 on
+  some), probeWidth 2560; per-archetype divergences in capRegister.
+
+## Preserve direction — verbatim site-scope promotion, register R-01..R-03, dynamics triage (2026-10-23)
+
+- current/PRODUCT.md, DESIGN.md, DESIGN.json promoted verbatim to the root (byte-identical, checked).
+  direction.md rewritten: provenance verbatim `--prep` (supersedes the pilot's bounded-single synthesis).
+- Register (append-only): R-01 extended to /ca/en; R-02 coming-soon homes have no h1 → hero title as h1,
+  styled identically; R-03 ai-powered-search has no heading → visually hidden h1 with the captured page
+  title. All structural, no visual delta. No audit run; hands-off adopts no audit candidates.
+- Dynamics: detector on 10 archetypes (28 findings, reach 66), plan draft 30 rows (self 19, owner 10),
+  curated to 14 features. Search probe "surf" on the source → 8 results, top-3 recorded for parity.
+  Owner decision batch: D1 sign-in/members-only, D2 tags, D4 AI summary (interim tiers ship);
+  locale scope decided by the owner (all locales). Gate: every row has a disposition.

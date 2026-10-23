@@ -1,51 +1,62 @@
-<!-- stardust provenance: skill=stardust:dynamics (via replica Phase 2) · phase=triage (curated) · 2026-10-16T12:35:00Z · from stardust/dynamics/dynamic-features.generated-plan.md (14 rows) + motion evidence pending (Phase 4) · target probe https://main--edsmsm--savitaagre.aem.page -->
-# Dynamic features — wknd.site (/us/en.html replica)
+<!-- stardust provenance: skill=stardust:dynamics (via replica Phase 2, run 2) · phase=triage (curated) · 2026-10-23T08:20:00Z · from stardust/dynamics/dynamic-features.generated-plan.md (30 rows, 10 archetypes, reach 66 pages) + vision check + header contract (3 variants) + search probe stardust/dynamics/search-probe-surf.json · target host not yet created (planned: main--wknd--savitaagre.aem.page) → no --target-origin probe yet -->
+# Dynamic features — wknd.site (full site, all locales)
+
+Supersedes the 2026-10-16 single-page inventory (/us/en only). Hands-off run: every non-`self` row ships
+its interim tier and names the decision; nothing is `decided-out` without an owner statement.
 
 ## Listings contract
 
-none — the two image lists on the home page ("Recent Articles", "Where do you want to go?") are
-authored, fixed lists on the source (AEM Core `image-list` with four hand-picked items each), not
-query-driven listings. They ship as authored content; no index is read.
+- **Adventures listing** (`/us/en/adventures`, `/ca/en/adventures`): 16 authored adventure cards in 7
+  category tab panels (All, Camping, Cycling, Rock Climbing, Skiing, Social, Surfing). On the source the
+  panels are pre-rendered AEM `image-list` components (no query at runtime) → authored rows in the
+  document; the tab filter is client-only. No index is read. If the owner later wants them index-driven,
+  each adventure page emits `<meta name="activity">`, `<meta name="adventure-type">`, `<meta name="trip-length">`,
+  `<meta name="group-size">`, `<meta name="difficulty">`, `<meta name="price">` (values from the page's trip facts).
+- **Magazine listing** (`/us/en/magazine`, `/ca/en/magazine`): featured teaser + 5-card "All Articles"
+  grid + "Members Only" teasers — authored, fixed lists on the source → authored rows.
+- **Home** "Recent Articles" / "Where do you want to go?" image lists: authored, fixed (as in the pilot).
+- **Search index** (row 6): `/query-index.json` from `helix-query.yaml` in the code branch — path,
+  title, description, image, lastModified, `template`; every migrated page emits `title` + `description`.
 
 ## Features
 
 | # | id | feature | class | reach | disposition | reproducibility | status | pattern | decision / owner | evidence |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | m-hero-carousel | hero carousel: 3 slides, prev/next, dot indicators (auto-advance to be confirmed by motion-observe) | M | 1/1 | rebuild-native | self | pending | chrome-interaction | none | `.cmp-carousel` in pages/us-en-html.html; 3 `cmp-carousel__item` panels |
-| 2 | m-header-language-switcher | header language/region switcher (en-US toggle → country list) | M | 1/1 | rebuild-native | self | pending | chrome-interaction | none | `#langNavToggle`, header list of 7 regions / 11 locales |
-| 3 | m-header-mobile-menu | mobile nav toggle (wkndicon-menu) | M | 1/1 | rebuild-native | self | pending | chrome-interaction | none | icon-font glyph U+E916 at 360 |
-| 4 | m-sign-in-modal | Sign In modal trigger (`data-modal-url`, target outside DOM at capture) | M / X | 1/1 | static-snapshot | needs-business-decision | pending | chrome-interaction | owner: auth on the new host? (decision batch D1) | generated rows 9 + 14 merged; `#sign-in` |
-| 5 | t-adobe-launch-analytics | Adobe Launch + Adobe Analytics / ECID + ad pixel + 2o7.net beacon | T | 1/1 | static-snapshot | needs-business-decision | pending | consent-gated-tags | owner: which tags run on the new host (decision batch D2) | generated rows 10–13 merged |
-| 6 | i18n-locale-trees | locale variants (ca, ch, de, fr, es, it) linked from the switcher | I18N | 1/1 | static-snapshot | needs-business-decision | pending | locale-tree | owner: scope of locale trees (decision batch D3) | generated row 8 |
-| 7 | a-aem-runtime-plumbing | AEM runtime objects + data files: adobeDataLayer, Granite, CQ, contexthub.pagedata.json, currentuser.json, csrf token.json, user infinity.json | A / D | 1/1 | static-snapshot | self | pending | read-settings | none — no visible output on the page; consumers are sign-in (row 4) and tags (row 5) | generated rows 1–7 merged; 4/4 API paths host-bound (404 on target) |
+| 1 | m-hero-carousel | home hero carousel (4 slides, prev/next, dots) | M | 2 landing | rebuild-native | self | pending | chrome-interaction | none | `.cmp-carousel` us-en-html.html; vision: 4 slides |
+| 2 | m-trip-gallery-carousel | adventure gallery carousel (multi-slide sub-template; single-image on the other 8 trips) | M | 32 program | rebuild-native | self | pending | chrome-interaction | none | module `trip-gallery-carousel` 32 instances |
+| 3 | m-content-tabs | adventure Overview / Itinerary / What to Bring tabs | M | 32 program | rebuild-native | self | pending | chrome-interaction | none | module `content-tabs` 32 instances |
+| 4 | c-adventure-category-filter | adventures category tabs (7) over 16 cards | M (client-only) | 2 listing | client-only | self | pending | listing-client-filter | none | module `adventure-category-tabs` 2; 6 tab panels each |
+| 5 | m-faq-accordion | FAQ accordion (7 items, collapsed) | M | 2 faq | rebuild-native | self | pending | chrome-interaction | none | module `faq-accordion` 2 |
+| 6 | s-site-search | AI-Powered Search page: JS-submitted query over site pages; probe "surf" → 8 results, top: Surf Camp in Costa Rica · San Diego Surf Spots · Bali Surf Camp | S | 1 unique | index-backed | self | pending | search-index-backed | none (corpus = the migrated pages) | dynamics/search-probe-surf.json; generated rows 22–23 |
+| 7 | s-ai-summary | "Show AI-generated summary" toggle (Adobe Content AI generative answer + sources) | S / X | 1 unique | rebuild-native (UI) | needs-backend | pending | — | **D4** owner: generative answers on the new host? | `.cmp-contentaisearch__summary*` |
+| 8 | m-header-language-switcher | header language/region switcher (en-US / en-CA toggle → 7 regions, 11 locales) | M | 65 | rebuild-native | self | pending | chrome-interaction | none (header contract is the spec) | chrome/header-contract*.json (2 controls, 4 states ×3 variants) |
+| 9 | m-header-mobile-menu | mobile nav toggle | M | 65 | rebuild-native | self | pending | chrome-interaction | none | header contract @390 |
+| 10 | x-sign-in | Sign In / Sign Out modal (`data-modal-url`, AEM-authenticated) | M / X | 65 | rebuild-native (UI only) | needs-backend | pending | chrome-interaction | **D1** owner: auth on the new host? | generated rows 21, 28, 29 merged |
+| 11 | x-members-only-teasers | "Members Only" locked teasers on the magazine listing (sign-in gated on /us/en) | X | 2 magazine-listing | static-snapshot | needs-backend | pending | — | **D1** (same backend) | vision: lock-icon teasers |
+| 12 | t-adobe-launch-analytics | Adobe Launch + Adobe Analytics / ECID + ad pixel + 2o7.net beacon | T | 65 | embed-passthrough (off) | needs-business-decision | pending | consent-gated-tags | **D2** owner: which tags on the new host | generated rows 24–27 merged |
+| 13 | i18n-locale-trees | locale trees: /us/en (27), /ca/en (29, own header/footer variant), 9 coming-soon locale homes | I18N | 65 | rebuild-native | self | pending | locale-tree | decided by owner 2026-10-23: **all locales migrate** | generated rows 16–17; vision check |
+| 14 | a-aem-runtime-plumbing | AEM runtime objects + data files: adobeDataLayer, Granite, CQ, contexthub.pagedata.json, currentuser.json, csrf token.json, user infinity.json | A / D | 65 | static-snapshot | self | pending | read-settings | none — renders nothing; consumers are rows 10 and 12 | generated rows 1–15 merged |
 
 Notes:
-- Row 7 is platform plumbing, not a feature: it renders nothing; its two consumers are rows 4 and 5.
-  It ships nothing on the new host unless D1/D2 bring auth or tags back (reason recorded; unfreeze
-  condition = D1 or D2 answered "keep").
-- Rows 1–3 are the `self` set: implemented in the prototype after motion-observe confirms which
-  behaviours fire (replica Phase 4 § Interaction parity — motion is observed, never inferred).
+- Row 14 is platform plumbing, not a feature: the 12 `data-fed / sheet-sync` drafts are AEM session and
+  ContextHub files with no visible output; they ship nothing (reason recorded; unfreeze = D1 or D2 "keep").
+- Rows 1–6, 8, 9, 13 are the `self` set. Motion rows (1–5, 8, 9) are implemented only after
+  motion-observe confirms they fire (replica Phase 4 § Interaction parity).
+- Row 6 parity: `search-query` check "surf" → expectCount 8, expectTitles [Surf Camp in Costa Rica,
+  San Diego Surf Spots, Bali Surf Camp], expectIncludes /adventures/surf-camp-costa-rica.
 
 ## Decision batch
 
-One message to the owner. Asking was attempted on 2026-10-16 but not answered (the question was
-dismissed), so all three stay **open owner decisions**. Rule 7 (static first) applies in the meantime;
-the interim paths below are run assumptions — never `decided-out`:
-- D1 interim: the "Sign In" control renders exactly as on the source, with no backend (`interim`).
-- D2 interim: no tag scripts on the EDS page (`interim`); the Launch property can be added at delivery.
-- D3 interim: only `/us/en` migrates; switcher links keep the source's paths (they resolve on
-  wknd.site today; on EDS they 404 until those locales migrate — recorded scope debt).
-
-The questions:
-- **D1 — Sign In** (row 4): the source opens an AEM-authenticated modal. Options: keep the visible
-  "Sign In" control with no backend (interim), or decide it out.
-- **D2 — Analytics / tags** (row 5): carry the Adobe Launch property to the EDS host, or ship
-  without tags for now.
-- **D3 — Locale trees** (row 6): migrate only `/us/en` now (switcher links keep pointing to
-  wknd.site), or plan the other locales.
+One message to the owner (hands-off: recorded, interim tiers ship, nothing decided-out):
+- **D1 — Sign In / Members Only** (rows 10, 11): the source signs users in against AEM. Interim: the
+  Sign In control and the locked teasers render as on the source; Sign In opens nothing (no backend).
+- **D2 — Analytics / tags** (row 12): interim: no tag scripts on the EDS pages; the Launch property can be
+  wired via the opt-in martech scaffold when the owner names the property.
+- **D4 — AI-generated summary** (row 7): interim: the toggle renders; when checked it shows the regular
+  index-backed results with no generative answer (stated in the UI), until a Content-AI endpoint exists.
 
 ## Register (decided-out)
 
 | feature | reason | production statement |
 |---|---|---|
-| (none yet — decided-out needs an owner statement) | | |
+| (none — decided-out needs an owner statement) | | |

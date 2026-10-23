@@ -1,0 +1,915 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://wknd.site/ca/en.html",
+ "at": "2026-10-23T08:03:23.415Z",
+ "shots": "stardust/.work/chrome/header-contract-ca-en",
+ "widths": {
+  "390": {
+   "root": "#container-fb3b036f33>div>header",
+   "controls": [
+    {
+     "name": "Sign In",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#container-42405427ac>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      14,
+      1,
+      42,
+      18
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://wknd.site/ca/en.html#"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         169,
+         390,
+         507
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-Sign-In-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://wknd.site/ca/en.html#"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         169,
+         390,
+         507
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-Sign-In-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "USERNAME",
+       "key": "username",
+       "role": "input",
+       "kind": "input",
+       "sel": "#form-text-123969625",
+       "expanded": null,
+       "rect": [
+        -2,
+        374,
+        284,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://wknd.site/us/en/errors/{q}-in.html?resource=%2F&$$login$$=%24%24login%24%24&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "PASSWORD",
+       "key": "password",
+       "role": "input",
+       "kind": "input",
+       "sel": "#form-text-123969624",
+       "expanded": null,
+       "rect": [
+        -2,
+        450,
+        284,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://wknd.site/us/en/errors/{q}-in.html?resource=%2F&$$login$$=%24%24login%24%24&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "FORGOT YOUR PASSWORD?",
+       "key": "forgot your password",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-3a07e809ce>p>a",
+       "expanded": null,
+       "rect": [
+        -2,
+        526,
+        211,
+        23
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "SIGN IN",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#form-button-272960011",
+       "expanded": null,
+       "rect": [
+        -2,
+        563,
+        180,
+        47
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://wknd.site/system/sling/login/j_security_check"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://wknd.site/system/sling/login/j_security_check"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "en-CA",
+     "key": "enca",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#langNavToggleHeader",
+     "expanded": null,
+     "rect": [
+      320,
+      0,
+      56,
+      25
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://wknd.site/us/en.html"
+         },
+         {
+          "text": "es-US",
+          "href": "https://wknd.site/us/es.html"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://wknd.site/ca/en.html"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://wknd.site/ca/fr.html"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://wknd.site/ch/de.html"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://wknd.site/ch/fr.html"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://wknd.site/ch/it.html"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://wknd.site/de/de.html"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://wknd.site/fr/fr.html"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://wknd.site/es/es.html"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://wknd.site/it/it.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         80,
+         38,
+         310,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-003-en-CA-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://wknd.site/us/en.html"
+         },
+         {
+          "text": "es-US",
+          "href": "https://wknd.site/us/es.html"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://wknd.site/ca/en.html"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://wknd.site/ca/fr.html"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://wknd.site/ch/de.html"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://wknd.site/ch/fr.html"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://wknd.site/ch/it.html"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://wknd.site/de/de.html"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://wknd.site/fr/fr.html"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://wknd.site/es/es.html"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://wknd.site/it/it.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         80,
+         38,
+         310,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-004-en-CA-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#image-1f45f4e6a7>a",
+     "href": "https://wknd.site/ca/en.html",
+     "expanded": null,
+     "rect": [
+      28,
+      77,
+      128,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "link",
+     "kind": "search",
+     "sel": "#button-f5a05c82f1",
+     "href": "https://wknd.site/us/en/ai-powered-search.html",
+     "expanded": null,
+     "rect": [
+      342,
+      40,
+      48,
+      48
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": null,
+   "loads": 15
+  },
+  "1440": {
+   "root": "#container-fb3b036f33>div>header",
+   "controls": [
+    {
+     "name": "Sign In",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#container-42405427ac>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      1052,
+      1,
+      42,
+      18
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://wknd.site/ca/en.html#"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         495,
+         165,
+         450,
+         571
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Sign-In-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://wknd.site/ca/en.html#"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         495,
+         165,
+         450,
+         571
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Sign-In-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "USERNAME",
+       "key": "username",
+       "role": "input",
+       "kind": "input",
+       "sel": "#form-text-123969625",
+       "expanded": null,
+       "rect": [
+        555,
+        402,
+        330,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://wknd.site/us/en/errors/{q}-in.html?resource=%2F&$$login$$=%24%24login%24%24&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "PASSWORD",
+       "key": "password",
+       "role": "input",
+       "kind": "input",
+       "sel": "#form-text-123969624",
+       "expanded": null,
+       "rect": [
+        555,
+        478,
+        330,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://wknd.site/us/en/errors/{q}-in.html?resource=%2F&$$login$$=%24%24login%24%24&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "FORGOT YOUR PASSWORD?",
+       "key": "forgot your password",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#text-3a07e809ce>p>a",
+       "expanded": null,
+       "rect": [
+        555,
+        554,
+        211,
+        23
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "SIGN IN",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#form-button-272960011",
+       "expanded": null,
+       "rect": [
+        555,
+        591,
+        180,
+        47
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://wknd.site/system/sling/login/j_security_check"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://wknd.site/system/sling/login/j_security_check"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "en-CA",
+     "key": "enca",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#langNavToggleHeader",
+     "expanded": null,
+     "rect": [
+      1122,
+      1,
+      91,
+      18
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://wknd.site/us/en.html"
+         },
+         {
+          "text": "es-US",
+          "href": "https://wknd.site/us/es.html"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://wknd.site/ca/en.html"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://wknd.site/ca/fr.html"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://wknd.site/ch/de.html"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://wknd.site/ch/fr.html"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://wknd.site/ch/it.html"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://wknd.site/de/de.html"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://wknd.site/fr/fr.html"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://wknd.site/es/es.html"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://wknd.site/it/it.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         882,
+         38,
+         360,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-en-CA-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://wknd.site/us/en.html"
+         },
+         {
+          "text": "es-US",
+          "href": "https://wknd.site/us/es.html"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://wknd.site/ca/en.html"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://wknd.site/ca/fr.html"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://wknd.site/ch/de.html"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://wknd.site/ch/fr.html"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://wknd.site/ch/it.html"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://wknd.site/de/de.html"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://wknd.site/fr/fr.html"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://wknd.site/es/es.html"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://wknd.site/it/it.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         882,
+         38,
+         360,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-en-CA-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#image-1f45f4e6a7>a",
+     "href": "https://wknd.site/ca/en.html",
+     "expanded": null,
+     "rect": [
+      152,
+      119,
+      128,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Magazine",
+     "key": "magazine",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-ff05112fb0>ul>li>ul>li:nth-of-type(1)>a",
+     "href": "https://wknd.site/ca/en/magazine.html",
+     "expanded": null,
+     "rect": [
+      875,
+      85,
+      95,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Adventures",
+     "key": "adventures",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-ff05112fb0>ul>li>ul>li:nth-of-type(2)>a",
+     "href": "https://wknd.site/ca/en/adventures.html",
+     "expanded": null,
+     "rect": [
+      970,
+      85,
+      110,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "FAQs",
+     "key": "faqs",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-ff05112fb0>ul>li>ul>li:nth-of-type(3)>a",
+     "href": "https://wknd.site/ca/en/faqs.html",
+     "expanded": null,
+     "rect": [
+      1080,
+      85,
+      66,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "About Us",
+     "key": "about us",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navigation-ff05112fb0>ul>li>ul>li:nth-of-type(4)>a",
+     "href": "https://wknd.site/ca/en/about-us.html",
+     "expanded": null,
+     "rect": [
+      1146,
+      85,
+      94,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "link",
+     "kind": "search",
+     "sel": "#button-f5a05c82f1",
+     "href": "https://wknd.site/us/en/ai-powered-search.html",
+     "expanded": null,
+     "rect": [
+      1240,
+      85,
+      48,
+      48
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 194,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 114,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 114,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 194,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": null,
+   "loads": 17
+  }
+ },
+ "probe": "sign"
+}

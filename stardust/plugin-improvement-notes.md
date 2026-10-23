@@ -108,3 +108,37 @@ Each note: what happened → why it matters → suggested fix.
    was what justified rebuilding. → Add a "baseline the existing build" step to deploy Step 2's reuse decision.
 29. **(Workflow) Subagent briefs are long because the contract is long.** Each delivery unit needed ~1k words
    of brief. → Ship brief templates for C0 / C-archetype in the handoff card.
+
+# Run 2 — full-site replica of wknd.site, all locales (2026-10-23)
+
+Same format. Numbering continues.
+
+## Setup / remote prerequisites
+
+30. **Replica assumes the target site already exists and is reachable.** A "new site / rename" ask needs
+    a GitHub repo rename, a site-config create and DA config edits before Phase 5 — none of which the
+    skills mention, and in EMA all three are gated (no GitHub token; DA/admin writes need an explicit
+    chat request, AskUserQuestion answers do not count). → Add a Phase 0 "target readiness" checklist
+    to replica Setup that probes code-repo push, admin config write and DA write up front, so the run
+    can surface blockers before a multi-hour extract.
+
+## Extract (run 2)
+
+31. **Locale-root capture-gap detector misses `.html` locale roots.** wknd.site's locale roots are
+    `/us/en.html`, `/ca/en.html`; crawl.mjs reported "no locale root captured" while 38 linked pages
+    (10 `/us/en/adventures/*`, the whole `/ca/en/**` tree incl. members-only) were uncaptured — exactly the
+    recorded failure the detector exists for. → Strip `.html`/`.htm` before the locale-code test, and
+    also report uncaptured same-origin links globally (not only under locale roots).
+32. **Discovery stopped at 28/66 pages with no warning.** The BFS (depth 3) never queued the adventure
+    detail pages that sit behind the listing's filter tabs. → After discovery, print "N same-origin links
+    seen but not queued" so the gap is visible without an ad-hoc probe; offer `--closure` to iterate
+    `--pages` until no linked page is uncaptured.
+33. **crawl.mjs has no `--prep` flag** although extract § Prep says `--prep` implies `--all`; the agent
+    must map it to `--max 0` and run typing / module detection by hand. → Accept `--prep` as an alias of
+    `--max 0` and say in `--help` which prep steps remain agent-side.
+34. **No state writer for extract.** `state.mjs` can advance a page but cannot add `pages[]` rows, set
+    `site.*` or stamp `handsOff`; every --prep run hand-writes a merge script. → `state.mjs add-pages
+    --from stardust/current/pages --type-map <file>` and `state.mjs set handsOff true`.
+35. **Carousel slides beyond the active one are absent from `media.imgs`** (home + 32 adventure pages).
+    The rendered DOM sidecar has them, so recreation is safe, but media-reconcile counts will be low.
+    → Walk hidden carousel slides (`[aria-hidden]` slide containers) in the media capture.

@@ -1,0 +1,495 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:09:18.625Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-adventures-napa-wine-tasting-html",
+  "url": "https://wknd.site/ca/en/adventures/napa-wine-tasting.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:09:18.625Z",
+  "finalUrl": "https://wknd.site/ca/en/adventures/napa-wine-tasting.html",
+  "title": "Napa Wine Tasting",
+  "description": "Enjoy spectacular wine tasting in the Napa Valley.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/adventures/napa-wine-tasting/adobestock-280313729.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Napa Wine Tasting"
+    },
+    {
+      "tag": "h5",
+      "text": "Share this Adventure"
+    },
+    {
+      "tag": "h3",
+      "text": "Enjoy spectacular wine tasting in the Napa Valley"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Adventures",
+    "Napa Wine Tasting",
+    "Napa Wine Valley",
+    "wine glasses",
+    "Overview",
+    "Itinerary",
+    "What to Bring",
+    "Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#sign-in",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#sign-out",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#langNavToggle",
+    "https://wknd.site/us/en/adventures/napa-wine-tasting.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#facebookwknd",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#twitterWKND",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/adventures/napa-wine-tasting.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/napa-wine-tasting/_jcr_content/root/container/carousel/image.coreimg.60.1600.jpeg/1660323791204/adobestock-280313729.jpeg",
+        "alt": "Sunrise Mist over California Vineyard Landscape",
+        "w": 900,
+        "h": 506
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/napa-wine-tasting/_jcr_content/root/container/container_fixed/tabs/item_1594238312974/par1/image.coreimg.60.1600.jpeg/1660323785998/adobestock-277654931.jpeg",
+        "alt": "Woman is drinking a glass of wine on a wine tasting",
+        "w": 900,
+        "h": 600
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 5,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 4,
+    "mainTextLen": 1630,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/napa-wine-tasting/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 231,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/napa-wine-tasting/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-adventures-napa-wine-tasting-html.png",
+  "renderedHtml": "pages/ca-en-adventures-napa-wine-tasting-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "program",
+    "_source": "stardust/current/pages/ca-en-adventures-napa-wine-tasting-html.html (rendered DOM, Playwright) + ca-en-adventures-napa-wine-tasting-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "program-headline": {
+      "text": "Napa Wine Tasting",
+      "selector": "#title-852a7f466d > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "breadcrumb": {
+      "selector": "#breadcrumb-1e2b9e927d",
+      "items": [
+        {
+          "label": "Adventures",
+          "href": "https://wknd.site/ca/en/adventures.html",
+          "current": false
+        },
+        {
+          "label": "Napa Wine Tasting",
+          "href": null,
+          "current": true
+        }
+      ]
+    },
+    "gallery": {
+      "selector": "#carousel-e9990c417a",
+      "slides": [
+        {
+          "src": "https://wknd.site/ca/en/adventures/napa-wine-tasting/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323791204/adobestock-280313729.jpeg",
+          "alt": "Sunrise Mist over California Vineyard Landscape",
+          "localPath": "stardust/current/assets/media/adobestock-280313729-67dc1735.jpeg",
+          "selector": "#image-2218b0d73b > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/napa-wine-tasting/_jcr_content/root/container/carousel/item_1604865299312.coreimg.jpeg/1660323777828/adobestock-239751461.jpeg",
+          "alt": "Wine glasses in a row. Pouring wine. Buffet table celebration of wine tasting. Nightlife, celebration and entertainment concept",
+          "localPath": "stardust/current/assets/media/adobestock-239751461-69c44221.jpeg",
+          "selector": "#image-f9c0a429ff > img.cmp-image__image"
+        }
+      ]
+    },
+    "trip-facts": {
+      "selector": "#contentfragment-f9200190b4 > dl.cmp-contentfragment__elements",
+      "facts": [
+        {
+          "label": "Activity",
+          "value": "Social"
+        },
+        {
+          "label": "Adventure Type",
+          "value": "Day Trip"
+        },
+        {
+          "label": "Trip Length",
+          "value": "1 Day"
+        },
+        {
+          "label": "Group Size",
+          "value": "8"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Beginner"
+        },
+        {
+          "label": "Price",
+          "value": "152.59"
+        }
+      ]
+    },
+    "summary": {
+      "text": "Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena.",
+      "ref": "body[7]",
+      "source": "tabs[0] (Overview) first paragraph"
+    },
+    "tabs": {
+      "selector": "#tabs-adef48d40c",
+      "panels": [
+        {
+          "label": "Overview",
+          "selector": "#tabs-adef48d40c-item-fc37c711ef-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h3",
+              "text": "Enjoy spectacular wine tasting in the Napa Valley",
+              "selector": "#contentfragment-fc37c711ef > div.cmp-contentfragment__elements > div:nth-child(2) > h3"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/napa-wine-tasting/_jcr_content/root/container/container_fixed/tabs/item_1594238312974/par1/image.coreimg.jpeg/1660323785998/adobestock-277654931.jpeg",
+              "alt": "Woman is drinking a glass of wine on a wine tasting",
+              "localPath": "stardust/current/assets/media/adobestock-277654931-6d7f2d09.jpeg",
+              "selector": "#image-c3c0939352 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Napa Valley is one of the most famous wine regions in the world. Located an hour north of San Francisco, Napa is renowned for their wine, pleasant temperatures and world class restaurants. This tasting will provide insider access to spectacular wineries and restaurants in Yountville, Calistoga and St. Helena.",
+              "ref": "body[7]"
+            }
+          ]
+        },
+        {
+          "label": "Itinerary",
+          "selector": "#tabs-adef48d40c-item-1d4b7158c8-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h3",
+              "text": "Dog's Bark Winery",
+              "selector": "#contentfragment-1d4b7158c8 > div.cmp-contentfragment__elements > div:nth-child(2) > h3:nth-child(1)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Our first stop will be at the family owned Dog's Bark Winery where you'll get a behind the scenes peak at the wine making process. Dog's Bark is one of Napa's first wineries, founded in 1875 by Pierre Martin an immigrant from Bordeaux.",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h3",
+              "text": "Spring Winery",
+              "selector": "#contentfragment-1d4b7158c8 > div.cmp-contentfragment__elements > div:nth-child(2) > h3:nth-child(5)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Since 1959, Spring Winery has been producing world-class wines that pair best with great food and great company. Their wines reflect the personality of their wine makers and the surrounding vineyards in the heart of Napa Valley",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h3",
+              "text": "Mountain Creek Winery",
+              "selector": "#contentfragment-1d4b7158c8 > div.cmp-contentfragment__elements > div:nth-child(2) > h3:nth-child(9)"
+            },
+            {
+              "type": "paragraph",
+              "text": "For over 35 years, Mountain Creek Winery has produced award winning wines using organically grown grapes and traditional winemaking techniques. You won't just be tasting the wine, you'll get an inside look at the way wine is made — from the way the land is farmed to where the wine is made.",
+              "ref": null
+            }
+          ]
+        },
+        {
+          "label": "What to Bring",
+          "selector": "#tabs-adef48d40c-item-32f58499bb-tabpanel",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Money for purchasing wine to take home",
+                "Comfortable shoes for standing",
+                "A healthy appetite for lunch"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "share": {
+      "text": "Share this Adventure",
+      "selector": "#title-76bf5ec896 > h5.cmp-title__text",
+      "ref": "headings[1]"
+    },
+    "feature-grid": null,
+    "cta-band": null,
+    "_absent": [
+      "feature-grid — adventure detail pages carry no feature grid; the trip-facts list is the structured summary",
+      "cta-band — no booking/sign-up CTA band in the rendered DOM"
+    ]
+  }
+}

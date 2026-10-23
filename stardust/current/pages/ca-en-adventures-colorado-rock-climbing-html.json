@@ -1,0 +1,501 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:09:11.319Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-adventures-colorado-rock-climbing-html",
+  "url": "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:09:11.319Z",
+  "finalUrl": "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html",
+  "title": "Colorado Rock Climbing",
+  "description": "With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/adventures/colorado-rock-climbing/adobestock-201222633.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Colorado Rock Climbing"
+    },
+    {
+      "tag": "h5",
+      "text": "Share this Adventure"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Adventures",
+    "Colorado Rock Climbing",
+    "Overview",
+    "Itinerary",
+    "What to Bring",
+    "With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#sign-in",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#sign-out",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#langNavToggle",
+    "https://wknd.site/us/en/adventures/colorado-rock-climbing.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#facebookwknd",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#twitterWKND",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/colorado-rock-climbing/_jcr_content/root/container/carousel/image.coreimg.60.1600.jpeg/1660323789363/adobestock-201222633.jpeg",
+        "alt": "Garden of the Gods in Colorado",
+        "w": 900,
+        "h": 600
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/colorado-rock-climbing/_jcr_content/root/container/container_fixed/tabs/item_1594238312974/par1/image.coreimg.60.1600.jpeg/1660323791978/adobestock-241578158.jpeg",
+        "alt": "Young woman climbing a rock wall in a canyon - Strong climber training outdoor - Travel, female power and extreme dangerous sport concept - Focus on her head",
+        "w": 900,
+        "h": 600
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 4,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 3,
+    "mainTextLen": 1468,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/colorado-rock-climbing/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 405,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/colorado-rock-climbing/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 312,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-adventures-colorado-rock-climbing-html.png",
+  "renderedHtml": "pages/ca-en-adventures-colorado-rock-climbing-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "program",
+    "_source": "stardust/current/pages/ca-en-adventures-colorado-rock-climbing-html.html (rendered DOM, Playwright) + ca-en-adventures-colorado-rock-climbing-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "program-headline": {
+      "text": "Colorado Rock Climbing",
+      "selector": "#title-b7ca3ca63b > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "breadcrumb": {
+      "selector": "#breadcrumb-b6ae5a6102",
+      "items": [
+        {
+          "label": "Adventures",
+          "href": "https://wknd.site/ca/en/adventures.html",
+          "current": false
+        },
+        {
+          "label": "Colorado Rock Climbing",
+          "href": null,
+          "current": true
+        }
+      ]
+    },
+    "gallery": {
+      "selector": "#carousel-4381cee2c2",
+      "slides": [
+        {
+          "src": "https://wknd.site/ca/en/adventures/colorado-rock-climbing/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323789363/adobestock-201222633.jpeg",
+          "alt": "Garden of the Gods in Colorado",
+          "localPath": "stardust/current/assets/media/adobestock-201222633-4888a1b6.jpeg",
+          "selector": "#image-502ffb38c2 > img.cmp-image__image"
+        }
+      ]
+    },
+    "trip-facts": {
+      "selector": "#contentfragment-f3f6a666d6 > dl.cmp-contentfragment__elements",
+      "facts": [
+        {
+          "label": "Activity",
+          "value": "Rock Climbing"
+        },
+        {
+          "label": "Adventure Type",
+          "value": "Overnight Trip"
+        },
+        {
+          "label": "Trip Length",
+          "value": "3 Days"
+        },
+        {
+          "label": "Group Size",
+          "value": "8"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Advanced"
+        },
+        {
+          "label": "Price",
+          "value": "1000.0"
+        }
+      ]
+    },
+    "summary": {
+      "text": "With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world.",
+      "ref": "body[5]",
+      "source": "tabs[0] (Overview) first paragraph"
+    },
+    "tabs": {
+      "selector": "#tabs-abf18f1b93",
+      "panels": [
+        {
+          "label": "Overview",
+          "selector": "#tabs-abf18f1b93-item-1e9c44b9a7-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "With all of Colorado's beautiful peaks, rock formations and gorgeous mountain views, it's not hard for rock climbers to find a little slice of climbing paradise nearly everywhere they go. On this tour we'll take you to the top parks in Colorado so you can experience the diverse climbing landscape that has made Colorado a goto destination for rock climbers from around the world.",
+              "ref": "body[5]"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/colorado-rock-climbing/_jcr_content/root/container/container_fixed/tabs/item_1594238312974/par1/image.coreimg.jpeg/1660323791978/adobestock-241578158.jpeg",
+              "alt": "Young woman climbing a rock wall in a canyon - Strong climber training outdoor - Travel, female power and extreme dangerous sport concept - Focus on her head",
+              "localPath": "stardust/current/assets/media/adobestock-241578158-469b2c0f.jpeg",
+              "selector": "#image-58b35b60c1 > img.cmp-image__image"
+            }
+          ]
+        },
+        {
+          "label": "Itinerary",
+          "selector": "#tabs-abf18f1b93-item-f93a189f01-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Garden of the Gods",
+              "selector": "#contentfragment-f93a189f01 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(1)"
+            },
+            {
+              "type": "paragraph",
+              "text": "A local favorite close to Colorado Springs, the Garden of the Gods features paved hiking trails that wind through a natural rock garden of red sandstone formed by 300 million years of geological activity..",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Rocky Mountain National Park",
+              "selector": "#contentfragment-f93a189f01 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(5)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rocky Mountain National Park encompasses 415 square miles containing 300 miles of hiking trails, wildlife, alpine worlds and of course world class rock climbing. Keep an eye out for elk, bighorn sheep, moose and mule deer.",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Castlewood Canyon State Park",
+              "selector": "#contentfragment-f93a189f01 > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(9)"
+            },
+            {
+              "type": "paragraph",
+              "text": "This park offers something for all skill levels from 20 feet to 60 feet. The routes are short but we'll be able to get multiple climbs for the day. We'll enjoy a picnic at the Bridge Canyon Overlook.",
+              "ref": null
+            }
+          ]
+        },
+        {
+          "label": "What to Bring",
+          "selector": "#tabs-abf18f1b93-item-c0934ecd71-tabpanel",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Climbing shoes",
+                "Sleeping bag",
+                "Pants",
+                "Shorts",
+                "Jacket",
+                "Hat"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "share": {
+      "text": "Share this Adventure",
+      "selector": "#title-295029655a > h5.cmp-title__text",
+      "ref": "headings[1]"
+    },
+    "feature-grid": null,
+    "cta-band": null,
+    "_absent": [
+      "feature-grid — adventure detail pages carry no feature grid; the trip-facts list is the structured summary",
+      "cta-band — no booking/sign-up CTA band in the rendered DOM"
+    ]
+  }
+}

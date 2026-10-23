@@ -1,0 +1,76 @@
+{
+  "url": "https://wknd.site/us/en/ai-powered-search.html",
+  "term": "surf",
+  "probedAt": "2026-10-23T08:14:06.857Z",
+  "count": 8,
+  "titles": [
+    "Surf Camp in Costa Rica Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers.",
+    "San Diego Surf Spots From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+    "Bali Surf Camp Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses."
+  ],
+  "items": [
+    {
+      "title": "Surf Camp in Costa Rica Costa Rica is the ideal location for a first surf trip. It is a safe place to travel and the locals are quite friendly and happy to see other surfers.",
+      "href": "https://wknd.site/us/en/adventures/surf-camp-costa-rica.html"
+    },
+    {
+      "title": "San Diego Surf Spots From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+      "href": "https://wknd.site/us/en/magazine/san-diego-surf.html"
+    },
+    {
+      "title": "Bali Surf Camp Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.",
+      "href": "https://wknd.site/us/en/adventures/bali-surf-camp.html"
+    },
+    {
+      "title": "Adventures Join us on one of our next adventures. Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
+      "href": "https://wknd.site/us/en/adventures.html"
+    },
+    {
+      "title": "Western Australia The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.",
+      "href": "https://wknd.site/us/en/magazine/western-australia.html"
+    },
+    {
+      "title": "Arctic Surfing We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions.",
+      "href": "https://wknd.site/us/en/magazine/arctic-surfing.html"
+    },
+    {
+      "title": "WKND Adventures and Travel WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+      "href": "https://wknd.site/us/en.html"
+    },
+    {
+      "title": "Magazine Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+      "href": "https://wknd.site/us/en/magazine.html"
+    }
+  ],
+  "status": [],
+  "calls": [
+    {
+      "url": "https://wknd.site/us/en/ai-powered-search.html",
+      "status": 200
+    },
+    {
+      "url": "https://wknd.site/content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json",
+      "status": 200
+    },
+    {
+      "url": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+      "status": 200
+    },
+    {
+      "url": "https://wknd.site/libs/granite/csrf/token.json",
+      "status": 200
+    },
+    {
+      "url": "https://wknd.site/libs/granite/security/currentuser.json?nocache=1792743238316",
+      "status": 200
+    },
+    {
+      "url": "https://wkndsitewknd887971p.112.2o7.net/b/ss/wkndsitewknd887971p/1/JS-2.23.0-LDQM/s46641792991926?AQB=1&ndh=1&pf=1&t=23%2F9%2F2026%208%3A13%3A58%205%200&mid=39630649635061727970849601245395065280&aamlh=7&ce=UTF-8&pageName=AI-Powered%20Search&g=https%3A%2F%2Fwknd.site%2Fus%2Fen%2Fai-powered-search.html&cc=USD&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&s=1440x900&c=24&j=1.6&v=N&k=Y&bw=1440&bh=900&mcorgid=F93A38475DCAB3970A495E80%40AdobeOrg&AQE=1",
+      "status": 200
+    },
+    {
+      "url": "https://wknd.site/content/wknd/us/en/ai-powered-search/jcr:content/root/container/contentaisearch.search.json?q=surf",
+      "status": 200
+    }
+  ]
+}
