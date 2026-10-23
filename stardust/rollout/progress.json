@@ -35,6 +35,45 @@
       "startedAt": "2026-10-23T10:12:15Z",
       "endedAt": "2026-10-23T11:28:49Z",
       "verdict": "foundation: header contract 2/4 (backdrop-only, re-check on /us/en), crops 1440 h 0.00% f 0.00% \u00b7 360 h 0.14% f 0.79%, pushed 7ee4fec (code b5c4bb1)"
+    },
+    "program": {
+      "status": "pending",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 32,
+      "blocks": null,
+      "gates": {},
+      "startedAt": null,
+      "endedAt": null,
+      "verdict": null
+    },
+    "listing": {
+      "status": "pending",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "blocks": null,
+      "gates": {},
+      "startedAt": null,
+      "endedAt": null,
+      "verdict": null
+    },
+    "members-only": {
+      "status": "pending",
+      "kind": "cluster",
+      "templates": [
+        "members-only-listing"
+      ],
+      "pages": 1,
+      "blocks": null,
+      "gates": {},
+      "startedAt": null,
+      "endedAt": null,
+      "verdict": null
     }
   },
   "run1": {

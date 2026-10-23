@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "writtenAt": "2026-10-23T10:02:54Z",
+    "writtenAt": "2026-10-23T11:29:23Z",
     "stardustVersion": "plugin@excat-extended"
   },
   "site": {
@@ -56,11 +56,15 @@
       "url": "https://wknd.site/ca/en/about-us.html",
       "title": "About Us",
       "type": "static",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:08.587Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -74,11 +78,15 @@
       "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
       "title": "Bali Surf Camp",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:12.637Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -92,11 +100,15 @@
       "url": "https://wknd.site/ca/en/adventures/beervana-portland.html",
       "title": "Beervana in Portland",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:11.285Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -110,11 +122,15 @@
       "url": "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
       "title": "Climbing New Zealand",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:20.417Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -128,11 +144,15 @@
       "url": "https://wknd.site/ca/en/adventures/colorado-rock-climbing.html",
       "title": "Colorado Rock Climbing",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:11.319Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -146,11 +166,15 @@
       "url": "https://wknd.site/ca/en/adventures/cycling-southern-utah.html",
       "title": "Cycling Southern Utah",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:09.447Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -164,11 +188,15 @@
       "url": "https://wknd.site/ca/en/adventures/cycling-tuscany.html",
       "title": "Cycling Tuscany",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:11.385Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -182,11 +210,15 @@
       "url": "https://wknd.site/ca/en/adventures/downhill-skiing-wyoming.html",
       "title": "Downhill Skiing Wyoming",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:14.103Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -200,11 +232,15 @@
       "url": "https://wknd.site/ca/en/adventures/gastronomic-marais-tour.html",
       "title": "Gastronomic Marais Tour",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:18.091Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -218,11 +254,15 @@
       "url": "https://wknd.site/ca/en/adventures.html",
       "title": "Adventures",
       "type": "listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:10.586Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -236,11 +276,15 @@
       "url": "https://wknd.site/ca/en/adventures/napa-wine-tasting.html",
       "title": "Napa Wine Tasting",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:18.625Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -254,11 +298,15 @@
       "url": "https://wknd.site/ca/en/adventures/riverside-camping-australia.html",
       "title": "Riverside Camping",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:20.585Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -272,11 +320,15 @@
       "url": "https://wknd.site/ca/en/adventures/ski-touring-mont-blanc.html",
       "title": "Ski Touring Mont Blanc",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:20.685Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -290,11 +342,15 @@
       "url": "https://wknd.site/ca/en/adventures/surf-camp-costa-rica.html",
       "title": "Surf Camp in Costa Rica",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:20.632Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -308,11 +364,15 @@
       "url": "https://wknd.site/ca/en/adventures/tahoe-skiing.html",
       "title": "Tahoe Skiing",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:29.569Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -326,11 +386,15 @@
       "url": "https://wknd.site/ca/en/adventures/west-coast-cycling.html",
       "title": "West Coast Cycling",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:29.575Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -344,11 +408,15 @@
       "url": "https://wknd.site/ca/en/adventures/whistler-mountain-biking.html",
       "title": "Whistler Mountain Biking",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:26.622Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -362,11 +430,15 @@
       "url": "https://wknd.site/ca/en/adventures/yosemite-backpacking.html",
       "title": "Yosemite Backpacking",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:22.988Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -380,11 +452,15 @@
       "url": "https://wknd.site/ca/en/faqs.html",
       "title": "FAQs",
       "type": "faq",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:06.799Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -398,11 +474,15 @@
       "url": "https://wknd.site/ca/en.html",
       "title": "WKND Adventures and Travel",
       "type": "landing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:26.885Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -416,11 +496,15 @@
       "url": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
       "title": "Arctic Surfing",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:20.485Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -434,11 +518,15 @@
       "url": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
       "title": "Ultimate Guide to LA Skateparks",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:20.457Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -452,11 +540,15 @@
       "url": "https://wknd.site/ca/en/magazine.html",
       "title": "Magazine",
       "type": "magazine-listing",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:10.585Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -470,11 +562,15 @@
       "url": "https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html",
       "title": "Alaskan Adventure",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:22.065Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -488,11 +584,15 @@
       "url": "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
       "title": "Fly Fishing the Amazon",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:09:28.051Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -533,11 +633,15 @@
       "url": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
       "title": "San Diego Surf Spots",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:08.686Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -551,11 +655,15 @@
       "url": "https://wknd.site/ca/en/magazine/ski-touring.html",
       "title": "Ski Touring",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:20.446Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -569,11 +677,15 @@
       "url": "https://wknd.site/ca/en/magazine/western-australia.html",
       "title": "Western Australia",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:16.887Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -587,11 +699,15 @@
       "url": "https://wknd.site/ca/fr.html",
       "title": "Français",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:26.827Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -605,11 +721,15 @@
       "url": "https://wknd.site/ch/de.html",
       "title": "Deutsch",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:26.885Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -623,11 +743,15 @@
       "url": "https://wknd.site/ch/fr.html",
       "title": "Français",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:33.103Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -641,11 +765,15 @@
       "url": "https://wknd.site/ch/it.html",
       "title": "Italiano",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:32.855Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -659,11 +787,15 @@
       "url": "https://wknd.site/de/de.html",
       "title": "Deutsch",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:35.080Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -677,11 +809,15 @@
       "url": "https://wknd.site/es/es.html",
       "title": "Español",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:35.074Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -695,11 +831,15 @@
       "url": "https://wknd.site/fr/fr.html",
       "title": "Français",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:35.088Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -713,11 +853,15 @@
       "url": "https://wknd.site/it/it.html",
       "title": "Italiano",
       "type": "coming-soon",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:35.073Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -758,11 +902,15 @@
       "url": "https://wknd.site/us/en/adventures/bali-surf-camp.html",
       "title": "Bali Surf Camp",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:29.579Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -776,11 +924,15 @@
       "url": "https://wknd.site/us/en/adventures/beervana-portland.html",
       "title": "Beervana in Portland",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:27.385Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -821,11 +973,15 @@
       "url": "https://wknd.site/us/en/adventures/colorado-rock-climbing.html",
       "title": "Colorado Rock Climbing",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:31.253Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -839,11 +995,15 @@
       "url": "https://wknd.site/us/en/adventures/cycling-southern-utah.html",
       "title": "Cycling Southern Utah",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:35.508Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -857,11 +1017,15 @@
       "url": "https://wknd.site/us/en/adventures/cycling-tuscany.html",
       "title": "Cycling Tuscany",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:35.511Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -875,11 +1039,15 @@
       "url": "https://wknd.site/us/en/adventures/downhill-skiing-wyoming.html",
       "title": "Downhill Skiing Wyoming",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:45.712Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -893,11 +1061,15 @@
       "url": "https://wknd.site/us/en/adventures/gastronomic-marais-tour.html",
       "title": "Gastronomic Marais Tour",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:37.515Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -938,11 +1110,15 @@
       "url": "https://wknd.site/us/en/adventures/napa-wine-tasting.html",
       "title": "Napa Wine Tasting",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:36.910Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -956,11 +1132,15 @@
       "url": "https://wknd.site/us/en/adventures/riverside-camping-australia.html",
       "title": "Riverside Camping",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:36.020Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -974,11 +1154,15 @@
       "url": "https://wknd.site/us/en/adventures/ski-touring-mont-blanc.html",
       "title": "Ski Touring Mont Blanc",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:38.409Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -992,11 +1176,15 @@
       "url": "https://wknd.site/us/en/adventures/surf-camp-costa-rica.html",
       "title": "Surf Camp in Costa Rica",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:08:41.976Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1010,11 +1198,15 @@
       "url": "https://wknd.site/us/en/adventures/tahoe-skiing.html",
       "title": "Tahoe Skiing",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:59.394Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1028,11 +1220,15 @@
       "url": "https://wknd.site/us/en/adventures/west-coast-cycling.html",
       "title": "West Coast Cycling",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:58.829Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1046,11 +1242,15 @@
       "url": "https://wknd.site/us/en/adventures/whistler-mountain-biking.html",
       "title": "Whistler Mountain Biking",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:55.879Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1064,11 +1264,15 @@
       "url": "https://wknd.site/us/en/adventures/yosemite-backpacking.html",
       "title": "Yosemite Backpacking",
       "type": "program",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:54.344Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1136,11 +1340,15 @@
       "url": "https://wknd.site/us/en/magazine/arctic-surfing.html",
       "title": "Arctic Surfing",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:50.202Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1208,11 +1416,15 @@
       "url": "https://wknd.site/us/en/magazine/san-diego-surf.html",
       "title": "San Diego Surf Spots",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:43.062Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1226,11 +1438,15 @@
       "url": "https://wknd.site/us/en/magazine/ski-touring.html",
       "title": "Ski Touring",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:53.087Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,
@@ -1244,11 +1460,15 @@
       "url": "https://wknd.site/us/en/magazine/western-australia.html",
       "title": "Western Australia",
       "type": "article",
-      "status": "extracted",
+      "status": "directed",
       "history": [
         {
           "status": "extracted",
           "at": "2026-10-23T07:06:47.605Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-23T11:29:23Z"
         }
       ],
       "stale": false,

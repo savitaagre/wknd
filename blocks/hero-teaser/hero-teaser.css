@@ -87,6 +87,38 @@ main .hero-teaser-container .default-content-wrapper {
   white-space: normal;
 }
 
+/* section style `page-title` — the page title section above a standalone hero (listing h1
+   "Adventures": source .cmp-title WITHOUT --underline, directly in the fixed container — no
+   column gutter, no accent rule). INTERIM scoped override of the foundation section scaffold
+   and underline, queued as a generic section style in stardust/rollout/foundation-requests.md. */
+main .section.page-title .default-content-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main .section.page-title .default-content-wrapper h1::after {
+  content: none;
+}
+
+/* variant `standalone` (source .cmp-teaser--hero outside a carousel: adventures listing,
+   coming-soon locale homes) — values from the gated prototypes us-en-adventures-html.css /
+   us-es-html.css: centred image, 400px media box below 1165px, 180px content band above */
+.hero-teaser.standalone .media img {
+  object-position: center;
+}
+
+@media (width <= 1164px) {
+  .hero-teaser.standalone .media {
+    height: 400px;
+    max-height: 400px;
+  }
+
+  /* resolves to auto here, exactly as on live (img 360x203 @360) */
+  .hero-teaser.standalone .media img {
+    height: 100%;
+  }
+}
+
 @media (width >= 1165px) {
   .hero-teaser .media {
     height: 640px;
@@ -104,5 +136,10 @@ main .hero-teaser-container .default-content-wrapper {
     margin-top: -180px;
     padding: 0 28px;
     background-color: #fff;
+  }
+
+  /* standalone: source .cmp-teaser--hero .cmp-teaser__content { height: 180px } */
+  .hero-teaser.standalone .content {
+    height: 180px;
   }
 }

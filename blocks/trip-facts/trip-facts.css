@@ -1,0 +1,60 @@
+/* trip-facts — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-adventures-climbing-new-zealand-html.css: .trip-facts*;
+   source .cmp-contentfragment--elements). The program column layout lives in
+   content-tabs.css. */
+
+/* the fragment title is in the source DOM but never shown */
+.trip-facts .title {
+  display: none;
+}
+
+.trip-facts .list {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.trip-facts .item {
+  box-sizing: content-box;
+  float: left;
+  width: 100%;
+  height: 84px;
+  margin-bottom: 1.25em;
+  padding-right: 1em;
+  padding-left: 1em;
+  border-left: 5px solid var(--surface-grey);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+}
+
+.trip-facts .label {
+  padding-top: 1em;
+  color: dimgray;
+  font-size: var(--fs-xsmall);
+}
+
+.trip-facts .value {
+  margin-inline-start: 0;
+  padding-top: 0.5em;
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+
+/* authored paragraphs inside a label / value take the cell's type */
+.trip-facts .item p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+@media (width <= 1024px) {
+  .trip-facts .item {
+    width: unset;
+    padding-right: 2em;
+    padding-left: 0;
+    border-left: none;
+  }
+}

@@ -1,0 +1,47 @@
+/* adventure-category-tabs — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-adventures-html.css: .adventure-tabs__tablist / __tab,
+   source .cmp-tabs). */
+
+/* the column is flow-root, as the source .col is — the tablist margins stay inside */
+main .adventure-category-tabs-wrapper {
+  display: flow-root;
+}
+
+.adventure-category-tabs .tablist {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 18px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.adventure-category-tabs .tab {
+  min-width: var(--button-size);
+  max-height: var(--button-size);
+  padding: 8px 16px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+}
+
+.adventure-category-tabs .tab:focus {
+  outline: none;
+}
+
+/* an authored label paragraph renders as the source's bare tab text */
+.adventure-category-tabs .tab p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+/* stylelint-disable selector-class-pattern -- live state class name (wknd core components) */
+.adventure-category-tabs .tab.cmp-tabs__tab--active {
+  border: none;
+  background-color: #202020;
+  color: #fff;
+}
+
+/* stylelint-enable selector-class-pattern */

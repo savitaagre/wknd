@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T10:11:11.379Z",
+  "generatedAt": "2026-10-23T11:45:52.166Z",
   "pages": [
     {
       "slug": "ca-en-about-us-html",
@@ -575,9 +575,9 @@
         "image-list"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://aem-20261023-1633--wknd--savitaagre.aem.page/ca/en/magazine/members-only",
+        "deployedAt": "2026-10-23T11:45:52.166Z",
         "verifiedAt": null,
         "error": null
       }
