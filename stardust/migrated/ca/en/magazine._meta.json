@@ -1,0 +1,154 @@
+{
+  "slug": "ca-en-magazine-html",
+  "type": "magazine-listing",
+  "renderBranch": "A'",
+  "template": "us-en-magazine-html",
+  "modules": [
+    "featured-teaser",
+    "image-list",
+    "members-only-teaser"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "0b419f954fac",
+    "footer": "ed3d89c05e85",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Magazine",
+    "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Magazine",
+    "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+    "url": "https://wknd.site/ca/en/magazine.html"
+  },
+  "migratedAt": "2026-10-23T18:08:58Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "8e231583150b",
+  "sourceProposedSha": "a53aff6b5509",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-magazine-html",
+  "archetypeSha": "3ace6b491121",
+  "variants": [],
+  "gatesPassed": [
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity",
+    "variance-probe"
+  ],
+  "gateEvidence": {
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 red (1 yellow D3: rows 3/4 cells = rich vs plain teaser description, by design); localize-links --check 0",
+    "media-reconcile": "media-reconcile 8 hosted (ledger stardust/deploy/media-ledger-wknd.json, media/magazine-listing; skitouring5sjoeberg APP1-stripped); plain.html 8 img/alt, 0 about:error",
+    "pixel-gate-1440": "gate-all PASS on the preview host (0.24% dh 0, clip 0, MISSING 0 / HIDDEN 0, units off 0): stardust/replica/gates/all-1440/runs/2026-10-23T18-12-22-997Z-ca-en-magazine-html.json",
+    "pixel-gate-360": "gate-all PASS on the preview host (0.09% dh 0, clip 0, MISSING 0 / HIDDEN 0, units off 0): stardust/replica/gates/all-360/runs/2026-10-23T18-14-28-339Z-ca-en-magazine-html.json",
+    "content-count": "content-diff capture vs preview stardust/.work/rollout/magazine-listing/content-diff-ca.txt: main 25/25 text nodes, headings 6/6, CTAs 8/8, img 8/8 (15 red = unstyled capture tier ROLE SWAP / ICON DIFF, as every cluster); live vs preview stardust/.work/rollout/magazine-listing/content-diff-ca-live.txt 0 red",
+    "content-fidelity": "doc by the archetype encoder stardust/.work/rollout/magazine-listing/probes/gen-magazine.mjs from stardust/current/pages/ca-en-magazine-html.html (main = archetype modulo /ca/en + the 2 captured teaser action links); block-roundtrip --ew vs A' clone 0 red, EW 22/22; content-diff live vs preview 0 red",
+    "variance-probe": "sibling-variance us/en vs ca/en @1440, 7 probes, 1 family varying (teaser action: linked Read More, 97x35 -> 168x63) = authored link, no variant: stardust/.work/rollout/magazine-listing/sibling-variance.json"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/guide-la-skateparks.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/guide-la-skateparks.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/members-only/alaskan-adventure.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/magazine.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/magazine._meta.json",
+  "driverVersion": "1"
+}

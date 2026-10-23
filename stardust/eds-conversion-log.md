@@ -559,3 +559,48 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   (en-CA chrome from the CA prototype); gate-all 1440 0.04 % Δh 0 · 360 0.89 % Δh 0, PASS both; CA chrome
   crops header 100.00 / 99.87 %, footer 100.00 / 99.99 %; chrome-parity = the 3 queued /ca/en deltas.
 - Residual 🟡: EXTRA TITLE on the help links (decorateButtons default title → request).
+
+## Run 3 — C-archetype magazine-listing / us-en-magazine-html + /ca/en sibling (cluster `magazine-listing`, preview only)
+
+- Block `members-only-teaser` (NEW, reconstructive; the older `members-only` block rebuilt text from
+  `textContent` — EW-banned — and is not reused). One row per locked teaser, cells by content: image |
+  title cell (h2, plus the description when the source's is rich text `<p>`) | plain-text description
+  cell (source bare text) | action cell ("Read More" plain text on /us/en, the captured link on /ca/en).
+  The cell split is the only content-carrying way to keep the source's two description modes: the
+  pipeline delivers a one-paragraph cell bare and wrapTextNodes re-wraps it, so a lone-cell `<p>` puts
+  its slot in `div.description.plain` (no paragraph margin — teaser 2 is 383px on live, 396px when both
+  keep the margin; unit-geometry pub1 caught it). Every authored `<p>` survives (EW 6/6); the grey action
+  box is painted on the authored paragraph through `.action p` (the text box the source paints — unit
+  pairing), a linked action is the source `.cmp-teaser__action-link` (yellow, float) inside it;
+  decorateButtons classes + derived title undone. Lock glyph `::before` U+E98F (wknd-icon-font, top 49px),
+  `.inner` opacity .65, `picture { display: contents }`, img inline. Hook `div.item.members-teaser`
+  (units.json build selector). davids-model D3 🟡 (rows 3 / 4 cells) is that split, by design.
+- Reused read-only, unchanged: `featured-teaser` (CTA "Read More" = content), `image-list` (5 cards);
+  section style `plain-title` (interim rule in image-list.css) on the h1 + featured-teaser section.
+- Schema `stardust/eds-schema/us-en-magazine-html.json` from the annotated copy
+  `stardust/.work/rollout/magazine-listing/annotated.html` (3 sections; 5 × LI + 2 × DIV units).
+  style-fingerprint: no groups. Encoder `stardust/.work/rollout/magazine-listing/probes/gen-magazine.mjs`
+  (hydrated capture → DA doc) writes both documents.
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 22/22 (US vs prototype, CA vs A′ clone);
+  measure.mjs harness vs prototype 1440/360: scrollHeight 2531/4410 both, every h1/h2/card/teaser/img Δ 0;
+  harness CA teasers = live CA (424/411px, action 168×63, link 140×49); qa-gate 17 ok / 2 instrument
+  FAILs (float-laid teasers not counted by the grid/flex/li/article proxy — units.json PASS on the
+  preview; the 2560 content-cap probe-tier artifact); lint 0 errors.
+- Media: 8 editorial images → wknd `media/magazine-listing/` (media-ledger-wknd.json); skitouring5sjoeberg
+  big-endian Exif (orientation 1) uploaded APP1-stripped. media-reconcile 8 hosted; plain.html 200, one
+  h1, 8 img/alt, 0 about:error, no /img/. ai-readability strict 100 / code 100 (both pages).
+- Archetype gate (preview): pub1 1440 1.28 % but unit-geometry 4 off (action text box, picture box,
+  teaser 2 +13px) → cell model fix (push 4ce1d6a). pub2 (2 of 3 rounds): 1440 0.23 % Δh 0 · 360 0.09 %
+  Δh 0 · content-diff main 0 findings · clip 0 · units 7/7, 0 off · crops header 100.00 / 99.86 %, footer
+  100.00 / 100.00 % · chrome-parity 2 = DA logo hashes · motion 4 parity / 0 missing
+  (`motion/us-en-magazine-html-delivered.json`) · gate-all PASS 1440 + 360 (private state
+  stardust/.work/rollout/magazine-listing/state-gate-all.json; units cache deleted per round — a stale
+  360 cache read as 2 off at 1440). Style guard: featured flex, image-list flex, 5 cards, 2 teasers
+  glyph + .65, 8 imgs > 0px, docH 2531 / 4410 = prototype, 0 pageerror.
+- Sibling ca-en-magazine-html: variance 7 probes, 1 varying = the teaser action (linked "Read More",
+  97×35 → 168×63, teaser 396 → 424) — an authored link rendered by the same block CSS, no variant class;
+  A′ clone (probes/clone.mjs: /ca/en hrefs, captured action links, en-CA chrome, Magazine current) →
+  migrate render. gate-all 1440 0.24 % / 360 0.09 % Δh 0 PASS; docH 2587 = live; CA chrome crops header
+  100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity = logo hashes + CA footer Δw −2px (queued).
+  content-diff live vs preview 0 🔴 (main 25/25, 8/8 img); capture vs preview 15 🔴 = capture tier.
+  Sidecars gatesPassed 6 (archetype) / 7 (sibling), modules [featured-teaser, image-list, members-only-teaser].

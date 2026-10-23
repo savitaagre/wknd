@@ -40,8 +40,22 @@
   "archetypeSource": null,
   "archetypeSha": null,
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
+  "gatesPassed": [
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 red (1 yellow D3: rows 3/4 cells = rich vs plain teaser description, by design); localize-links --check 0",
+    "media-reconcile": "media-reconcile 8 hosted (ledger stardust/deploy/media-ledger-wknd.json, media/magazine-listing; skitouring5sjoeberg APP1-stripped); plain.html 8 img/alt, 0 about:error",
+    "pixel-gate-1440": "gate-all PASS on the preview host (0.23% dh 0, clip 0, MISSING 0 / HIDDEN 0, units off 0): stardust/replica/gates/all-1440/runs/2026-10-23T18-05-01-461Z-us-en-magazine-html.json",
+    "pixel-gate-360": "gate-all PASS on the preview host (0.09% dh 0, clip 0, MISSING 0 / HIDDEN 0, units off 0): stardust/replica/gates/all-360/runs/2026-10-23T18-07-04-379Z-us-en-magazine-html.json",
+    "content-count": "content-diff live vs preview stardust/replica/gates/us-en-magazine-html-1440/content-diff-pub2.txt + -360: main 0 findings, 0 red (headings 6/6, CTAs 6/6, img 8/8)",
+    "content-fidelity": "doc stardust/deploy/content/us/en/magazine.html by the encoder stardust/.work/rollout/magazine-listing/probes/gen-magazine.mjs from the capture (verbatim text, alt/title); block-roundtrip --ew page 0 red, EW 22/22; content-diff live vs preview pub2 0 red at 1440 + 360"
+  },
   "contentDeviations": [],
   "assetsBundled": 14,
   "missingAssets": [],
