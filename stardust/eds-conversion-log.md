@@ -437,3 +437,42 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   (Tuscany "What to Bring" paragraph). CA chrome on bali: crops header 100.00 / 99.87 %, footer 99.38 / 99.12 %.
 - Residuals 🟡: image title == alt dropped by the pipeline (23 images); visually hidden Previous/Next
   labels rendered as aria-label (#100).
+
+## Run 3 — C-archetype landing / us-en-html + /ca/en sibling (cluster `landing`, preview only)
+
+- Blocks: `hero-carousel`, `featured-teaser` (owned; pilot code, tiers unchanged: reconstructive /
+  template-slotted); `image-list`, `hero-teaser` reused read-only. One change: an explicit R-01 guard
+  `.hero-carousel h1 { font-size: 36px; line-height: 54px }` (CANON h1 note) beside the existing
+  `.title :is(h1…h6)` rule. featured-teaser stays generic (pretitle / title / description / actions by
+  role; nothing landing-specific), ready for the magazine listing.
+- Live carousel = 3 slides (live HTML "Slide n of 3" on /us/en and /ca/en; dynamic-features row 1 says 4 —
+  a vision overcount). Auto-advance: none (motion-observe 0 unpoked class mutations on live and delivered).
+- Schema: re-generated from a `data-section`-annotated copy of the current prototype
+  (stardust/.work/rollout/landing/annotated.html) — identical to stardust/eds-schema/us-en-html.json.
+  style-fingerprint: one variation group (indicator active state = the live state class).
+- Media: 13 editorial images re-uploaded into wknd `media/landing/` (media-ledger-wknd.json);
+  beach-walking.jpeg + skitouring5sjoeberg.jpeg carry big-endian Exif (orientation 1) → uploaded
+  APP1-stripped (probes/exif-check.mjs, program's strip-exif.mjs); 0 about:error on both plain.html.
+- Document /us/en regenerated on wknd media (was edsmsm `media/home`); text unchanged from the gated pilot.
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 37/37; qa-gate 25 ok / 1 fail = the 2560
+  content-cap row (EDS caps per section wrapper; measure.mjs harness vs prototype @2560 + @1440
+  scrollHeight Δ 0, every block Δ 0 — probe-tier artifact, as listing); lint 0 errors in owned files
+  (the one repo error is blocks/faq-accordion, another worker's file — not touched, no lint:fix run).
+- Chain (both pages): localize-links --check 0, davids-model-lint PASS, delivery-lint 0/0/0, media-reconcile
+  13 hosted, sanitise unchanged, deploy-batch --no-publish (ledger-landing.json) PUT + preview OK.
+  plain.html 200, one h1, 13 img / 13 alt, 0 about:error, no /img/. ai-readability strict 100 / code 100.
+  Style guard 1440/360: 5 blocks loaded, teaser + image-list flex, 3 slides (1 active), 8 cards, 11 visible
+  imgs > 0 px, 0 pageerror, overflow 0, docH 3754/5875 (US) 3782/5918 (CA); main h1 Asar 36px/54px.
+- Archetype gate pub4 (1 round): 1440 0.25 % Δh 0 · 360 1.73 % Δh −1 · content-diff 0 🔴 (no ROLE SWAP) ·
+  clip 0 · crops header 100.00 / 99.86 %, footer 100.00 / 99.23 % (360 --y-b +1) · chrome-parity (fresh
+  live probe) = the 2 DA logo hashes · motion 10 parity + 3 parity (360 mobile nav), 0 missing ·
+  gate-all PASS 1440 + 360 (private state stardust/.work/rollout/landing/state-gate-all.json).
+- Sibling ca-en-html: variance probe 9 probes 0 varying (no variant); A′ clone
+  (probes/clone.mjs: main hrefs → /ca/en, en-CA chrome from the CA prototype, Home current) →
+  migrate.mjs render; document = archetype document with /ca/en hrefs (capture main identical modulo
+  locale, probes/main-refs.mjs). gate-all 1440 0.25 % Δh 0 · 360 1.46 % Δh 0, PASS both; CA chrome crops
+  header 100.00 / 99.87 %, footer 100.00 / 99.13 %; chrome-parity = logo hashes + CA footer Δw −2px
+  (queued by members-only). content-diff live vs preview 0 🔴; capture vs preview 15 🔴 = unstyled
+  capture tier (ROLE SWAP eyebrow/body, ICON DIFF), counts equal.
+- Deviations (both pages): `heading-level` (R-01), `attribute` (hidden Previous/Next labels → aria-label, #100).
+- Residual 🟡: Climbing NZ image title == alt, dropped by the pipeline.
