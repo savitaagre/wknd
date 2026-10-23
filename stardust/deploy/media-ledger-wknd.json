@@ -1390,5 +1390,101 @@
     "httpStatus": 201,
     "attempts": 1,
     "ts": "2026-10-23T16:53:32.526Z"
+  },
+  "media/magazine-listing/adobestock-156407519.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/adobestock-156407519.jpeg",
+    "size": 226479,
+    "sha256": "91f9b5bfec430dd68642f6d87cbf056f0512a057dc21f577dcfda99c34671fcc",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/adobestock-156407519.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:43.479Z"
+  },
+  "media/magazine-listing/surfer-wave-02.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/surfer-wave-02.jpeg",
+    "size": 133118,
+    "sha256": "385778b34d599b5fa174ede1a7e7ea2c10248abad53ee354d04b6104a8b7aa70",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/surfer-wave-02.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:44.350Z"
+  },
+  "media/magazine-listing/adobestock-164735399.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/adobestock-164735399.jpeg",
+    "size": 290549,
+    "sha256": "2ad0a064ce792f80c11c055a061c9281715f5b8de2a44691270f8774e711ad78",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/adobestock-164735399.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:44.838Z"
+  },
+  "media/magazine-listing/skitouring5sjoeberg.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/.work/rollout/magazine-listing/media/skitouring5sjoeberg.jpeg",
+    "size": 145491,
+    "sha256": "89c66de77e0a3d88a2f416e9079e987fd714274305faa90589c7d141dcda7d4b",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/skitouring5sjoeberg.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:45.236Z"
+  },
+  "media/magazine-listing/article-01-picture-01.png": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/article-01-picture-01.png",
+    "size": 865857,
+    "sha256": "68c2454db590a3b933c73f9fc24425e45977c70b229aacc3bf159811c420b5ca",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/article-01-picture-01.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:45.899Z"
+  },
+  "media/magazine-listing/adobe-waadobe-wa-b6a7083.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/adobe-waadobe-wa-b6a7083.jpeg",
+    "size": 318653,
+    "sha256": "733f87972c8ac106e6f9725fb7a166de7b7676662ab8f68235cc0db71cd703c2",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/adobe-waadobe-wa-b6a7083.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:46.715Z"
+  },
+  "media/magazine-listing/alaskan-grizzly.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/alaskan-grizzly.jpeg",
+    "size": 299604,
+    "sha256": "50908c26dc7326234340adeb6610ee8a531e549dd6d791f4ae30e318796ba6ab",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/alaskan-grizzly.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:46.793Z"
+  },
+  "media/magazine-listing/amazon-river-02.jpeg": {
+    "status": "uploaded",
+    "file": "stardust/prototypes/assets/media/amazon-river-02.jpeg",
+    "size": 343663,
+    "sha256": "2d00c7c4128ea3c7c99c41d0c425c211c3d41fa49147548b0c365a55636c5808",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/savitaagre/wknd/media/magazine-listing/amazon-river-02.jpeg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-10-23T17:35:47.502Z"
   }
 }
