@@ -22,6 +22,15 @@ function el(tag, className) {
 
 const HEADING = 'h1, h2, h3, h4, h5, h6';
 
+// a cell's nodes; a lone attribute-free <p> (wrapTextNodes() wraps plain cell text at runtime)
+// gives up its children instead, so the text sits directly in the dt / dd as on live (EW1: moved)
+function cellNodes(cell) {
+  const kids = [...cell.children];
+  const only = kids.length === 1 && kids[0].matches('p') && !kids[0].attributes.length
+    && ![...cell.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim());
+  return only ? [...kids[0].childNodes] : [...cell.childNodes];
+}
+
 export default async function decorate(block) {
   const rows = [...block.children];
   const article = el('article', 'fragment');
@@ -41,10 +50,10 @@ export default async function decorate(block) {
     // trip-facts__item: the units.json build hook (program-trip-facts)
     const item = el('div', 'item trip-facts__item');
     const dt = el('dt', 'label');
-    dt.append(...labelCell.childNodes);
+    dt.append(...cellNodes(labelCell));
     item.append(dt);
     const dd = el('dd', 'value');
-    valueCells.forEach((c) => dd.append(...c.childNodes));
+    valueCells.forEach((c) => dd.append(...cellNodes(c)));
     item.append(dd);
     list.append(item);
   });

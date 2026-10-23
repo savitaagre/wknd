@@ -92,7 +92,14 @@ export default async function decorate(block) {
       role: 'tab',
       'aria-controls': `${id}-panel-${i + 1}`,
     });
-    if (labelCell) tab.append(...labelCell.childNodes);
+    if (labelCell) {
+      // a lone attribute-free <p> (wrapTextNodes() wraps plain cell text at runtime) gives up
+      // its children, so the label text sits directly in the tab as on live (EW1: moved)
+      const kids = [...labelCell.children];
+      const lone = kids.length === 1 && kids[0].matches('p') && !kids[0].attributes.length
+        && ![...labelCell.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim());
+      tab.append(...(lone ? kids[0].childNodes : labelCell.childNodes));
+    }
 
     const panel = el('div', 'panel', {
       id: `${id}-panel-${i + 1}`,
