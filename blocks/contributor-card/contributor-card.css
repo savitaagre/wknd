@@ -23,6 +23,13 @@
   text-align: center;
 }
 
+/* the source img has no <picture> wrapper: the pipeline's picture generates no box of its
+   own, so the img lays out (and measures) as the source's — unit-geometry pub1 paired the
+   inline picture box (164×23) with the source img */
+.contributor-card .contributor-image picture {
+  display: contents;
+}
+
 /* the avatar is an INLINE image, as on the source (.cmp-image__image): its line box adds
    the descender gap below it (h3 at y 194 in the 345px card) */
 .contributor-card .contributor-image img {
