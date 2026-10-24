@@ -1,0 +1,794 @@
+{
+  "/ca/en/about-us": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:32.311Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/bali-surf-camp": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:32.311Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/beervana-portland": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:36.358Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/climbing-new-zealand": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:36.371Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/colorado-rock-climbing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:40.557Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/cycling-southern-utah": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:40.636Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/cycling-tuscany": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:44.599Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/downhill-skiing-wyoming": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:44.599Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/gastronomic-marais-tour": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:48.354Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/napa-wine-tasting": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:48.387Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/riverside-camping-australia": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:51.888Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/ski-touring-mont-blanc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:51.973Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/surf-camp-costa-rica": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:55.843Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/tahoe-skiing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:55.979Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/west-coast-cycling": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:18:59.720Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/whistler-mountain-biking": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:00.215Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures/yosemite-backpacking": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:03.387Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/adventures": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:04.092Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/faqs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:07.007Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:08.442Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/arctic-surfing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:10.347Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/guide-la-skateparks": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:11.848Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/members-only/alaskan-adventure": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:14.128Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/members-only/fly-fishing-the-amazon": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:15.544Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/members-only": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:17.776Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/san-diego-surf": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:19.266Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/ski-touring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:21.540Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/western-australia": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:22.846Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:25.356Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:26.446Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:28.931Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/fr/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:30.145Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/fr/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:32.609Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ca/fr": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:33.849Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/de/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:36.245Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/de/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:37.412Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:39.829Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/fr/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:40.884Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/fr/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:43.486Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/fr": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:44.276Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/it/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:47.358Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/it/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:47.930Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ch/it": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:50.973Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/de/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:51.475Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/de/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:54.285Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/de/de": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:54.758Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/es/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:57.926Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/es/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:19:58.280Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/es/es": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:01.547Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:01.967Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/fr/fr/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:05.205Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/fr/fr/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:05.942Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/fr/fr": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:09.051Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/fragments/sign-in": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:09.618Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/it/it/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:12.802Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/it/it/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:13.195Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/it/it": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:16.344Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:16.641Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/about-us": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:19.512Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/bali-surf-camp": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:20.054Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/beervana-portland": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:23.752Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/climbing-new-zealand": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:24.689Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/colorado-rock-climbing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:27.986Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/cycling-southern-utah": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:29.402Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/cycling-tuscany": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:32.351Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/downhill-skiing-wyoming": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:33.751Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/gastronomic-marais-tour": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:36.803Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/napa-wine-tasting": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:37.865Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/riverside-camping-australia": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:40.902Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/ski-touring-mont-blanc": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:42.055Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/surf-camp-costa-rica": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:45.425Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/tahoe-skiing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:46.531Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/west-coast-cycling": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:49.818Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/whistler-mountain-biking": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:50.607Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/yosemite-backpacking": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:53.901Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:55.242Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/ai-powered-search": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:57.966Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/faqs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:20:59.768Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/magazine/arctic-surfing": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:01.185Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/magazine/guide-la-skateparks": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:04.023Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/magazine/san-diego-surf": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:05.825Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/magazine/ski-touring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:08.869Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/magazine/western-australia": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:10.007Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/magazine": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:13.640Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:14.111Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/es/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:18.264Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/es/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:19.414Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/es": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-24T18:21:21.884Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}
