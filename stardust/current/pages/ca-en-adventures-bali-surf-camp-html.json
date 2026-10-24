@@ -1,0 +1,500 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:09:12.637Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-adventures-bali-surf-camp-html",
+  "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:09:12.637Z",
+  "finalUrl": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+  "title": "Bali Surf Camp",
+  "description": "Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/adventures/bali-surf-camp/adobestock-175749320.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Bali Surf Camp"
+    },
+    {
+      "tag": "h5",
+      "text": "Share this Adventure"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Adventures",
+    "Bali Surf Camp",
+    "Overview",
+    "Itinerary",
+    "What to Bring",
+    "Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.",
+    "Looking for a low cost alternative? Checkout Surf Camp Costa Rica"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#sign-in",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#sign-out",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#langNavToggle",
+    "https://wknd.site/us/en/adventures/bali-surf-camp.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#facebookwknd",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#twitterWKND",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/adventures/bali-surf-camp.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/bali-surf-camp/_jcr_content/root/container/carousel/image.coreimg.60.1600.jpeg/1660323792187/adobestock-175749320.jpeg",
+        "alt": "Surfers. Balangan beach. Bali, Indonesia.",
+        "w": 1440,
+        "h": 809
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/bali-surf-camp/_jcr_content/root/container/container_fixed/tabs/item_1594238312974/par1/image.coreimg.60.1600.jpeg/1660323795978/adobestock-266405335.jpeg",
+        "alt": "Boutique hotel on Costa Rica hilltop that serves great food with pool and yoga deck.",
+        "w": 1188,
+        "h": 792
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 4,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 3,
+    "mainTextLen": 1297,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/bali-surf-camp/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 340,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/bali-surf-camp/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 312,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-adventures-bali-surf-camp-html.png",
+  "renderedHtml": "pages/ca-en-adventures-bali-surf-camp-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "program",
+    "_source": "stardust/current/pages/ca-en-adventures-bali-surf-camp-html.html (rendered DOM, Playwright) + ca-en-adventures-bali-surf-camp-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "program-headline": {
+      "text": "Bali Surf Camp",
+      "selector": "#title-6f5d17c273 > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "breadcrumb": {
+      "selector": "#breadcrumb-ca4d387c2d",
+      "items": [
+        {
+          "label": "Adventures",
+          "href": "https://wknd.site/ca/en/adventures.html",
+          "current": false
+        },
+        {
+          "label": "Bali Surf Camp",
+          "href": null,
+          "current": true
+        }
+      ]
+    },
+    "gallery": {
+      "selector": "#carousel-a29c722a7b",
+      "slides": [
+        {
+          "src": "https://wknd.site/ca/en/adventures/bali-surf-camp/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323792187/adobestock-175749320.jpeg",
+          "alt": "Surfers. Balangan beach. Bali, Indonesia.",
+          "localPath": "stardust/current/assets/media/adobestock-175749320-be029690.jpeg",
+          "selector": "#image-9a800662c4 > img.cmp-image__image"
+        }
+      ]
+    },
+    "trip-facts": {
+      "selector": "#contentfragment-8acb6bc946 > dl.cmp-contentfragment__elements",
+      "facts": [
+        {
+          "label": "Activity",
+          "value": "Surfing"
+        },
+        {
+          "label": "Adventure Type",
+          "value": "Overnight Trip"
+        },
+        {
+          "label": "Trip Length",
+          "value": "6 Days"
+        },
+        {
+          "label": "Group Size",
+          "value": "6"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Beginner"
+        },
+        {
+          "label": "Price",
+          "value": "5000.0"
+        }
+      ]
+    },
+    "summary": {
+      "text": "Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.",
+      "ref": "body[5]",
+      "source": "tabs[0] (Overview) first paragraph"
+    },
+    "tabs": {
+      "selector": "#tabs-425d628818",
+      "panels": [
+        {
+          "label": "Overview",
+          "selector": "#tabs-425d628818-item-dd711eaca6-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses.",
+              "ref": "body[5]"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/bali-surf-camp/_jcr_content/root/container/container_fixed/tabs/item_1594238312974/par1/image.coreimg.jpeg/1660323795978/adobestock-266405335.jpeg",
+              "alt": "Boutique hotel on Costa Rica hilltop that serves great food with pool and yoga deck.",
+              "localPath": "stardust/current/assets/media/adobestock-266405335-a9089349.jpeg",
+              "selector": "#image-cb57623b36 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Looking for a low cost alternative? Checkout Surf Camp Costa Rica",
+              "ref": "body[6]"
+            }
+          ]
+        },
+        {
+          "label": "Itinerary",
+          "selector": "#tabs-425d628818-item-b8feb8ec9b-tabpanel",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Keramas",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "The most famous break in Bali is home to a WSL stop and features a fast barrelling right-hand reef break. One of Bali's most consistent waves, you'll have fun on waves from 2ft to 20 ft.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Nusa Dua",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Home to the best right handers in Bali, Nusa Dua is famous for big wave surfing and is suitable for the advanced surfers in the group. The Nusa Dua reef has numerous waves that break on different tides and slightly different conditions.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Sanur",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Located on the East coast, Sanur only breaks when there is a big swell and is at it's best when it's well overhead. Waves break over a very sharp reef so be prepared to leave some skin behind.",
+              "ref": null
+            }
+          ]
+        },
+        {
+          "label": "What to Bring",
+          "selector": "#tabs-425d628818-item-d8869f604f-tabpanel",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Surf shorts",
+                "Boards, beach chairs and towels will be provided"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "share": {
+      "text": "Share this Adventure",
+      "selector": "#title-0ab0ae27d3 > h5.cmp-title__text",
+      "ref": "headings[1]"
+    },
+    "feature-grid": null,
+    "cta-band": null,
+    "_absent": [
+      "feature-grid — adventure detail pages carry no feature grid; the trip-facts list is the structured summary",
+      "cta-band — no booking/sign-up CTA band in the rendered DOM"
+    ]
+  }
+}

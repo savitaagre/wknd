@@ -1,0 +1,316 @@
+{
+  "url": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3875,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2375,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "130px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#toggleNav a",
+      "frames": [
+        {
+          "t": 16766,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16968.39999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17170.699999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17372.89999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "html > body.landing.appear.navPanel-visible > main",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.landing.appear.navPanel-visible > footer.footer-wrapper",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.landing.appear.navPanel-visible > header.header-wrapper > div.header.block > div.mobile-toggle",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.landing.appear.navPanel-visible > header.header-wrapper > div.header.block > nav.mobile-nav",
+        "y": 0,
+        "dur": "0.5s, 0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.landing.appear.scrolly",
+        "y": 400
+      },
+      {
+        "added": [
+          "navPanel-visible"
+        ],
+        "el": "html > body.landing.appear.navPanel-visible",
+        "y": 0
+      }
+    ]
+  }
+}

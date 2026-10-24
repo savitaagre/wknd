@@ -1,13 +1,22 @@
 {
  "_provenance": {
   "writtenBy": "stardust:dynamics detect",
-  "writtenAt": "2026-10-16T12:33:31.465Z",
+  "writtenAt": "2026-10-23T08:11:28.250Z",
   "settleMs": 5000,
   "width": 1440,
   "urls": [
-   "https://wknd.site/us/en.html"
+   "https://wknd.site/us/en.html",
+   "https://wknd.site/us/en/adventures.html",
+   "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+   "https://wknd.site/us/en/magazine.html",
+   "https://wknd.site/ca/en/magazine/members-only.html",
+   "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
+   "https://wknd.site/us/en/faqs.html",
+   "https://wknd.site/us/en/about-us.html",
+   "https://wknd.site/us/en/ai-powered-search.html",
+   "https://wknd.site/us/es.html"
   ],
-  "reachSource": "stardust/current/pages"
+  "reachSource": "/backups/savitaagre/edsmsm/repo/stardust/current/pages"
  },
  "pages": {
   "/us/en.html": {
@@ -148,22 +157,22 @@
    "mainText": 2563,
    "domAddedAfterLoad": 0,
    "hosts": {
-    "wknd.site": 32,
+    "wknd.site": 33,
     "assets.adobedtm.com": 3,
     "fonts.googleapis.com": 1,
-    "dpm.demdex.net": 2,
     "fonts.gstatic.com": 3,
-    "cm.everesttech.net": 1,
+    "dpm.demdex.net": 2,
     "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
     "wkndsitewknd887971p.112.2o7.net": 1
    },
    "thirdPartyHosts": [
     "assets.adobedtm.com",
     "fonts.googleapis.com",
-    "dpm.demdex.net",
     "fonts.gstatic.com",
-    "cm.everesttech.net",
+    "dpm.demdex.net",
     "wkndsite.demdex.net",
+    "cm.everesttech.net",
     "wkndsitewknd887971p.112.2o7.net"
    ],
    "scripts": [
@@ -173,11 +182,11 @@
     "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
     "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
     "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
-    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js",
     "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
-    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
     "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
-    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js"
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js"
    ],
    "firstPartyApi": [
     {
@@ -234,6 +243,1970 @@
    "postBodies": [],
    "textAtLoad": 2563,
    "mainEmptyAtLoad": false
+  },
+  "/us/en/adventures.html": {
+   "url": "https://wknd.site/us/en/adventures.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "Adventures",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/adventures.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/adventures.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/adventures.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en/adventures.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "cmp-image-list",
+     "cards": 16,
+     "sameSite": 16,
+     "hasDate": false
+    },
+    {
+     "cls": "cmp-image-list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "cmp-image-list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "cmp-image-list",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 3992,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 38,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "fonts.gstatic.com": 3,
+    "dpm.demdex.net": 2,
+    "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "dpm.demdex.net",
+    "wkndsite.demdex.net",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 3992,
+   "mainEmptyAtLoad": false
+  },
+  "/us/en/adventures/climbing-new-zealand.html": {
+   "url": "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "Climbing New Zealand",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 1180,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 24,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "dpm.demdex.net": 2,
+    "fonts.gstatic.com": 3,
+    "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "dpm.demdex.net",
+    "fonts.gstatic.com",
+    "wkndsite.demdex.net",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 1180,
+   "mainEmptyAtLoad": false
+  },
+  "/us/en/magazine.html": {
+   "url": "https://wknd.site/us/en/magazine.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "Magazine",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/magazine.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/magazine.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/magazine.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en/magazine.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "cmp-image-list",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 1297,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 29,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "fonts.gstatic.com": 3,
+    "dpm.demdex.net": 2,
+    "cm.everesttech.net": 1,
+    "wkndsite.demdex.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "dpm.demdex.net",
+    "cm.everesttech.net",
+    "wkndsite.demdex.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 1297,
+   "mainEmptyAtLoad": false
+  },
+  "/ca/en/magazine/members-only.html": {
+   "url": "https://wknd.site/ca/en/magazine/members-only.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "Members Only",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/ca/en/magazine/members-only.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/ca/en/magazine/members-only.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/ca/en/magazine/members-only.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-CA",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/us/en.html",
+     "https://wknd.site/us/es.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 338,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 23,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "dpm.demdex.net": 2,
+    "wkndsite.demdex.net": 1,
+    "fonts.gstatic.com": 3,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "dpm.demdex.net",
+    "wkndsite.demdex.net",
+    "fonts.gstatic.com",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 338,
+   "mainEmptyAtLoad": false
+  },
+  "/us/en/magazine/guide-la-skateparks.html": {
+   "url": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "Ultimate Guide to LA Skateparks",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/magazine/guide-la-skateparks.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/magazine/guide-la-skateparks.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/magazine/guide-la-skateparks.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "aem-Grid aem-Grid--3",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "cmp-list",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 3529,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 25,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "dpm.demdex.net": 2,
+    "fonts.gstatic.com": 5,
+    "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "dpm.demdex.net",
+    "fonts.gstatic.com",
+    "wkndsite.demdex.net",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 3529,
+   "mainEmptyAtLoad": false
+  },
+  "/us/en/faqs.html": {
+   "url": "https://wknd.site/us/en/faqs.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "FAQs",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/faqs.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/faqs.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/faqs.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en/faqs.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 627,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 22,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "dpm.demdex.net": 2,
+    "fonts.gstatic.com": 3,
+    "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "dpm.demdex.net",
+    "fonts.gstatic.com",
+    "wkndsite.demdex.net",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 627,
+   "mainEmptyAtLoad": false
+  },
+  "/us/en/about-us.html": {
+   "url": "https://wknd.site/us/en/about-us.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "About Us",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/about-us.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/about-us.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/about-us.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en/about-us.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 557,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "wknd.site": 51,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "fonts.gstatic.com": 4,
+    "dpm.demdex.net": 2,
+    "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "dpm.demdex.net",
+    "wkndsite.demdex.net",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js",
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://wknd.site/.rum/@adobe/helix-rum-enhancer@%5E2/src/index.js",
+    "https://wknd.site/.rum/@adobe/helix-rum-enhancer@%5E2/src/plugins/a11y.js",
+    "https://wknd.site/.rum/@adobe/helix-rum-enhancer@%5E2/src/plugins/cwv.js",
+    "https://wknd.site/.rum/web-vitals/dist/web-vitals.iife.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 557,
+   "mainEmptyAtLoad": false
+  },
+  "/us/en/ai-powered-search.html": {
+   "url": "https://wknd.site/us/en/ai-powered-search.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "AI-Powered Search",
+   "forms": [
+    {
+     "name": "cmp-contentaisearch__form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "text:q",
+      "checkbox:"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/en/ai-powered-search.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/en/ai-powered-search.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/en/ai-powered-search.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 32,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 21,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "dpm.demdex.net": 2,
+    "fonts.gstatic.com": 2,
+    "wkndsite.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "dpm.demdex.net",
+    "fonts.gstatic.com",
+    "wkndsite.demdex.net",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 32,
+   "mainEmptyAtLoad": false
+  },
+  "/us/es.html": {
+   "url": "https://wknd.site/us/es.html",
+   "status": 200,
+   "host": "wknd.site",
+   "title": "Español",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign In",
+     "href": "https://wknd.site/us/es.html#sign-in",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Sign Out",
+     "href": "https://wknd.site/us/es.html#sign-out",
+     "marker": "data-modal-url",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://wkndsite.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwknd.site",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://wknd.site/us/es.html#sign-in"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "es-US",
+    "hreflang": [],
+    "switcher": [
+     "https://wknd.site/ca/en.html",
+     "https://wknd.site/ca/fr.html",
+     "https://wknd.site/ch/de.html",
+     "https://wknd.site/ch/fr.html",
+     "https://wknd.site/ch/it.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "version",
+     "push"
+    ],
+    "Granite": [
+     "HTTP",
+     "I18n",
+     "author",
+     "csrf"
+    ],
+    "CQ": [
+     "CoreComponents"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 41,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "wknd.site": 22,
+    "assets.adobedtm.com": 3,
+    "fonts.googleapis.com": 1,
+    "dpm.demdex.net": 2,
+    "wkndsite.demdex.net": 1,
+    "fonts.gstatic.com": 3,
+    "cm.everesttech.net": 1,
+    "wkndsitewknd887971p.112.2o7.net": 1
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "fonts.googleapis.com",
+    "dpm.demdex.net",
+    "wkndsite.demdex.net",
+    "fonts.gstatic.com",
+    "cm.everesttech.net",
+    "wkndsitewknd887971p.112.2o7.net"
+   ],
+   "scripts": [
+    "https://wknd.site/etc/cloudsettings.kernel.js/conf/wknd/settings/cloudsettings/default/contexthub",
+    "https://wknd.site/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://assets.adobedtm.com/8435ef3ee65b/ba907718de70/launch-23f8357258bd.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPbf7b42aa08bc4f10879b1484195e80d1/AppMeasurement.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://wknd.site/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-base.lc-a02db7b760339d83a59382d2216339a7-lc.min.js",
+    "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site.lc-d576df30bf19565e97faf1f96eb60e7c-lc.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/content/wknd/us/es/_jcr_content/contexthub.pagedata.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/content/wknd/us/es/_jcr_content/contexthub.pagedata.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/conf/wknd/settings/wcm/segments.seg.js",
+     "query": [],
+     "status": 200,
+     "contentType": "text/javascript",
+     "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "wknd.site",
+     "path": "/libs/granite/security/currentuser.json",
+     "query": [
+      "nocache"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://wknd.site/libs/granite/security/currentuser.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [],
+   "textAtLoad": 41,
+   "mainEmptyAtLoad": false
   }
  },
  "findings": [
@@ -244,7 +2217,16 @@
    "hint": "settings",
    "evidence": [],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   },
   {
@@ -254,7 +2236,16 @@
    "hint": "settings",
    "evidence": [],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   },
   {
@@ -264,8 +2255,104 @@
    "hint": "settings",
    "evidence": [],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
+  },
+  {
+   "id": "d-first-party-data-file-get-home-users-o-oa6pkcc2rneodh2ni0q",
+   "class": "D",
+   "feature": "first-party data file GET /home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+   "api": {
+    "method": "GET",
+    "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json → 200"
+   ],
+   "pages": [
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
+   ],
+   "reach": {
+    "pages": 66,
+    "of": 66
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "api": {
+    "method": "GET",
+    "path": "/libs/granite/csrf/token.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pages": [
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
+   ],
+   "reach": {
+    "pages": 66,
+    "of": 66
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-security-currentuse",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/security/currentuser.json",
+   "api": {
+    "method": "GET",
+    "path": "/libs/granite/security/currentuser.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /libs/granite/security/currentuser.json?nocache → 200"
+   ],
+   "pages": [
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
+   ],
+   "reach": {
+    "pages": 66,
+    "of": 66
+   }
   },
   {
    "id": "d-first-party-data-file-get-content-wknd-us-en-jcr-content-c",
@@ -283,68 +2370,164 @@
     "/us/en.html"
    ],
    "reach": {
-    "pages": 1,
-    "of": 1
+    "pages": 2,
+    "of": 66
    }
   },
   {
-   "id": "d-first-party-data-file-get-home-users-o-oa6pkcc2rneodh2ni0q",
+   "id": "d-first-party-data-file-get-content-wknd-us-en-adventures-jc",
    "class": "D",
-   "feature": "first-party data file GET /home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+   "feature": "first-party data file GET /content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json",
    "api": {
     "method": "GET",
-    "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json"
+    "path": "/content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json"
    },
    "hint": "data",
    "evidence": [
-    "GET /home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json → 200"
+    "GET /content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json → 200"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en/adventures.html"
    ],
    "reach": {
     "pages": 1,
-    "of": 1
+    "of": 66
    }
   },
   {
-   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "id": "d-first-party-data-file-get-content-wknd-us-en-adventures-cl",
    "class": "D",
-   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "feature": "first-party data file GET /content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json",
    "api": {
     "method": "GET",
-    "path": "/libs/granite/csrf/token.json"
+    "path": "/content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json"
    },
    "hint": "data",
    "evidence": [
-    "GET /libs/granite/csrf/token.json → 200"
+    "GET /content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json → 200"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en/adventures/climbing-new-zealand.html"
    ],
    "reach": {
     "pages": 1,
-    "of": 1
+    "of": 66
    }
   },
   {
-   "id": "d-first-party-data-file-get-libs-granite-security-currentuse",
+   "id": "d-first-party-data-file-get-content-wknd-us-en-magazine-jcr-",
    "class": "D",
-   "feature": "first-party data file GET /libs/granite/security/currentuser.json",
+   "feature": "first-party data file GET /content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json",
    "api": {
     "method": "GET",
-    "path": "/libs/granite/security/currentuser.json"
+    "path": "/content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json"
    },
    "hint": "data",
    "evidence": [
-    "GET /libs/granite/security/currentuser.json?nocache → 200"
+    "GET /content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json → 200"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en/magazine.html"
    ],
    "reach": {
     "pages": 1,
-    "of": 1
+    "of": 66
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-ca-en-magazine-memb",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pages": [
+    "/ca/en/magazine/members-only.html"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-magazine-guid",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pages": [
+    "/us/en/magazine/guide-la-skateparks.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 66
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-faqs-jcr-cont",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pages": [
+    "/us/en/faqs.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 66
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-about-us-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pages": [
+    "/us/en/about-us.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 66
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-es-jcr-content-c",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/es/_jcr_content/contexthub.pagedata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/wknd/us/es/_jcr_content/contexthub.pagedata.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /content/wknd/us/es/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pages": [
+    "/us/es.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 66
    }
   },
   {
@@ -355,10 +2538,68 @@
    "evidence": [
     "https://wknd.site/ca/en.html",
     "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html"
+   ],
+   "pages": [
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-us-us-ch-ch-ch",
+   "class": "I18N",
+   "feature": "locale variants us,us,ch,ch,ch",
+   "hint": "locale",
+   "evidence": [
+    "https://wknd.site/us/en.html",
+    "https://wknd.site/us/es.html",
     "https://wknd.site/ch/de.html"
    ],
    "pages": [
-    "/us/en.html"
+    "/ca/en/magazine/members-only.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-cmp-image-list-16-cards",
+   "class": "L",
+   "feature": "listing candidate cmp-image-list (16 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/us/en/adventures.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-cmp-image-list-6-cards",
+   "class": "L",
+   "feature": "listing candidate cmp-image-list (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/us/en/adventures.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-cmp-list-4-cards",
+   "class": "L",
+   "feature": "listing candidate cmp-list (4 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/us/en/magazine/guide-la-skateparks.html"
    ]
   },
   {
@@ -368,14 +2609,69 @@
    "hint": "chrome-interaction",
    "evidence": [
     "https://wknd.site/us/en.html#sign-in",
-    "https://wknd.site/us/en.html#sign-out"
+    "https://wknd.site/us/en.html#sign-out",
+    "https://wknd.site/us/en/adventures.html#sign-in",
+    "https://wknd.site/us/en/adventures.html#sign-out",
+    "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-in",
+    "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-out",
+    "https://wknd.site/us/en/magazine.html#sign-in",
+    "https://wknd.site/us/en/magazine.html#sign-out",
+    "https://wknd.site/ca/en/magazine/members-only.html#sign-in",
+    "https://wknd.site/ca/en/magazine/members-only.html#sign-out",
+    "https://wknd.site/us/en/magazine/guide-la-skateparks.html#sign-in",
+    "https://wknd.site/us/en/magazine/guide-la-skateparks.html#sign-out"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ],
    "reach": {
-    "pages": 2,
-    "of": 1
+    "pages": 132,
+    "of": 66
+   }
+  },
+  {
+   "id": "s-first-party-data-file-get-content-wknd-us-en-ai-powered-se",
+   "class": "S",
+   "feature": "first-party data file GET /content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json",
+   "api": {
+    "method": "GET",
+    "path": "/content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json"
+   },
+   "hint": "search",
+   "evidence": [
+    "GET /content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pages": [
+    "/us/en/ai-powered-search.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 66
+   }
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "text:q,checkbox:"
+   ],
+   "pages": [
+    "/us/en/ai-powered-search.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 66
    }
   },
   {
@@ -388,7 +2684,16 @@
     "assets.adobedtm.com"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   },
   {
@@ -402,7 +2707,16 @@
     "wkndsite.demdex.net"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   },
   {
@@ -415,7 +2729,16 @@
     "cm.everesttech.net"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   },
   {
@@ -427,7 +2750,16 @@
     "wkndsitewknd887971p.112.2o7.net"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   },
   {
@@ -436,28 +2768,109 @@
    "feature": "sign-in / account links",
    "hint": "decided-out",
    "evidence": [
-    "https://wknd.site/us/en.html#sign-in"
+    "https://wknd.site/us/en.html#sign-in",
+    "https://wknd.site/us/en/adventures.html#sign-in",
+    "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-in",
+    "https://wknd.site/us/en/magazine.html#sign-in",
+    "https://wknd.site/ca/en/magazine/members-only.html#sign-in",
+    "https://wknd.site/us/en/magazine/guide-la-skateparks.html#sign-in",
+    "https://wknd.site/us/en/faqs.html#sign-in",
+    "https://wknd.site/us/en/about-us.html#sign-in",
+    "https://wknd.site/us/en/ai-powered-search.html#sign-in",
+    "https://wknd.site/us/es.html#sign-in"
    ],
    "pages": [
-    "/us/en.html"
+    "/us/en.html",
+    "/us/en/adventures.html",
+    "/us/en/adventures/climbing-new-zealand.html",
+    "/us/en/magazine.html",
+    "/ca/en/magazine/members-only.html",
+    "/us/en/magazine/guide-la-skateparks.html",
+    "/us/en/faqs.html",
+    "/us/en/about-us.html",
+    "/us/en/ai-powered-search.html",
+    "/us/es.html"
    ]
   }
  ],
  "reach": {
-  "pagesWithEvidence": 1,
-  "of": 1,
+  "pagesWithEvidence": 66,
+  "of": 66,
   "endpoints": {
-   "GET wknd.site/content/wknd/us/en/_jcr_content/contexthub.pagedata.json": 1,
-   "GET wknd.site/conf/wknd/settings/wcm/segments.seg.js": 1,
-   "GET dpm.demdex.net/id": 1,
-   "GET wknd.site/libs/granite/csrf/token.json": 1,
-   "GET wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json": 1,
-   "GET wknd.site/libs/granite/security/currentuser.json": 1
+   "GET wknd.site/conf/wknd/settings/wcm/segments.seg.js": 66,
+   "GET wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json": 66,
+   "GET wknd.site/content/wknd/ca/en/about-us/_jcr_content/contexthub.pagedata.json": 1,
+   "GET dpm.demdex.net/id": 16,
+   "GET wknd.site/libs/granite/csrf/token.json": 66,
+   "GET wknd.site/libs/granite/security/currentuser.json": 66,
+   "GET wknd.site/content/wknd/ca/en/adventures/bali-surf-camp/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/beervana-portland/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/colorado-rock-climbing/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/cycling-southern-utah/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/cycling-tuscany/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/downhill-skiing-wyoming/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/gastronomic-marais-tour/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/napa-wine-tasting/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/riverside-camping-australia/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/ski-touring-mont-blanc/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/surf-camp-costa-rica/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/tahoe-skiing/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/west-coast-cycling/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/whistler-mountain-biking/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/adventures/yosemite-backpacking/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/faqs/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/arctic-surfing/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/members-only/alaskan-adventure/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/members-only/fly-fishing-the-amazon/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/san-diego-surf/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/ski-touring/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/en/magazine/western-australia/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ca/fr/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ch/de/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ch/fr/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/ch/it/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/de/de/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/es/es/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/fr/fr/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/_jcr_content/contexthub.pagedata.json": 2,
+   "GET wknd.site/content/wknd/it/it/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/bali-surf-camp/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/beervana-portland/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/colorado-rock-climbing/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/cycling-southern-utah/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/cycling-tuscany/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/downhill-skiing-wyoming/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/gastronomic-marais-tour/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/napa-wine-tasting/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/riverside-camping-australia/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/ski-touring-mont-blanc/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/surf-camp-costa-rica/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/tahoe-skiing/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/west-coast-cycling/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/whistler-mountain-biking/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/adventures/yosemite-backpacking/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/magazine/arctic-surfing/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/magazine/san-diego-surf/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/magazine/ski-touring/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/en/magazine/western-australia/_jcr_content/contexthub.pagedata.json": 1,
+   "GET wknd.site/content/wknd/us/es/_jcr_content/contexthub.pagedata.json": 1
   },
-  "searchFormPages": 0,
+  "searchFormPages": 1,
   "formPages": 0,
   "triggerPages": {
-   "data-modal-url": 2
+   "data-modal-url": 132
   }
  }
 }

@@ -1,0 +1,67 @@
+{
+  "slug": "us-en-about-us-html",
+  "type": "static",
+  "liveUrl": "https://wknd.site/us/en/about-us.html",
+  "prototype": "stardust/prototypes/us-en-about-us-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-en-about-us-html-proposed.html",
+    "stardust/prototypes/us-en-about-us-html.css",
+    "stardust/prototypes/assets/media/{stacey-roswells,alex-iby-343837,ian-provo,jacob-wester,ayo-ogunseinde-237739,justin-barr,kumar-selvaraj}{,-300w…-1200w}.jpeg (77 files: originals from stardust/current/assets/media + the live srcset renditions 300–1200w)"
+  ],
+  "breakpoints": {
+    "1440": {
+      "iterations": 0,
+      "rounds": ["iter1 (--full, first + confirmation: no fix needed)", "motion (pixel round after interaction parity)"],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": 5,
+        "pixelPct": 0.10,
+        "heightDelta": 0,
+        "chromeParity": "header ✓ 6/6 texts 1/1 icons, footer ✓ 13/13 texts 1/1 icons; crop header 0.00 %, footer 0.00 %",
+        "clipped": 0,
+        "overflow": 0,
+        "unitGeometry": "contributor-card 7 units compared, 42 elements within, 0 off → PASS",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff STRETCHED IMAGE ×5 (contributor avatars 164×164 from portrait/landscape renditions): intentional object-fit: cover round crop — source `.cmp-experience-fragment--contributor .cmp-image .cmp-image__image { border-radius: 50%; height: 164px; width: 164px; object-fit: cover }`; the live side carries the same flags (visual-diff-iter1.txt source.images stretched:true)"
+      ],
+      "residuals": [],
+      "evidence": "stardust/replica/gates/us-en-about-us-html-1440/"
+    },
+    "360": {
+      "iterations": 0,
+      "rounds": ["iter1 (--full, first + confirmation: no fix needed)", "motion (pixel round after interaction parity)"],
+      "result": {
+        "structuralRed": 0,
+        "visualFlags": 5,
+        "pixelPct": 0.18,
+        "heightDelta": 0,
+        "chromeParity": "header ✓ 2/2 texts 1/1 icons, footer ✓ 13/13 texts 1/1 icons; crop header 0.13 % (59 px), footer 0.00 %",
+        "clipped": 0,
+        "overflow": 0,
+        "unitGeometry": "contributor-card 7 units compared, 42 elements within, 0 off → PASS",
+        "pass": true
+      },
+      "justified": [
+        "visual-diff STRETCHED IMAGE ×5: same intentional 164×164 object-fit: cover avatar crop as at 1440 (build selects the 400w rendition = live natural 360×N)"
+      ],
+      "residuals": [],
+      "evidence": "stardust/replica/gates/us-en-about-us-html-360/"
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/us-en-about-us-html-2560/cap-iter.json); advisory: live 12 vs build 7 top-level sections (live grid columns vs build .col/.contributor-grid wrappers — rows compared by order)",
+  "units": ["contributor-card"],
+  "motion": {
+    "observed": "stardust/replica/motion/us-en-about-us-html.json — header scroll-morph only (body.scrolly + header padding transitions 500ms); hover pokes on contributor buttons and avatars: no measured change",
+    "implemented": ["header scroll-morph (canon.js, no page JS needed)"],
+    "dead": ["hover .cmp-experience-fragment--contributor .cmp-button", "hover .cmp-experience-fragment--contributor .cmp-image__image"],
+    "compare": "motion summary: 4 parity, 0 missing, 0 extra (build: stardust/replica/motion/us-en-about-us-html-build.json)"
+  },
+  "canonRequests": [
+    "`.social-btn--secondary` dark icon-only button modifier (source .cmp-button--secondary .cmp-button) — shared with magazine article author cards (authored identically in us-en-magazine-guide-la-skateparks-html.css)",
+    "`.text-small p { font-size: 14px }` (source .cmp-text--font-small p) — shared with the FAQ help-contact text"
+  ],
+  "registerRequests": [],
+  "notes": "Counts reconciled against the rendered DOM before authoring: 18 headings = h1 ×1 (About Us), h2 ×2 (underlined: Our Contributors, WKND Guides), h3 ×7 + h5 ×7 (4 contributors + 3 guides), h4 ×1 (footer Follow Us); 7 cards × 3 social buttons = 21; 2 italic 14px intro paragraphs. Card order/labels verbatim incl. per-card aria-labels/hrefs and Kumar Selveraj's Facebook–Instagram–Twitter button order; avatar alt is empty on live and kept empty. Nav current state: About Us carries aria-current=\"page\" in header, mobile nav and footer (live markup). Canon reused unchanged: h1 40px / h3 / h5 sizes, .section-title--underline, .social-btn base + .icon--facebook/twitter/instagram glyphs, header/footer markup. contributor-card stays per-archetype (DESIGN.json module candidate-f7f01b3: 14 instances on us/ca about only). No JS file (no page behaviour fired). Sibling /ca/en/about-us shares this template for migrate."
+}

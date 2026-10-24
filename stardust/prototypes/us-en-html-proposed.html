@@ -15,6 +15,7 @@
   <meta name="theme-color" content="#FFEA00">
   <meta property="og:image" content="https://wknd.site/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg">
   <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="canon.css">
   <link rel="stylesheet" href="us-en-html.css">
 </head>
 <body>
@@ -27,7 +28,7 @@
           <a class="sign-out-link" href="#sign-out">Sign Out</a>
         </div>
         <div class="utility-bar__lang">
-          <a class="lang-toggle" id="langNavToggleHeader" href="#langNavToggle" aria-label="Toggle Language en-US" aria-expanded="false" aria-controls="lang-menu">en-US</a>
+          <a class="lang-toggle lang-toggle--us" id="langNavToggleHeader" href="#langNavToggle" aria-label="Toggle Language en-US" aria-expanded="false" aria-controls="lang-menu">en-US</a>
           <nav class="lang-menu" id="lang-menu">
             <ul class="lang-menu__countries">
               <li class="lang-menu__country lang-menu__country--us lang-menu__country--active">
@@ -87,7 +88,7 @@
           <a href="/us/en.html"><img src="assets/media/wknd-logo-dk.svg" alt="WKND Logo" width="300" height="112"></a>
         </div>
         <nav class="header-nav">
-          <a class="nav-home" href="/us/en.html" hidden>Home</a>
+          <a class="nav-home" href="/us/en.html" aria-current="page" hidden>Home</a>
           <ul>
             <li><a href="/us/en/magazine.html">Magazine</a></li>
             <li><a href="/us/en/adventures.html">Adventures</a></li>
@@ -103,7 +104,7 @@
   <div class="mobile-toggle" id="toggleNav"><a class="mobile-toggle__link" href="#mobileNav" aria-label="Open hidden mobile navigation" aria-expanded="false"><span class="icon icon--menu" aria-hidden="true"></span></a></div>
   <nav class="mobile-nav" id="mobileNav">
     <ul>
-      <li class="mobile-nav__home"><a href="/us/en.html">Home</a>
+      <li class="mobile-nav__home"><a href="/us/en.html" aria-current="page">Home</a>
         <ul>
           <li><a href="/us/en/magazine.html">Magazine</a></li>
           <li><a href="/us/en/adventures.html">Adventures</a></li>
@@ -250,7 +251,7 @@
         <div class="site-footer__row">
           <div class="site-footer__logo"><a href="/us/en.html"><img src="assets/media/wknd-logo-light.svg" alt="WKND Logo" width="300" height="112"></a></div>
           <nav class="site-footer__nav" aria-label="Footer navigation">
-            <a class="nav-home" href="/us/en.html" hidden>Home</a>
+            <a class="nav-home" href="/us/en.html" aria-current="page" hidden>Home</a>
             <ul>
               <li><a href="/us/en/magazine.html">Magazine</a></li>
               <li><a href="/us/en/adventures.html">Adventures</a></li>
@@ -274,6 +275,7 @@
       </div>
     </footer>
   </div>
+  <script src="canon.js" defer></script>
   <script src="us-en-html.js" defer></script>
 </body>
 </html>

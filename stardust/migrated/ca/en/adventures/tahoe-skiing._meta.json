@@ -1,0 +1,148 @@
+{
+  "slug": "ca-en-adventures-tahoe-skiing-html",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "us-en-adventures-climbing-new-zealand-html",
+  "modules": [
+    "breadcrumb",
+    "trip-gallery-carousel",
+    "trip-facts",
+    "share-bar",
+    "content-tabs"
+  ],
+  "slotsFilled": [
+    "breadcrumb-bar",
+    "trip-gallery",
+    "trip-layout"
+  ],
+  "canonShas": {
+    "header": "8617966a44a6",
+    "footer": "4732704595ea",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Tahoe Skiing",
+    "description": "Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them.",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Tahoe Skiing",
+    "description": "Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them.",
+    "url": "https://wknd.site/ca/en/adventures/tahoe-skiing.html"
+  },
+  "migratedAt": "2026-10-23T15:54:20Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "7df5256e9eef",
+  "sourceProposedSha": "fab21a63843a",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-adventures-climbing-new-zealand-html",
+  "archetypeSha": "ec9db013e6a7",
+  "variants": [
+    "trip-facts--grid"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs us-en climbing-new-zealand @1440: stardust/.work/rollout/program/variance.json (gallery/facts/breadcrumb; facts delta → trip-facts--grid on 8)",
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 🔴",
+    "media-reconcile": "media-reconcile all hosted (ledger stardust/deploy/media-ledger-wknd.json); plain.html 0 about:error",
+    "pixel-gate-1440": "gate-all PASS on the preview host: stardust/replica/gates/all-1440/runs/2026-10-23T16-14-05-311Z-ca-en-adventures-bali-surf-camp-html.json",
+    "pixel-gate-360": "gate-all PASS on the preview host: stardust/replica/gates/all-360/runs/2026-10-23T16-27-28-183Z-ca-en-adventures-bali-surf-camp-html.json",
+    "content-count": "content-diff capture→preview stardust/.work/rollout/program/content-diff/ca-en-adventures-tahoe-skiing-html.txt: 0 MISSING BODY/CTA/IMG beyond the hidden Previous/Next labels; MISSING TITLE only where title == alt (pipeline drop); ROLE SWAP/ICON = unstyled capture",
+    "content-fidelity": "verbatim from stardust/current/pages/ca-en-adventures-tahoe-skiing-html.html by the archetype encoder (stardust/.work/rollout/program/probes/encode.mjs); block-roundtrip --ew 0 🔴; content-presence MISSING 0 / HIDDEN 0 at 1440 + 360"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/adventures/tahoe-skiing.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/adventures/tahoe-skiing._meta.json",
+  "driverVersion": "1"
+}

@@ -3,8 +3,11 @@
  * go?): 260px cards — 260×200 image, uppercase title link, one-line
  * ellipsised description.
  *
- * Contract: stardust/eds-schema/us-en-html.json → sections[2] / sections[4]
- * "image-list" (4 × LI unit, uniform: 1 cta + 1 img + description).
+ * Contract (canon3 .image-list, one module for every page that lists cards):
+ *   stardust/eds-schema/us-en-html.json → sections[2] / sections[4] (home, 4 cards)
+ *   stardust/eds-schema/ca-en-magazine-members-only-html.json → sections[0] (2 cards)
+ *   (magazine "All Articles", 5 cards — same unit: 1 cta + 1 img + description;
+ *   a card without a description renders title-only).
  * Model: cards — ONE ROW PER CARD, two cells: image | text
  *   image cell: <picture>/<img> (alt + title carried verbatim)
  *   text cell : <p><a href>Title</a></p> (the card link), <p> description
@@ -14,6 +17,9 @@
  * its link (decorateButtons' button classes and derived title are undone —
  * a card link is not a CTA); the image is wrapped in a generated, text-free
  * anchor to the same href (the source's image link).
+ * Hook: every card is `li.item.image-list__item` — the build selector of the
+ * unit-geometry rows in stardust/replica/units.json (members-only-card-grid,
+ * article-card-grid: `.image-list .image-list__item`); styling stays on `.item`.
  */
 
 function el(tag, className) {
@@ -99,7 +105,6 @@ function unbutton(node) {
   if (!a) return null;
   a.classList.remove('button', 'primary', 'secondary', 'accent');
   if (!a.classList.length) a.removeAttribute('class');
-  if (a.title === a.textContent) a.removeAttribute('title');
   return a;
 }
 
@@ -108,7 +113,7 @@ export default async function decorate(block) {
   const list = el('ul', 'items');
 
   cards.forEach((card) => {
-    const li = el('li', 'item');
+    const li = el('li', 'item image-list__item');
     const article = el('article');
     const link = card.title ? unbutton(card.title) : null;
     const href = link ? link.getAttribute('href') : null;

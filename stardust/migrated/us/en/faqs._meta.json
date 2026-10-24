@@ -1,0 +1,94 @@
+{
+  "slug": "us-en-faqs-html",
+  "type": "faq",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "faq-accordion",
+    "help-contact-block"
+  ],
+  "slotsFilled": [
+    "faq-layout__primary",
+    "faq-layout__aside"
+  ],
+  "canonShas": {
+    "header": "6afa8be925e6",
+    "footer": "0a33c1dc9d7d",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "FAQs",
+    "description": "Here we answer some of the questions that we hear most often from the community.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "FAQs",
+    "description": "Here we answer some of the questions that we hear most often from the community.",
+    "url": "https://wknd.site/us/en/faqs.html"
+  },
+  "migratedAt": "2026-10-23T10:10:38Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "255fcee66149",
+  "sourceProposedSha": "22bf56de938b",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "DA doc encoded by gen-faq.mjs from the hydrated capture; content-diff live→preview 0 structural (gates/us-en-faqs-html-1440/content-diff-pub1.txt)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 21,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/faqs.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/faqs._meta.json",
+  "driverVersion": "1"
+}

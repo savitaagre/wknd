@@ -1,18 +1,20 @@
 {
  "_provenance": {
   "writtenBy": "stardust:dynamics plan",
-  "writtenAt": "2026-10-16T12:33:56.281Z",
+  "writtenAt": "2026-10-23T10:11:32.630Z",
   "input": "stardust/current/_dynamics.json",
-  "target": "https://main--edsmsm--savitaagre.aem.page",
-  "migrated": null
+  "target": "https://main--wknd--savitaagre.aem.page",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": "stardust/chrome/header-contract.json"
  },
  "rows": [
   {
    "id": "a-cms-app-settings-object-adobedatalayer",
    "class": "A",
    "feature": "CMS / app settings object adobeDataLayer",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [],
    "pattern": "read-settings",
@@ -26,8 +28,8 @@
    "id": "a-cms-app-settings-object-granite",
    "class": "A",
    "feature": "CMS / app settings object Granite",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [],
    "pattern": "read-settings",
@@ -41,8 +43,8 @@
    "id": "a-cms-app-settings-object-cq",
    "class": "A",
    "feature": "CMS / app settings object CQ",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [],
    "pattern": "read-settings",
@@ -53,35 +55,14 @@
    "decision": "— (keys name endpoints, ids, vendors)"
   },
   {
-   "id": "d-first-party-data-file-get-content-wknd-us-en-jcr-content-c",
-   "class": "D",
-   "feature": "first-party data file GET /content/wknd/us/en/_jcr_content/contexthub.pagedata.json",
-   "pages": 1,
-   "probed": 1,
-   "reach": {
-    "pages": 1,
-    "of": 1
-   },
-   "evidence": [
-    "GET /content/wknd/us/en/_jcr_content/contexthub.pagedata.json → 200"
-   ],
-   "pattern": "sheet-sync",
-   "disposition": "data-fed",
-   "reproducibility": "self",
-   "status": "pending",
-   "phase": "data",
-   "decision": "none (sync from the source origin)",
-   "hostBound": "dead on target (404)"
-  },
-  {
    "id": "d-first-party-data-file-get-home-users-o-oa6pkcc2rneodh2ni0q",
    "class": "D",
    "feature": "first-party data file GET /home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": {
-    "pages": 1,
-    "of": 1
+    "pages": 66,
+    "of": 66
    },
    "evidence": [
     "GET /home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json → 200"
@@ -98,11 +79,11 @@
    "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
    "class": "D",
    "feature": "first-party data file GET /libs/granite/csrf/token.json",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": {
-    "pages": 1,
-    "of": 1
+    "pages": 66,
+    "of": 66
    },
    "evidence": [
     "GET /libs/granite/csrf/token.json → 200"
@@ -119,11 +100,11 @@
    "id": "d-first-party-data-file-get-libs-granite-security-currentuse",
    "class": "D",
    "feature": "first-party data file GET /libs/granite/security/currentuser.json",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": {
-    "pages": 1,
-    "of": 1
+    "pages": 66,
+    "of": 66
    },
    "evidence": [
     "GET /libs/granite/security/currentuser.json?nocache → 200"
@@ -137,51 +118,347 @@
    "hostBound": "dead on target (404)"
   },
   {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-jcr-content-c",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 2,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-adventures-jc",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/adventures/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-adventures-cl",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-magazine-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/magazine/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-ca-en-magazine-memb",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "GET /content/wknd/ca/en/magazine/members-only/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-magazine-guid",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/magazine/guide-la-skateparks/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-faqs-jcr-cont",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/faqs/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-en-about-us-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/about-us/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-content-wknd-us-es-jcr-content-c",
+   "class": "D",
+   "feature": "first-party data file GET /content/wknd/us/es/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/es/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
    "id": "i18n-locale-variants-ca-ca-ch-ch-ch",
    "class": "I18N",
    "feature": "locale variants ca,ca,ch,ch,ch",
-   "pages": 1,
-   "probed": 1,
+   "pages": 9,
+   "probed": 10,
    "reach": null,
    "evidence": [
     "https://wknd.site/ca/en.html",
     "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ca/en/adventures.html"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-business-decision",
+   "status": "delivered-by-capture",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://wknd.site/ca/en.html\""
+  },
+  {
+   "id": "i18n-locale-variants-us-us-ch-ch-ch",
+   "class": "I18N",
+   "feature": "locale variants us,us,ch,ch,ch",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [
+    "https://wknd.site/us/en.html",
+    "https://wknd.site/us/es.html",
     "https://wknd.site/ch/de.html"
    ],
    "pattern": "locale-tree",
    "disposition": "rebuild-native",
    "reproducibility": "needs-business-decision",
-   "status": "pending",
+   "status": "delivered-by-capture",
    "phase": "locale wave",
-   "decision": "scope of the locale trees"
+   "decision": "scope of the locale trees",
+   "alreadyDelivered": "output already carries \"https://wknd.site/us/en.html\""
+  },
+  {
+   "id": "l-listing-candidate-cmp-image-list-16-cards",
+   "class": "L",
+   "feature": "listing candidate cmp-image-list (16 cards)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-cmp-image-list-6-cards",
+   "class": "L",
+   "feature": "listing candidate cmp-image-list (6 cards)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-cmp-list-4-cards",
+   "class": "L",
+   "feature": "listing candidate cmp-list (4 cards)",
+   "pages": 1,
+   "probed": 10,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
   },
   {
    "id": "m-modal-trigger-data-modal-url-chrome-only-target-outside-do",
    "class": "M",
    "feature": "modal trigger data-modal-url (chrome only) → target outside DOM at capture",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": {
-    "pages": 2,
-    "of": 1
+    "pages": 132,
+    "of": 66
    },
    "evidence": [
     "https://wknd.site/us/en.html#sign-in",
-    "https://wknd.site/us/en.html#sign-out"
+    "https://wknd.site/us/en.html#sign-out",
+    "https://wknd.site/us/en/adventures.html#sign-in",
+    "https://wknd.site/us/en/adventures.html#sign-out"
    ],
    "pattern": "chrome-interaction",
    "disposition": "rebuild-native",
    "reproducibility": "self",
    "status": "pending",
    "phase": "interactive",
-   "decision": "none (motion-observe evidence)"
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "s-first-party-data-file-get-content-wknd-us-en-ai-powered-se",
+   "class": "S",
+   "feature": "first-party data file GET /content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "GET /content/wknd/us/en/ai-powered-search/_jcr_content/contexthub.pagedata.json → 200"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "data-fed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "replace the hosted search service?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "pages": 1,
+   "probed": 10,
+   "reach": {
+    "pages": 1,
+    "of": 66
+   },
+   "evidence": [
+    "text:q,checkbox:"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
   },
   {
    "id": "t-tag-manager-adobe-launch",
    "class": "T",
    "feature": "tag manager: Adobe Launch",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [
     "assets.adobedtm.com"
@@ -197,8 +474,8 @@
    "id": "t-analytics-adobe-analytics-experience-cloud-id",
    "class": "T",
    "feature": "analytics: Adobe Analytics / Experience Cloud ID",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [
     "dpm.demdex.net",
@@ -215,8 +492,8 @@
    "id": "t-marketing-ad-retargeting-pixel",
    "class": "T",
    "feature": "marketing: ad / retargeting pixel",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [
     "cm.everesttech.net"
@@ -232,8 +509,8 @@
    "id": "t-unknown-third-party-host-wkndsitewknd887971p-112-2o7-net",
    "class": "T",
    "feature": "unknown third-party host wkndsitewknd887971p.112.2o7.net",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [
     "wkndsitewknd887971p.112.2o7.net"
@@ -249,11 +526,14 @@
    "id": "x-sign-in-account-links",
    "class": "X",
    "feature": "sign-in / account links",
-   "pages": 1,
-   "probed": 1,
+   "pages": 10,
+   "probed": 10,
    "reach": null,
    "evidence": [
-    "https://wknd.site/us/en.html#sign-in"
+    "https://wknd.site/us/en.html#sign-in",
+    "https://wknd.site/us/en/adventures.html#sign-in",
+    "https://wknd.site/us/en/adventures/climbing-new-zealand.html#sign-in",
+    "https://wknd.site/us/en/magazine.html#sign-in"
    ],
    "pattern": "decided-out",
    "disposition": "decided-out",
@@ -261,6 +541,44 @@
    "status": "pending",
    "phase": "register",
    "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "chrome-account",
+   "source": "header-contract",
+   "class": "X",
+   "feature": "header account: Sign In (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key",
+    "1440 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "sign-in on the new host (the menu ships per the contract either way)"
+  },
+  {
+   "id": "chrome-menu",
+   "source": "header-contract",
+   "class": "M",
+   "feature": "header menu: en-US (chrome only)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "390 click/key",
+    "1440 click/key"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
   }
  ]
 }

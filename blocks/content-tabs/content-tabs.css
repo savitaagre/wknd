@@ -1,0 +1,252 @@
+/* content-tabs — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-adventures-climbing-new-zealand-html.css: .content-tabs*,
+   .trip-content*, .trip-layout / .trip-grid*; source .cmp-tabs, .cmp-contentfragment,
+   .cmp-image, .cmp-layout-container--fixed). */
+
+/* ---------- program layout (the section that holds the tabs) ----------
+   Source: a fixed 1164px container (content box + 14px padding) with a 12-col
+   float grid — title 12/12, facts + share 3/12 (flush), tabs 9/12. Each column is
+   its own formatting context (float), so the section's wrappers are flow-root /
+   grid items. The section clears the gallery's floated controls (source
+   .cmp-layout-container--fixed clear: both). */
+main > .section:has(> .content-tabs-wrapper) {
+  clear: both;
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+main > .section:has(> .content-tabs-wrapper) > div {
+  display: flow-root;
+  max-width: none;
+  margin: 0;
+  padding: 0 var(--gutter);
+}
+
+/* the facts + share column is flush (source --flush column) */
+main > .section:has(> .content-tabs-wrapper) > :is(.trip-facts-wrapper, .share-bar-wrapper) {
+  padding: 0;
+}
+
+/* source: the share title's top margin (h5 UA 1.67em = 23.38px) collapses through
+   the zero-height facts box above the floated list, and its text clears the list —
+   so the gap sits ABOVE the list and none sits between the list and the title */
+main > .section:has(> .content-tabs-wrapper) > .trip-facts-wrapper {
+  padding-top: 23.38px;
+}
+
+main > .section:has(> .content-tabs-wrapper) .share-bar h5 {
+  margin-top: 0;
+}
+
+@media (width >= 1025px) {
+  main > .section:has(> .content-tabs-wrapper) {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: auto auto 1fr;
+    max-width: 1164px;
+  }
+
+  main > .section:has(> .content-tabs-wrapper) > div {
+    grid-column: 1 / -1;
+  }
+
+  main > .section:has(> .content-tabs-wrapper) > .trip-facts-wrapper {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  main > .section:has(> .content-tabs-wrapper) > .share-bar-wrapper {
+    grid-area: 3 / 1 / 4 / 2;
+    align-self: start;
+  }
+
+  main > .section:has(> .content-tabs-wrapper) > .content-tabs-wrapper {
+    grid-area: 2 / 2 / 4 / 3;
+  }
+}
+
+/* ---------- grid variant: Trip Facts (Grid) ----------
+   The "aem-Grid" program sub-template (8 of 16 /ca/en trips). Source: the fixed program
+   container is itself an aem-GridColumn (.responsivegrid.aem-GridColumn → padding 0), and the
+   facts fragment and the share title each sit in their own guttered aem-GridColumn
+   (padding 0 14px): 3/3 of the aside ≥1025, 9/12 + 3/12 at 768–1024, 7/12 + 5/12 ≤767, side
+   by side. The facts column holds its list (no 23px pre-gap); the share title keeps its h5
+   margins. Measured on live bali-surf-camp (1440: items x152 w263, h5 y1503; 360: facts
+   x0 w210, share x210 w150, h1 / tabs x14 w332). */
+main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) {
+  padding: 0;
+}
+
+main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid)
+  > :is(.trip-facts-wrapper, .share-bar-wrapper) {
+  box-sizing: border-box;
+  padding: 0 var(--gutter);
+}
+
+main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) .share-bar h5 {
+  margin-top: 23.38px;
+}
+
+@media (width <= 1024px) {
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .trip-facts-wrapper {
+    float: left;
+    width: 75%;
+  }
+
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .share-bar-wrapper {
+    float: left;
+    width: 25%;
+  }
+
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .content-tabs-wrapper {
+    clear: both;
+  }
+}
+
+@media (width <= 767px) {
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .trip-facts-wrapper {
+    width: 58.3333%;
+  }
+
+  main > .section:has(> .content-tabs-wrapper):has(.trip-facts.grid) > .share-bar-wrapper {
+    width: 41.6667%;
+  }
+}
+
+/* ---------- tabs ---------- */
+.content-tabs .tablist {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 18px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.content-tabs .tab {
+  box-sizing: border-box;
+  min-width: var(--button-size);
+  max-height: var(--button-size);
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid transparent;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.content-tabs .tab:focus {
+  outline: none;
+}
+
+/* an authored label paragraph sits inline in its tab */
+.content-tabs .tab p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+.content-tabs .panel {
+  display: none;
+}
+
+/* stylelint-disable selector-class-pattern -- live state class names (wknd core components) */
+.content-tabs .tab.cmp-tabs__tab--active {
+  border: none;
+  border-color: inherit;
+  background-color: #202020;
+  color: #fff;
+}
+
+.content-tabs .panel.cmp-tabs__tabpanel--active {
+  display: flow-root;
+}
+
+/* stylelint-enable selector-class-pattern */
+
+/* ---------- panel body (source .cmp-contentfragment rich text + .cmp-image) ---------- */
+
+/* the fragment title is in the source DOM but never shown */
+.content-tabs .fragment .title {
+  display: none;
+}
+
+/* source: a component break (empty grid) separates body copy from the next
+   heading, so their margins add instead of collapsing (13.5 + 27) */
+.content-tabs .body p + :is(h2, h3) {
+  margin-top: 40.5px;
+}
+
+.content-tabs .image {
+  display: flow-root;
+}
+
+.content-tabs .image p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.content-tabs .image picture {
+  display: inline;
+}
+
+/* the source image is INLINE (line box with the strut below it) */
+.content-tabs .image img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 7px 0;
+}
+
+/* image caption (source .cmp-image__title) */
+.content-tabs .image .caption {
+  float: left;
+  margin-top: -0.25em;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.content-tabs .image .caption p {
+  font-size: inherit;
+  line-height: 1.5;
+}
+
+.content-tabs .image .caption em {
+  font-style: normal;
+}
+
+.content-tabs .body ul {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content-tabs .body li {
+  display: list-item;
+  padding-left: 12px;
+  line-height: 2;
+  text-align: match-parent;
+}
+
+.content-tabs .body ul li::before {
+  content: "\ea1c";
+  position: relative;
+  top: -0.25em;
+  left: -0.75em;
+  font-family: var(--font-icon) !important;
+  font-size: 0.55em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,103 @@
+/* download-card — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-magazine-guide-la-skateparks-html.css: .download-card*;
+   source .download, .cmp-download). The block is the source 3/12 aside grid column
+   (14px gutters, line-height 1). */
+
+.download-card {
+  display: flow-root;
+  padding: 0 var(--gutter);
+  line-height: 1;
+}
+
+.download-card .title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0.5em 0 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/* source h1 a, h2 a, h3 a */
+.download-card .title a:any-link {
+  color: var(--text);
+}
+
+.download-card .description {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.download-card .description p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2.5;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.download-card .properties {
+  float: left;
+  width: 100%;
+  margin: 0.25em 0 1em;
+}
+
+.download-card .property {
+  float: left;
+  color: var(--text-muted);
+  font-size: var(--fs-xsmall);
+  text-transform: uppercase;
+}
+
+.download-card .property-label {
+  display: none;
+}
+
+.download-card .property-content {
+  margin-inline-start: 0;
+  margin-right: 1em;
+}
+
+.download-card .property-content p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.download-card .action p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* source .cmp-download__action (48px dark box) + .cmp-download__action-text (floated
+   label, download glyph before it) — one authored link carries both */
+.download-card .action a:any-link {
+  display: block;
+  float: left;
+  height: var(--button-size);
+  padding: 16px 2.5em 0 2.25em;
+  background-color: #202020;
+  color: #fff;
+  font-size: var(--fs-small);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.download-card .action a:any-link::before {
+  content: "\e907"; /* wknd-icon-font download */
+  float: left;
+  margin-top: -0.1em;
+  padding-right: 0.5em;
+  font-family: var(--font-icon) !important;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

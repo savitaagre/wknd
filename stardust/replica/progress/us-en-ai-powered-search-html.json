@@ -1,0 +1,75 @@
+{
+  "slug": "us-en-ai-powered-search-html",
+  "type": "unique",
+  "liveUrl": "https://wknd.site/us/en/ai-powered-search.html",
+  "siblings": [],
+  "prototype": "stardust/prototypes/us-en-ai-powered-search-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-en-ai-powered-search-html-proposed.html",
+    "stardust/prototypes/us-en-ai-powered-search-html.css",
+    "stardust/prototypes/us-en-ai-powered-search-html.js"
+  ],
+  "breakpoints": {
+    "1440": {
+      "iterations": 1,
+      "rounds": [
+        "iter1 --full (0.00 %, Δh 0; 1 structural 🔴 ICON DIFF: search/clear icons rehosted as files vs source data-URI SVGs)",
+        "iter2 --full confirmation (icons = the source data-URI SVGs verbatim) — PASS",
+        "motion pixel round — 0.00 %, Δh 0"
+      ],
+      "result": { "structuralRed": 0, "visualFlags": 0, "pixelPct": 0.00, "heightDelta": 0, "chromeParity": "within tolerance (crop header 100.00 %, footer 100.00 %, main band 100.00 %)", "clipped": 0, "overflow": 0, "units": "n/a (no repeated-unit family on this page)", "pass": true },
+      "justified": [
+        "content-diff 🟡 MISSING BODY ×3 [main]: the source's three <script type=\"x-template\"> runtime item templates (card row, list row, source chip) — markup strings, never rendered; results/sources are produced at runtime by search (row #6) / AI summary (row #7) and are delivered in Phase 5. Not authored in the prototype (no faked results)."
+      ],
+      "residuals": []
+    },
+    "360": {
+      "iterations": 0,
+      "rounds": [
+        "iter1 --full (run on the final code, after the 1440 icon fix) — PASS, serves as confirmation",
+        "motion pixel round — 0.02 %, Δh 0"
+      ],
+      "result": { "structuralRed": 0, "visualFlags": 0, "pixelPct": 0.02, "heightDelta": 0, "chromeParity": "within tolerance (crop header 99.87 % — the canon 360 header residual also recorded on faqs, footer 100.00 %, main band 100.00 %)", "clipped": 0, "overflow": 0, "units": "n/a", "pass": true },
+      "justified": [
+        "content-diff 🟡 MISSING BODY ×3 [main]: runtime x-template scripts, as at 1440."
+      ],
+      "residuals": []
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/us-en-ai-powered-search-html-2560/cap-iter.json)",
+  "units": [],
+  "motion": {
+    "observed": [
+      "summary toggle click: native checkbox checked ⇄ unchecked (default checked), transitions background-color .15s (#ffea00 ⇄ #cacaca) and knob ::before transform .15s (translateX 1rem)",
+      "input focus: :focus outline 2px solid #202020, offset -1px (computed-style probe; pseudo-class, not sampled by motion-observe)",
+      "typing one character: clear button un-hidden (hidden=false, display block) — icon at the field's right edge (1264,208 16×16 @1440); no request, loading indicator stays hidden",
+      "clear (click on its icon — the button itself is 0×0): input emptied, button hidden again, focus falls to body",
+      "Enter submit: no navigation (component runs the query in place) — the query/results/summary themselves need the backend (rows #6/#7, Phase 5)"
+    ],
+    "implemented": [
+      "us-en-ai-powered-search-html.js: input → clear.hidden = (value === ''); clear click → value '' + hidden; form submit preventDefault (no navigation, no request)",
+      "CSS: toggle :checked colour + knob transform with the source .15s ease transitions, :focus-visible ring; input :focus outline",
+      "header morph via canon.js (unchanged; page too short to scroll on live — reported dead)"
+    ],
+    "dead": [
+      "header scroll-morph — page shorter than the viewport, no scroll on live",
+      "hover on .cmp-contentaisearch__ai-toggle (no measured change)",
+      "widget frame sampling on input / clear / toggle (no track/scroll/box change — state is class/attribute/pseudo, confirmed by the computed-style probe above)"
+    ],
+    "compare": "motion-compare: 2 parity, 0 missing, 0 extra, 0 advisory (5 dead or unobserved on live)",
+    "pixelAfterMotion": { "1440": 0.00, "360": 0.02 }
+  },
+  "canonRequests": [],
+  "registerRequests": [],
+  "notes": [
+    "Register R-03 (visually hidden <h1> \"AI-Powered Search\") is applied AT DELIVERY, like R-01 on the home: the gated prototype mirrors the source heading outline (no h1 in main; only the footer h4), so content-diff compares like for like. The delivered block/page must add the visually hidden h1 as the main content root's first child (zero rendered pixels).",
+    "At-rest state replicated: visually hidden label \"Search\", search icon, input (placeholder verbatim, name q, autocomplete off), clear button hidden, loading indicator display none, toggle \"Show AI-generated summary\" checked (36×20, radius 16px). The runtime panels (summary-loading, summary, error, results section with Cards/List toggle and Load more) are authored hidden with their verbatim strings, so Phase 5 fills them without new copy.",
+    "Values lifted from the source .cmp-contentaisearch* rules (clientlib-base dee90560…); the component has no @media rules. Icons are the source data-URI SVGs inline, verbatim (rehosting them as files raised a structural ICON DIFF in iter1).",
+    "Layout: main = .page-main.fixed-container > .col (live main.container.responsivegrid cmp-layout-container--fixed, cap 1164, .contentaisearch 14px gutters). Section height 71 = field 32 + toggle margin 12 + the inline-flex toggle on a 27px strut line — reproduced by the same CSS, measure.mjs Δ 0 on every box at 1440 and 360.",
+    "Live geometry kept: page content (579 px @1440, 843 px @360) shorter than the 900 viewport — white area below the footer on both sides.",
+    "Source quirk replicated as captured: the clear <button> is 0×0 (its icon child is absolutely positioned against the field), so the click lands on the icon; noted for the Phase 5 block (not an inconsistency-register item — no visual delta).",
+    "Nav current state: live marks only the hidden level-0 Home item on this page (no level-1 --active, no aria-current) — canon chrome used without current-page markers.",
+    "Prototype never calls the live search service and renders no results (checked: no requests on type/Enter). Row #6 (index-backed search, self) and row #7 (AI summary, needs-backend, D4) are Phase 5.",
+    "Instrument discipline: stardust/current/measure/us-en-ai-powered-search-html-units.json deleted before every gate round; the 1440 and 360 rounds were run one after the other, never concurrently."
+  ]
+}

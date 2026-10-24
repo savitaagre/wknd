@@ -1,0 +1,39 @@
+/* stardust:replica — wknd.site /us/en/about-us.html recreation (layer 2 of 2: about modules).
+   Loaded AFTER canon.css (tokens, base, chrome, shell, h1–h5 sizes, .section-title--underline,
+   .social-btn, footer). Every value below is lifted from the source stylesheet
+   (stardust/replica/capture/css/clientlib-site…css) or from live measure.mjs @1440/360.
+   Source breakpoints kept verbatim: 767/768, 1024/1025. */
+
+/* canon3: .text-small p (intro text) and .social-btn--secondary moved to canon.css, unchanged. */
+
+/* ---------- contributor / guide cards (source .cmp-experience-fragment--contributor in
+   12-col aem-Grid: default--3 / tablet--6 / phone--12) ---------- */
+.contributor-grid { display: flex; flex-wrap: wrap; align-items: flex-start; }
+.contributor {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  /* .5em / 1em section padding + 14px column gutter + 14px inner fixed-container padding
+     (measured: section padding 9px 14px 18px, h3 inset 28px from the section edge) */
+  padding: 9px 28px 18px;
+  text-align: center;
+}
+.contributor__image img {
+  width: 164px;
+  height: 164px;
+  margin: 7px 0;               /* source .cmp-image .cmp-image__image margins */
+  border-radius: 50%;
+  object-fit: cover;
+}
+.contributor__name, .contributor__role { margin-top: 0; margin-bottom: .25em; }   /* source .cmp-experience-fragment--contributor .cmp-title__text */
+.contributor__role { color: #202020; }                                             /* source .cmp-title--black */
+.contributor__social { display: flex; justify-content: center; padding-top: 1em; } /* source .cmp-buildingblock--btn-list (+ > .aem-Grid flex centre) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contributor { flex-basis: 50%; }
+}
+@media (max-width: 1024px) {
+  .contributor__social { padding-left: 14px; padding-right: 14px; }   /* source .cmp-buildingblock--btn-list @≤1024 */
+}
+@media (max-width: 767px) {
+  .contributor { flex-basis: 100%; }
+}

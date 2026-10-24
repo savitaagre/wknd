@@ -1,0 +1,122 @@
+{
+  "slug": "ca-en-about-us-html",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "us-en-about-us-html",
+  "modules": [
+    "contributor-card"
+  ],
+  "slotsFilled": [
+    "col",
+    "col",
+    "col",
+    "contributor-grid",
+    "col",
+    "col",
+    "contributor-grid"
+  ],
+  "canonShas": {
+    "header": "8617966a44a6",
+    "footer": "4732704595ea",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "About Us",
+    "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. ",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "About Us",
+    "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world. ",
+    "url": "https://wknd.site/ca/en/about-us.html"
+  },
+  "migratedAt": "2026-10-23T17:15:47Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "8572678d9f18",
+  "sourceProposedSha": "3761038ff58a",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-about-us-html",
+  "archetypeSha": "21770db67add",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs us-en-about-us-html @1440, 8 probes (card/avatar/name/role/button/h1/title/intro): 0 deltas — stardust/.work/rollout/static/sibling-variance.json",
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 🔴 0 🟡; localize-links --check 0",
+    "media-reconcile": "media-reconcile 7 hosted (ledger stardust/deploy/media-ledger-wknd.json, media/static/); plain.html 7 img, 0 about:error",
+    "pixel-gate-1440": "gate-all PASS 0.11 % Δh 0, clip 0, MISSING 0 / HIDDEN 0 on the preview host: stardust/replica/gates/all-1440/runs/2026-10-23T17-18-38-266Z-ca-en-about-us-html.json",
+    "pixel-gate-360": "gate-all PASS 0.14 % Δh 0, clip 0, MISSING 0 / HIDDEN 0 on the preview host: stardust/replica/gates/all-360/runs/2026-10-23T17-19-53-561Z-ca-en-about-us-html.json",
+    "content-count": "content-diff capture→preview stardust/.work/rollout/static/content-diff-ca.txt: main 40/40 text nodes (17 headings, 21 CTAs, 2 body), 7/7 img, 21/21 aria-labels, 0 structural 🔴",
+    "content-fidelity": "verbatim from stardust/current/pages/ca-en-about-us-html.html by the archetype encoder (stardust/.work/rollout/static/probes/encode.mjs; reproduces the archetype doc byte-identical); block-roundtrip --ew 21/21, 0 🔴"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/about-us.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/about-us._meta.json",
+  "driverVersion": "1"
+}

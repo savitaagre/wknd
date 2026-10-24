@@ -1,0 +1,167 @@
+{
+  "slug": "ca-en-magazine-members-only-html",
+  "type": "members-only-listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "image-list"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "ca41f226d82e",
+    "footer": "208e91ce5a35",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Members Only",
+    "description": null,
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Members Only",
+    "url": "https://wknd.site/ca/en/magazine/members-only.html"
+  },
+  "migratedAt": "2026-10-23T10:10:45Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "73717a107014",
+  "sourceProposedSha": "bc8ea34a45f0",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 8,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/adventures.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/adventures.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/members-only/alaskan-adventure.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/members-only/alaskan-adventure.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/adventures.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/magazine/members-only.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/magazine/members-only._meta.json",
+  "driverVersion": "1"
+}

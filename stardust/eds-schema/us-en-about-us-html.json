@@ -1,0 +1,243 @@
+{
+ "source": "file:///backups/savitaagre/edsmsm/repo/stardust/.work/rollout/static/annotated.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "contributor-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Stacey Roswells"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Artist | Photographer | Traveler"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Facebook",
+     "href": "#facebook-staceyroswell"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Twitter",
+     "href": "#twitter-staceyroswells"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Instagram",
+     "href": "#insta-staceyroswells"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Jake Hammer"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Influencer | Writer"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Facebook",
+     "href": "#facebook-jakehammer"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Twitter",
+     "href": "#twitter-jakehammer"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Instagram",
+     "href": "#instagram-jakehammer"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Ian Provo"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Photographer"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Facebook",
+     "href": "#facebook-ianprovo"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Twitter",
+     "href": "#twitter-ianprovo"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Instagram",
+     "href": "#instagram-ianprovo"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Jacob Wester"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Skater | Writer"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Facebook",
+     "href": "#jacob-wester"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Twitter",
+     "href": "#jacob-wester"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Instagram",
+     "href": "#jacob-wester"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.contributor",
+     "count": 4,
+     "unit": {
+      "headings": 2,
+      "ctas": 3,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "contributor-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Sofia Sjöberg"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Photographer | Youtuber"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Facebook",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Twitter",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Instagram",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Justin Barr"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Artist | Rock Climber"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Facebook",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Twitter",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Instagram",
+     "href": "#"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Kumar Selveraj"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Photographer | Surfer"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Facebook",
+     "href": "#selveraj"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Instagram",
+     "href": "#selveraj"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Twitter",
+     "href": "#selveraj"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.contributor",
+     "count": 3,
+     "unit": {
+      "headings": 2,
+      "ctas": 3,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

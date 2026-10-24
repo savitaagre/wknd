@@ -1,0 +1,138 @@
+{
+  "faq-accordion-item": {
+    "origin": ".cmp-accordion__item",
+    "build": ".faq-accordion__item",
+    "n": 7,
+    "required": true,
+    "pages": [
+      "us-en-faqs-html"
+    ],
+    "templates": [
+      "faq"
+    ]
+  },
+  "adventure-card-grid": {
+    "origin": ".cmp-tabs__tabpanel--active .cmp-image-list__item",
+    "build": ".cmp-tabs__tabpanel--active .image-list__item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "us-en-adventures-html",
+      "ca-en-adventures-html"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "adventure-category-tab": {
+    "origin": ".cmp-tabs__tablist .cmp-tabs__tab",
+    "build": ".adventure-tabs__tablist .adventure-tabs__tab",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "us-en-adventures-html",
+      "ca-en-adventures-html"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "program-trip-facts": {
+    "origin": ".cmp-contentfragment--elements .cmp-contentfragment__element",
+    "build": ".trip-facts__item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "us-en-adventures-climbing-new-zealand-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "program-content-tabs": {
+    "origin": ".cmp-tabs__tablist .cmp-tabs__tab",
+    "build": ".content-tabs__tablist .content-tabs__tab",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "us-en-adventures-climbing-new-zealand-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "program-gallery-indicators": {
+    "origin": ".cmp-carousel--mini .cmp-carousel__indicator",
+    "build": ".trip-gallery__indicator",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "us-en-adventures-climbing-new-zealand-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "contributor-card": {
+    "origin": "section.cmp-experience-fragment--contributor",
+    "build": "section.contributor",
+    "n": 7,
+    "required": true,
+    "pages": [
+      "us-en-about-us-html"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "article-card-grid": {
+    "origin": ".cmp-image-list .cmp-image-list__item",
+    "build": ".image-list .image-list__item",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "us-en-magazine-html",
+      "ca-en-magazine-html"
+    ],
+    "templates": [
+      "magazine-listing"
+    ]
+  },
+  "members-only-teaser": {
+    "origin": ".cmp-teaser--secure",
+    "build": ".members-teaser",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "us-en-magazine-html",
+      "ca-en-magazine-html"
+    ],
+    "templates": [
+      "magazine-listing"
+    ]
+  },
+  "article-up-next": {
+    "origin": ".cmp-list--upnext .cmp-list__item",
+    "build": ".up-next__item",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "us-en-magazine-guide-la-skateparks-html"
+    ],
+    "templates": [
+      "article"
+    ]
+  },
+  "members-only-card-grid": {
+    "origin": ".cmp-image-list .cmp-image-list__item",
+    "build": ".image-list .image-list__item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "ca-en-magazine-members-only-html"
+    ],
+    "templates": [
+      "members-only-listing"
+    ]
+  }
+}

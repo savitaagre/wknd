@@ -1,0 +1,539 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:08:20.417Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-adventures-climbing-new-zealand-html",
+  "url": "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:08:20.417Z",
+  "finalUrl": "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+  "title": "Climbing New Zealand",
+  "description": "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. ",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/activities/climbing/sport-climbing.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Climbing New Zealand"
+    },
+    {
+      "tag": "h5",
+      "text": "Share this Adventure"
+    },
+    {
+      "tag": "h2",
+      "text": "Let us take you on a spectacular climbing experience unique to New Zealand"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Adventures",
+    "Climbing New Zealand",
+    "Overview",
+    "Itinerary",
+    "What to Bring",
+    "Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony. Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!",
+    "Related trips:",
+    "Colorado Rock Climbing",
+    "Yosemite Backpacking"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "Previous",
+      "href": null
+    },
+    {
+      "label": "Next",
+      "href": null
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#sign-in",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#sign-out",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#langNavToggle",
+    "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://www.pinterest.com/pin/create/button/",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#facebookwknd",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#twitterWKND",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/adventures/climbing-new-zealand.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/carousel/item_1571266094599.coreimg.60.1600.jpeg/1660323785724/sport-climbing.jpeg",
+        "alt": "climber hanging sideways",
+        "w": 1440,
+        "h": 655
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890135033/par1/image.coreimg.60.1600.jpeg/1660323796079/adobestock-277948178.jpeg",
+        "alt": "Low angle view of man climbing on mountain",
+        "w": 1242,
+        "h": 828
+      },
+      {
+        "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890135033/par2/image.coreimg.60.1600.jpeg/1660323770101/climber-gear-outdoor.jpeg",
+        "alt": "Collection of rock climbing gear attached to a climber's harness",
+        "w": 1440,
+        "h": 959
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 10,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 4,
+    "mainTextLen": 2882,
+    "realImageCount": 5,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 311,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/adventures/climbing-new-zealand/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-adventures-climbing-new-zealand-html.png",
+  "renderedHtml": "pages/ca-en-adventures-climbing-new-zealand-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "program",
+    "_source": "stardust/current/pages/ca-en-adventures-climbing-new-zealand-html.html (rendered DOM, Playwright) + ca-en-adventures-climbing-new-zealand-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "program-headline": {
+      "text": "Climbing New Zealand",
+      "selector": "#title-73289101bb > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "breadcrumb": {
+      "selector": "#breadcrumb-b65503f7f4",
+      "items": [
+        {
+          "label": "Adventures",
+          "href": "https://wknd.site/ca/en/adventures.html",
+          "current": false
+        },
+        {
+          "label": "Climbing New Zealand",
+          "href": null,
+          "current": true
+        }
+      ]
+    },
+    "gallery": {
+      "selector": "#carousel-a454a5382d",
+      "slides": [
+        {
+          "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/carousel/item_1571266094599.coreimg.jpeg/1660323785724/sport-climbing.jpeg",
+          "alt": "climber hanging sideways",
+          "localPath": "stardust/current/assets/media/sport-climbing-fb2a74f0.jpeg",
+          "selector": "#image-fb63e84ada > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/carousel/item_1572024815642.coreimg.jpeg/1660323776717/climber-gear-rope.jpeg",
+          "alt": "Climber woman wearing in safety harness with equipment holding rope and preparing to climb",
+          "localPath": "stardust/current/assets/media/climber-gear-rope-6f50507f.jpeg",
+          "selector": "#image-0a17edd0a6 > img.cmp-image__image"
+        },
+        {
+          "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/carousel/item_1572024817401.coreimg.jpeg/1660323785307/adobestock-277768563.jpeg",
+          "alt": "Back view of woman in hat and coat standing on high peak holding hands apart against majestic terrain with lake and mountains",
+          "localPath": "stardust/current/assets/media/adobestock-277768563-03b5ead7.jpeg",
+          "selector": "#image-d10688fcba > img.cmp-image__image"
+        }
+      ]
+    },
+    "trip-facts": {
+      "selector": "#contentfragment-48871193e2 > dl.cmp-contentfragment__elements",
+      "facts": [
+        {
+          "label": "Activity",
+          "value": "Rock Climbing"
+        },
+        {
+          "label": "Adventure Type",
+          "value": "Overnight Trip"
+        },
+        {
+          "label": "Trip Length",
+          "value": "2 Days"
+        },
+        {
+          "label": "Group Size",
+          "value": "3"
+        },
+        {
+          "label": "Difficulty",
+          "value": "Intermediate"
+        },
+        {
+          "label": "Price",
+          "value": "900.0"
+        }
+      ]
+    },
+    "summary": {
+      "text": "Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony. Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!",
+      "ref": "body[5]",
+      "source": "tabs[0] (Overview) first paragraph"
+    },
+    "tabs": {
+      "selector": "#tabs-2c93ac0f92",
+      "panels": [
+        {
+          "label": "Overview",
+          "selector": "#tabs-2c93ac0f92-item-71fd2bc6db-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Let us take you on a spectacular climbing experience unique to New Zealand",
+              "selector": "#contentfragment-71fd2bc6db > div.cmp-contentfragment__elements > div:nth-child(2) > h2"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890135033/par1/image.coreimg.jpeg/1660323796079/adobestock-277948178.jpeg",
+              "alt": "Low angle view of man climbing on mountain",
+              "localPath": "stardust/current/assets/media/adobestock-277948178-b5e94963.jpeg",
+              "selector": "#image-b6cdfe0d6f > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Feel the raw adventure and excitement of our guided rock climbing experience. Reach new heights under our professional instruction and feel your body and mind work together in harmony. Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary. Whether it is your first time thinking of putting on climbing shoes or you are an old hand looking for some new challenges, our guides can make your climbing adventure a trip you won’t soon forget. New Zealand has countless climbing routes to choose from and is known as one of the premiere climbing destinations in the world. With so many different routes and areas to choose from our guides can tailor each trip to your exact specifications. Let us help you make your New Zealand climbing vacation a memory you will cherish forever!",
+              "ref": "body[5]"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890135033/par2/image.coreimg.jpeg/1660323770101/climber-gear-outdoor.jpeg",
+              "alt": "Collection of rock climbing gear attached to a climber's harness",
+              "localPath": "stardust/current/assets/media/climber-gear-outdoor-bfc4226e.jpeg",
+              "selector": "#image-9fa87debc1 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Related trips:",
+              "ref": "body[6]"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Colorado Rock Climbing",
+                "Yosemite Backpacking"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Itinerary",
+          "selector": "#tabs-2c93ac0f92-item-f447e5e25d-tabpanel",
+          "blocks": [
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Day 1 - It's climb time",
+              "selector": "#contentfragment-f447e5e25d > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(1)"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890140330/par1/image.coreimg.jpeg/1660323789729/adobestock-140634652.jpeg",
+              "alt": "Rock Climbing and Bouldering above the lake and mountains",
+              "localPath": "stardust/current/assets/media/adobestock-140634652-05c80173.jpeg",
+              "selector": "#image-bdf52d6448 > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "We depart and end from a central meeting spot in the town of Fauchere. From there we'll be driving 30-50 minutes to the climbing site. On our way there, we'll go over important safety and climbing procedures. After arriving at trailhead, we will confirm all safety and personal climbing equipment (shoes, harness, helmets, belay devises, and more). Our hike to the climbing area will be between 5 minutes to an hour based on where we decide to climb and the desires of the group. On the rock, we will spend about 6 hours climbing. We'll go over different bouldering and climbing techniques first, fundamentals of setting anchors, belay systems and hardware,. Then, we'll make our way to the top. Once we get there, you'll find the view to be spectactular and the sense of accomplishment even better. But as they say, what goes up must come down. We now face another challenge - rappelling back down. But after a day of learning and applying our skills, we will be very comfortable on the mountain and with our abilities.",
+              "ref": null
+            },
+            {
+              "type": "subhead",
+              "level": "h2",
+              "text": "Day 2 - Up the world's highest waterfall climb",
+              "selector": "#contentfragment-f447e5e25d > div.cmp-contentfragment__elements > div:nth-child(2) > h2:nth-child(5)"
+            },
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890140330/par3/image.coreimg.jpeg/1660323777226/adobestock-166394648.jpeg",
+              "alt": "An athletic couple climbs to the basin of a waterfall",
+              "localPath": "stardust/current/assets/media/adobestock-166394648-f3c19e06.jpeg",
+              "selector": "#image-f24d4da48d > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "Now it's time to satiate your inner-adrenaline junkie. We're going up behind a 60m waterfall to the top of Wanaka. You’ll be pushed to reach the highest point, both mentally and physically, with overhangs to get you there. Enjoy the incredible views of surrounding lakes and mountains once you reach summit.",
+              "ref": null
+            }
+          ]
+        },
+        {
+          "label": "What to Bring",
+          "selector": "#tabs-2c93ac0f92-item-b5f46e34cc-tabpanel",
+          "blocks": [
+            {
+              "type": "image",
+              "src": "https://wknd.site/ca/en/adventures/climbing-new-zealand/_jcr_content/root/container/container/tabs/item_1570890147607/par0/image_1323112874.coreimg.jpeg/1660323785248/equipment-4.jpeg",
+              "alt": "",
+              "localPath": "stardust/current/assets/media/equipment-4-e4a13a91.jpeg",
+              "selector": "#image-6cbd046baf > img.cmp-image__image"
+            },
+            {
+              "type": "paragraph",
+              "text": "We will provide all technical equipment for the course including rock shoes.",
+              "ref": null
+            },
+            {
+              "type": "paragraph",
+              "text": "Please bring appropriate clothing for the weather on each of the days, waterproofs, a warm layer, drinks and lunch for the day.",
+              "ref": null
+            }
+          ]
+        }
+      ]
+    },
+    "share": {
+      "text": "Share this Adventure",
+      "selector": "#title-b7b0f61f34 > h5.cmp-title__text",
+      "ref": "headings[1]"
+    },
+    "feature-grid": null,
+    "cta-band": null,
+    "_absent": [
+      "feature-grid — adventure detail pages carry no feature grid; the trip-facts list is the structured summary",
+      "cta-band — no booking/sign-up CTA band in the rendered DOM"
+    ]
+  }
+}

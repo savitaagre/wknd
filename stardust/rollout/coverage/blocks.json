@@ -1,0 +1,427 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-23T10:11:19.727Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-23T17:00:29.400Z",
+  "blocks": [
+    {
+      "id": "adventure-card-grid",
+      "label": "adventure-card-grid",
+      "kind": "module",
+      "signature": "module:adventure-card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "adventure-card-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "adventure-category-tabs",
+      "label": "adventure-category-tabs",
+      "kind": "module",
+      "signature": "module:adventure-category-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "adventure-category-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-search",
+      "label": "ai-search",
+      "kind": "module",
+      "signature": "module:ai-search",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-powered-search-html"
+      ],
+      "usedByPages": [
+        "us-en-ai-powered-search-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "ai-search",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "author-byline-card",
+      "label": "author-byline-card",
+      "kind": "module",
+      "signature": "module:author-byline-card",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "usedByPages": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "author-byline-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-climbing-new-zealand-html",
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-climbing-new-zealand-html",
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "content-tabs",
+      "label": "content-tabs",
+      "kind": "module",
+      "signature": "module:content-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-climbing-new-zealand-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-climbing-new-zealand-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "content-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contributor-card",
+      "label": "contributor-card",
+      "kind": "module",
+      "signature": "module:contributor-card",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-about-us-html"
+      ],
+      "usedByPages": [
+        "us-en-about-us-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "contributor-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "download-card",
+      "label": "download-card",
+      "kind": "module",
+      "signature": "module:download-card",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "usedByPages": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "download-card",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq-accordion",
+      "label": "faq-accordion",
+      "kind": "module",
+      "signature": "module:faq-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-faqs-html"
+      ],
+      "usedByPages": [
+        "us-en-faqs-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "faq-accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-teaser",
+      "label": "featured-teaser",
+      "kind": "module",
+      "signature": "module:featured-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-html",
+        "us-en-magazine-html"
+      ],
+      "usedByPages": [
+        "us-en-html",
+        "us-en-magazine-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "featured-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "help-contact-block",
+      "label": "help-contact-block",
+      "kind": "module",
+      "signature": "module:help-contact-block",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-faqs-html"
+      ],
+      "usedByPages": [
+        "us-en-faqs-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "help-contact-block",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-html"
+      ],
+      "usedByPages": [
+        "us-en-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-teaser",
+      "label": "hero-teaser",
+      "kind": "module",
+      "signature": "module:hero-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-html",
+        "us-en-html",
+        "us-es-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-html",
+        "us-en-html",
+        "us-es-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image-list",
+      "label": "image-list",
+      "kind": "module",
+      "signature": "module:image-list",
+      "source": null,
+      "usedByTemplates": [
+        "ca-en-magazine-members-only-html",
+        "us-en-html",
+        "us-en-magazine-html"
+      ],
+      "usedByPages": [
+        "ca-en-magazine-members-only-html",
+        "us-en-html",
+        "us-en-magazine-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "image-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "members-only-teaser",
+      "label": "members-only-teaser",
+      "kind": "module",
+      "signature": "module:members-only-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-magazine-html"
+      ],
+      "usedByPages": [
+        "us-en-magazine-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "members-only-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pull-quote",
+      "label": "pull-quote",
+      "kind": "module",
+      "signature": "module:pull-quote",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "usedByPages": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "pull-quote",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "share-bar",
+      "label": "share-bar",
+      "kind": "module",
+      "signature": "module:share-bar",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-climbing-new-zealand-html",
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-climbing-new-zealand-html",
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "share-bar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "trip-facts",
+      "label": "trip-facts",
+      "kind": "module",
+      "signature": "module:trip-facts",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-climbing-new-zealand-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-climbing-new-zealand-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "trip-facts",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "trip-gallery-carousel",
+      "label": "trip-gallery-carousel",
+      "kind": "module",
+      "signature": "module:trip-gallery-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-adventures-climbing-new-zealand-html"
+      ],
+      "usedByPages": [
+        "us-en-adventures-climbing-new-zealand-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "trip-gallery-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "up-next-list",
+      "label": "up-next-list",
+      "kind": "module",
+      "signature": "module:up-next-list",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "usedByPages": [
+        "us-en-magazine-guide-la-skateparks-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "up-next-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

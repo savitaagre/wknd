@@ -1,0 +1,100 @@
+{
+  "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "us-en-magazine-guide-la-skateparks-html",
+  "modules": [
+    "breadcrumb",
+    "author-byline-card",
+    "share-bar",
+    "up-next-list"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "8617966a44a6",
+    "footer": "4732704595ea",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "pending-code-push",
+      "defect": "body paragraph with one inline <em> (onceinalifetime) after the milkyway image matched the CSS-only caption selector p:has(em:only-child): 14px/600 uppercase, -237px",
+      "fix": "blocks/up-next-list ca1b14a + 4c06321: JS marks p.image-caption (em-only paragraph, no strong) (committed, NOT pushed: GitHub 401)",
+      "published": "1440 5.35% dh 237 / 360 6.83% dh 386 PASS (pre-fix code)",
+      "simulated": "1440 0.02% dh 0 / 360 2.16% dh -1 PASS",
+      "next": "push, then gate-all --only this slug at 1440 + 360"
+    }
+  ],
+  "metadata": {
+    "title": "Fly Fishing the Amazon",
+    "description": "Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Fly Fishing the Amazon",
+    "description": "Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.",
+    "mainEntityOfPage": "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html"
+  },
+  "migratedAt": "2026-10-23T18:13:12Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "67884aaeb167",
+  "sourceProposedSha": "2c5010fd4cce",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-magazine-guide-la-skateparks-html",
+  "archetypeSha": "7f5f83bc4f4c",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim A' clone of the archetype encoder; content-diff capture->preview main 26/26 text nodes, 5/5 headings, 9/9 CTAs, 5/5 img (capture-tier ROLE SWAP/ICON only: unstyled capture); live->preview 0 structural (stardust/.work/rollout/article/content-diff-sim/ca-en-magazine-members-only-fly-fishing-the-amazon-html.txt)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/magazine/members-only/fly-fishing-the-amazon._meta.json",
+  "driverVersion": "1"
+}

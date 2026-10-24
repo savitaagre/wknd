@@ -1,4 +1,4 @@
-import { getMetadata } from '../../scripts/aem.js';
+import { getChromePath, markCurrentNav } from '../../scripts/scripts.js';
 import { loadFragment } from '../fragment/fragment.js';
 
 /**
@@ -8,7 +8,12 @@ import { loadFragment } from '../fragment/fragment.js';
  *   0 brand  — <p><a><picture></a></p> (light logo)
  *   1 nav    — <ul><li>Home (hidden)<ul>section links</ul></li></ul>
  *   2 social — <h4>Follow Us</h4> + <ul> of icon-only links (title = accessible name)
- *   3 legal  — the copyright / disclaimer paragraphs
+ *   3 legal  — the copyright / disclaimer paragraphs (/ca/en: the Canadian note first)
+ * Coming-soon locale homes author section 1 as the level-0 item only (no nested <ul>).
+ *
+ * Document per page (scripts.js getChromePath): `footer` page metadata, else the locale
+ * root's own `footer` document (/ca/en/footer …), else /footer (en-US; also the fallback).
+ * Current-page markers (aria-current / is-active) are derived from the page, as on live.
  *
  * Authored nodes are MOVED into the prototype's footer template (EW1); wrappers carry the
  * classes (EW2). Anything authored beyond the contract lands in the legal slot (leftovers).
@@ -36,7 +41,6 @@ function unbutton(root) {
   root.querySelectorAll('a.button').forEach((a) => {
     a.classList.remove('button', 'primary', 'secondary', 'accent');
     if (!a.classList.length) a.removeAttribute('class');
-    if (a.title === a.textContent) a.removeAttribute('title');
   });
 }
 
@@ -71,15 +75,18 @@ function decorateSocial(list) {
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
-  const footerMeta = getMetadata('footer');
-  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
-  const fragment = await loadFragment(footerPath);
+  const footerPath = getChromePath('footer');
+  let fragment = await loadFragment(footerPath);
+  if (!fragment && footerPath !== '/footer') fragment = await loadFragment('/footer');
   if (!fragment) return;
   unbutton(fragment);
   keepVector(fragment);
 
   const navNodes = sectionNodes(fragment, 1);
-  navNodes.forEach((n) => n.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes)));
+  navNodes.forEach((n) => {
+    n.querySelectorAll('li > p').forEach((p) => p.replaceWith(...p.childNodes));
+    if (n.tagName === 'UL') markCurrentNav(n);
+  });
   const nav = document.createElement('nav');
   nav.className = 'site-footer-nav';
   nav.setAttribute('aria-label', 'Footer navigation');

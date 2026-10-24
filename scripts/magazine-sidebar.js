@@ -119,6 +119,8 @@ function buildRelated(articles) {
 
 export default async function decorateMagazineSidebar(main) {
   if (!isMagazineArticle()) return;
+  // the replica article template authors its own aside (section style `article-aside`)
+  if (main.querySelector(':scope > .section.article-aside')) return;
 
   const section = main.querySelector('.section.writer-details-container')
     || main.querySelector('.section');

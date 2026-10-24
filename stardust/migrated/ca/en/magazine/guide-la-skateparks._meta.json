@@ -1,0 +1,101 @@
+{
+  "slug": "ca-en-magazine-guide-la-skateparks-html",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "us-en-magazine-guide-la-skateparks-html",
+  "modules": [
+    "breadcrumb",
+    "pull-quote",
+    "author-byline-card",
+    "share-bar",
+    "download-card",
+    "up-next-list"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "8617966a44a6",
+    "footer": "4732704595ea",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Ultimate Guide to LA Skateparks",
+    "description": "Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Ultimate Guide to LA Skateparks",
+    "description": "Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!",
+    "mainEntityOfPage": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html"
+  },
+  "migratedAt": "2026-10-23T18:13:12Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "103294e09d28",
+  "sourceProposedSha": "ab39af5e2541",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-magazine-guide-la-skateparks-html",
+  "archetypeSha": "7f5f83bc4f4c",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim A' clone of the archetype encoder; content-diff capture->preview main 40/40 text nodes, 8/8 headings, 10/10 CTAs, 4/4 img (capture-tier ROLE SWAP/ICON only: unstyled capture); live->preview 0 structural (stardust/.work/rollout/article/content-diff-sim/ca-en-magazine-guide-la-skateparks-html.txt)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/content/dam/wknd-shared/en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf.coredownload.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/wknd-shared/en/magazine/la-skateparks/ultimateguidetolaskateparks.pdf.coredownload.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ca/en/magazine/guide-la-skateparks.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/magazine/guide-la-skateparks._meta.json",
+  "driverVersion": "1"
+}

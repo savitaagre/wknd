@@ -1,0 +1,145 @@
+/*
+ * contributor-card — wknd About Us person grid. Values from the gated prototype
+ * stardust/prototypes/us-en-about-us-html.css + canon.css (.social-btn, .social-btn--secondary,
+ * .icon--*), lifted from the source clientlib-site (.cmp-experience-fragment--contributor in a
+ * 12-col aem-Grid: default--3 / tablet--6 / phone--12). Source breakpoints 767/768, 1024/1025.
+ */
+
+/* the source grid spans the 1164px fixed container (no column gutter of its own): undo the
+   section wrapper's 14px gutter so each column is 25 % of 1164px (291px), as on live */
+.contributor-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0 calc(-1 * var(--gutter));
+}
+
+/* .5em / 1em section padding + 14px column gutter + 14px inner fixed-container padding
+   (measured on live: section padding 9px 14px 18px, h3 inset 28px from the column edge) */
+.contributor-card .contributor {
+  flex: 0 0 25%;
+  box-sizing: border-box;
+  padding: 9px 28px 18px;
+  text-align: center;
+}
+
+/* the source img has no <picture> wrapper: the pipeline's picture generates no box of its
+   own, so the img lays out (and measures) as the source's — unit-geometry pub1 paired the
+   inline picture box (164×23) with the source img */
+.contributor-card .contributor-image picture {
+  display: contents;
+}
+
+/* the avatar is an INLINE image, as on the source (.cmp-image__image): its line box adds
+   the descender gap below it (h3 at y 194 in the 345px card) */
+.contributor-card .contributor-image img {
+  display: inline;
+  vertical-align: baseline;
+  width: 164px;
+  max-width: none;
+  height: 164px;
+  margin: 7px 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* source .cmp-experience-fragment--contributor .cmp-title__text */
+.contributor-card .contributor-name :is(h1, h2, h3, h4, h5, h6, p),
+.contributor-card .contributor-role :is(h1, h2, h3, h4, h5, h6, p) {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+/* source .cmp-title--black */
+.contributor-card .contributor-role :is(h1, h2, h3, h4, h5, h6, p) {
+  color: #202020;
+}
+
+/* source .cmp-buildingblock--btn-list (+ > .aem-Grid flex centre) */
+.contributor-card .contributor-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.contributor-card .contributor-social :is(ul, ol) {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contributor-card .contributor-social :is(li, p) {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* source .cmp-button--secondary .cmp-button (canon .social-btn + .social-btn--secondary):
+   dark 48px icon-only button; no hover change on live */
+.contributor-card .contributor-social a:any-link {
+  display: block;
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: #202020;
+  color: var(--text-inverse);
+  font-family: var(--font-icon);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+.contributor-card .contributor-social .contributor-social-icon {
+  float: left;
+  padding: 18px 0 0 14px;
+  font-size: 17.5px;
+  line-height: 17.5px;
+}
+
+.contributor-card .contributor-social .contributor-social-icon::before {
+  font-family: var(--font-icon);
+  font-size: 17.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.5px;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.contributor-card .contributor-social .contributor-social-icon-facebook::before {
+  content: "\e902";
+}
+
+.contributor-card .contributor-social .contributor-social-icon-twitter::before {
+  content: "\e901";
+}
+
+.contributor-card .contributor-social .contributor-social-icon-instagram::before {
+  content: "\e903";
+}
+
+.contributor-card .contributor-social .contributor-social-text {
+  display: none;
+}
+
+@media (width >= 768px) and (width <= 1024px) {
+  .contributor-card .contributor {
+    flex-basis: 50%;
+  }
+}
+
+/* source .cmp-buildingblock--btn-list @≤1024 */
+@media (width <= 1024px) {
+  .contributor-card .contributor-social {
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+}
+
+@media (width <= 767px) {
+  .contributor-card .contributor {
+    flex-basis: 100%;
+  }
+}

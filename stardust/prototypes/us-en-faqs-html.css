@@ -1,0 +1,84 @@
+/* stardust:replica — wknd.site FAQ archetype (layer 2 of 2; load AFTER canon.css).
+   Page: https://wknd.site/us/en/faqs.html (type faq; sibling /ca/en/faqs).
+   Modules: faq-layout (8/12 primary column + 3/12 aside, offset 1/12), underlined
+   page title (canon .section-title--underline at h1 level), lead image, intro text,
+   faq-accordion (7 items, collapsed at rest), help-contact ("Need more help?").
+   Values lifted from clientlib-site / clientlib-base (selectors cited per rule) and the
+   live measure.mjs run at 1440/360. Source breakpoints only: 767/768, 1024/1025. */
+
+/* canon2: the h1 40px size, the FAQs current-nav state (now markup: aria-current="page" on the FAQs
+   links) and the separator modifiers --space-small / --hidden moved to canon.css; compensations removed. */
+
+/* ---------- layout: live main.container.responsivegrid (cap 1164 via canon .fixed-container) ---------- */
+.faq-layout__primary, .faq-layout__aside { display: flow-root; }
+
+/* ---------- lead image (source `.cmp-image .cmp-image__image { width: 100%; height: auto; margin: 7px 0 }`) ---------- */
+.faq-lead-image img { width: 100%; height: auto; margin-top: 7px; margin-bottom: 7px; }
+
+/* ---------- faq-accordion (source .cmp-accordion …; buttons keep the UA font — Arial 13.33px on live, replicated as captured) ---------- */
+.faq-accordion__header { margin: 0; }
+.faq-accordion__button {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ebebeb;
+  cursor: pointer;
+  text-align: left;
+}
+.faq-accordion__button:focus { outline: none; }
+.faq-accordion__button.cmp-accordion__button--expanded { border: none; }
+.faq-accordion__title {
+  padding-left: .5em;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* source `[class*=__icon] { font-family: wknd-icon-font!important; font-size: 1.25rem; line-height: 1; … }` */
+.faq-accordion__icon {
+  float: right;
+  font-family: var(--font-icon) !important;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.faq-accordion__icon::before { content: "\e911"; }
+.cmp-accordion__button--expanded .faq-accordion__icon::before { content: "\e910"; }
+.faq-accordion__panel {
+  padding-top: .5em;
+  padding-left: .5em;
+  font-size: var(--fs-small);
+  animation: fadeIn .5s both;
+}
+.faq-accordion__panel p { font-size: var(--fs-small); line-height: 1.75; }
+.faq-accordion__panel.cmp-accordion__panel--hidden { display: none; }
+.faq-accordion__panel.cmp-accordion__panel--expanded { display: block; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* ---------- help-contact (source .title h3 + .text.cmp-text--font-small; the 14px size is canon .text-small p, canon3) ---------- */
+.help-contact__body p { text-align: left; }
+
+/* ---------- breakpoints (source aem-Grid columns) ---------- */
+@media (min-width: 1025px) {
+  /* aem-GridColumn--default--8 / --default--3 + --offset--default--1 (default--none → side by side) */
+  .faq-layout { display: flex; align-items: flex-start; }
+  .faq-layout__primary { flex: 0 0 66.6667%; max-width: 66.6667%; }
+  .faq-layout__aside { flex: 0 0 25%; max-width: 25%; margin-left: 8.3333%; }
+}
+
+@media (max-width: 1024px) {
+  /* image: aem-GridColumn--tablet--8 / --phone--8 */
+  .faq-lead-image { width: 66.6667%; }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* intro text: aem-GridColumn--tablet--8 (phone--12) */
+  .faq-intro { width: 66.6667%; }
+}

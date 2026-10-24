@@ -421,51 +421,6 @@ main .section.light-grey {
   padding: 40px 0;
 }
 
-/* faq section: two columns on desktop — main flow (title + intro + accordion)
-   on the left, the "Need more help?" sidebar on the right. The section's
-   wrappers (default-content, accordion, faq-sidebar) are the grid items.
-   Mobile stacks (single column, default flow). */
-@media (width >= 900px) {
-  main .section.faq {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 48px;
-    align-items: start;
-    max-width: 1136px; /* match wknd's centred content column (152px gutters) */
-    margin: 40px auto;
-    padding: 0 32px;
-  }
-
-  /* left column: page title, intro, accordion — stacked in rows 1 & 2 */
-  main .section.faq > .default-content-wrapper,
-  main .section.faq > .accordion-wrapper {
-    grid-column: 1;
-    justify-self: stretch;
-    width: 100%;
-    min-width: 0;
-    max-width: none;
-    padding: 0;
-  }
-
-  main .section.faq > .default-content-wrapper {
-    grid-row: 1;
-  }
-
-  main .section.faq > .accordion-wrapper {
-    grid-row: 2;
-  }
-
-  /* right column: sidebar pinned to the top of column 2, aligned with the page
-     title. Placed on row 1 with align-self:start so it doesn't stretch down. */
-  main .section.faq > .faq-sidebar-wrapper {
-    grid-column: 2;
-    grid-row: 1;
-    align-self: start;
-    max-width: none;
-    padding: 0;
-  }
-}
-
 /* Separator section (source .separator > hr: 1px solid #ebebeb, 64px above and
    below, inside the content shell). Authored as an empty section with section
    metadata `style: separator` — an authored <hr> is the section delimiter. */
@@ -480,4 +435,201 @@ main > .section.separator::before {
   height: 0;
   margin: 0 auto;
   border: 1px solid var(--surface-grey);
+}
+
+/* separator modifiers (canon2/3; source .cmp-separator--space-small 1em,
+   --space-medium 2em, --hidden no rule) — section-metadata
+   `style: separator, space-small` / `separator, space-medium` / `separator, no-rule`.
+   The hr's own 9px margin collapses into the 1em / 2em, as on the source. */
+main > .section.separator.space-small {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+main > .section.separator.space-medium {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+main > .section.separator.no-rule::before {
+  border: 0;
+}
+
+/* text-small (canon3; source .cmp-text--font-small p, 14px): section-metadata
+   `style: text-small` — line-height stays 2.5 (35px) */
+main .section.text-small p {
+  font-size: var(--fs-small);
+}
+
+/* no-gutter (canon3; source .cmp-container without aem-Grid gutters — the members-only
+   listing): section-metadata `style: no-gutter`. The 1164px cap moves from the wrappers
+   to the section (one content column holding title + list), the wrappers lose the 14px
+   column padding. */
+main > .section.no-gutter > div {
+  max-width: none;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (width >= 1025px) {
+  main > .section.no-gutter {
+    max-width: var(--shell);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* plain-title (source plain .cmp-title, no --underline): section-metadata
+   `style: plain-title` — no 84px underline on the section's default-content h1/h2.
+   plain-h1: only the h1 is plain, the h2 section titles keep it (About Us). */
+main .section.plain-title .default-content-wrapper :is(h1, h2)::after,
+main .section.plain-h1 .default-content-wrapper h1::after {
+  content: none;
+}
+
+/* no-collapse: the source puts every title / text in its own aem-Grid column (a BFC), so
+   adjacent margins never collapse (h1 13.5px + h2 27px = 40.5px) — section-metadata
+   `style: no-collapse` makes the default content a flex column, which keeps every margin */
+main .section.no-collapse .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* article template (source article grid in the 1164px fixed container): section-metadata
+   `style: article-lead` (12/12 lead image), `article-body` (8/12 body column, every margin
+   kept), `article-aside` (3/12 offset 1, each aside section below the previous one);
+   full width <=1024. The in-grid breadcrumb is the breadcrumb block's `grid` variant. */
+
+/* 1a. lead image (source .cmp-image in a 12/12 column: inline img, 7px above/below) */
+main .section.article-lead .default-content-wrapper p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+main .section.article-lead picture {
+  display: contents;
+}
+
+main .section.article-lead img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  margin: 7px 0;
+}
+
+/* 1b. body column: every source title / image sits in its own float column (a BFC), so
+   no margin collapses — a flex column keeps every child margin; the h1 → h4 byline gap is
+   the h4's own 21.28px (the source's collapsed margins) */
+main > .section.article-body > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.article-body > .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+main .section.article-body .default-content-wrapper h1 {
+  margin-bottom: 0;
+}
+
+main .section.article-body .default-content-wrapper h1::after {
+  content: none;
+}
+
+/* the content fragment's own title is hidden on the source (.cmp-contentfragment__title) */
+main .section.article-body .default-content-wrapper h4 + h3 {
+  display: none;
+}
+
+/* source .cmp-title in a guttered grid column */
+main .section.article-body .default-content-wrapper :is(h2, h3, h5, h6) {
+  margin-right: var(--gutter);
+  margin-left: var(--gutter);
+}
+
+/* source .cmp-image in a guttered grid column: inline img, 7px above/below */
+main .section.article-body .default-content-wrapper p:has(img) {
+  margin: 0;
+  padding: 0 var(--gutter);
+  line-height: 1.5;
+}
+
+main .section.article-body .default-content-wrapper picture {
+  display: contents;
+}
+
+main .section.article-body .default-content-wrapper p img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  margin: 7px 0;
+}
+
+/* image caption (source .cmp-image__title: floated under the img, 14px semibold uppercase,
+   -.25em = -3.5px): an <em>-only paragraph right after an image paragraph, marked
+   `p.image-caption` by markImageCaptions() in scripts.js (CSS cannot tell an <em>-only
+   paragraph from body copy holding one <em> among text nodes) */
+main .section.article-body .default-content-wrapper p.image-caption {
+  margin: -3.5px 0 0;
+  padding: 0 var(--gutter);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+main .section.article-body .default-content-wrapper p.image-caption em {
+  font-style: normal;
+}
+
+/* with `plain-title` (source rich-text h2s, not .cmp-title--underline columns): no
+   gutter either (the underline goes with the generic rule above). The body stays the flex column:
+   the source's empty .aem-Grid clearfix between every paragraph and title keeps their
+   margins apart (13.5px + 27px, /ca/en/magazine/san-diego-surf) */
+main .section.article-body.plain-title .default-content-wrapper :is(h2, h3, h5, h6) {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* 1c. aside column */
+main > .section.article-aside > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > .section.article-aside .share-bar {
+  padding: 0 var(--gutter);
+}
+
+main > .section.article-aside .share-bar h5 {
+  margin: 23.38px 0;
+}
+
+@media (width >= 1025px) {
+  /* the 1164px fixed container: body 8/12 floated left, aside 3/12 offset 1 floated
+     right, each aside section below the previous one */
+  main > .section.article-body {
+    float: left;
+    width: calc(min(100%, var(--shell)) * 2 / 3);
+    margin-left: max(0px, (100% - var(--shell)) / 2);
+  }
+
+  main > .section.article-aside {
+    float: right;
+    clear: right;
+    width: calc(min(100%, var(--shell)) / 4);
+    margin-right: max(0px, (100% - var(--shell)) / 2);
+  }
+
+  main:has(> .section.article-body)::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }

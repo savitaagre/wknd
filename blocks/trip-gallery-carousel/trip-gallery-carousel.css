@@ -1,0 +1,124 @@
+/* trip-gallery-carousel — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-adventures-climbing-new-zealand-html.css: .trip-gallery*;
+   source .cmp-carousel, .cmp-carousel--mini). */
+
+/* full-bleed: the source gallery spans the 1680px page root, no gutters */
+main > .section > .trip-gallery-carousel-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.trip-gallery-carousel .carousel {
+  width: 100%;
+}
+
+.trip-gallery-carousel .content {
+  position: relative;
+}
+
+.trip-gallery-carousel .slide {
+  display: none;
+  animation: fadeIn 0.5s both;
+}
+
+/* stylelint-disable selector-class-pattern -- live state class names (wknd core components) */
+.trip-gallery-carousel .slide.cmp-carousel__item--active {
+  display: block;
+}
+
+.trip-gallery-carousel .indicator.cmp-carousel__indicator--active {
+  background-color: rgb(0 0 0 / 80%);
+}
+
+/* stylelint-enable selector-class-pattern */
+
+/* stylelint-disable-next-line keyframes-name-pattern -- live animation name (motion parity) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* the source image is INLINE (line box with the strut below it) */
+.trip-gallery-carousel .image picture {
+  display: inline;
+}
+
+.trip-gallery-carousel .image img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  max-width: none;
+  height: 400px;
+  min-height: 400px;
+  margin: 7px 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.trip-gallery-carousel .actions {
+  float: right;
+  margin-top: 0;
+}
+
+.trip-gallery-carousel .action {
+  appearance: none;
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  margin-right: 13.3333px;
+  padding: 1px 0 1px 6px;
+  border: none;
+  background: none;
+  color: #000;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword -- UA button face, verbatim */
+  font: 13.3333px Arial;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* live computed (no rule in the captured sheets) */
+.trip-gallery-carousel .action-icon {
+  font-family: var(--font-icon);
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.trip-gallery-carousel .action-icon::before {
+  font-family: var(--font-icon);
+}
+
+.trip-gallery-carousel .previous .action-icon::before {
+  content: "\e90f";
+}
+
+.trip-gallery-carousel .next .action-icon::before {
+  content: "\e90e";
+}
+
+.trip-gallery-carousel .indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 9px 0 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.trip-gallery-carousel .indicator {
+  position: relative;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin: 0 7px;
+  border-radius: 50%;
+  background-color: #afafaf;
+  font-size: 0;
+  text-indent: -3000px;
+}

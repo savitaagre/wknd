@@ -1,0 +1,561 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-23T07:08:10.585Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ca-en-magazine-html",
+  "url": "https://wknd.site/ca/en/magazine.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-23T07:08:10.585Z",
+  "finalUrl": "https://wknd.site/ca/en/magazine.html",
+  "title": "Magazine",
+  "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": "https://wknd.site/content/dam/wknd-shared/en/magazine/western-australia/adobestock-156407519.jpeg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Magazine"
+    },
+    {
+      "tag": "h2",
+      "text": "Camping in Western Australia"
+    },
+    {
+      "tag": "h2",
+      "text": "All Articles"
+    },
+    {
+      "tag": "h2",
+      "text": "Members Only"
+    },
+    {
+      "tag": "h2",
+      "text": "Alaskan Adventure"
+    },
+    {
+      "tag": "h2",
+      "text": "Fly Fishing the Amazon"
+    },
+    {
+      "tag": "h4",
+      "text": "Follow Us"
+    }
+  ],
+  "body": [
+    "Featured Article",
+    "Arctic Surfing We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions.",
+    "San Diego Surf Spots Best beach breaks",
+    "Ski Touring Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing.",
+    "Ultimate Guide to LA Skateparks Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!",
+    "Western Australia The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.",
+    "Sign in to un-lock exclusive content for WKND members only!",
+    "Discover the 49th state"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Sign In",
+      "href": "#sign-in"
+    },
+    {
+      "label": "en-CA",
+      "href": "#langNavToggle"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Read More",
+      "href": "/ca/en/magazine/western-australia.html"
+    },
+    {
+      "label": "Arctic Surfing",
+      "href": "/ca/en/magazine/arctic-surfing.html"
+    },
+    {
+      "label": "San Diego Surf Spots",
+      "href": "/ca/en/magazine/san-diego-surf.html"
+    },
+    {
+      "label": "Ski Touring",
+      "href": "/ca/en/magazine/ski-touring.html"
+    },
+    {
+      "label": "Ultimate Guide to LA Skateparks",
+      "href": "/ca/en/magazine/guide-la-skateparks.html"
+    },
+    {
+      "label": "Western Australia",
+      "href": "/ca/en/magazine/western-australia.html"
+    },
+    {
+      "label": "Read More",
+      "href": "/ca/en/magazine/members-only/alaskan-adventure.html"
+    },
+    {
+      "label": "Read More",
+      "href": "/ca/en/magazine/members-only/fly-fishing-the-amazon.html"
+    },
+    {
+      "label": "Magazine",
+      "href": "/ca/en/magazine.html"
+    },
+    {
+      "label": "Adventures",
+      "href": "/ca/en/adventures.html"
+    },
+    {
+      "label": "FAQs",
+      "href": "/ca/en/faqs.html"
+    },
+    {
+      "label": "About Us",
+      "href": "/ca/en/about-us.html"
+    },
+    {
+      "label": "Facebook",
+      "href": "#facebookwknd"
+    },
+    {
+      "label": "Twitter",
+      "href": "#twitterWKND"
+    },
+    {
+      "label": "Instagram",
+      "href": "#instagramwknd"
+    },
+    {
+      "label": "localization features with Core Components",
+      "href": "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html"
+    },
+    {
+      "label": "Core Components",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"
+    },
+    {
+      "label": "Archetype",
+      "href": "https://github.com/adobe/aem-project-archetype"
+    },
+    {
+      "label": "site source code",
+      "href": "https://github.com/adobe/aem-guides-wknd/"
+    },
+    {
+      "label": "detailed tutorial",
+      "href": "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"
+    },
+    {
+      "label": "Adobe Stock",
+      "href": "https://stock.adobe.com/"
+    }
+  ],
+  "links": [
+    "https://wknd.site/ca/en/magazine.html#sign-in",
+    "https://wknd.site/ca/en/magazine.html#sign-out",
+    "https://wknd.site/ca/en/magazine.html#langNavToggle",
+    "https://wknd.site/us/en/magazine.html",
+    "https://wknd.site/us/es.html",
+    "https://wknd.site/ca/en/magazine.html",
+    "https://wknd.site/ca/fr.html",
+    "https://wknd.site/ch/de.html",
+    "https://wknd.site/ch/fr.html",
+    "https://wknd.site/ch/it.html",
+    "https://wknd.site/de/de.html",
+    "https://wknd.site/fr/fr.html",
+    "https://wknd.site/es/es.html",
+    "https://wknd.site/it/it.html",
+    "https://wknd.site/ca/en.html",
+    "https://wknd.site/ca/en/adventures.html",
+    "https://wknd.site/ca/en/faqs.html",
+    "https://wknd.site/ca/en/about-us.html",
+    "https://wknd.site/us/en/ai-powered-search.html",
+    "https://wknd.site/ca/en/magazine/western-australia.html",
+    "https://wknd.site/ca/en/magazine/arctic-surfing.html",
+    "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+    "https://wknd.site/ca/en/magazine/ski-touring.html",
+    "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+    "https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html",
+    "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+    "https://wknd.site/ca/en/magazine.html#facebookwknd",
+    "https://wknd.site/ca/en/magazine.html#twitterWKND",
+    "https://wknd.site/ca/en/magazine.html#instagramwknd",
+    "https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html",
+    "https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html",
+    "https://github.com/adobe/aem-project-archetype",
+    "https://github.com/adobe/aem-guides-wknd/",
+    "https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html",
+    "https://stock.adobe.com/",
+    "https://wknd.site/ca/en/magazine.html#mobileNav"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/_jcr_content/root/container/teaser_main.coreimg.60.1600.jpeg/1660323792132/adobestock-156407519.jpeg",
+        "alt": "The Lennard River carves a stunning canyon through the Napier Range at Windjana Gorge, Kimberley Region, Western Australia. The permanent pools in the river provide a permanent habitat for dozens of freshwater crocodiles. Rudyards Kipling's story \"The Elephant Child,\" comes to mind every time I visit Windjana Gorge in the Kimberley,  when the Elephant child says: \"and still I want to know what the Crocodile has for dinner!'Then Kolokolo Bird said, with a mournful cry, 'Go to the banks of the great grey-green, greasy Limpopo River, all set about with fever-trees, and find out.\"At Windana Gorge the green waters of the gorge pools are filled with  Johnston crocodiles floating in the tepid green waters or resting on the hot sand banks.They add a real air of wild Australia below the complex and colourful ramparts of the Gorge where the Leonard River flows through the ancient Devonian reefs.The history of the renegade aboriginal tracker Jandamarra who hid in caves in this gorge and the screeching of the galahs circling overhead and wheeling about amongst the crags further adds to the primeval atmosphere of this special place in Australia.",
+        "w": 1181,
+        "h": 665
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/arctic-surfing/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.60.1600.jpeg/1660323789770/surfer-wave-02.jpeg",
+        "alt": "Arctic Surfing",
+        "w": 1151,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.60.1600.jpeg/1660323790169/adobestock-164735399.jpeg",
+        "alt": "San Diego Surf Spots",
+        "w": 1152,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/ski-touring/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.60.1600.jpeg/1660323789866/skitouring5sjoeberg.jpeg",
+        "alt": "Ski Touring",
+        "w": 1152,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/guide-la-skateparks/_jcr_content/root/container/container/contentfragment/par2/image_copy.coreimg.60.1600.png/1660323783259/article-01-picture-01.png",
+        "alt": "Ultimate Guide to LA Skateparks",
+        "w": 688,
+        "h": 481
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/western-australia/_jcr_content/root/container/container/contentfragment/par2/image.coreimg.60.1600.jpeg/1660323770369/adobe-waadobe-wa-b6a7083.jpeg",
+        "alt": "Western Australia",
+        "w": 1152,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/_jcr_content/root/container/teaser.coreimg.60.1600.jpeg/1660323786175/alaskan-grizzly.jpeg",
+        "alt": "",
+        "w": 1152,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/ca/en/magazine/_jcr_content/root/container/teaser_copy.coreimg.60.1600.jpeg/1660323790791/amazon-river-02.jpeg",
+        "alt": "",
+        "w": 1152,
+        "h": 767
+      },
+      {
+        "src": "https://wknd.site/content/experience-fragments/wknd/ca/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1605134146747/wknd-logo-light.svg",
+        "alt": "WKND Logo",
+        "w": 300,
+        "h": 112
+      }
+    ],
+    "allImgCount": 10,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 1297,
+    "realImageCount": 10,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/conf/wknd/settings/wcm/segments.seg.js",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "status": 200,
+        "bytes": 377,
+        "hits": 1,
+        "example": "https://wknd.site/conf/wknd/settings/wcm/segments.seg.js",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 307,
+        "hits": 1,
+        "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/content/wknd/ca/en/magazine/_jcr_content/contexthub.pagedata.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 254,
+        "hits": 1,
+        "example": "https://wknd.site/content/wknd/ca/en/magazine/_jcr_content/contexthub.pagedata.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 310,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/security/currentuser.json",
+        "query": [
+          "nocache"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 135,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/security/currentuser.json",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-in"
+      },
+      {
+        "marker": "data-modal-url",
+        "href": "#sign-out"
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 5,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 1,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/ca-en-magazine-html.png",
+  "renderedHtml": "pages/ca-en-magazine-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "magazine-listing",
+    "_source": "stardust/current/pages/ca-en-magazine-html.html (rendered DOM, Playwright) + ca-en-magazine-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "index-headline": {
+      "text": "Magazine",
+      "selector": "#title-e3c7191836 > h1.cmp-title__text",
+      "ref": "headings[0]"
+    },
+    "featured": {
+      "selector": "#featured-article-magazine",
+      "pretitle": "Featured Article",
+      "title": "Camping in Western Australia",
+      "description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.",
+      "cta": {
+        "label": "Read More",
+        "href": "https://wknd.site/ca/en/magazine/western-australia.html",
+        "selector": "#featured-article-magazine-cta-284402e924"
+      },
+      "image": {
+        "src": "https://wknd.site/ca/en/magazine/_jcr_content/root/container/teaser_main.coreimg.jpeg/1660323792132/adobestock-156407519.jpeg",
+        "alt": "The Lennard River carves a stunning canyon through the Napier Range at Windjana Gorge, Kimberley Region, Western Australia. The permanent pools in the river provide a permanent habitat for dozens of freshwater crocodiles. Rudyards Kipling's story \"The Elephant Child,\" comes to mind every time I visit Windjana Gorge in the Kimberley,  when the Elephant child says: \"and still I want to know what the Crocodile has for dinner!'Then Kolokolo Bird said, with a mournful cry, 'Go to the banks of the great grey-green, greasy Limpopo River, all set about with fever-trees, and find out.\"At Windana Gorge the green waters of the gorge pools are filled with  Johnston crocodiles floating in the tepid green waters or resting on the hot sand banks.They add a real air of wild Australia below the complex and colourful ramparts of the Gorge where the Leonard River flows through the ancient Devonian reefs.The history of the renegade aboriginal tracker Jandamarra who hid in caves in this gorge and the screeching of the galahs circling overhead and wheeling about amongst the crags further adds to the primeval atmosphere of this special place in Australia.",
+        "localPath": "stardust/current/assets/media/adobestock-156407519-8021518e.jpeg",
+        "selector": "#featured-article-magazine-image > img.cmp-image__image"
+      }
+    },
+    "filter-controls": null,
+    "card-grid": {
+      "sectionTitle": "All Articles",
+      "selector": "#container-c233629b9d > div > div.image-list.list > ul.cmp-image-list",
+      "cardType": "article-card",
+      "cardSlots": {
+        "title": "text",
+        "description": "text",
+        "href": "link",
+        "image": "image"
+      },
+      "cards": [
+        {
+          "title": "Arctic Surfing",
+          "description": "We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions.",
+          "href": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/arctic-surfing/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323789770/surfer-wave-02.jpeg",
+            "alt": "Arctic Surfing",
+            "localPath": "stardust/current/assets/media/surfer-wave-02-76a693d2.jpeg",
+            "selector": "#image-632177f8d7 > img.cmp-image__image"
+          }
+        },
+        {
+          "title": "San Diego Surf Spots",
+          "description": "Best beach breaks",
+          "href": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323790169/adobestock-164735399.jpeg",
+            "alt": "San Diego Surf Spots",
+            "localPath": "stardust/current/assets/media/adobestock-164735399-f2759b1f.jpeg",
+            "selector": "#image-78391c1885 > img.cmp-image__image"
+          }
+        },
+        {
+          "title": "Ski Touring",
+          "description": "Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing.",
+          "href": "https://wknd.site/ca/en/magazine/ski-touring.html",
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/ski-touring/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323789866/skitouring5sjoeberg.jpeg",
+            "alt": "Ski Touring",
+            "localPath": "stardust/current/assets/media/skitouring5sjoeberg-9ea2f060.jpeg",
+            "selector": "#image-8dc764cde0 > img.cmp-image__image"
+          }
+        },
+        {
+          "title": "Ultimate Guide to LA Skateparks",
+          "description": "Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!",
+          "href": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/guide-la-skateparks/_jcr_content/root/container/container/contentfragment/par2/image_copy.coreimg.png/1660323783259/article-01-picture-01.png",
+            "alt": "Ultimate Guide to LA Skateparks",
+            "localPath": "stardust/current/assets/media/article-01-picture-01-479f9bcf.png",
+            "selector": "#image-f8e96f9cda > img.cmp-image__image"
+          }
+        },
+        {
+          "title": "Western Australia",
+          "description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.",
+          "href": "https://wknd.site/ca/en/magazine/western-australia.html",
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/western-australia/_jcr_content/root/container/container/contentfragment/par2/image.coreimg.jpeg/1660323770369/adobe-waadobe-wa-b6a7083.jpeg",
+            "alt": "Western Australia",
+            "localPath": "stardust/current/assets/media/adobe-waadobe-wa-b6a7083-e434b3ec.jpeg",
+            "selector": "#image-44a65bd219 > img.cmp-image__image"
+          }
+        }
+      ]
+    },
+    "members-only": {
+      "sectionTitle": "Members Only",
+      "intro": {
+        "text": "Sign in to un-lock exclusive content for WKND members only!",
+        "selector": "#text-fe91af4c93"
+      },
+      "teasers": [
+        {
+          "selector": "#teaser-714b679c22",
+          "pretitle": null,
+          "title": "Alaskan Adventure",
+          "description": "Discover the 49th state",
+          "cta": {
+            "label": "Read More",
+            "href": "https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html",
+            "selector": "#teaser-714b679c22-cta-0a855e1aed"
+          },
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/_jcr_content/root/container/teaser.coreimg.jpeg/1660323786175/alaskan-grizzly.jpeg",
+            "alt": "",
+            "localPath": "stardust/current/assets/media/alaskan-grizzly-3436ec5f.jpeg",
+            "selector": "#teaser-714b679c22-image > img.cmp-image__image"
+          }
+        },
+        {
+          "selector": "#teaser-e6ad1ba727",
+          "pretitle": null,
+          "title": "Fly Fishing the Amazon",
+          "description": "Experience the Amazon like never before",
+          "cta": {
+            "label": "Read More",
+            "href": "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+            "selector": "#teaser-e6ad1ba727-cta-f6ba68d046"
+          },
+          "image": {
+            "src": "https://wknd.site/ca/en/magazine/_jcr_content/root/container/teaser_copy.coreimg.jpeg/1660323790791/amazon-river-02.jpeg",
+            "alt": "",
+            "localPath": "stardust/current/assets/media/amazon-river-02-b290f079.jpeg",
+            "selector": "#teaser-e6ad1ba727-image > img.cmp-image__image"
+          }
+        }
+      ]
+    },
+    "_absent": [
+      "filter-controls — the magazine index has no filter/tab control in the rendered DOM"
+    ]
+  }
+}

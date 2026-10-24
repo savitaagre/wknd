@@ -1,0 +1,29 @@
+/* stardust:replica — wknd.site /us/es.html recreation (coming-soon archetype, layer 2 of 2).
+   Loaded AFTER canon.css (tokens, base, chrome incl. § Locale chrome, shell, separator,
+   footer, the .hero-teaser base). The page is one standalone .cmp-teaser--hero (title only)
+   plus one separator; the 8 sibling locale homes share this file unchanged.
+   Values lifted from the source stylesheet
+   (stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css).
+   Source breakpoints kept verbatim: 1164/1165.
+   R-02 (delivery): the hero title becomes <h1>; it keeps .hero-teaser__title, whose
+   36px/54px + margin rule beats the canon h1 40px element rule (CANON.md § Headings). */
+
+/* ---------- hero teaser: standalone .cmp-teaser--hero divergence from the canon (home carousel)
+   base — copied unchanged from us-en-adventures-html.css (source heights 25pc / 40pc;
+   promotion requested in stardust/replica/canon-requests.md) ---------- */
+@media (max-width: 1164px) {
+  .hero-teaser__image { height: 400px; max-height: 400px; }
+  .hero-teaser__image img { height: 100%; }   /* resolves to auto here, exactly as on live */
+}
+@media (min-width: 1165px) {
+  .hero-teaser__content { height: 180px; }   /* source .cmp-teaser--hero .cmp-teaser__content { height: 180px } */
+}
+
+/* ---------- locale chrome compensation (canon request filed): live keeps the level-0 list
+   `ul.cmp-navigation__group > li.cmp-navigation__item--level-0` in the header and footer nav
+   even with no level-1 items, so the hidden .nav-home sits in <ul><li class="nav-home-item">.
+   The footer's <=1024 level-1 item spacing (canon .site-footer__nav li { margin-bottom: 16px }) must not reach that li (live: footer nav li 193x0,
+   margin 0 @360). ---------- */
+@media (max-width: 1024px) {
+  .site-footer__nav li.nav-home-item { margin-bottom: 0; }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "us-en-faqs-html",
+  "type": "faq",
+  "liveUrl": "https://wknd.site/us/en/faqs.html",
+  "siblings": ["https://wknd.site/ca/en/faqs.html"],
+  "prototype": "stardust/prototypes/us-en-faqs-html-proposed.html",
+  "files": [
+    "stardust/prototypes/us-en-faqs-html-proposed.html",
+    "stardust/prototypes/us-en-faqs-html.css",
+    "stardust/prototypes/us-en-faqs-html.js",
+    "stardust/prototypes/assets/media/adobestock-277768563.jpeg",
+    "stardust/prototypes/assets/media/adobestock-277768563-{100,200,300,400,500,600,700,800,900,1000,1100,1200,1600}w.jpeg"
+  ],
+  "breakpoints": {
+    "1440": {
+      "iterations": 2,
+      "rounds": ["iter1 --full (map)", "iter2 pixel (srcset 1600w)", "iter3 --full (full live srcset) — unit-geometry instrument-invalidated, re-run as iter3b --full (not counted)", "motion pixel round"],
+      "result": { "structuralRed": 0, "visualFlags": 0, "pixelPct": 0.03, "heightDelta": 0, "chromeParity": "within tolerance (crop header 100.00 %, footer 100.00 %)", "clipped": 0, "overflow": 0, "units": "7 compared, 14 within, 0 off", "pass": true },
+      "justified": [],
+      "residuals": []
+    },
+    "360": {
+      "iterations": 2,
+      "rounds": ["iter1 --full (map, 0.86 % — intro band 2.4 % from image rendition ratio)", "iter2 pixel (srcset 1600w only — no-op at 360: live selects 400w)", "iter3 --full (full live srcset 100w…1600w)", "motion pixel round"],
+      "result": { "structuralRed": 0, "visualFlags": 0, "pixelPct": 0.03, "heightDelta": 0, "chromeParity": "within tolerance (crop header 99.87 %, footer 100.00 %)", "clipped": 0, "overflow": 0, "units": "7 compared, 14 within, 0 off", "pass": true },
+      "justified": [],
+      "residuals": []
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (stardust/replica/gates/us-en-faqs-html-2560/cap-iter.json)",
+  "units": ["faq-accordion-item (.cmp-accordion__item = .faq-accordion__item, n 7, required)"],
+  "motion": {
+    "observed": [
+      "faq-accordion click toggle: button +cmp-accordion__button--expanded, panel +cmp-accordion__panel--expanded / +cmp-accordion__panel--hidden (incoming class added before outgoing removed)",
+      "multi-expansion: opening item 2 left item 1 open; second click on item 1 collapsed it",
+      "panel entrance animation fadeIn .5s both on expand",
+      "header scrolly morph (canon, padding .5s)"
+    ],
+    "implemented": [
+      "us-en-faqs-html.js accordion state machine with the live state class names, aria-expanded / aria-hidden",
+      "CSS fadeIn .5s both on .faq-accordion__panel, expanded button border none, icon \\e911 → \\e910",
+      "header morph via canon.js (unchanged)"
+    ],
+    "dead": [
+      "hover on .cmp-accordion__button (no measured change)",
+      "hover on help-contact links (no measured change)",
+      "accordion widget frames — no transform/scroll/height transition sampled (display swap + fadeIn only)"
+    ],
+    "compare": "motion-compare: 8 parity, 0 missing, 0 extra",
+    "pixelAfterMotion": { "1440": 0.03, "360": 0.03 }
+  },
+  "canonRequests": [
+    "h1 { font-size: 40px } base rule",
+    "underlined-section-title = canon .section-title--underline promoted/documented for h1 + h2",
+    "header/footer current-page active modifier (FAQs active)",
+    ".separator--space-small / .separator--hidden modifiers",
+    ".icon--plus \\e911 / .icon--minus \\e910 glyph classes"
+  ],
+  "registerRequests": [],
+  "notes": [
+    "Source quirk replicated as captured: accordion buttons keep the UA font (Arial 13.33px, color #000) — only the title span carries Source Sans Pro 600 16px uppercase.",
+    "Content verbatim incl. AEM byte patterns: &nbsp; runs in answers, the empty <h3>&nbsp;</h3> inside answer 2, <b> names in answer 7, the 'WKDN' / 'to to' / 'is create' source typos, help text <br> breaks and the 'info<a>@wknd.com</a>' split link.",
+    "Layout: main = .page-main.fixed-container (live main.container.responsivegrid cap 1164); ≥1025 flex 66.6667 % primary + 25 % aside with 8.3333 % offset (aem default--8 / default--3 offset 1); ≤1024 stacked; lead image 66.6667 % ≤1024 (tablet/phone--8), intro 66.6667 % at 768–1024 (tablet--8). Aside children carry no 14px gutter (live .responsivegrid.aem-GridColumn padding 0, no inner grid) — replicated.",
+    "Lead image: live srcset (100w…1600w AEM renditions, no sizes) authored verbatim on rehosted renditions fetched from the live coreimg URLs; live selects 400w at 360 and 1600w (1447×964) at 1440 — the 360 intro band 2.4 % in iter1 was this rendition-ratio sub-pixel shift (0.3 px).",
+    "Help paragraph text-align left mirrors the live computed value (source p is justify; all lines end in <br> so the render is identical).",
+    "Instrument defect (not a page defect): unit-geometry's origin cache stardust/current/measure/<slug>-units.json is keyed by slug, not width — the 1440 and 360 --full rounds run concurrently read each other's origin (iter3 1440 compared against 360 origin boxes: Δx +138 Δw +416 on all 7 units). Deleted the cache and re-ran 1440 alone (iter3b PASS). The cache now holds 1440 origin data; delete it before any further 360 --full round of this slug.",
+    "ca-en sibling (/ca/en/faqs) differs only in locale chrome (CA flag/active locale, /ca/en hrefs) and its own accordion ids — template-apply in migrate."
+  ]
+}

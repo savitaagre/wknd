@@ -1,0 +1,730 @@
+{
+  "url": "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1030,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2130,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".cmp-carousel__action--next",
+      "frames": [
+        {
+          "t": 15024.599999427795,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15227.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15429.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 15632.599999427795,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-carousel__action--previous",
+      "frames": [
+        {
+          "t": 16643.89999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16845.89999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17048,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17250,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-carousel__indicator:nth-child(3)",
+      "frames": [
+        {
+          "t": 18259.89999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18461.800000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18663.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18866.39999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#tabs-3e2a3c8c36-item-e01acc5805-tab",
+      "frames": [
+        {
+          "t": 19877.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20080.199999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20282.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20484.199999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#tabs-3e2a3c8c36-item-bcb7a17129-tab",
+      "frames": [
+        {
+          "t": 21493.800000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 21696.599999427795,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 21898.800000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 22100.89999961853,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#tabs-3e2a3c8c36-item-d580418f5d-tab",
+      "frames": [
+        {
+          "t": 23110.599999427795,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23313,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23515,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 23717,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".cmp-tabs__tab:nth-child(2)",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".cmp-breadcrumb__item-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".cmp-carousel__action--next",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.cmp-carousel__action-icon",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.cmp-carousel__action-icon",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".cmp-carousel__indicator:nth-child(2)",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgb(175, 175, 175)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgb(175, 175, 175)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".cmp-contentfragment__element",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container > div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > div.cmp-carousel__item.cmp-carousel__item--active",
+        "txt": "",
+        "y": 229
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container > div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > div.cmp-carousel__item.cmp-carousel__item--active",
+        "txt": "",
+        "y": 229
+      },
+      {
+        "name": "fadeIn",
+        "el": "div.cmp-container > div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > div.cmp-carousel__item.cmp-carousel__item--active",
+        "txt": "",
+        "y": 231
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 400,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 229,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 229,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-bottom",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 229,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "div.xf-content-height > div.cmp-container > div.container.responsivegrid > div.cmp-container > div.container.responsivegrid.cmp-layoutcontainer--header",
+        "y": 229,
+        "dur": "0.5s, 0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 229
+      },
+      {
+        "added": [
+          "cmp-carousel__item--active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > div.cmp-carousel__item.cmp-carousel__item--active",
+        "y": 229
+      },
+      {
+        "added": [
+          "cmp-carousel__indicator--active"
+        ],
+        "el": "div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > ol.cmp-carousel__indicators > li.cmp-carousel__indicator.cmp-carousel__indicator--active",
+        "y": 229
+      },
+      {
+        "added": [
+          "cmp-carousel__item--active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > div.cmp-carousel__item.cmp-carousel__item--active",
+        "y": 229
+      },
+      {
+        "added": [
+          "cmp-carousel__indicator--active"
+        ],
+        "el": "div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > ol.cmp-carousel__indicators > li.cmp-carousel__indicator.cmp-carousel__indicator--active",
+        "y": 229
+      },
+      {
+        "added": [
+          "cmp-carousel__item--active"
+        ],
+        "el": "div.cmp-container > div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > div.cmp-carousel__item.cmp-carousel__item--active",
+        "y": 231
+      },
+      {
+        "added": [
+          "cmp-carousel__indicator--active"
+        ],
+        "el": "div.carousel.panelcontainer.cmp-carousel--mini > div.cmp-carousel > div.cmp-carousel__content > ol.cmp-carousel__indicators > li.cmp-carousel__indicator.cmp-carousel__indicator--active",
+        "y": 231
+      },
+      {
+        "added": [
+          "cmp-tabs__tabpanel--active"
+        ],
+        "el": "div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--tablet--12 > div.tabs.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-tabs > div.cmp-tabs__tabpanel.cmp-tabs__tabpanel--active",
+        "y": 392
+      },
+      {
+        "added": [
+          "cmp-tabs__tab--active"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--tablet--12 > div.tabs.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-tabs > ol.cmp-tabs__tablist > li.cmp-tabs__tab.cmp-tabs__tab--active",
+        "y": 392
+      },
+      {
+        "added": [
+          "cmp-tabs__tabpanel--active"
+        ],
+        "el": "div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--tablet--12 > div.tabs.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-tabs > div.cmp-tabs__tabpanel.cmp-tabs__tabpanel--active",
+        "y": 392
+      },
+      {
+        "added": [
+          "cmp-tabs__tab--active"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--tablet--12 > div.tabs.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-tabs > ol.cmp-tabs__tablist > li.cmp-tabs__tab.cmp-tabs__tab--active",
+        "y": 392
+      },
+      {
+        "added": [
+          "cmp-tabs__tabpanel--active"
+        ],
+        "el": "div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--tablet--12 > div.tabs.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-tabs > div.cmp-tabs__tabpanel.cmp-tabs__tabpanel--active",
+        "y": 392
+      },
+      {
+        "added": [
+          "cmp-tabs__tab--active"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--tablet--12 > div.tabs.panelcontainer.aem-GridColumn--tablet--12 > div.cmp-tabs > ol.cmp-tabs__tablist > li.cmp-tabs__tab.cmp-tabs__tab--active",
+        "y": 392
+      },
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 229
+      }
+    ]
+  }
+}

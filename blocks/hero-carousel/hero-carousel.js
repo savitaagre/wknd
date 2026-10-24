@@ -63,14 +63,6 @@ function collectNodes(scope) {
   return out;
 }
 
-// A CTA title derived by decorateButtons() (= its text) is not on the source
-// and is dropped. (Image titles are restored once in decorateMain.)
-function dropDerivedTitles(root) {
-  root.querySelectorAll('a[title]').forEach((a) => {
-    if (a.title === a.textContent) a.removeAttribute('title');
-  });
-}
-
 const isMedia = (n) => n.matches('picture, img') || !!n.querySelector('picture, img');
 const media = (n) => (n.matches('picture, img') ? n : n.querySelector('picture, img'));
 const isHeading = (n) => n.matches(HEADING);
@@ -216,5 +208,4 @@ export default async function decorate(block) {
   }
 
   block.replaceChildren(...parts);
-  dropDerivedTitles(block);
 }

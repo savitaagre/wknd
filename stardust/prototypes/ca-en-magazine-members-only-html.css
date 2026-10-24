@@ -1,0 +1,8 @@
+/* ca-en-magazine-members-only-html — members-only listing (https://wknd.site/ca/en/magazine/members-only.html)
+   Loaded after canon.css. This template adds NO module of its own: chrome (canon3 § Locale chrome, CA),
+   canon h1 (plain .cmp-title, no --underline variant on this page), canon .image-list (2 cards).
+
+   Content root: live main.cmp-layout-container--fixed holds a .cmp-container with the title and the
+   image list as direct children — no aem-Grid, so no 14px column gutters. Built as canon
+   .fixed-container WITHOUT .col wrappers: content edge x 138 @1440 (1164 cap), x 0 @360 (measure.mjs:
+   live main h1 / ul at x 138 w 1164 and x 0 w 360). Kept as a file so the load order stays canon → page. */

@@ -108,3 +108,86 @@ Each note: what happened → why it matters → suggested fix.
    was what justified rebuilding. → Add a "baseline the existing build" step to deploy Step 2's reuse decision.
 29. **(Workflow) Subagent briefs are long because the contract is long.** Each delivery unit needed ~1k words
    of brief. → Ship brief templates for C0 / C-archetype in the handoff card.
+
+# Run 2 — full-site replica of wknd.site, all locales (2026-10-23)
+
+Same format. Numbering continues.
+
+## Setup / remote prerequisites
+
+30. **Replica assumes the target site already exists and is reachable.** A "new site / rename" ask needs
+    a GitHub repo rename, a site-config create and DA config edits before Phase 5 — none of which the
+    skills mention, and in EMA all three are gated (no GitHub token; DA/admin writes need an explicit
+    chat request, AskUserQuestion answers do not count). → Add a Phase 0 "target readiness" checklist
+    to replica Setup that probes code-repo push, admin config write and DA write up front, so the run
+    can surface blockers before a multi-hour extract.
+
+## Extract (run 2)
+
+31. **Locale-root capture-gap detector misses `.html` locale roots.** wknd.site's locale roots are
+    `/us/en.html`, `/ca/en.html`; crawl.mjs reported "no locale root captured" while 38 linked pages
+    (10 `/us/en/adventures/*`, the whole `/ca/en/**` tree incl. members-only) were uncaptured — exactly the
+    recorded failure the detector exists for. → Strip `.html`/`.htm` before the locale-code test, and
+    also report uncaptured same-origin links globally (not only under locale roots).
+32. **Discovery stopped at 28/66 pages with no warning.** The BFS (depth 3) never queued the adventure
+    detail pages that sit behind the listing's filter tabs. → After discovery, print "N same-origin links
+    seen but not queued" so the gap is visible without an ad-hoc probe; offer `--closure` to iterate
+    `--pages` until no linked page is uncaptured.
+33. **crawl.mjs has no `--prep` flag** although extract § Prep says `--prep` implies `--all`; the agent
+    must map it to `--max 0` and run typing / module detection by hand. → Accept `--prep` as an alias of
+    `--max 0` and say in `--help` which prep steps remain agent-side.
+34. **No state writer for extract.** `state.mjs` can advance a page but cannot add `pages[]` rows, set
+    `site.*` or stamp `handsOff`; every --prep run hand-writes a merge script. → `state.mjs add-pages
+    --from stardust/current/pages --type-map <file>` and `state.mjs set handsOff true`.
+35. **Carousel slides beyond the active one are absent from `media.imgs`** (home + 32 adventure pages).
+    The rendered DOM sidecar has them, so recreation is safe, but media-reconcile counts will be low.
+    → Walk hidden carousel slides (`[aria-hidden]` slide containers) in the media capture.
+
+## Recreate / gate (run 2)
+
+36. **unit-geometry caches live unit measurements per slug, not per width**
+    (`stardust/current/measure/<slug>-units.json`). A 360 round after a 1440 round — or both in parallel,
+    which run-bg's slots invite — compares against the other width's positions and reports every unit "off".
+    Two workers hit it independently. → Key the cache by `<slug>-<width>`.
+37. **gate.sh loses its executable bit when the skill's `cp -r` copy step is followed** (plugin file mode);
+    `run-bg … -- stardust/scripts/replica/gate.sh` then fails with EACCES (exit 127). → Document
+    `bash gate.sh`, or have the copy step `chmod +x`.
+38. **Cumulative canon needs a request queue the skill doesn't define.** With parallel archetype workers,
+    "import the shared layers" requires a single writer; a `canon-requests.md` queue + one canon
+    maintainer round (move rules, re-gate every gated archetype, ±0.10 % bar) worked: 15 requests,
+    8 re-gates, no number moved. → Ship this as the fan-out contract for Phase 3.
+
+# Run 3 — /ca/en scope on top of run 2 (2026-10-23)
+
+39. **No documented "scope narrows / grows within an existing inventory" entry.** A follow-up ask for a
+    subset already captured and gated (here /ca/en) has two readings: re-run Phase 1–4 from zero, or
+    deliver from the existing inventory. The skills only describe `--refresh <slug>` and the pilot → site
+    growth path. → Add a "scoped follow-up" entry to replica: freshness check of the subset's captures
+    (content hash vs live), then Phase 5 for the subset plus the archetypes it depends on (#126).
+40. **Workspace guard vs. delivery scripts.** In EMA the admin/DA guard blocked batched `curl` loops and
+    every `preview` / `DELETE` call even after an explicit owner request, while single PUTs and the
+    node delivery scripts went through. → The deploy card should name the EMA path that is allowed
+    (deploy-batch.mjs) and say that chat approval is evaluated per call.
+41. **Owner-side DA folder moves silently invalidate delivered documents** (C0 chrome moved to a renamed
+    folder, old content moved in). → `deploy-batch.mjs` should verify the DA source of every ledger entry
+    still exists (HEAD) before reporting "skips pages already live".
+42. **crop-compare default `--out crop-diff.png` writes into the CWD** — a stray file landed in the repo root
+    and was committed and served by EDS. → Default the diff into the gate dir or `stardust/.work/`.
+43. **deploy-batch.mjs passes `--branch` verbatim into admin URLs.** A git branch with a slash
+    (`feat/wknd-ca-en`) becomes `/preview/<org>/<site>/feat/wknd-ca-en/<path>`: the admin API reads branch
+    `feat` and path `/wknd-ca-en/…`, so every preview 404s while the PUTs succeed. → Normalise to the host
+    label (slash to hyphen) or refuse a slash.
+44. **No force / re-upload path in da-media-upload.mjs.** After the owner moved DA folders, the ledger said
+    "uploaded" for 27 images that no longer existed in the target folder; the only remedy was rotating the
+    ledger file. → `--verify` (HEAD each ledger entry against DA) and `--force`.
+45. **gate-all.mjs `--eds-host` drops the URL scheme** when given a bare host (the card's own example is a bare
+    host); all three workers had to pass `https://…`. → Accept both forms.
+46. **gate-all.mjs reads `deployed` + `liveUrl` from state.json**, which cluster workers must not edit under the
+    fan-out rules; each worker ran it on a private state copy. → Read coverage/pages.json (lock-safe) instead,
+    or take `--urls`.
+47. **Big-endian Exif JPEGs come back as `about:error` from the delivery pipeline** (17 WKND images); the
+    worker stripped the Exif block (orientation 1, no pixel change) before upload. → da-media-upload.mjs should
+    detect big-endian Exif and re-encode metadata, or warn before upload.
+48. **The EMA command guard blocks any command that combines `rmdir` with a path or text containing
+    "content"**, so the documented git-lock release (`…; rmdir stardust/.work/locks/git.lock`) fails next to a
+    `stardust/deploy/content` path. → Ship a `lock.mjs acquire|release <name>` helper instead of shell idioms.

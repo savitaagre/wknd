@@ -1,0 +1,189 @@
+{
+  "slug": "us-en-html",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-carousel",
+    "featured-teaser",
+    "image-list",
+    "hero-teaser"
+  ],
+  "slotsFilled": [
+    "hero-carousel",
+    "fixed-container",
+    "hero-teaser",
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "ac708021d0e8",
+    "footer": "dd1d2e324a95",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "WKND Adventures and Travel",
+    "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "WKND Adventures and Travel",
+    "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
+    "url": "https://wknd.site/us/en.html"
+  },
+  "migratedAt": "2026-10-23T10:10:31Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "e64fdbb94068",
+  "sourceProposedSha": "0e93c871a717",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "doc stardust/deploy/content/us/en.html (pilot encoder, wknd media/landing): block-roundtrip --ew page 0 red, EW 37/37; content-diff live vs preview pub4 (gates/us-en-html-1440|360/content-diff-pub4.txt) 0 red at 1440 + 360: main 8/8 headings, 15/15 CTAs+hrefs, 13/13 img+alt, body verbatim; yellow = hidden control labels (#100), Climbing NZ img title == alt dropped by the pipeline",
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 red; localize-links --check 0",
+    "media-reconcile": "media-reconcile 13 hosted (ledger stardust/deploy/media-ledger-wknd.json, media/landing); plain.html 13 img/alt, 0 about:error",
+    "pixel-gate-1440": "gate-all PASS on the preview host (0.25% dh 0, clip 0, MISSING 0 / HIDDEN 0): stardust/replica/gates/all-1440/runs/2026-10-23T17-08-28-583Z-us-en-html.json",
+    "pixel-gate-360": "gate-all PASS on the preview host (1.73% dh -1, clip 0, MISSING 0 / HIDDEN 0): stardust/replica/gates/all-360/runs/2026-10-23T17-09-51-285Z-us-en-html.json",
+    "content-count": "content-diff live vs preview stardust/replica/gates/us-en-html-1440/content-diff-pub4.txt: main headings 8/8, CTAs 15/15, img 13/13; body 18->16 = hidden Previous/Next labels (deviation attribute)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "h2 \"WKND Adventures\" (hero carousel slide 1 title; the source page has no h1)",
+      "target": "h1 \"WKND Adventures\", styled as the source h2 (Asar 36px/54px; .hero-carousel h1 guard)",
+      "reason": "register R-01 (applied): delivery requires exactly one h1; computed 36px/54px on the preview at 1440 and 360; no visual change"
+    },
+    {
+      "kind": "attribute",
+      "source": "visually hidden carousel control labels \"Previous\" / \"Next\"",
+      "target": "aria-label=\"Previous\" / \"Next\" on the generated buttons",
+      "reason": "project rule #100: generated text-free controls carry aria-label only; content-diff MISSING BODY x2 (yellow), pixels identical"
+    }
+  ],
+  "assetsBundled": 35,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/downhill-skiing-wyoming.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/yosemite-backpacking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/yosemite-backpacking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/whistler-mountain-biking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/whistler-mountain-biking.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/west-coast-cycling.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/west-coast-cycling.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/tahoe-skiing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/adventures/tahoe-skiing.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en._meta.json",
+  "driverVersion": "1"
+}

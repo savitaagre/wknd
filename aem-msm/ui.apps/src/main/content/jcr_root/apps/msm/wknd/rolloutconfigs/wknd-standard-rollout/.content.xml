@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  WKND Standard Rollout (PDF §2, §6, §7)
+  Manual push from the language master to country live copies.
+  Trigger "rollout" only: On Modification is avoided per the PDF's performance/conflict caution.
+  Actions run in document order (PDF §7): update/copy/delete content first,
+  then rewrite internal links to the live copy, then match page order.
+-->
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:RolloutConfig"
+    jcr:title="WKND Standard Rollout"
+    jcr:description="Pushes language-master changes to WKND country sites when an author starts a rollout. Respects cancelled inheritance."
+    cq:trigger="rollout">
+    <contentUpdate
+        jcr:primaryType="cq:LiveSyncAction"/>
+    <contentCopy
+        jcr:primaryType="cq:LiveSyncAction"/>
+    <contentDelete
+        jcr:primaryType="cq:LiveSyncAction"/>
+    <referencesUpdate
+        jcr:primaryType="cq:LiveSyncAction"/>
+    <orderChildren
+        jcr:primaryType="cq:LiveSyncAction"/>
+</jcr:root>

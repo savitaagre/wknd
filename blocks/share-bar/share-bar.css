@@ -1,0 +1,11 @@
+/* share-bar — canon share-bar module (stardust/prototypes/canon.css: .share-bar*;
+   source .title h5 + .sharing). The title keeps the canon heading rules (h5 14px,
+   Source Sans 600 uppercase, UA margins); the SDK buttons never hydrate (0px). */
+
+.share-bar .buttons {
+  display: block;
+}
+
+.share-bar .title p {
+  margin: 0;
+}

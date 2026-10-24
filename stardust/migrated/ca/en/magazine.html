@@ -1,0 +1,270 @@
+<!DOCTYPE html><!-- stardust:provenance
+  writtenBy: stardust:replica
+  phase: recreate
+  againstInput: https://wknd.site/ca/en/magazine.html (structural clone of us-en-magazine-html, Path A-prime: main hrefs /us/en -> /ca/en (11), teaser action links from the capture (2), lang en-CA, en-CA chrome from ca-en-magazine-members-only-html; variance probe: teaser action only)
+  readArtifacts: stardust/current/pages/us-en-magazine-html.json, stardust/current/pages/us-en-magazine-html.html, stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css, stardust/prototypes/CANON.md
+  mode: preserve (clean re-authoring, not a DOM copy)
+  counts: featured teaser 1; article cards 5; members-only teasers 2 (locked, logged-out snapshot — dynamics row #11 static-snapshot); reconciled from the rendered DOM
+--><html lang="en-CA"><head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-10-23T18:08:58Z
+  page:             Magazine
+  slug:             ca-en-magazine-html
+  pagePath:         migrated/ca/en/magazine.html
+  renderBranch:     A'
+  template:         us-en-magazine-html
+  archetypePath:    stardust/prototypes/us-en-magazine-html-proposed.html
+  archetypeSha:     3ace6b491121
+  sourceCurrent:    stardust/current/pages/ca-en-magazine-html.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 5e39e56380e5)
+  designJson:       DESIGN.json (sha: a824036e0ec7)
+  canonShas:        header:0b419f954fac footer:ed3d89c05e85 css:fa70ee98d9bd
+  decisionTrace:    magazine._meta.json
+  brokenInternalLinks: 21
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --text: #202020;
+  --text-inverse: #ebebeb;
+  --text-muted: dimgray;
+  --link: #0045ff;
+  --brand-yellow: #ffea00;
+  --surface-grey: #ebebeb;
+  --surface-light: #f7f7f7;
+  --body-bg: #fff;
+  --font-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Asar, Georgia, "Times New Roman", Times, serif;
+  --font-icon: wknd-icon-font;
+  --fs-small: 14px;
+  --fs-xsmall: 12px;
+  --button-size: 48px;
+  --utility-height: 25px;
+  --shell: 1164px;
+  --gutter: 14px;
+}
+</style>
+<link rel="stylesheet" href="../../assets/canon.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Magazine","description":"Read articles about adventures and activities that we've recently experienced and would love to share with our community.","url":"https://wknd.site/ca/en/magazine.html"}</script>
+  <meta charset="UTF-8">
+  <title>Magazine</title>
+  <meta name="description" content="Read articles about adventures and activities that we've recently experienced and would love to share with our community.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFEA00">
+  <meta property="og:image" content="https://wknd.site/content/dam/wknd-shared/en/magazine/western-australia/adobestock-156407519.jpeg">
+  <meta property="og:image:alt" content="Magazine">
+  <link rel="icon" type="image/png" href="../../../../prototypes/assets/favicon.png">
+  <link rel="stylesheet" href="../../../../prototypes/canon.css">
+  <link rel="stylesheet" href="../../../../prototypes/us-en-magazine-html.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="utility-bar__inner">
+        <div class="utility-bar__sign-in">
+          <span class="sign-in-greeting">Welcome</span>
+          <a class="sign-in-link" href="#sign-in">Sign In</a>
+          <a class="sign-out-link" href="#sign-out">Sign Out</a>
+        </div>
+        <div class="utility-bar__lang">
+          <a class="lang-toggle lang-toggle--ca" id="langNavToggleHeader" href="#langNavToggle" aria-label="Toggle Language en-CA" aria-expanded="false" aria-controls="lang-menu">en-CA</a>
+          <nav class="lang-menu" id="lang-menu">
+            <ul class="lang-menu__countries">
+              <li class="lang-menu__country lang-menu__country--us">
+                <span class="lang-menu__title">United States</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../../us/en.html" hreflang="en-US" lang="en-US" title="WKND Adventures and Travel">en-US</a></li>
+                  <li class="lang-menu__locale"><a href="../../us/es.html" hreflang="es-US" lang="es-US" title="Español">es-US</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ca lang-menu__country--active">
+                <span class="lang-menu__title">Canada</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale lang-menu__locale--active"><a href="../../ca/en/magazine/members-only.html" hreflang="en-CA" lang="en-CA" title="WKND Adventures and Travel">en-CA</a></li>
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ca/fr.html" hreflang="fr-CA" lang="fr-CA" title="Français" data-broken-link="true">fr-CA</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ch">
+                <span class="lang-menu__title">Switzerland</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ch/de.html" hreflang="de-CH" lang="de-CH" title="Deutsch" data-broken-link="true">de-CH</a></li>
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ch/fr.html" hreflang="fr-CH" lang="fr-CH" title="Français" data-broken-link="true">fr-CH</a></li>
+                  <li class="lang-menu__locale"><a href="https://wknd.site/ch/it.html" hreflang="it-CH" lang="it-CH" title="Italiano" data-broken-link="true">it-CH</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--de">
+                <span class="lang-menu__title">Germany</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/de/de.html" hreflang="de-DE" lang="de-DE" title="Deutsch" data-broken-link="true">de-DE</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--fr">
+                <span class="lang-menu__title">France</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/fr/fr.html" hreflang="fr-FR" lang="fr-FR" title="Français" data-broken-link="true">fr-FR</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--es">
+                <span class="lang-menu__title">Spain</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/es/es.html" hreflang="es-ES" lang="es-ES" title="Español" data-broken-link="true">es-ES</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--it">
+                <span class="lang-menu__title">Italy</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="https://wknd.site/it/it.html" hreflang="it-IT" lang="it-IT" title="Italiano" data-broken-link="true">it-IT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header-bar">
+      <div class="header-bar__inner">
+        <div class="header-bar__logo">
+          <a href="../../ca/en.html"><img src="../../../../prototypes/assets/media/wknd-logo-dk.svg" alt="WKND Logo" width="300" height="112"></a>
+        </div>
+        <nav class="header-nav">
+          <a class="nav-home" href="../../ca/en.html" hidden="">Home</a>
+          <ul>
+            <li class=""><a href="../../ca/en/magazine.html" aria-current="page">Magazine</a></li>
+            <li><a href="../../ca/en/adventures.html">Adventures</a></li>
+            <li><a href="../../ca/en/faqs.html">FAQs</a></li>
+            <li><a href="../../ca/en/about-us.html">About Us</a></li>
+          </ul>
+        </nav>
+        <a class="header-search" href="../../us/en/ai-powered-search.html" aria-label="Search" title="Search"><span class="icon icon--search" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-toggle" id="toggleNav"><a class="mobile-toggle__link" href="#mobileNav" aria-label="Open hidden mobile navigation" aria-expanded="false"><span class="icon icon--menu" aria-hidden="true"></span></a></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul>
+      <li class="mobile-nav__home"><a href="../../ca/en.html">Home</a>
+        <ul>
+          <li class=""><a href="../../ca/en/magazine.html" aria-current="page">Magazine</a></li>
+          <li><a href="../../ca/en/adventures.html">Adventures</a></li>
+          <li><a href="../../ca/en/faqs.html">FAQs</a></li>
+          <li><a href="../../ca/en/about-us.html">About Us</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="page-root">
+    <main class="page-main" data-template="us-en-magazine-html">
+      <div class="fixed-container" data-section="1">
+        <div class="col"><h1>Magazine</h1></div>
+
+        <div class="col">
+          <div class="featured-teaser">
+            <div class="featured-teaser__content">
+              <p class="featured-teaser__pretitle">Featured Article</p>
+              <h2 class="featured-teaser__title">Camping in Western Australia</h2>
+              <div class="featured-teaser__description">The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.</div>
+              <div class="featured-teaser__actions"><a class="btn-teaser" href="https://wknd.site/ca/en/magazine/western-australia.html" data-broken-link="true">Read More</a></div>
+            </div>
+            <div class="featured-teaser__image"><div class="featured-teaser__frame"><img src="../../../../prototypes/assets/media/adobestock-156407519.jpeg" title="The Lennard River" alt="The Lennard River carves a stunning canyon through the Napier Range at Windjana Gorge, Kimberley Region, Western Australia. The permanent pools in the river provide a permanent habitat for dozens of freshwater crocodiles. Rudyards Kipling's story &quot;The Elephant Child,&quot; comes to mind every time I visit Windjana Gorge in the Kimberley,  when the Elephant child says: &quot;and still I want to know what the Crocodile has for dinner!'Then Kolokolo Bird said, with a mournful cry, 'Go to the banks of the great grey-green, greasy Limpopo River, all set about with fever-trees, and find out.&quot;At Windana Gorge the green waters of the gorge pools are filled with  Johnston crocodiles floating in the tepid green waters or resting on the hot sand banks.They add a real air of wild Australia below the complex and colourful ramparts of the Gorge where the Leonard River flows through the ancient Devonian reefs.The history of the renegade aboriginal tracker Jandamarra who hid in caves in this gorge and the screeching of the galahs circling overhead and wheeling about amongst the crags further adds to the primeval atmosphere of this special place in Australia."></div></div>
+          </div>
+        </div>
+
+        <div class="col"><h2 class="section-title section-title--underline">All Articles</h2></div>
+
+        <div class="col">
+          <ul class="image-list">
+            <li class="image-list__item"><article>
+              <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/arctic-surfing.html" data-broken-link="true"><div class="image-list__image"><img src="../../../../prototypes/assets/media/surfer-wave-02.jpeg" alt="Arctic Surfing"></div></a>
+              <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/arctic-surfing.html" data-broken-link="true"><span class="image-list__title">Arctic Surfing</span></a>
+              <span class="image-list__description">We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions.</span>
+            </article></li>
+            <li class="image-list__item"><article>
+              <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/san-diego-surf.html" data-broken-link="true"><div class="image-list__image"><img src="../../../../prototypes/assets/media/adobestock-164735399.jpeg" title="Gorgeous beach point breaks" alt="San Diego Surf Spots"></div></a>
+              <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/san-diego-surf.html" data-broken-link="true"><span class="image-list__title">San Diego Surf Spots</span></a>
+              <span class="image-list__description">Best beach breaks</span>
+            </article></li>
+            <li class="image-list__item"><article>
+              <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/ski-touring.html" data-broken-link="true"><div class="image-list__image"><img src="../../../../prototypes/assets/media/skitouring5sjoeberg.jpeg" alt="Ski Touring"></div></a>
+              <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/ski-touring.html" data-broken-link="true"><span class="image-list__title">Ski Touring</span></a>
+              <span class="image-list__description">Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing.</span>
+            </article></li>
+            <li class="image-list__item"><article>
+              <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/guide-la-skateparks.html" data-broken-link="true"><div class="image-list__image"><img src="../../../../prototypes/assets/media/article-01-picture-01.png" alt="Ultimate Guide to LA Skateparks"></div></a>
+              <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/guide-la-skateparks.html" data-broken-link="true"><span class="image-list__title">Ultimate Guide to LA Skateparks</span></a>
+              <span class="image-list__description">Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!</span>
+            </article></li>
+            <li class="image-list__item"><article>
+              <a class="image-list__image-link" href="https://wknd.site/ca/en/magazine/western-australia.html" data-broken-link="true"><div class="image-list__image"><img src="../../../../prototypes/assets/media/adobe-waadobe-wa-b6a7083.jpeg" alt="Western Australia"></div></a>
+              <a class="image-list__title-link" href="https://wknd.site/ca/en/magazine/western-australia.html" data-broken-link="true"><span class="image-list__title">Western Australia</span></a>
+              <span class="image-list__description">The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. </span>
+            </article></li>
+          </ul>
+        </div>
+
+        <div class="col"><h2 class="section-title section-title--underline">Members Only</h2></div>
+        <div class="col"><p><b>Sign in&nbsp;</b>to un-lock exclusive content for WKND members only!</p></div>
+        <div class="col"><div class="separator separator--space-medium"><hr></div></div>
+
+        <div class="members-teasers">
+          <div class="members-teaser">
+            <div class="members-teaser__inner">
+              <div class="members-teaser__content">
+                <h2 class="members-teaser__title">Alaskan Adventure</h2>
+                <div class="members-teaser__description"><p>Discover the 49th state</p></div>
+                <div class="members-teaser__action"><a class="members-teaser__action-link" href="https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html" data-broken-link="true">Read More</a></div>
+              </div>
+              <div class="members-teaser__image"><img src="../../../../prototypes/assets/media/alaskan-grizzly.jpeg" alt="" width="1280" height="853"></div>
+            </div>
+          </div>
+          <div class="members-teaser">
+            <div class="members-teaser__inner">
+              <div class="members-teaser__content">
+                <h2 class="members-teaser__title">Fly Fishing the Amazon</h2>
+                <div class="members-teaser__description">Experience the Amazon like never before</div>
+                <div class="members-teaser__action"><a class="members-teaser__action-link" href="https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html" data-broken-link="true">Read More</a></div>
+              </div>
+              <div class="members-teaser__image"><img src="../../../../prototypes/assets/media/amazon-river-02.jpeg" alt="" width="1280" height="853"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__row">
+          <div class="site-footer__logo"><a href="../../ca/en.html"><img src="../../../../prototypes/assets/media/wknd-logo-light.svg" alt="WKND Logo" width="300" height="112"></a></div>
+          <nav class="site-footer__nav" aria-label="Footer navigation">
+            <a class="nav-home" href="../../ca/en.html" hidden="">Home</a>
+            <ul>
+              <li class=""><a href="../../ca/en/magazine.html" aria-current="page">Magazine</a></li>
+              <li><a href="../../ca/en/adventures.html">Adventures</a></li>
+              <li><a href="../../ca/en/faqs.html">FAQs</a></li>
+              <li><a href="../../ca/en/about-us.html">About Us</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__follow"><h4>Follow Us</h4></div>
+          <div class="site-footer__social">
+            <a class="social-btn" href="#facebookwknd" aria-label="Facebook WKND Button"><span class="icon icon--facebook" aria-hidden="true"></span><span class="social-btn__text">Facebook</span></a>
+            <a class="social-btn" href="#twitterWKND" aria-label="Twitter WKND Button"><span class="icon icon--twitter" aria-hidden="true"></span><span class="social-btn__text">Twitter</span></a>
+            <a class="social-btn" href="#instagramwknd" aria-label="Instagram WKND"><span class="icon icon--instagram" aria-hidden="true"></span><span class="social-btn__text">Instagram</span></a>
+          </div>
+        </div>
+        <div class="site-footer__separator"></div>
+        <div class="site-footer__text">
+          <p>Canadian specific footer. This footer serves as an example of <a title="localization" href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html" target="_blank" rel="noopener noreferrer">localization features with Core Components&nbsp;</a></p>
+          <p>Ⓒ 2019,&nbsp;&nbsp;WKND Site.</p>
+          <p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html">Core Components</a>&nbsp;and&nbsp;<a href="https://github.com/adobe/aem-project-archetype">Archetype</a>&nbsp;that are available as open source code to the public. The entire&nbsp;<a href="https://github.com/adobe/aem-guides-wknd/">site source code</a>&nbsp;is available as open source as well and is accompanied with a&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">detailed tutorial</a>&nbsp;on how to recreate the site.</p>
+          <p>Many of the beautiful images in the WKND site are available for purchase via&nbsp;<a href="https://stock.adobe.com/">Adobe Stock</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../../../../prototypes/canon.js" defer=""></script>
+
+
+</body></html>

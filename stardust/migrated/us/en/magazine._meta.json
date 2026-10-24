@@ -1,0 +1,140 @@
+{
+  "slug": "us-en-magazine-html",
+  "type": "magazine-listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "featured-teaser",
+    "image-list",
+    "members-only-teaser"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "87c2019e87c6",
+    "footer": "ff09fcddc50f",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Magazine",
+    "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Magazine",
+    "description": "Read articles about adventures and activities that we've recently experienced and would love to share with our community.",
+    "url": "https://wknd.site/us/en/magazine.html"
+  },
+  "migratedAt": "2026-10-23T10:10:40Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "3630bdde1c82",
+  "sourceProposedSha": "3ace6b491121",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 red (1 yellow D3: rows 3/4 cells = rich vs plain teaser description, by design); localize-links --check 0",
+    "media-reconcile": "media-reconcile 8 hosted (ledger stardust/deploy/media-ledger-wknd.json, media/magazine-listing; skitouring5sjoeberg APP1-stripped); plain.html 8 img/alt, 0 about:error",
+    "pixel-gate-1440": "gate-all PASS on the preview host (0.23% dh 0, clip 0, MISSING 0 / HIDDEN 0, units off 0): stardust/replica/gates/all-1440/runs/2026-10-23T18-05-01-461Z-us-en-magazine-html.json",
+    "pixel-gate-360": "gate-all PASS on the preview host (0.09% dh 0, clip 0, MISSING 0 / HIDDEN 0, units off 0): stardust/replica/gates/all-360/runs/2026-10-23T18-07-04-379Z-us-en-magazine-html.json",
+    "content-count": "content-diff live vs preview stardust/replica/gates/us-en-magazine-html-1440/content-diff-pub2.txt + -360: main 0 findings, 0 red (headings 6/6, CTAs 6/6, img 8/8)",
+    "content-fidelity": "doc stardust/deploy/content/us/en/magazine.html by the encoder stardust/.work/rollout/magazine-listing/probes/gen-magazine.mjs from the capture (verbatim text, alt/title); block-roundtrip --ew page 0 red, EW 22/22; content-diff live vs preview pub2 0 red at 1440 + 360"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 14,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/arctic-surfing.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/san-diego-surf.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/ski-touring.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us/en/magazine/western-australia.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/magazine.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/magazine._meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,240 @@
+{
+  "url": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "143.031px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "117.266px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 40,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "113.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".image-list__item a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 69, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 69, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 69, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 69, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "padding-bottom",
+        "el": "body.members-only-listing.appear.scrolly > header.header-wrapper > div.header.block > div.site-header > div.header-bar",
+        "y": 40,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "padding-top",
+        "el": "body.members-only-listing.appear.scrolly > header.header-wrapper > div.header.block > div.site-header > div.header-bar",
+        "y": 40,
+        "dur": "0.5s, 0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.members-only-listing.appear.scrolly",
+        "y": 40
+      }
+    ]
+  }
+}

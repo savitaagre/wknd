@@ -1,0 +1,154 @@
+/* members-only-teaser — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-magazine-html.css: .members-teaser*; source
+   .cmp-teaser--list.cmp-teaser--secure in body.anonymous). Grid columns: default
+   4/12, tablet 6/12, phone 12/12 (aem-GridColumn, padding 0 14px, float left).
+   The content floats left; the image's inline img (width 100%) cannot sit
+   beside it and drops below the float — the origin's own layout. */
+
+/* the teasers sit straight in the source .aem-Grid (no .col gutter): each
+   teaser carries its own 14px column padding */
+main > .section > .members-only-teaser-wrapper {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.members-only-teaser {
+  display: flow-root;
+}
+
+.members-only-teaser .item {
+  float: left;
+  width: 33.3333%;
+  padding: 0 var(--gutter);
+}
+
+/* lock badge: yellow top-left triangle + lock glyph (\e98f) — an inline box on
+   the column's first line, shifted onto the title (source :before, top 49px) */
+.members-only-teaser .item::before {
+  content: "\e98f";
+  position: relative;
+  top: 49px;
+  z-index: 2;
+  padding: 12px;
+  background:
+    linear-gradient(
+      to top left,
+      hsl(0deg 0% 100% / 0%) 0,
+      hsl(0deg 0% 100% / 0%) 50%,
+      var(--brand-yellow) 50%,
+      var(--brand-yellow) 100%
+    );
+  color: #000;
+  font-family: var(--font-icon) !important;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.members-only-teaser .inner {
+  opacity: 0.65;
+}
+
+.members-only-teaser .content {
+  float: left;
+}
+
+.members-only-teaser .title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0.5em 0;
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.members-only-teaser .description {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+
+/* source .cmp-teaser__description p: 14px / 1.75, the base p margin kept */
+.members-only-teaser .description p {
+  color: inherit;
+  font-size: var(--fs-small);
+  line-height: 1.75;
+  text-align: left;
+}
+
+/* source .cmp-teaser__action-container: the float on the slot, the grey box on
+   the authored paragraph (the text box the source paints), flow-root so a
+   floated action link stays inside it */
+.members-only-teaser .action {
+  float: left;
+  margin: 1em 0;
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.members-only-teaser .action p {
+  display: flow-root;
+  margin: 0;
+  padding: 0.5em 1em;
+  background-color: var(--surface-grey);
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: left;
+}
+
+/* a linked action (the /ca/en captures) is the source .cmp-teaser__action-link */
+.members-only-teaser .action a:any-link {
+  float: left;
+  padding: 1em 2.5em;
+  background-color: var(--brand-yellow);
+  border-radius: 0;
+  color: var(--text);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* a plain-text description (source bare text, its own cell): no paragraph margin */
+.members-only-teaser .description.plain p {
+  margin: 0;
+}
+
+/* the pipeline's <picture> wrapper adds no box: the img measures as the source img */
+.members-only-teaser .image picture {
+  display: contents;
+}
+
+/* the source image is INLINE (baseline gap below it) */
+.members-only-teaser .image img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: 200px;
+  margin: 7px 0;
+  object-fit: cover;
+}
+
+@media (width >= 768px) and (width <= 1024px) {
+  .members-only-teaser .item {
+    width: 50%;
+  }
+}
+
+@media (width <= 767px) {
+  .members-only-teaser .item {
+    width: 100%;
+  }
+}

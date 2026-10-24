@@ -1,10 +1,11 @@
-<!-- stardust provenance: skill=stardust:dynamics (via replica Phase 2) · phase=plan · 2026-10-16 · from stardust/dynamic-features.md -->
-# Dynamic features plan — wknd.site (/us/en.html replica)
+<!-- stardust provenance: skill=stardust:dynamics (via replica Phase 2, run 2) · phase=plan (curated) · 2026-10-23T08:20:00Z -->
+# Dynamic features — plan (wknd.site full site)
 
-| Phase | Rows | Deliverable | Authoring contract | Verification | Owner decision | Effort |
+| phase | rows | deliverable | authoring contract | verification | owner decision | effort |
 |---|---|---|---|---|---|---|
-| interactive (self) | 1 hero carousel, 2 language switcher, 3 mobile menu | Behaviours rebuilt in the prototype (Phase 3/4), then in the EDS `carousel` / header block JS (Phase 5) | Implement ONLY behaviours `motion-observe.mjs` sees fire on the live page (dead classes are not implemented) | `motion-compare.mjs` live vs prototype: parity on every fired behaviour; pixel number returns to the gated value | none | S |
-| detect (static-snapshot) | 7 AEM runtime plumbing | nothing shipped | — | n/a | unfreezes only if D1 or D2 = keep | — |
-| register / tags / locale | 4 Sign In, 5 tags, 6 locales | interim static paths (see dynamic-features.md § Decision batch) | Sign In renders as on source with no backend; no tag scripts; switcher hrefs verbatim | content-diff keeps the control and the links | D1, D2, D3 (open) | — |
-
-Static first: none of these rows blocks the static recreation or the gate.
+| P1 chrome | 8, 9, 10 (UI) | header language switcher, mobile menu, Sign In control per the header contract | nav document per locale (`/nav`, `/ca/en/nav`, coming-soon nav) | `chrome-compare` exit 0 vs the 3 contracts, 1440 + 390 | D1 (backend only) | S |
+| P2 interactions | 1, 2, 3, 5 | carousels, adventure tabs, FAQ accordion — block JS | block tables per deploy § 8 (EW1–EW10) | motion-observe live vs build, motion-compare | none | M |
+| P3 client filter | 4 | adventures category tabs over authored cards | cards authored with a category cell | click each tab, card counts = source (All 16) | none | S |
+| P4 search | 6, 7 (UI) | `helix-query.yaml` + search page block reading `/query-index.json` | every page emits title/description | `search-query` "surf" count 8 + top-3 titles on the published origin | D4 (generative answer) | M |
+| P5 locale trees | 13 | /us/en + /ca/en trees, coming-soon homes, per-locale nav/footer | locale-tree folders; switcher links → new-site paths | rollout link audit: 0 internal 404 | none (decided 2026-10-23) | M |
+| — | 11, 12, 14 | none (interim: static / off) | — | presence only | D1, D2 | — |

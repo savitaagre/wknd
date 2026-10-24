@@ -1,0 +1,37 @@
+{
+  "slug": "us-en-adventures-html",
+  "type": "listing",
+  "liveUrl": "https://wknd.site/us/en/adventures.html",
+  "prototype": "stardust/prototypes/us-en-adventures-html-proposed.html",
+  "files": ["stardust/prototypes/us-en-adventures-html-proposed.html", "stardust/prototypes/us-en-adventures-html.css", "stardust/prototypes/us-en-adventures-html.js"],
+  "assetsAdded": ["adobestock-175749320.jpeg", "adobestock-200192344.jpeg", "sport-climbing.jpeg", "adobestock-201222633.jpeg", "adobestock-185324648.jpeg", "adobestock-59459597.jpeg", "adobestock-294203896.jpeg", "adobestock-280313729.jpeg", "adobe-waadobe-wa-mg-2466.jpeg", "adobestock-238230356.jpeg", "adobestock-278302117.jpeg"],
+  "counts": { "tabs": 6, "tabLabels": ["All", "Climbing", "Cycling", "Skiing", "Surfing", "Travel"], "cardsPerPanel": { "All": 16, "Climbing": 2, "Cycling": 3, "Skiing": 3, "Surfing": 2, "Travel": 6 }, "totalCardNodes": 32, "source": "rendered DOM stardust/current/pages/us-en-adventures-html.html (ca-en identical counts)" },
+  "breakpoints": {
+    "1440": {
+      "iterations": 1,
+      "rounds": ["iter1 --full 10.54% FAIL (hot 0-1000: hero img 810 tall, h1 +14px gutter)", "iter2 pixel 0.19%", "confirm --full 0.19%"],
+      "result": { "structuralRed": 0, "visualFlags": 17, "pixelPct": 0.19, "heightDelta": 0, "chromeParity": "pass (chrome-parity ✓; crop header 100.00%, footer 100.00%)", "clipped": 0, "overflow": 0, "unitGeometry": "12 compared, 0 off → PASS", "pass": true },
+      "justified": ["visual-diff STRETCHED IMAGE x17 (16 card images + hero): intentional object-fit: cover crops lifted from source (.cmp-image-list .cmp-image__image / .cmp-teaser--hero .cmp-image__image object-fit: cover); live renders the same boxes (260x200, 1440x640)"],
+      "residuals": ["0.19% — anti-aliasing / JPEG rendition (harvested 1280w file vs live srcset 1600w), no hot band"]
+    },
+    "360": {
+      "iterations": 1,
+      "rounds": ["iter1 --full 1.06% PASS", "iter2 pixel 1.02%", "confirm --full 1.02%"],
+      "result": { "structuralRed": 0, "visualFlags": 16, "pixelPct": 1.02, "heightDelta": 0, "chromeParity": "pass (chrome-parity ✓; crop header 99.86%, footer 100.00%)", "clipped": 0, "overflow": 0, "unitGeometry": "12 compared, 0 off → PASS", "pass": true },
+      "justified": ["visual-diff STRETCHED IMAGE x16 (card images): intentional object-fit: cover crops lifted from source"],
+      "residuals": ["1.02% — image rendition (live srcset 400w vs harvested 1280w file downscaled), no hot band"]
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 5 rows failed (stardust/replica/gates/us-en-adventures-html-2560/cap-iter.json)",
+  "units": ["adventure-card-grid", "adventure-category-tab"],
+  "motion": {
+    "observed": ["tab click → cmp-tabs__tab--active / cmp-tabs__tabpanel--active moved (3 pokes)", "header scroll-morph (canon)"],
+    "implemented": ["tab click switching (us-en-adventures-html.js): active classes, aria-selected, tabindex, aria-hidden on panels"],
+    "dead": ["tab hover (no style change)", "card link hover (no style change)", "tab transitions/animations (none)"],
+    "compare": "6 parity, 0 missing, 0 extra (motion-compare)",
+    "files": ["stardust/replica/motion/us-en-adventures-html.json", "stardust/replica/motion/us-en-adventures-html-build.json"]
+  },
+  "canonRequests": ["h1 font-size 40px", "nav aria-current=page active state (header yellow bg, footer underline)", "promote .hero-teaser* with cmp-teaser--hero standalone heights", "promote .image-list*", "list underlined-section-title as shared module in CANON.md"],
+  "registerRequests": [],
+  "notes": "Brief listed 7 tabs (All, Camping, Cycling, Rock Climbing, Skiing, Social, Surfing); the rendered DOM of both /us/en/adventures and /ca/en/adventures has 6 tabs (All, Climbing, Cycling, Skiing, Surfing, Travel) with 16/2/3/3/2/6 cards — authored as captured; dynamic-features.md row #4 / Listings contract ('7 category tab panels') should be corrected to 6. Hidden panels are mirrored in the DOM (aria-hidden, display:none). Tab state classes reuse the live names (cmp-tabs__tab--active, cmp-tabs__tabpanel--active) so motion-compare matches. Keyboard arrow navigation was not observed and is not implemented. /ca/en/adventures shares this archetype (same structure/counts; locale hrefs /ca/en/…, tab ids differ, lang toggle en-CA needs the CA flag canon request noted in CANON.md)."
+}

@@ -1,0 +1,50 @@
+{
+  "/ca/en/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T15:13:07.835Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T15:13:11.212Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/drafts/wknd-shell": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T15:13:13.771Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T15:13:15.819Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/fragments/sign-in": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T15:13:18.326Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T15:13:20.480Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

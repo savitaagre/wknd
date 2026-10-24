@@ -259,3 +259,372 @@ Preview only (`--no-publish`) through delivery. **Published live on the owner's 
 - gate-all reads `status: deployed` + `liveUrl`, which state.mjs cannot write; it ran on a derived copy
   (stardust/.work/rollout/state-deployed.json) — state.json itself is `migrated`.
 - Publish: still preview-only. Nothing published live.
+
+## Run 2 — C0 foundation (canon3, site `wknd`, 2026-10-23)
+
+Target: DA `savitaagre/wknd` (content.da.live/savitaagre/wknd), preview `main--wknd--savitaagre.aem.page`
+(code still from savitaagre/edsmsm main — the feature branch is NOT pushed). Owner: preview only, nothing live.
+Reused from the pilot C0 unchanged: brand.css tokens (h1 40 / h5 14 already canon), fonts/, favicon,
+head.html, the fixed-chrome shell, buttons, header/footer template-slotted decode (tier: template-slotted).
+
+- **Canon3 deltas applied.** Current-page state (canon2): `markCurrentNav()` in scripts.js puts
+  `aria-current="page"` on the link to the current page and `li.is-active` on the level-1 item whose link
+  is an ancestor of the path (header list before the mobile clone, footer list); header CSS paints both
+  yellow, footer CSS light + underline (descendant selectors, EW2). Locale chrome (canon3): `<html lang>`
+  from the path (`getLocale()`: `/{country}/{language}` → `en-CA`, `es-US` …; en-US otherwise); the
+  toggle flag stays derived from the authored locale label (`--lang-flag`, code-served `/icons/flags/`)
+  — the EDS equivalent of the canon `.lang-toggle--<cc>` class, no per-locale CSS. Utilities as section
+  styles: `separator` + `space-small` / `space-medium` / `no-rule`, `text-small` (styles.css).
+- **Open canon requests folded in.** (1) standalone hero-teaser heights: stay per-block (not foundation).
+  (2) coming-soon nav markup: the EDS nav list already keeps the level-0 `ul > li` wrapper; the
+  coming-soon documents author the level-0 item only (`<ul><li><a href="/us/es">Español</a></li></ul>`),
+  no nested list; the 16px item margin is scoped to `li li`, so the level-0 item stays 0 high, as live.
+  (3) en-CA active-link wording: the active locale link's href is set to the current page; beyond the
+  request, the live language copies (captured on all 54 US/CA pages) are mirrored — the en-US/en-CA link
+  of the current language points at the counterpart page when `<counterpart>.plain.html` answers HEAD
+  200, checked once on the first menu open (no request at page load), else stays the locale home
+  (US ai-powered-search → /ca/en, CA members-only → /us/en, as live).
+- **Nav/footer selection rule** (`getChromePath()`, runtime-contract.json `chromeSelection`): page
+  metadata `nav`/`footer` wins; else `<locale root>/nav|footer` for every locale except /us/en; else
+  the root `nav` / `footer` documents; a missing locale document falls back to the root ones. No page
+  metadata needed.
+- **Documents** (stardust/deploy/content/, one-shot generator stardust/.work/c0/probes/gen-chrome.mjs):
+  root `nav` + `footer` (en-US), `ca/en/{nav,footer}` (CA toggle label, /ca/en hrefs, Canadian note first
+  in legal), the 9 coming-soon locales `{us/es,ca/fr,ch/de,ch/fr,ch/it,de/de,fr/fr,es/es,it/it}/{nav,footer}`
+  (own toggle label, locale-home logo href, level-0 item labelled Español / Français / Deutsch /
+  Italiano), `drafts/wknd-shell`. Every document ends with a dedicated metadata section
+  `Robots | noindex` (a dedicated section: build-harness drops a section that holds the metadata block,
+  and it can never fold into a chrome slot). Language-menu hrefs are now extensionless (`/us/es` …;
+  all locales migrate — owner 2026-10-23).
+- **Media.** `da-media-upload.mjs --scope chrome` → `media/chrome/wknd-logo-{dk,light}.svg` 201 ×2 (pure
+  vector, no data URIs). NEW ledger `stardust/deploy/media-ledger-wknd.json` — the default ledger holds the
+  pilot's edsmsm uploads and the script keys by media path only (foundation-requests.md, run 2).
+- **Lint.** `npm run lint:fix` + `npm run lint`: 0 errors (1 pre-existing no-console warning in
+  stardust/scripts/deploy/sanitise.js). Fixed: 8 max-len comment lines in the gated prototype JS
+  (us-en-adventures-climbing-new-zealand-html.js, us-en-ai-powered-search-html.js) and their migrated
+  copies — comment wraps only. `lint:breakpoints` not added: DESIGN.json has no
+  `extensions.breakpoints.target` (the script skips; contract condition not met).
+- **Local QA.** `build-harness.mjs` + `qa-gate.mjs` on the shell: PASS 11 ok / 0 warn / 0 fail (one h1,
+  header + footer loaded and non-empty, cap 1164 @2560). `block-roundtrip --ew`: N/A for chrome (fragment-
+  fed blocks; the script decorates in-page block tables only). Chrome probe (local code against the
+  DELIVERED wknd documents, 16 simulated paths, 1440 + 360): 0 page errors; lang / toggle / flag / logo
+  href / level-0 label / markers / mobile list / CA note all as § Locale chrome; FAQs aria-current,
+  article → Magazine is-active, program → Adventures is-active; header 194 / 117, footer 260 / 593 (US),
+  289 / 637 (CA), 260 / 463 (coming-soon) = the gated prototypes us-en-html / ca-en-magazine-members-only-
+  html / us-es-html at both widths.
+- **Deploy (preview only).** `deploy-batch.mjs --no-publish --paths` (ledger stardust/deploy/ledger-c0.json):
+  23/23 PUT 201, preview 200. `.plain.html` 23/23: 200, sections intact, 0 `about:error`, no `/img/`,
+  1 logo `<img>` per chrome document, exactly one h1 on the shell; `<meta name="robots" content="noindex">`
+  delivered. Published-origin chrome gate: PENDING the code push.
+
+### C0 round 2 — header contract (coordinator gate: crops PASS, chrome-compare 6 🔴 / 2 🟡)
+
+- **Sign In modal (🔴 state-missing + keyboard, 1440 + 390).** Live: `[data-modal-url]` click → GET the
+  `language-masters/en/site/sign-in` experience fragment → `#wknd-modal` appended, jQuery fadeIn(300);
+  any document click outside it fadeOut(200) + removed (the click swallowed); no Escape, focus stays on the
+  trigger, no scroll lock. Rebuilt UI-only (D1): authored `/fragments/sign-in` (h1 Sign In, h3 Welcome
+  Back, USERNAME / PASSWORD label paragraphs, FORGOT YOUR PASSWORD? `#`, SIGN IN link) decorated by
+  `blocks/header/sign-in.js` into the source structure (fixed 450px box, `.cmp-layout-container--modal`
+  panel: margin 2rem, padding 2rem 1.75rem, #202020, shadow 0 10px 20px dimgray; inputs 14px, 1px #ebebeb
+  r4, 2rem 1rem; yellow 180px SIGN IN; gradient 2px separator; ≤767 margin 0 / max-width 340). Values
+  from clientlib-site + the live fragment (fetched to stardust/.work/c0/signin/). Fade by WAAPI (no CSS
+  transition, so no motion delta — live animates via jQuery). Measured vs live with the modal open: every
+  element rect identical at 1440 and 390; panel crop pixel diff 0.00 % at both widths. Hidden at rest:
+  `display: none` until opened.
+- **D1 interim (no credentials ever sent).** Inputs carry no `name`; submit is always prevented; Enter in a
+  field or the SIGN IN control navigates by plain GET to the authored target
+  `/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login` — the page the
+  source lands on after its (always invalid here) POST. That page is NOT in the inventory: a capture gap
+  for E2 (until delivered it 404s on EDS).
+- **🔴 control-missing "search" was the modal.** chrome-compare's `searches()` collects every input the
+  explorer typed into; on the source those are the Sign In modal's USERNAME / PASSWORD fields (probe
+  "sign", submit → the invalid-login URL). The header Search link itself pairs fine by key `search`
+  (source `#button-f5a05c82f1` / build `.header-search a`: both role link, kind search, rect
+  1240,85,48,48 @1440 / 342,40,48,48 @390, href ai-powered-search). Fixed by the modal's fields.
+- **🟡 link-missing /us/en (top-level).** Not the nav-home item: it is the LOGO link (source
+  `#image-1f45f4e6a7>a`, name "", rect 152,119,128,23 @1440 / 28,77,128,23 @390, href /us/en.html); the
+  build logo link has the same empty name, rect and href (/us/en). pairControls pairs by `key` (empty on
+  both sides) or by family (`link` is not a family), so an unnamed link can never pair — a comparer
+  false positive, left as 🟡 (no header-decisions entry).
+- **Re-run on the branch host** (b5c4bb1 pushed, served at poll 1): chrome-compare 6 🔴 / 2 🟡 → 2 🔴 / 4 🟡.
+  Gone: state-missing ×2, keyboard ×2, control-missing search ×2. Left 🔴: panel-visual@1440 7.4 % and
+  @390 16.2 % — the explorer crops the modal BOX, whose transparent 2rem margins (1440) / the strip right
+  of the 340px panel (390) show the page behind it: the live HOME hero/carousel vs the short build shell
+  (white main + its footer). On the explorer's own crops the panel alone differs 0.39 % / 0.26 % (1440
+  click / key) and 0.32 % (390), the 80px backdrop strip at 390 78 %. Clears once the build is explored
+  on the delivered /us/en (same backdrop). 🟡: link-missing logo ×2 (above); link-href ×2 — FORGOT
+  YOUR PASSWORD? `#` resolves to the current page (/us/en on the source, /drafts/wknd-shell here).
+- **Crops** (gate.sh wknd-shell … c0b, crop-compare, header y0 h194 / h117): 1440 header 100.00 %,
+  footer 100.00 % (y3494 / y-b 404 h260); 360 header 99.86 %, footer 99.21 % (y5280 / y-b 424 h593) —
+  unchanged; the modal is `display: none` at rest.
+
+## Run 3 — members-only archetype /ca/en/magazine/members-only (feat-wknd-ca-en, preview only)
+
+- Block `image-list` (reconstructive, unchanged model: one row per card, image | text). Added the generic
+  hook `li.item.image-list__item` — the units.json build selector `.image-list .image-list__item`
+  (members-only-card-grid, article-card-grid) never matched the delivered `li.item` (pub1 "1 selector
+  error → FAIL"); styling stays on `.item`, so home (4 cards) and magazine (5 cards) are unaffected.
+- Local asserts: block-roundtrip --ew (block + page) 0 🔴, EW 5/5; qa-gate PASS 14/0/0; lint 0 errors.
+- Chain: localize-links check 0, davids-model-lint PASS, delivery-lint 0/0/0, media re-uploaded into wknd
+  (`media/members-only/`, 2 files, media-ledger-wknd.json), media-reconcile 2 hosted, sanitise unchanged,
+  deploy-batch --force --no-publish 1/1 (PUT 201, preview 200). `.plain.html` 200, one h1, 0 about:error,
+  no /img/. Style guard 1440/360: image-list flex, 2 cards, imgs 260px loaded, h1 x138 w1164 / x0 w360,
+  lang en-CA, CA footer, 0 pageerror.
+- Gate pub2 (preview): 1440 0.01 % Δh 0 · 360 0.07 % Δh 0 · 0 structural 🔴 · clip 0 · presence MISSING 0
+  / HIDDEN 0 · units 2 compared, 0 off · crops header 99.99 / 99.87 %, footer 100.00 / 100.00 % ·
+  chrome-parity 3 deltas both widths (logo DA hash ×2, CA footer Δw −2px trimmed &nbsp;) → request line ·
+  gate-all PASS 1440 + 360 (derived state stardust/.work/rollout/members-only/state-deployed.json) ·
+  motion 4 parity, 0 missing.
+
+## Run 3 — C-archetype listing / us-en-adventures-html + /ca/en sibling (cluster `listing`, preview only)
+
+- Blocks (authored by the paused run-2 worker, re-verified, unchanged): `hero-teaser` (template-slotted;
+  variant `standalone` + section style `page-title`, both scoped additions — home's default variant
+  untouched, its round-trip still closes with `--map hero-teaser=.hero-teaser--imagebottom`),
+  `adventure-category-tabs` (reconstructive, 6 tabs, li[role=tab] hosts, client-only filter, dynamics
+  row 4), `adventure-card-grid` (reconstructive, one authored row per card + categories cell, no index).
+- Schema: `stardust/eds-schema/us-en-adventures-html.json` from the `data-section`-annotated prototype
+  copy `stardust/.work/rollout/listing/annotated.html` (the served prototype carries no section markers).
+- Local asserts: block-roundtrip --ew per block + whole page 0 🔴, EW 55/55 (15 🟡 = the hidden
+  categories cell, `@ew-exempt`); qa-gate 18 ok / 1 fail — the 2560 content-cap row reads the 1680 shell
+  because EDS caps per section wrapper (no single content container); measure.mjs prototype vs harness
+  @2560 identical (h1 698/1164, tabs + grid 712/1136, hero 1680, scrollHeight 2769), so it is a probe
+  tier artifact, not a sizing defect; lint 0 errors.
+- Encoder `stardust/.work/rollout/listing/probes/gen-listing.mjs` (hydrated capture → DA doc; categories
+  from tab-panel membership) reproduces the archetype doc byte-identical; sibling doc = archetype doc
+  with /ca/en hrefs (variance probe 0 deltas, 7 probes).
+- Chain (both pages): localize-links check 0, davids-model-lint PASS, delivery-lint 0/0/0, media
+  re-uploaded into wknd `media/listing/` (17 files, media-ledger-wknd.json), media-reconcile 17 hosted,
+  sanitise unchanged, deploy-batch --force --no-publish 2/2. `.plain.html` 200, one h1, 17 img/alt,
+  0 about:error, no /img/. Style guard 1440/360: hero/tablist/grid flex, 16 cards, 17 imgs > 0 px,
+  0 pageerror, overflow 0; tab clicks show 16/2/3/3/2/6.
+- Archetype gate pub1 (1 round): 1440 0.23 % Δh 0 · 360 0.64 % Δh 0 · clip 0 · units 12/12 · crops
+  header 100.00 / 99.86 %, footer 100.00 / 100.00 % · chrome-parity 2 deltas = DA logo hashes · content-diff
+  17 🔴 = the 5 hidden source tab panels' card copies (deviation `restructure`) · gate-all PASS 1440 + 360
+  (content MISSING 0 / HIDDEN 0; temp state stardust/.work/rollout/listing/state-gate-all.json) · motion 6
+  parity, 0 missing (`motion/us-en-adventures-html-delivered.json`).
+- Sibling ca-en-adventures-html: gate-all 1440 0.23 % Δh 0 · 360 0.63 % Δh 0, PASS both; CA chrome crops
+  header 100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity = logo hashes + CA footer Δw −2px
+  (already queued by members-only).
+- Deviations (both pages): `restructure` (6 panels / 32 card copies → one 16-row grid + filter), `order`
+  (Cycling tab keeps the All order; source panel orders Whistler first).
+
+## C-ARCHETYPE + cluster program (run 3, branch feat/wknd-ca-en, preview host feat-wknd-ca-en--wknd--savitaagre.aem.page)
+
+- Blocks (owned, resumed from the paused run-2 worker): breadcrumb, trip-gallery-carousel, share-bar
+  (template-slotted / reconstructive, generic models — reused later by article), trip-facts, content-tabs
+  (reconstructive). Tiers unchanged from the schema `stardust/eds-schema/us-en-adventures-climbing-new-zealand-html.json`.
+- Fixes this run: units.json build hooks (`trip-facts__item`, `content-tabs__tablist/__tab`,
+  `trip-gallery__indicator`); a lone runtime `<p>` (wrapTextNodes) in a fact / tab label cell gives up its
+  children so the text sits in dt / dd / li as on live (unit-geometry program-trip-facts 12 off → 0);
+  gallery slide-title cell (row: image | optional title → the visually hidden indicator label; Napa only).
+- Variant (8 of 16 /ca/en trips, the aem-Grid sub-template — NOT the slide count: napa has 2 slides):
+  `Trip Facts (Grid)` → `trip-facts grid`; layout rules in content-tabs.css keyed `:has(.trip-facts.grid)`:
+  section padding 0, facts + share columns padding 0 14px, 9/12 + 3/12 at 768–1024, 7/12 + 5/12 ≤767
+  (source `.aem-GridColumn{padding:0 14px}`, `.responsivegrid.aem-GridColumn{padding:0}`; measured on live
+  bali-surf-camp). The gallery needs no variant (a 1-slide carousel is the same block).
+- Media: EDS ingest returns `about:error` for big-endian-Exif JPEGs → APP1-stripped copies uploaded (all
+  orientation 1) — foundation-requests.md line. 74 program media in `media/program/` (ledger media-ledger-wknd.json).
+- Archetype /us/en/adventures/climbing-new-zealand, published-origin gate pub3: 1440 0.03 % Δh 0 · 360 2.48 %
+  Δh −1 · 0 structural 🔴 · clip 0 · presence MISSING 0 / HIDDEN 0 · units 12/12 within · crops header
+  100.00 / 99.86 %, footer 100.00 / 100.00 % · chrome-parity = the 2 logo media hashes · motion 9 parity /
+  0 missing / 0 extra · gate-all PASS both widths. qa-gate: 2 instrument FAILs documented (template cap 1192 =
+  live, DESIGN.json site cap 1164; float-laid trip-facts list not counted by the grid/flex proxy).
+- Siblings: 16 /ca/en/adventures/* — A′ renders from structural clones (stardust/.work/rollout/program/clones,
+  en-CA chrome from the members-only prototype), DA documents by the archetype encoder from the captures;
+  block-roundtrip --ew 16/16 closed; gate-all 16/16 PASS at 1440 (worst riverside-camping-australia 1.00 %)
+  and 360 (worst gastronomic-marais-tour 3.14 % Δh −1). Encoder fix: text-only rich-text divs → `<p>`
+  (Tuscany "What to Bring" paragraph). CA chrome on bali: crops header 100.00 / 99.87 %, footer 99.38 / 99.12 %.
+- Residuals 🟡: image title == alt dropped by the pipeline (23 images); visually hidden Previous/Next
+  labels rendered as aria-label (#100).
+
+## Run 3 — C-archetype landing / us-en-html + /ca/en sibling (cluster `landing`, preview only)
+
+- Blocks: `hero-carousel`, `featured-teaser` (owned; pilot code, tiers unchanged: reconstructive /
+  template-slotted); `image-list`, `hero-teaser` reused read-only. One change: an explicit R-01 guard
+  `.hero-carousel h1 { font-size: 36px; line-height: 54px }` (CANON h1 note) beside the existing
+  `.title :is(h1…h6)` rule. featured-teaser stays generic (pretitle / title / description / actions by
+  role; nothing landing-specific), ready for the magazine listing.
+- Live carousel = 3 slides (live HTML "Slide n of 3" on /us/en and /ca/en; dynamic-features row 1 says 4 —
+  a vision overcount). Auto-advance: none (motion-observe 0 unpoked class mutations on live and delivered).
+- Schema: re-generated from a `data-section`-annotated copy of the current prototype
+  (stardust/.work/rollout/landing/annotated.html) — identical to stardust/eds-schema/us-en-html.json.
+  style-fingerprint: one variation group (indicator active state = the live state class).
+- Media: 13 editorial images re-uploaded into wknd `media/landing/` (media-ledger-wknd.json);
+  beach-walking.jpeg + skitouring5sjoeberg.jpeg carry big-endian Exif (orientation 1) → uploaded
+  APP1-stripped (probes/exif-check.mjs, program's strip-exif.mjs); 0 about:error on both plain.html.
+- Document /us/en regenerated on wknd media (was edsmsm `media/home`); text unchanged from the gated pilot.
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 37/37; qa-gate 25 ok / 1 fail = the 2560
+  content-cap row (EDS caps per section wrapper; measure.mjs harness vs prototype @2560 + @1440
+  scrollHeight Δ 0, every block Δ 0 — probe-tier artifact, as listing); lint 0 errors in owned files
+  (the one repo error is blocks/faq-accordion, another worker's file — not touched, no lint:fix run).
+- Chain (both pages): localize-links --check 0, davids-model-lint PASS, delivery-lint 0/0/0, media-reconcile
+  13 hosted, sanitise unchanged, deploy-batch --no-publish (ledger-landing.json) PUT + preview OK.
+  plain.html 200, one h1, 13 img / 13 alt, 0 about:error, no /img/. ai-readability strict 100 / code 100.
+  Style guard 1440/360: 5 blocks loaded, teaser + image-list flex, 3 slides (1 active), 8 cards, 11 visible
+  imgs > 0 px, 0 pageerror, overflow 0, docH 3754/5875 (US) 3782/5918 (CA); main h1 Asar 36px/54px.
+- Archetype gate pub4 (1 round): 1440 0.25 % Δh 0 · 360 1.73 % Δh −1 · content-diff 0 🔴 (no ROLE SWAP) ·
+  clip 0 · crops header 100.00 / 99.86 %, footer 100.00 / 99.23 % (360 --y-b +1) · chrome-parity (fresh
+  live probe) = the 2 DA logo hashes · motion 10 parity + 3 parity (360 mobile nav), 0 missing ·
+  gate-all PASS 1440 + 360 (private state stardust/.work/rollout/landing/state-gate-all.json).
+- Sibling ca-en-html: variance probe 9 probes 0 varying (no variant); A′ clone
+  (probes/clone.mjs: main hrefs → /ca/en, en-CA chrome from the CA prototype, Home current) →
+  migrate.mjs render; document = archetype document with /ca/en hrefs (capture main identical modulo
+  locale, probes/main-refs.mjs). gate-all 1440 0.25 % Δh 0 · 360 1.46 % Δh 0, PASS both; CA chrome crops
+  header 100.00 / 99.87 %, footer 100.00 / 99.13 %; chrome-parity = logo hashes + CA footer Δw −2px
+  (queued by members-only). content-diff live vs preview 0 🔴; capture vs preview 15 🔴 = unstyled
+  capture tier (ROLE SWAP eyebrow/body, ICON DIFF), counts equal.
+- Deviations (both pages): `heading-level` (R-01), `attribute` (hidden Previous/Next labels → aria-label, #100).
+- Residual 🟡: Climbing NZ image title == alt, dropped by the pipeline.
+
+## Run 3 — C-archetype static / us-en-about-us-html + /ca/en sibling (cluster `static`, preview only)
+
+- Block `contributor-card` (NEW; the older `contributors` block rebuilt text from `textContent` — EW-banned —
+  and is not reused). Reconstructive (repeat group): one authored row per person, image | text (h3 name,
+  h5 role, `<ul>` of social links, each `<a href title="source aria-label">Label</a>`); nodes classified by
+  content, flattened single-row segmentation, leftovers pass, re-entrant. Each card is `section.contributor`
+  (units.json build selector) > `.contributor-image` (picture `display: contents`, inline 164×164 img, 50 %
+  radius, cover) / `.contributor-name` / `.contributor-role` / `.contributor-social` (authored ul moved; the
+  title becomes aria-label; generated text-free glyph span `contributor-social-icon-<network>` from the link
+  LABEL — several source hrefs are `#`; label moved into a hidden span, `@ew-exempt`). Kumar Selveraj keeps
+  Facebook–Instagram–Twitter; avatar alt empty as on live. Grid undoes the wrapper gutter (−14px) so the
+  columns are 25 % of 1164px as the source aem-Grid.
+- Schema `stardust/eds-schema/us-en-about-us-html.json` from the annotated copy
+  `stardust/.work/rollout/static/annotated.html` (grids as `data-section`, card `<section>`s demoted to divs in
+  the copy only): 2 sections, 4 + 3 uniform units (2 headings, 3 ctas, 1 img). style-fingerprint: no groups.
+- Document: metadata (Title, Description, Template static; no Image — the source has no og:image) + one
+  section: h1, h2 + intro, contributor-card, h2 + intro, contributor-card; section style `text-small`.
+  Headings reconciled 18 = h1 1 + h2 2 + h3 7 + h5 7 + footer h4 1. Encoder
+  `stardust/.work/rollout/static/probes/encode.mjs` (capture → DA doc) reproduces it byte-identical.
+- Interim scoped section rules (foundation requests): default-content wrapper as a flex column (source
+  columns are BFCs: h1→h2 gap 40.5px, not the collapsed 27px); h1 without the underline (h2s keep it).
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 21/21; qa-gate 16 ok / 1 fail = the 2560
+  content-cap probe-tier artifact (as listing); measure.mjs prototype vs harness 1440/360: scrollHeight
+  1604/3730 both, every h1/h2/p/card Δ 0; lint 0 errors in own files (faq worker's files had 2 at the time).
+- Media: 7 avatars → `media/static/` (media-ledger-wknd.json); 5 big-endian-Exif files (all orientation 1)
+  uploaded APP1-stripped (stardust/.work/rollout/static/media/). media-reconcile 7 hosted; plain.html 200,
+  one h1, 7 img/alt, 0 about:error, no /img/.
+- Archetype gate (preview): pub1 1440 0.10 % / 360 0.19 % Δh 0 but unit-geometry 7 off (the pipeline's inline
+  `<picture>` box 164×23 paired with the source img) → `picture { display: contents }` (push 5ea9827).
+  pub2 (2 of 3 rounds): 1440 0.10 % Δh 0 · 360 0.19 % Δh 0 · 0 structural 🔴 (main 0 findings) · clip 0 ·
+  units 42/42 within · crops header 100.00 / 99.86 %, footer 100.00 / 100.00 % · chrome-parity 2 = DA logo
+  hashes · motion 4 parity / 0 missing (`motion/us-en-about-us-html-delivered.json`) · gate-all PASS 1440 +
+  360 (private state stardust/.work/rollout/static/state-gate-all.json). Style guard: flex grid, 7 cards,
+  21 buttons named + glyphed, 7 imgs > 0px, 0 pageerror.
+- Sibling ca-en-about-us-html: variance 0 deltas (8 probes) → no variant; A′ clone (probes/clone.mjs, en-CA
+  chrome from the members-only prototype) → migrate render; DA doc = archetype doc (no internal links in
+  main). content-diff capture→preview main 40/40, 7/7 img, 21/21 aria-labels, 0 🔴. gate-all 1440 0.11 % /
+  360 0.14 % Δh 0 PASS; CA chrome crops header 100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity =
+  logo hashes + CA footer Δw −2px (queued by members-only). Sidecar gatesPassed 7/7, modules [contributor-card].
+- Residual 🟡: the pipeline derives an og:image from the first avatar (the source page has none).
+
+## Run 3 — C-archetype faq / us-en-faqs-html + /ca/en sibling (cluster `faq`, preview only)
+
+- Blocks (new; old `accordion` / `faq-sidebar` not reused — summary/innerHTML rebuild, retagging):
+  `faq-accordion` reconstructive (one row per question: question cell | answer cell; a one-cell row
+  splits on its first heading). Header row = generated `div.header[role=button]` (tabindex 0,
+  Enter/Space, aria-expanded/controls) hosting `.title` > the authored h3 — EW7: no `<button>` hosts
+  text; the h3 fills the source UA-button box (padding 13.33px, +8px left, 2px #ebebeb rule, none while
+  expanded) through descendant selectors; the question's own nodes sit in a style-free `span.label`
+  inside the h3, as the source's span.cmp-accordion__title (classifier parity: eyebrow on both sides).
+  Glyph = empty `span.toggle-icon` (wknd-icon-font U+E911 / U+E910, absolute at the source float's
+  position; `.icon` was avoided — the global 24×24 utility). Live state classes
+  (`cmp-accordion__button--expanded`, `cmp-accordion__panel--expanded/--hidden`), `@keyframes fadeIn`
+  .5s, multi-open, all collapsed at rest (dynamics row 5). `help-contact-block` template-slotted
+  (`.title` + `.body`; separator = 18px padding-top, flow-root). davids-model D1 🟡 on it: kept as a
+  block — it is the source's 3/12 aside column (placement + spacing), plan.json `convert`.
+- FAQ layout (interim in faq-accordion.css, foundation request): `main > .section.faq-accordion-container
+  .help-contact-block-container` grid 66.6667 % / 8.3333 % / 25 % ≥1025 (cap 1164), aside unguttered
+  ≤1024, lead image `p:has(img)` margin 0 / line-height 27px / inline img 7px margins, 8-of-12 widths.
+  The pre-replica `.section.faq` rule in styles.css is not used (request: remove).
+- Schema `stardust/eds-schema/us-en-faqs-html.json` from the annotated copy
+  `stardust/.work/rollout/faq/annotated.html`. Encoder `stardust/.work/rollout/faq/probes/gen-faq.mjs`
+  (hydrated capture → DA doc) reproduces the archetype doc byte-identical; /ca/en doc = /us/en doc.
+- Pipeline carries: the verbatim `<h3>&nbsp;</h3>` (answer 2) is delivered as an empty h3 → its 36px line
+  restored by `.panel :is(h2…h6):empty::before { content: "\a0" }` (open-state docH 1895 = prototype).
+  Lead image adobestock-277768563 is big-endian Exif (orientation 1) → APP1-stripped copy uploaded to
+  `media/faq/` (stardust/.work/rollout/faq/probes/strip-exif.mjs).
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 16/16; qa-gate PASS 16/0/0; harness
+  geometry = prototype ±0.3px (1440 / 360 / 1440 with items 1+2 open); lint 0 errors.
+- Chain (both pages): localize-links check 0, davids-model-lint PASS (1 🟡 above), delivery-lint 0/0/0,
+  media-reconcile 1 hosted, sanitise, deploy-batch --force --no-publish (ledger-faq.json). `.plain.html`
+  200, one h1, 1 img/alt, 0 about:error, no /img/. Style guard: grid 776/97/291 px, 7 items collapsed,
+  image 748 / 212 px, docH 1672 / 2017 (US), 1701 / 2060 (CA footer), lang en-US / en-CA, 0 pageerror.
+- Archetype gate pub1 (1 round): 1440 0.04 % Δh 0 · 360 0.86 % Δh 0 (0.3px rendition-aspect shift under
+  the lead image + text AA) · 0 structural 🔴 · clip 0 · units 7/7 (0 off) · crops header 100.00 / 99.86 %,
+  footer 100.00 / 99.99 % · chrome-parity 2 = DA logo hashes · gate-all PASS 1440 + 360 (state copy
+  stardust/.work/rollout/faq/state-gate-all.json) · motion 8 parity / 0 missing / 0 extra
+  (`motion/us-en-faqs-html-delivered.json`) · ai-readability code 100 %.
+- Sibling ca-en-faqs-html: variance 0 deltas (no variant); A′ clone stardust/.work/rollout/faq/clones/
+  (en-CA chrome from the CA prototype); gate-all 1440 0.04 % Δh 0 · 360 0.89 % Δh 0, PASS both; CA chrome
+  crops header 100.00 / 99.87 %, footer 100.00 / 99.99 %; chrome-parity = the 3 queued /ca/en deltas.
+- Residual 🟡: EXTRA TITLE on the help links (decorateButtons default title → request).
+
+## Run 3 — C-archetype magazine-listing / us-en-magazine-html + /ca/en sibling (cluster `magazine-listing`, preview only)
+
+- Block `members-only-teaser` (NEW, reconstructive; the older `members-only` block rebuilt text from
+  `textContent` — EW-banned — and is not reused). One row per locked teaser, cells by content: image |
+  title cell (h2, plus the description when the source's is rich text `<p>`) | plain-text description
+  cell (source bare text) | action cell ("Read More" plain text on /us/en, the captured link on /ca/en).
+  The cell split is the only content-carrying way to keep the source's two description modes: the
+  pipeline delivers a one-paragraph cell bare and wrapTextNodes re-wraps it, so a lone-cell `<p>` puts
+  its slot in `div.description.plain` (no paragraph margin — teaser 2 is 383px on live, 396px when both
+  keep the margin; unit-geometry pub1 caught it). Every authored `<p>` survives (EW 6/6); the grey action
+  box is painted on the authored paragraph through `.action p` (the text box the source paints — unit
+  pairing), a linked action is the source `.cmp-teaser__action-link` (yellow, float) inside it;
+  decorateButtons classes + derived title undone. Lock glyph `::before` U+E98F (wknd-icon-font, top 49px),
+  `.inner` opacity .65, `picture { display: contents }`, img inline. Hook `div.item.members-teaser`
+  (units.json build selector). davids-model D3 🟡 (rows 3 / 4 cells) is that split, by design.
+- Reused read-only, unchanged: `featured-teaser` (CTA "Read More" = content), `image-list` (5 cards);
+  section style `plain-title` (interim rule in image-list.css) on the h1 + featured-teaser section.
+- Schema `stardust/eds-schema/us-en-magazine-html.json` from the annotated copy
+  `stardust/.work/rollout/magazine-listing/annotated.html` (3 sections; 5 × LI + 2 × DIV units).
+  style-fingerprint: no groups. Encoder `stardust/.work/rollout/magazine-listing/probes/gen-magazine.mjs`
+  (hydrated capture → DA doc) writes both documents.
+- Local asserts: block-roundtrip --ew per block + page 0 🔴, EW 22/22 (US vs prototype, CA vs A′ clone);
+  measure.mjs harness vs prototype 1440/360: scrollHeight 2531/4410 both, every h1/h2/card/teaser/img Δ 0;
+  harness CA teasers = live CA (424/411px, action 168×63, link 140×49); qa-gate 17 ok / 2 instrument
+  FAILs (float-laid teasers not counted by the grid/flex/li/article proxy — units.json PASS on the
+  preview; the 2560 content-cap probe-tier artifact); lint 0 errors.
+- Media: 8 editorial images → wknd `media/magazine-listing/` (media-ledger-wknd.json); skitouring5sjoeberg
+  big-endian Exif (orientation 1) uploaded APP1-stripped. media-reconcile 8 hosted; plain.html 200, one
+  h1, 8 img/alt, 0 about:error, no /img/. ai-readability strict 100 / code 100 (both pages).
+- Archetype gate (preview): pub1 1440 1.28 % but unit-geometry 4 off (action text box, picture box,
+  teaser 2 +13px) → cell model fix (push 4ce1d6a). pub2 (2 of 3 rounds): 1440 0.23 % Δh 0 · 360 0.09 %
+  Δh 0 · content-diff main 0 findings · clip 0 · units 7/7, 0 off · crops header 100.00 / 99.86 %, footer
+  100.00 / 100.00 % · chrome-parity 2 = DA logo hashes · motion 4 parity / 0 missing
+  (`motion/us-en-magazine-html-delivered.json`) · gate-all PASS 1440 + 360 (private state
+  stardust/.work/rollout/magazine-listing/state-gate-all.json; units cache deleted per round — a stale
+  360 cache read as 2 off at 1440). Style guard: featured flex, image-list flex, 5 cards, 2 teasers
+  glyph + .65, 8 imgs > 0px, docH 2531 / 4410 = prototype, 0 pageerror.
+- Sibling ca-en-magazine-html: variance 7 probes, 1 varying = the teaser action (linked "Read More",
+  97×35 → 168×63, teaser 396 → 424) — an authored link rendered by the same block CSS, no variant class;
+  A′ clone (probes/clone.mjs: /ca/en hrefs, captured action links, en-CA chrome, Magazine current) →
+  migrate render. gate-all 1440 0.24 % / 360 0.09 % Δh 0 PASS; docH 2587 = live; CA chrome crops header
+  100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity = logo hashes + CA footer Δw −2px (queued).
+  content-diff live vs preview 0 🔴 (main 25/25, 8/8 img); capture vs preview 15 🔴 = capture tier.
+  Sidecars gatesPassed 6 (archetype) / 7 (sibling), modules [featured-teaser, image-list, members-only-teaser].
+
+## Run 3 — C-archetype article / us-en-magazine-guide-la-skateparks-html + 7 /ca/en siblings (cluster `article`, preview only)
+- Blocks (7f81d40, a130122, 360bd06): pull-quote (+ `plain`), download-card, author-byline-card, up-next-list
+  (+ interim article layout: article-lead/body/aside section styles, breadcrumb grid, `plain-title`, image
+  caption); reused read-only: breadcrumb, share-bar. Documents + renders + sidecars + ledger: 47e959b.
+- Archetype gate (preview, 2 of 3 rounds): pub2 1440 0.09 % Δh 0 · 360 2.85 % Δh −2 · content-diff 0 🔴 ·
+  clip 0 · MISSING/HIDDEN 0 · units 4, 0 off · crops header 100.00 / 99.86 %, footer 100.00 / 99.23 % ·
+  motion 5 parity / 0 missing · gate-all PASS 1440 + 360. chrome-parity 1440 = 2 DA logo hashes; 360 = the
+  2 hashes + 11 uniform footer Δy +2 px: the page is 2 px taller — DA renditions carry a different aspect
+  than the source's 360w renditions (hero 186.36 vs 185.91 px), the sub-pixel offset rounds to +1…+2 px
+  down the page (also the 360 pixel % vs the prototype's 0.15 %; text 6.96 %). No chrome difference.
+- Siblings (A′ clones, 7): published 1440 arctic 0.03 · alaskan 0.06 · guide 0.09 · ski 0.11 · w-australia
+  0.71 · fly-fishing 5.35 (Δh 237) · san-diego 7.76 (Δh 60). Causes: fly-fishing — the CSS-only caption
+  selector `p:has(img) + p:has(em:only-child)` matched the closing body paragraph (one inline <em>
+  "onceinalifetime") → 14px uppercase, −237 px; san-diego — `plain-title` switched the body to block flow,
+  collapsing p 13.5 + h2 27 (the source's empty .aem-Grid clearfix keeps them apart, −13.5 × 4) and the
+  caption sat 7 px high (−10.5 vs −3.5 px). Fix ca1b14a + 4c06321 (JS `p.image-caption`, em-only and no
+  strong — the guide's <em><strong> addresses stay body; flex body kept; caption −3.5 px). NOT PUSHED
+  (GitHub 401 from this session) → gated by simulation (sim-proxy.mjs: preview + local up-next-list):
+  1440 san-diego 0.46 % Δh −1, fly-fishing 0.02 % Δh 0, the other 5 unchanged; 360 all 7 2.16–4.04 % Δh −1/−2.
+  Published 360 (pre-fix code): 6 PASS 2.69–6.83 %, san-diego FAIL 10.13 %.
+- content-count: capture → preview main counts equal on all 7 (🔴 = unstyled-capture ROLE SWAP / ICON tier);
+  live → preview (sim) 0 🔴 ×7. Residual 🟡: avatar MISSING/EXTRA ICON = DA media naming; san-diego img
+  title == alt dropped by the pipeline (deviation logged).

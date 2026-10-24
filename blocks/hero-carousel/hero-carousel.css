@@ -76,6 +76,13 @@
   line-height: 54px;
 }
 
+/* R-01 guard (CANON.md h1 note, prototype us-en-html.css): the home's one <h1>
+   (slide 1 title) renders as the source h2 — canon h1 40px must never reach it */
+.hero-carousel h1 {
+  font-size: 36px;
+  line-height: 54px;
+}
+
 .hero-carousel .description {
   margin: 0;
   font-size: 18px;

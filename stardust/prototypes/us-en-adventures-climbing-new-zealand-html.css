@@ -1,0 +1,149 @@
+/* stardust:replica — wknd.site /us/en/adventures/climbing-new-zealand.html recreation
+   (layer 2 of 2: adventure-detail "program" modules). Loaded AFTER canon.css.
+   Every value is lifted from the source stylesheet
+   (stardust/replica/capture/css/clientlib-site…css) and checked against the live computed
+   styles (measure.mjs, stardust/.work/replica/bg/nz-measure-live1.log).
+   Source breakpoints kept verbatim: 767/768, 1024/1025.
+   Shared modules (breadcrumb, share-bar, h1/h5 sizes, active nav item) live in canon.css since
+   canon2; trip-gallery / trip-facts / content-tabs / rich-text bullets are program-only. */
+
+/* canon2: h1 40px / h5 14px, the active nav item (li.is-active), the breadcrumb module and the
+   share-bar module moved to canon.css unchanged; compensations removed. */
+
+/* ---------- trip gallery carousel (source: .cmp-carousel, .cmp-carousel--mini) ---------- */
+.trip-gallery { padding-left: 0; padding-right: 0; }
+.trip-gallery__carousel { width: 100%; }
+.trip-gallery__content { position: relative; }
+.trip-gallery__item { display: none; animation: fadeIn .5s both; }
+.trip-gallery__item.cmp-carousel__item--active { display: block; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.trip-gallery__image img {
+  display: inline;
+  width: 100%;
+  height: 400px;
+  min-height: 400px;
+  margin: 7px 0;
+  object-fit: cover;
+  object-position: center;
+}
+.trip-gallery__actions { float: right; margin-top: 0; }
+.trip-gallery__action {
+  appearance: none;
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  margin-right: 13.3333px;
+  padding: 1px 0 1px 6px;
+  background: none;
+  border: none;
+  color: #000;
+  font: 13.3333px Arial;
+  text-align: center;
+  cursor: pointer;
+}
+.trip-gallery__action-icon { cursor: pointer; font-family: var(--font-icon); font-size: 20px; line-height: 20px; } /* live computed (no rule in the captured sheets) */
+.trip-gallery__action-icon::before { font-family: var(--font-icon); }
+.trip-gallery__action--previous .trip-gallery__action-icon::before { content: "\e90f"; }
+.trip-gallery__action--next .trip-gallery__action-icon::before { content: "\e90e"; }
+.trip-gallery__action-text { display: none; }
+.trip-gallery__indicators { display: flex; flex-wrap: wrap; justify-content: center; list-style: none; margin: 9px 0 0; padding: 0; cursor: pointer; }
+.trip-gallery__indicator {
+  position: relative;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin: 0 7px;
+  border-radius: 50%;
+  background-color: #afafaf;
+  font-size: 0;
+  text-indent: -3000px;
+}
+.trip-gallery__indicator.cmp-carousel__indicator--active { background-color: rgba(0, 0, 0, .8); }
+
+/* ---------- fixed layout container + 12-col grid (source: .cmp-layout-container--fixed,
+   .aem-Grid / .aem-GridColumn — float model, clearfix tables) ---------- */
+.trip-layout { padding: 0 var(--gutter); }
+.trip-grid { display: block; width: 100%; }
+.trip-grid::before, .trip-grid::after { content: " "; display: table; }
+.trip-grid::after { clear: both; }
+.trip-grid__col { box-sizing: border-box; float: left; clear: none; width: 100%; padding: 0 var(--gutter); }
+.trip-grid__col--flush { padding-left: 0; padding-right: 0; }
+.trip-grid__col--3 { width: 25%; }
+.trip-grid__col--9 { width: 75%; }
+
+/* ---------- underlined page title (source: .cmp-title--underline) ---------- */
+.trip-title h1 { margin: 27px 0 13.5px; }
+
+/* ---------- trip facts (source: .cmp-contentfragment--elements) ---------- */
+.trip-facts__title, .trip-content__title { display: none; }
+.trip-facts__list { display: block; float: left; width: 100%; }
+.trip-facts__item {
+  float: left;
+  width: 100%;
+  height: 84px;
+  margin-bottom: 1.25em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-left: 5px solid var(--surface-grey);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  box-sizing: content-box;
+}
+.trip-facts__label { padding-top: 1em; color: dimgray; font-size: var(--fs-xsmall); }
+.trip-facts__value { margin-inline-start: 0; padding-top: .5em; font-size: var(--fs-small); font-weight: 600; }
+
+/* ---------- content tabs (source: .cmp-tabs) ---------- */
+.content-tabs__tablist { display: flex; flex-wrap: wrap; margin: 18px 0; padding-left: 0; list-style: none; }
+.content-tabs__tab {
+  box-sizing: border-box;
+  min-width: var(--button-size);
+  max-height: var(--button-size);
+  padding: .5rem 1rem;
+  border-bottom: 1px solid transparent;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.content-tabs__tab:focus { outline: none; }
+.content-tabs__tab.cmp-tabs__tab--active { background-color: #202020; border: none; border-color: inherit; color: #fff; }
+.content-tabs__panel { display: none; }
+.content-tabs__panel.cmp-tabs__tabpanel--active { display: flow-root; }
+
+/* tab body: rich text + images (source: .cmp-contentfragment ul/li, .cmp-image) */
+.trip-content__break { display: flow-root; }
+.trip-content__image { display: flow-root; }
+.trip-content__image img { width: 100%; height: auto; margin: 7px 0; }
+.trip-content ul { display: block; margin: 1em 0; padding: 0; list-style-type: none; }
+.trip-content li { display: list-item; padding-left: 12px; line-height: 2; text-align: match-parent; }
+.trip-content ul li::before {
+  content: "\ea1c";
+  position: relative;
+  top: -.25em;
+  left: -.75em;
+  font-family: var(--font-icon) !important;
+  font-size: .55em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- breakpoints (source values) ---------- */
+@media (min-width: 1025px) {
+  .trip-layout { clear: both; display: block; float: unset; max-width: 1164px; margin: 0 auto; box-sizing: content-box; }
+}
+
+@media (max-width: 1024px) {
+  .trip-facts__item { width: unset; padding-left: 0; padding-right: 2em; border-left: none; }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .trip-grid__col--3, .trip-grid__col--9 { width: 100%; }
+}
+
+@media (max-width: 767px) {
+  .trip-grid__col--3, .trip-grid__col--9 { width: 100%; }
+}

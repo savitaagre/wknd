@@ -1,0 +1,91 @@
+/* breadcrumb — values lifted verbatim from the gated replica canon
+   (stardust/prototypes/canon.css: .breadcrumb-bar, .breadcrumb*; source
+   .cmp-breadcrumb, .cmp-breadcrumb--fixed). */
+
+/* the wrapper is the source .breadcrumb-bar: a 1164px CONTENT box + 14px padding */
+main > .section > .breadcrumb-wrapper {
+  box-sizing: content-box;
+  max-width: 1164px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.breadcrumb .trail {
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb .items {
+  margin: 0;
+  padding: 0 12px 0 0;
+  border-radius: 0;
+  font-size: var(--fs-small);
+  list-style: none;
+}
+
+.breadcrumb .item {
+  display: inline-block;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.breadcrumb .item:not(.item + .item) {
+  padding-left: 0;
+}
+
+.breadcrumb .item + .item::before {
+  content: "\ea1c";
+  padding-right: 5px;
+  color: var(--brand-yellow);
+  font-family: var(--font-icon) !important;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* authored paragraphs sit inline in the item (source: a bare span / link) */
+.breadcrumb .item p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
+
+.breadcrumb .item a:any-link {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* variant `breadcrumb (grid)` (article template; source .cmp-breadcrumb without --fixed):
+   the trail is a 12/12 grid column of the fixed container — a 1164px border box with
+   14px gutters (not the --fixed 1164px content box), list 1em below the lead image +
+   12px padding (0 margin ≤1024) */
+main > .section > .breadcrumb-wrapper:has(> .breadcrumb.grid) {
+  box-sizing: border-box;
+}
+
+.breadcrumb.grid .items {
+  margin-top: 1em;
+  padding-top: 12px;
+}
+
+@media (width <= 1024px) {
+  .breadcrumb.grid .items {
+    margin-top: 0;
+  }
+}
+
+@media (width <= 767px) {
+  .breadcrumb .items {
+    font-size: var(--fs-xsmall);
+  }
+}

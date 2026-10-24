@@ -1,0 +1,146 @@
+{
+  "slug": "ca-en-adventures-beervana-portland-html",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "us-en-adventures-climbing-new-zealand-html",
+  "modules": [
+    "breadcrumb",
+    "trip-gallery-carousel",
+    "trip-facts",
+    "share-bar",
+    "content-tabs"
+  ],
+  "slotsFilled": [
+    "breadcrumb-bar",
+    "trip-gallery",
+    "trip-layout"
+  ],
+  "canonShas": {
+    "header": "8617966a44a6",
+    "footer": "4732704595ea",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Beervana in Portland",
+    "description": "This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition.",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Beervana in Portland",
+    "description": "This adventure will provide insider access to spectacular local breweries that define the taste and experience of Oregon beer culture and tradition.",
+    "url": "https://wknd.site/ca/en/adventures/beervana-portland.html"
+  },
+  "migratedAt": "2026-10-23T15:51:38Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "853008f38f9d",
+  "sourceProposedSha": "0870c6142ca6",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-adventures-climbing-new-zealand-html",
+  "archetypeSha": "ec9db013e6a7",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs us-en climbing-new-zealand @1440: stardust/.work/rollout/program/variance.json (gallery/facts/breadcrumb; facts delta → trip-facts--grid on 8)",
+    "delivery-lint": "delivery-lint 0 P0/P1/P2; davids-model-lint 0 🔴",
+    "media-reconcile": "media-reconcile all hosted (ledger stardust/deploy/media-ledger-wknd.json); plain.html 0 about:error",
+    "pixel-gate-1440": "gate-all PASS on the preview host: stardust/replica/gates/all-1440/runs/2026-10-23T16-14-05-311Z-ca-en-adventures-bali-surf-camp-html.json",
+    "pixel-gate-360": "gate-all PASS on the preview host: stardust/replica/gates/all-360/runs/2026-10-23T16-27-28-183Z-ca-en-adventures-bali-surf-camp-html.json",
+    "content-count": "content-diff capture→preview stardust/.work/rollout/program/content-diff/ca-en-adventures-beervana-portland-html.txt: 0 MISSING BODY/CTA/IMG beyond the hidden Previous/Next labels; MISSING TITLE only where title == alt (pipeline drop); ROLE SWAP/ICON = unstyled capture",
+    "content-fidelity": "verbatim from stardust/current/pages/ca-en-adventures-beervana-portland-html.html by the archetype encoder (stardust/.work/rollout/program/probes/encode.mjs); block-roundtrip --ew 0 🔴; content-presence MISSING 0 / HIDDEN 0 at 1440 + 360"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/magazine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/faqs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/en/about-us.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/adventures/beervana-portland.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/adventures/beervana-portland._meta.json",
+  "driverVersion": "1"
+}

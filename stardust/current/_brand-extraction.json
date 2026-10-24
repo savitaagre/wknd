@@ -1,43 +1,90 @@
 {
   "_provenance": {
     "writtenBy": "stardust:extract",
-    "writtenAt": "2026-10-16T12:30:00Z",
+    "writtenAt": "2026-10-23T07:52:17.487Z",
+    "scope": "site, 65 pages (+ index alias of /us/en), --prep",
     "readArtifacts": [
-      "https://wknd.site/us/en.html",
-      "stardust/current/pages/us-en-html.json",
-      "stardust/current/pages/us-en-html.html",
-      "stardust/current/_computed-styles.json",
+      "stardust/current/_computed-styles.json (aggregate + pages[url][360|1440], 65 pages × 2 widths)",
+      "stardust/current/pages/*.json (65 records + index alias)",
+      "stardust/current/pages/*.html (66 rendered DOM sidecars)",
+      "stardust/current/_crawl-log.json#visionCheck",
       "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css",
-      "stardust/replica/capture/css/google-fonts.css"
+      "stardust/replica/capture/css/google-fonts.css",
+      "stardust/current/assets/media/_index.tsv"
     ],
     "synthesizedInputs": [],
     "stardustVersion": "plugin@excat-extended",
+    "supersedes": "pilot 2026-10-16 (scope: /us/en only, --single)",
     "notes": [
-      "Single-page (--single) extraction: aggregation scope is the home page only; cross-page modes are not available.",
-      "Palette has 9 census clusters; the two 5%-white border and 80%-black scrim values are kept as accents (palette cap 8 → #afafaf dropped, recorded here).",
-      "Fonts and media were not saved by crawl.mjs; they were harvested by plain browser-UA curl from the URLs in the rendered DOM / Google Fonts CSS (assets are not bot-gated on this origin)."
+      "Palette: 11 census clusters; capped at 8 by weight. Dropped: #000000cc (68; background; e.g. #container-bec52d3c6f > div > div:nth-of-type(1) > div > div > ol > li:nth-of-type(1) on ca-en-html); #000000 (56; button-text/text; e.g. #accordion-ac68ae73b1 > div:nth-of-type(1) > h3 > button on ca-en-faqs-html); #cccccc (2; border; e.g. main > div > div > div > section > form > div > input on us-en-ai-powered-search-html).",
+      "Radius: home-only and cross-page agree that the dominant visual radius is 0; cross-page adds 30px (article byline avatars) — see motifs.homeVsCrossPage.",
+      "CSS references 30+ custom properties (--brandPrimary, --textColor, --fontSizeH1 …) only as var() fallbacks; none is defined on any page (records customProps = {} ×65, census customProps empty).",
+      "Gradients: census found none (it does not read pseudo-elements); the one deployed gradient (members-only lock corner) is cited from the stylesheet.",
+      "Media harvest: 259 unique canonical sources (media.imgs + DOM img src/srcset, data-cmp-src, inline style backgrounds; AEM .coreimg rendition selectors collapsed), 0 failures; see _index.tsv.",
+      "Fonts: every loaded face is covered locally; files verified byte-identical to their source URLs.",
+      "Header and footer each have three variants (en-US, en-CA, coming-soon locale placeholder); see systemComponents.",
+      "Adventure detail pages come in two DOM sub-templates of 8 trips each (×2 locales): single-image vs multi-slide gallery carousel, components with vs without aem-GridColumn wrappers; the rendered module set is the same."
     ]
   },
   "site": {
     "name": "WKND",
     "tagline": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
-    "originUrl": "https://wknd.site"
+    "originUrl": "https://wknd.site",
+    "locales": [
+      "us/en",
+      "ca/en",
+      "us/es",
+      "ca/fr",
+      "ch/de",
+      "ch/fr",
+      "ch/it",
+      "de/de",
+      "fr/fr",
+      "es/es",
+      "it/it"
+    ],
+    "contentLocales": [
+      "us/en",
+      "ca/en"
+    ],
+    "placeholderLocales": [
+      "ca-fr-html",
+      "ch-de-html",
+      "ch-fr-html",
+      "ch-it-html",
+      "de-de-html",
+      "es-es-html",
+      "fr-fr-html",
+      "it-it-html",
+      "us-es-html"
+    ]
   },
   "origins": [
     {
       "origin": "https://wknd.site",
       "role": "primary",
-      "pages": [
-        "us-en-html"
-      ]
+      "pagesCaptured": 65,
+      "pageTypes": {
+        "static": 2,
+        "program": 32,
+        "listing": 2,
+        "faq": 2,
+        "landing": 2,
+        "article": 12,
+        "magazine-listing": 2,
+        "members-only-listing": 1,
+        "coming-soon": 9,
+        "unique": 1
+      },
+      "contributedSignals": []
     }
   ],
   "logo": {
-    "kind": "img-svg",
     "source": "img",
-    "selector": "#image-1f45f4e6a7 > a > img",
+    "sourceSelector": "#image-1f45f4e6a7 > a > img",
     "url": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
     "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
     "alt": "WKND Logo",
     "rect": {
       "x": 152,
@@ -45,261 +92,1294 @@
       "width": 128,
       "height": 48
     },
+    "censusSource": {
+      "url": "https://wknd.site/ca/en.html",
+      "width": 1440
+    },
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "samePerPage": "identical header logo (#image-1f45f4e6a7, wknd-logo-dk.svg) on all 66 sidecars",
     "variants": [
       {
+        "name": "dark (header)",
+        "url": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/header/master/_jcr_content/root/container/container_1195249223/image.coreimg.svg/1594412560447/wknd-logo-dk.svg",
+        "localPath": "stardust/current/assets/logo.svg",
+        "alsoAt": "stardust/current/assets/media/wknd-logo-dk-7d35ea9d.svg"
+      },
+      {
         "name": "light (footer)",
+        "url": "https://wknd.site/content/experience-fragments/wknd/language-masters/en/site/footer/master/_jcr_content/root/container/container/image.coreimg.svg/1594412963641/wknd-logo-light.svg",
+        "selector": "#image-377462e50f img",
         "localPath": "stardust/current/assets/media/wknd-logo-light-0e567a4d.svg"
       }
+    ],
+    "variantsNotCaptured": [
+      "monochrome / single-colour mark",
+      "square app icon distinct from the favicon set"
     ]
   },
   "favicon": {
     "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-32.png",
-    "localPath": "stardust/current/assets/favicon.png"
+    "localPath": "stardust/current/assets/favicon.png",
+    "variants": [
+      {
+        "size": "128x128",
+        "rel": "icon + apple-touch-icon",
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-128.png",
+        "localPath": "stardust/current/assets/media/favicon-128-39c461e2.png"
+      },
+      {
+        "size": "152x152",
+        "rel": "icon + apple-touch-icon",
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-152.png",
+        "localPath": "stardust/current/assets/media/favicon-152-1fa0774a.png"
+      },
+      {
+        "size": "167x167",
+        "rel": "icon + apple-touch-icon",
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-167.png",
+        "localPath": "stardust/current/assets/media/favicon-167-6602d429.png"
+      },
+      {
+        "size": "180x180",
+        "rel": "icon + apple-touch-icon",
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-180.png",
+        "localPath": "stardust/current/assets/media/favicon-180-03265a39.png"
+      },
+      {
+        "size": "192x192",
+        "rel": "icon + shortcut icon",
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-192.png",
+        "localPath": "stardust/current/assets/media/favicon-192-3c81bcfb.png"
+      },
+      {
+        "size": "512x512",
+        "rel": "icon",
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/favicons/favicon-512.png",
+        "localPath": "stardust/current/assets/media/favicon-512-fe5f6d28.png"
+      }
+    ],
+    "source": "<head> link[rel*=icon] (identical on all sidecars)"
   },
   "palette": [
     {
       "role": "background",
+      "label": "page ground",
       "value": "#ffffff",
-      "occurrences": 8282806,
-      "usedAs": [
-        "background"
+      "values": [
+        "rgb(255, 255, 255)"
       ],
-      "sourceSelectors": [
-        "body"
+      "occurrences": 353,
+      "bgArea": 368264268,
+      "by": {
+        "background": 277,
+        "link": 4,
+        "text": 72
+      },
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "body",
+          "prop": "background"
+        },
+        {
+          "url": "https://wknd.site/us/en.html",
+          "slug": "us-en-html",
+          "selector": "body",
+          "prop": "background"
+        },
+        {
+          "url": "https://wknd.site/ca/en/adventures.html",
+          "slug": "ca-en-adventures-html",
+          "selector": "body",
+          "prop": "background"
+        }
+      ],
+      "sourcePages": [
+        "ca-en-html",
+        "us-en-html",
+        "ca-en-adventures-html"
       ]
     },
     {
       "role": "text-primary",
+      "label": "ink — text, footer band, active tab",
       "value": "#202020",
-      "occurrences": 1342216,
-      "usedAs": [
-        "text",
-        "background",
-        "border"
+      "values": [
+        "rgb(32, 32, 32)"
       ],
-      "sourceSelectors": [
-        "nav ul li ul li a",
-        "h2",
-        "#container-e4d23bfdbe (footer) background",
-        ".cmp-teaser__action-link (button-text)"
+      "occurrences": 3406,
+      "bgArea": 90111178,
+      "by": {
+        "text": 2042,
+        "background": 683,
+        "button-text": 73,
+        "link": 104,
+        "heading": 504
+      },
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+          "slug": "ca-en-magazine-guide-la-skateparks-html",
+          "selector": "#navigation-9ee6d7c65a > ul > li > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
+          "slug": "us-en-magazine-guide-la-skateparks-html",
+          "selector": "#navigation-9ee6d7c65a > ul > li > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "nav > ul > li > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        }
+      ],
+      "sourcePages": [
+        "ca-en-magazine-guide-la-skateparks-html",
+        "us-en-magazine-guide-la-skateparks-html",
+        "ca-en-html"
       ]
     },
     {
       "role": "primary",
+      "label": "WKND yellow — CTA buttons, active nav item, underline rules",
       "value": "#ffea00",
-      "occurrences": 67268,
+      "values": [
+        "rgb(255, 234, 0)"
+      ],
+      "occurrences": 156,
+      "bgArea": 454136,
+      "by": {
+        "background": 83,
+        "button-background": 73
+      },
       "usedAs": [
         "background"
       ],
-      "sourceSelectors": [
-        ".cmp-teaser__action-link (background, button-background)"
-      ]
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://wknd.site/us/en.html",
+          "slug": "us-en-html",
+          "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://wknd.site/ca/en/magazine.html",
+          "slug": "ca-en-magazine-html",
+          "selector": "nav > ul > li > ul > li:nth-of-type(1) > a",
+          "prop": "background"
+        }
+      ],
+      "sourcePages": [
+        "ca-en-html",
+        "us-en-html",
+        "ca-en-magazine-html"
+      ],
+      "cssOnlyUses": [
+        {
+          "use": "text (::before glyph)",
+          "selector": ".cmp-breadcrumb__item::before",
+          "decl": "color: var(--brandPrimary,#ffea00)",
+          "source": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+        },
+        {
+          "use": "border",
+          "selector": ".cmp-title--underline .cmp-title .cmp-title__text::after",
+          "decl": "border-bottom: 2px solid var(--brandPrimary,#ffea00); width: 84px",
+          "source": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+        },
+        {
+          "use": "border",
+          "selector": ".cmp-text--quote blockquote::after",
+          "decl": "border-bottom: 2px solid var(--brandPrimary,#ffea00); width: 5pc",
+          "source": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+        }
+      ],
+      "cssOnlyNote": "pseudo-element paints are not measured by the census; usedAs reflects the census only"
     },
     {
       "role": "surface",
+      "label": "light grey — featured/quote panels, base button, light text on the dark footer (cluster incl. #f7f7f7)",
       "value": "#ebebeb",
-      "occurrences": 452771,
+      "values": [
+        "rgb(235, 235, 235)",
+        "rgb(247, 247, 247)"
+      ],
+      "occurrences": 3656,
+      "bgArea": 5575744,
+      "by": {
+        "link": 156,
+        "text": 2283,
+        "border": 378,
+        "background": 420,
+        "button-text": 289,
+        "heading": 130
+      },
       "usedAs": [
         "background",
-        "text",
-        "border"
+        "border",
+        "text"
       ],
-      "sourceSelectors": [
-        "footer a / footer p (text)",
-        "nav > ul > li > a (button-text)"
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "div > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(1) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://wknd.site/us/en/about-us.html",
+          "slug": "us-en-about-us-html",
+          "selector": "div > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(1) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "#container-e4d23bfdbe > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+          "prop": "text"
+        }
       ],
-      "notes": "cluster also holds #f7f7f7"
+      "sourcePages": [
+        "ca-en-about-us-html",
+        "us-en-about-us-html",
+        "ca-en-html"
+      ]
     },
     {
       "role": "text-secondary",
+      "label": "muted grey — card descriptions",
       "value": "#696969",
-      "occurrences": 16,
+      "values": [
+        "rgb(105, 105, 105)"
+      ],
+      "occurrences": 652,
+      "bgArea": null,
+      "by": {
+        "text": 652
+      },
       "usedAs": [
         "text"
       ],
-      "sourceSelectors": [
-        ".cmp-image-list__item-description"
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en/adventures.html",
+          "slug": "ca-en-adventures-html",
+          "selector": "#tabs-7e3beaf10b-item-aebc54e75d-tabpanel > div > ul > li:nth-of-type(1) > article > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://wknd.site/us/en/adventures.html",
+          "slug": "us-en-adventures-html",
+          "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(1) > article > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://wknd.site/us/en/magazine.html",
+          "slug": "us-en-magazine-html",
+          "selector": "main > div > div > div:nth-of-type(4) > ul > li:nth-of-type(1) > article > span",
+          "prop": "text"
+        }
+      ],
+      "sourcePages": [
+        "ca-en-adventures-html",
+        "us-en-adventures-html",
+        "us-en-magazine-html"
       ]
     },
     {
       "role": "accent-1",
+      "label": "link blue — inline and list links",
       "value": "#0045ff",
-      "occurrences": 16,
+      "values": [
+        "rgb(0, 69, 255)"
+      ],
+      "occurrences": 236,
+      "bgArea": null,
+      "by": {
+        "link": 176,
+        "button-text": 52,
+        "text": 8
+      },
       "usedAs": [
         "text"
       ],
-      "sourceSelectors": [
-        "main .cmp-image-list__item-title-link (census: link)"
-      ]
-    },
-    {
-      "role": "accent-2",
-      "value": "rgba(0, 0, 0, 0.8)",
-      "occurrences": 200,
-      "usedAs": [
-        "background"
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en/adventures.html",
+          "slug": "ca-en-adventures-html",
+          "selector": "#tabs-7e3beaf10b-item-aebc54e75d-tabpanel > div > ul > li:nth-of-type(1) > article > a:nth-of-type(2)",
+          "prop": "link"
+        },
+        {
+          "url": "https://wknd.site/us/en/adventures.html",
+          "slug": "us-en-adventures-html",
+          "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > ul > li:nth-of-type(1) > article > a:nth-of-type(2)",
+          "prop": "link"
+        },
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "#container-1bc4facb54 > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > article > a:nth-of-type(2)",
+          "prop": "link"
+        }
       ],
-      "sourceSelectors": [
-        ".cmp-carousel__indicator (census: background)"
+      "sourcePages": [
+        "ca-en-adventures-html",
+        "us-en-adventures-html",
+        "ca-en-html"
       ]
     },
     {
       "role": "border",
-      "value": "rgba(255, 255, 255, 0.05)",
-      "occurrences": 5,
+      "label": "5% white hairline — mobile-nav link borders",
+      "value": "#ffffff0d",
+      "values": [
+        "rgba(255, 255, 255, 0.05)"
+      ],
+      "occurrences": 289,
+      "bgArea": null,
+      "by": {
+        "border": 289
+      },
       "usedAs": [
         "border"
       ],
-      "sourceSelectors": [
-        "nav > ul > li > a (census: border)"
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "nav > ul > li > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "nav > ul > li > a",
+          "prop": "border"
+        },
+        {
+          "url": "https://wknd.site/ca/en/adventures.html",
+          "slug": "ca-en-adventures-html",
+          "selector": "nav > ul > li > a",
+          "prop": "border"
+        }
+      ],
+      "sourcePages": [
+        "ca-en-html",
+        "ca-en-about-us-html",
+        "ca-en-adventures-html"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "label": "mid grey — inactive carousel indicator dots",
+      "value": "#afafaf",
+      "values": [
+        "rgb(175, 175, 175)"
+      ],
+      "occurrences": 72,
+      "bgArea": 7200,
+      "by": {
+        "background": 72
+      },
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "#container-bec52d3c6f > div > div:nth-of-type(1) > div > div > ol > li:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+          "slug": "ca-en-adventures-climbing-new-zealand-html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > ol > li:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://wknd.site/ca/en/adventures/cycling-tuscany.html",
+          "slug": "ca-en-adventures-cycling-tuscany-html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > ol > li:nth-of-type(2)",
+          "prop": "background"
+        }
+      ],
+      "sourcePages": [
+        "ca-en-html",
+        "ca-en-adventures-climbing-new-zealand-html",
+        "ca-en-adventures-cycling-tuscany-html"
       ]
     }
   ],
   "type": {
-    "families": [
+    "headingFamily": {
+      "name": "Asar",
+      "stack": "Asar, Georgia, \"Times New Roman\", Times, serif",
+      "weights": [
+        400
+      ],
+      "sizes": [
+        "40px",
+        "36px",
+        "24px"
+      ],
+      "lineHeights": [
+        1.5
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "textTransform": "none",
+      "usedFor": "h1–h3, teaser titles, pull quotes (36px)",
+      "sourceSelectors": [
+        {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "main > div > div > div:nth-of-type(1) > div > h1"
+        },
+        {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "main > div > div > div:nth-of-type(2) > div > h2"
+        },
+        {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "#experiencefragment-42d2ffcda7 > div > div > div > div > div:nth-of-type(2) > div > h3"
+        }
+      ],
+      "censusCount": 352
+    },
+    "bodyFamily": {
+      "name": "Source Sans Pro",
+      "stack": "\"Source Sans Pro\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "weights": [
+        400,
+        600
+      ],
+      "weightsDeclaredButNotLoaded": [
+        300
+      ],
+      "sizes": [
+        "18px",
+        "16px",
+        "14px",
+        "12px"
+      ],
+      "lineHeights": [
+        2.5,
+        1.5
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "usedFor": "body (18px/45px paragraphs, 18px/27px list items), h4–h6 (600 uppercase), buttons/labels (14px uppercase), legal + card descriptions (12–14px)",
+      "sourceSelectors": [
+        {
+          "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+          "slug": "ca-en-adventures-bali-surf-camp-html",
+          "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div > article > div > div:nth-of-type(2) > p:nth-of-type(1)",
+          "style": "p|Source Sans Pro|18px|400|45px|rgb(32, 32, 32)"
+        },
+        {
+          "url": "https://wknd.site/ca/en/adventures.html",
+          "slug": "ca-en-adventures-html",
+          "selector": "#tabs-7e3beaf10b-item-aebc54e75d-tabpanel > div > ul > li:nth-of-type(1)",
+          "style": "li|Source Sans Pro|18px|400|27px|rgb(32, 32, 32)"
+        }
+      ],
+      "censusCount": 1220
+    },
+    "monoFamily": null,
+    "systemFallbacks": [
       {
-        "family": "Asar",
-        "role": "heading",
-        "weights": [
-          400
-        ],
-        "count": 12,
-        "source": "Google Fonts",
-        "license": "OFL (open, self-hostable)"
-      },
-      {
-        "family": "Source Sans Pro",
-        "role": "body",
-        "weights": [
-          300,
-          400,
-          600
-        ],
-        "styles": [
-          "normal",
-          "italic"
-        ],
-        "count": 31,
-        "source": "Google Fonts",
-        "license": "OFL (open, self-hostable)"
+        "family": "Arial",
+        "fontSize": "13.3333px",
+        "where": "FAQ accordion <button> elements (UA default button font — the site CSS does not set font on .cmp-accordion__button)",
+        "count": 28,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/faqs.html",
+            "slug": "ca-en-faqs-html",
+            "selector": "#accordion-ac68ae73b1 > div:nth-of-type(1) > h3 > button"
+          },
+          {
+            "url": "https://wknd.site/us/en/faqs.html",
+            "slug": "us-en-faqs-html",
+            "selector": "#container-0e3ddb0dd6 > div > div:nth-of-type(4) > div > div:nth-of-type(1) > h3 > button"
+          }
+        ]
       }
     ],
-    "headingFamily": "Asar",
-    "bodyFamily": "Source Sans Pro",
     "levels": {
+      "h1": {
+        "family": "Asar",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": "60px",
+        "lineHeightRatio": 1.5,
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "color": "rgb(32, 32, 32)",
+        "count1440": 53,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "main > div > div > div:nth-of-type(1) > div > h1"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+            "slug": "ca-en-adventures-bali-surf-camp-html",
+            "selector": "main > div > div > div:nth-of-type(1) > div > h1"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures/beervana-portland.html",
+            "slug": "ca-en-adventures-beervana-portland-html",
+            "selector": "main > div > div > div:nth-of-type(1) > div > h1"
+          }
+        ],
+        "censusScore": 411.83
+      },
       "h2": {
-        "fontSize": 36,
-        "fontWeight": 400
+        "family": "Asar",
+        "fontSize": "36px",
+        "fontWeight": 400,
+        "lineHeight": "54px",
+        "lineHeightRatio": 1.5,
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "color": "rgb(32, 32, 32)",
+        "count1440": 73,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "main > div > div > div:nth-of-type(2) > div > h2"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "main > div > div > div:nth-of-type(4) > div > h2"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures/climbing-new-zealand.html",
+            "slug": "ca-en-adventures-climbing-new-zealand-html",
+            "selector": "#contentfragment-71fd2bc6db > div > div:nth-of-type(2) > h2"
+          }
+        ],
+        "censusScore": 434.99
       },
       "h3": {
-        "fontSize": 24,
-        "fontWeight": 400
+        "family": "Asar",
+        "fontSize": "24px",
+        "fontWeight": 400,
+        "lineHeight": "36px",
+        "lineHeightRatio": 1.5,
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "color": "rgb(32, 32, 32)",
+        "count1440": 38,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#experiencefragment-42d2ffcda7 > div > div > div > div > div:nth-of-type(2) > div > h3"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#container-8bd4b02b16 > div:nth-of-type(2) > div > h3"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#title-52ebbdc8aa > h3"
+          }
+        ],
+        "censusScore": 209.23
       },
       "h4": {
-        "fontSize": 16,
-        "fontWeight": 600
+        "family": "Source Sans Pro",
+        "fontSize": "16px",
+        "fontWeight": 600,
+        "lineHeight": "24px",
+        "lineHeightRatio": 1.5,
+        "letterSpacing": "normal",
+        "textTransform": "uppercase",
+        "color": "rgb(235, 235, 235)",
+        "count1440": 65,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#container-72bbb6ce81 > div > div:nth-of-type(3) > div > h4"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+            "slug": "ca-en-adventures-bali-surf-camp-html",
+            "selector": "#container-b1a7e4d7bc > div > div:nth-of-type(3) > div > h4"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures/beervana-portland.html",
+            "slug": "ca-en-adventures-beervana-portland-html",
+            "selector": "#container-b1a7e4d7bc > div > div:nth-of-type(3) > div > h4"
+          }
+        ],
+        "censusScore": 297.83
+      },
+      "h5": {
+        "family": "Source Sans Pro",
+        "fontSize": "14px",
+        "fontWeight": 600,
+        "lineHeight": "21px",
+        "lineHeightRatio": 1.5,
+        "letterSpacing": "normal",
+        "textTransform": "uppercase",
+        "color": "rgb(32, 32, 32)",
+        "count1440": 58,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#experiencefragment-42d2ffcda7 > div > div > div > div > div:nth-of-type(3) > div > h5"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#container-8bd4b02b16 > div:nth-of-type(3) > div > h5"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#container-70b10feb3e > div:nth-of-type(3) > div > h5"
+          }
+        ],
+        "censusScore": 226.18
       }
     },
+    "responsive": {
+      "sameAt360And1440": true,
+      "note": "every heading level computes to the same size/line-height at 360 and 1440 — no responsive type scaling"
+    },
     "sizes": [
-      36,
-      24,
-      18,
-      16,
-      14
+      {
+        "px": 40,
+        "count": 106,
+        "headings": 106,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 36,
+        "count": 146,
+        "headings": 146,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 100,
+        "headings": 100,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 478,
+        "headings": 8,
+        "text": 418,
+        "buttons": 52
+      },
+      {
+        "px": 16,
+        "count": 154,
+        "headings": 154,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 14,
+        "count": 515,
+        "headings": 120,
+        "text": 33,
+        "buttons": 362
+      },
+      {
+        "px": 13.33,
+        "count": 28,
+        "headings": 0,
+        "text": 0,
+        "buttons": 28
+      },
+      {
+        "px": 12,
+        "count": 69,
+        "headings": 0,
+        "text": 69,
+        "buttons": 0
+      }
     ],
+    "weights": [
+      {
+        "weight": "400",
+        "count": 1298,
+        "headings": 352,
+        "text": 524,
+        "buttons": 422
+      },
+      {
+        "weight": "600",
+        "count": 302,
+        "headings": 282,
+        "text": 0,
+        "buttons": 20
+      }
+    ],
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizesPx": [
+        40,
+        36,
+        24,
+        16,
+        14
+      ],
+      "ratios": [
+        1.111,
+        1.5,
+        1.5,
+        1.143
+      ],
+      "matchedScale": null,
+      "basis": "h1→h5 representative sizes (census aggregate.type.levels); ratios 1.111, 1.5, 1.5, 1.143 — no single canonical ratio within ±0.025"
+    },
+    "loadStrategy": "swap (Google Fonts css2 &display=swap); icon font font-display: block",
+    "stylesheet": "https://fonts.googleapis.com/css2?family=Asar&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap (identical <link> on all 66 captured sidecars)",
     "files": [
       {
+        "url": "https://fonts.gstatic.com/s/asar/v24/sZlLdRyI6TBIbkEaDQ.woff2",
         "family": "Asar",
         "weight": 400,
         "style": "normal",
-        "path": "stardust/current/assets/fonts/asar-400.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/asar-400.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Asar'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/asar/v24/sZlLdRyI6TBIbkEaDQ.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 64,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2",
         "family": "Source Sans Pro",
         "weight": 300,
         "style": "normal",
-        "path": "stardust/current/assets/fonts/source-sans-pro-300.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/source-sans-pro-300.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 300; font-display: swap; src: url(https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 0,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
         "family": "Source Sans Pro",
         "weight": 400,
         "style": "normal",
-        "path": "stardust/current/assets/fonts/source-sans-pro-400.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/source-sans-pro-400.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/sourcesanspro/v24/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 65,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2",
         "family": "Source Sans Pro",
         "weight": 600,
         "style": "normal",
-        "path": "stardust/current/assets/fonts/source-sans-pro-600.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/source-sans-pro-600.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 600; font-display: swap; src: url(https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 65,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18Q.woff2",
         "family": "Source Sans Pro",
         "weight": 300,
         "style": "italic",
-        "path": "stardust/current/assets/fonts/source-sans-pro-300-italic.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/source-sans-pro-300-italic.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Source Sans Pro'; font-style: italic; font-weight: 300; font-display: swap; src: url(https://fonts.gstatic.com/s/sourcesanspro/v24/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18Q.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 0,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2",
         "family": "Source Sans Pro",
         "weight": 400,
         "style": "italic",
-        "path": "stardust/current/assets/fonts/source-sans-pro-400-italic.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/source-sans-pro-400-italic.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Source Sans Pro'; font-style: italic; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/sourcesanspro/v24/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 5,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       },
       {
+        "url": "https://fonts.gstatic.com/s/sourcesanspro/v24/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18Q.woff2",
         "family": "Source Sans Pro",
         "weight": 600,
         "style": "italic",
-        "path": "stardust/current/assets/fonts/source-sans-pro-600-italic.woff2",
-        "licensing": "open"
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD (latin subset)",
+        "localPath": "stardust/current/assets/fonts/source-sans-pro-600-italic.woff2",
+        "sourceCssRule": "@font-face { font-family: 'Source Sans Pro'; font-style: italic; font-weight: 600; font-display: swap; src: url(https://fonts.gstatic.com/s/sourcesanspro/v24/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZY4lCds18Q.woff2) format('woff2'); } — stardust/replica/capture/css/google-fonts.css (latin block)",
+        "licensingFlag": "open",
+        "license": "SIL OFL 1.1 (Google Fonts)",
+        "loadedOnPages": 4,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
+      },
+      {
+        "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/fonts/wknd-icon-font.ttf",
+        "family": "wknd-icon-font",
+        "weight": 400,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/wknd-icon-font.ttf",
+        "sourceCssRule": "@font-face { font-display: block; font-family: wknd-icon-font; font-style: normal; font-weight: 400; src: url(clientlib-site/resources/fonts/wknd-icon-font.ttf) format(\"truetype\"), url(…woff) format(\"woff\"), … } — stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css",
+        "licensingFlag": "private",
+        "license": "site-owned icon font (WKND / Adobe demo); verify before redeploying",
+        "loadedOnPages": 65,
+        "verified": "sha1 of local file == sha1 of url (2026-10-23)"
       }
     ],
-    "scaleAudit": {
-      "kind": "ad-hoc",
-      "basis": "36/24/18/16/14 — ratios 1.5, 1.33, 1.125, 1.14; no single modular ratio"
-    }
+    "coverage": "complete — every face the 65 pages load (census fonts[] status=loaded: Asar 400; Source Sans Pro 400/600 normal + 400/600 italic; wknd-icon-font) has a local file; 300 normal/italic are declared by the stylesheet and saved but never loaded"
   },
   "spacing": {
-    "note": "lifted per section from clientlib-site CSS in replica Phase 3 (recreation-procedure § CSS lifting)"
+    "baseUnit": null,
+    "scale": [],
+    "note": "no regular rhythm: the stylesheet mixes em/rem/px (most frequent padding/margin values 1em ×20, 14px ×20, 1rem ×13, .5em ×13, 2rem ×11)",
+    "gutter": "14px (container padding 0 14px)",
+    "headingMargins": "27px top / 13.5px bottom (h1–h3)",
+    "containerMaxWidth": "1680px (shell, cap-probe — DESIGN.json extensions.breakpoints)",
+    "contentMaxWidth": "1164px (max-width: 873pt above 1025px)",
+    "gridGap": "5rem (gap ×3 in CSS)",
+    "mediaQueries": [
+      "max-width:767px",
+      "min-width:768px and max-width:1024px",
+      "max-width:1024px",
+      "min-width:1025px",
+      "min-width:1025px and max-width:1200px",
+      "min-width:1165px",
+      "min-width:1201px"
+    ],
+    "source": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
   },
   "motifs": {
-    "radius": {
-      "mode": "0px 2px 2px 0px",
+    "borderRadius": {
+      "dominant": "0",
+      "dominantNote": "buttons, cards, images, panels, tabs and inputs are square (border-radius 0 / var(--buttonBorderRadius,0)); the census counts only non-zero radii",
+      "primary": "0px 2px 2px 0px",
+      "primaryUse": "mobile nav toggle #toggleNav (one element per page)",
+      "secondary": "30px",
+      "secondaryUse": "60×60 author avatar in the article byline (.cmp-byline__image img → circle)",
       "pill": "50%",
-      "notes": "50% = carousel indicator dots / social icon buttons; nearly everything else is square"
+      "pillUse": "carousel indicator dots (10×10) and about-us contributor avatars",
+      "occurrences": {
+        "50%": 168,
+        "0px 2px 2px 0px": 65,
+        "30px": 24,
+        "16px": 2
+      },
+      "sources": {
+        "50%": [
+          {
+            "url": "https://wknd.site/ca/en.html",
+            "slug": "ca-en-html",
+            "selector": "#container-bec52d3c6f > div > div:nth-of-type(1) > div > div > ol > li:nth-of-type(1)"
+          },
+          {
+            "url": "https://wknd.site/ca/en.html",
+            "slug": "ca-en-html",
+            "selector": "#container-bec52d3c6f > div > div:nth-of-type(1) > div > div > ol > li:nth-of-type(2)"
+          },
+          {
+            "url": "https://wknd.site/ca/en.html",
+            "slug": "ca-en-html",
+            "selector": "#container-bec52d3c6f > div > div:nth-of-type(1) > div > div > ol > li:nth-of-type(3)"
+          }
+        ],
+        "0px 2px 2px 0px": [
+          {
+            "url": "https://wknd.site/ca/en.html",
+            "slug": "ca-en-html",
+            "selector": "#toggleNav"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#toggleNav"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures.html",
+            "slug": "ca-en-adventures-html",
+            "selector": "#toggleNav"
+          }
+        ],
+        "30px": [
+          {
+            "url": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
+            "slug": "ca-en-magazine-arctic-surfing-html",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div > img"
+          },
+          {
+            "url": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
+            "slug": "ca-en-magazine-guide-la-skateparks-html",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div > img"
+          },
+          {
+            "url": "https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html",
+            "slug": "ca-en-magazine-members-only-alaskan-adventure-html",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div > img"
+          }
+        ],
+        "16px": [
+          {
+            "url": "https://wknd.site/us/en/ai-powered-search.html",
+            "slug": "us-en-ai-powered-search-html",
+            "selector": "main > div > div > div > section > form > label > input"
+          }
+        ]
+      },
+      "cssDeclared": [
+        {
+          "selector": ".cmp-contentfragment--contributor .cmp-contentfragment__picture",
+          "value": "150px",
+          "captured": false
+        },
+        {
+          "selector": ".cmp-form-text__text",
+          "value": "4px",
+          "captured": false
+        }
+      ]
     },
     "shadows": [
       {
         "value": "rgba(0, 0, 0, 0.35) -3px 0px 5px 0px inset",
-        "count": 1
+        "count": 65,
+        "uses": "mobile nav drawer #mobileNav (inset edge)",
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en.html",
+            "slug": "ca-en-html",
+            "selector": "#mobileNav"
+          },
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "#mobileNav"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures.html",
+            "slug": "ca-en-adventures-html",
+            "selector": "#mobileNav"
+          }
+        ]
       }
     ],
-    "gradients": [],
+    "gradients": [
+      {
+        "value": "linear-gradient(to top left, hsla(0,0%,100%,0) 0, hsla(0,0%,100%,0) 50%, var(--brandPrimary,#ffea00) 50%, var(--brandPrimary,#ffea00) 100%)",
+        "uses": "members-only teaser lock corner (.cmp-teaser--secure::before, yellow triangle behind the lock glyph U+E98F)",
+        "selector": ".cmp-teaser--secure::before",
+        "source": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css",
+        "pages": [
+          "ca-en-magazine-html",
+          "ca-en-magazine-html",
+          "us-en-magazine-html",
+          "us-en-magazine-html"
+        ],
+        "census": "not measured (pseudo-element); census aggregate.motifs.gradients = []"
+      }
+    ],
+    "gradientsDeclaredUnused": [
+      {
+        "value": "linear-gradient(180deg,#696969,#202020)",
+        "selector": ".cmp-layout-container--modal .cmp-separator__horizontal-rule",
+        "note": "no captured page uses .cmp-layout-container--modal"
+      }
+    ],
     "patterns": [
-      "hero-with-image (full-bleed carousel teaser)",
-      "featured teaser (image + grey panel)",
-      "image-list cards (4-up)",
-      "underlined section title",
-      "yellow rectangular buttons"
-    ]
+      {
+        "name": "hero-carousel",
+        "evidence": "landing (us/en, ca/en): .cmp-carousel--hero, 3 full-bleed teaser slides with a white 180px content card overlapping the photo bottom-left, prev/next arrows + dot indicators"
+      },
+      {
+        "name": "featured-teaser",
+        "evidence": "4 pages (landing ×2, magazine ×2): image + #ebebeb panel with \"Featured Article\" pretitle, Asar title, yellow CTA"
+      },
+      {
+        "name": "card-grid",
+        "evidence": "image-list cards on landing, adventures (×6 tab panels), magazine, members-only: square image, uppercase SSP 600 18px title, #696969 one-line ellipsis description"
+      },
+      {
+        "name": "underlined-section-title",
+        "evidence": "42 pages: Asar h1/h2 with an 84px × 2px #ffea00 rule beneath (.cmp-title--underline ::after)"
+      },
+      {
+        "name": "tabbed-detail",
+        "evidence": "32 adventure pages: Overview / Itinerary / What to Bring tabs; active tab #202020 on white text"
+      },
+      {
+        "name": "trip-facts-list",
+        "evidence": "32 adventure pages: content-fragment <dl> (Activity, Adventure Type, Trip Length, Group Size, Difficulty, Price)"
+      },
+      {
+        "name": "sidebar-article",
+        "evidence": "12 articles: main column + right aside (share, download, up-next list with 5px #ebebeb left rule, yellow hover)"
+      },
+      {
+        "name": "pull-quote-panel",
+        "evidence": "9 articles: #ebebeb panel, Asar 36px blockquote, 5pc yellow rule"
+      },
+      {
+        "name": "yellow-rectangular-cta",
+        "evidence": "every primary action: #ffea00 / #202020, SSP 600 14px uppercase, padding 1em 2.5em, radius 0"
+      },
+      {
+        "name": "dark-footer-band",
+        "evidence": "all 65 pages: #202020 footer, light logo, nav, \"Follow Us\" icon buttons, legal copy"
+      }
+    ],
+    "homeVsCrossPage": "home-only radii: 50% (indicators) + 0px 2px 2px 0px (#toggleNav); cross-page adds 30px (article byline avatars, 24) and 16px (AI-search toggle, 2). Dominant visual radius is 0 on every page."
   },
   "componentStyle": {
-    "button": {
-      "background": "#ffea00",
-      "color": "#202020",
-      "font": "Source Sans Pro 600 14px uppercase",
-      "radius": "0"
-    }
+    "buttons": {
+      "primary": {
+        "background": "#ffea00",
+        "color": "#202020",
+        "borderRadius": "0",
+        "padding": "14px 35px (1em 2.5em)",
+        "font": "Source Sans Pro 600 14px uppercase",
+        "shadow": "none",
+        "hoverDelta": null,
+        "selectors": [
+          ".cmp-teaser .cmp-teaser__action-link",
+          ".cmp-button--primary .cmp-button"
+        ],
+        "labels": [
+          "View Trips",
+          "Full Article",
+          "See Trip",
+          "View Trip",
+          "Read More",
+          "All Articles",
+          "All Trips"
+        ],
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en.html",
+            "slug": "ca-en-html",
+            "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "text": "View Trips"
+          },
+          {
+            "url": "https://wknd.site/ca/en/magazine.html",
+            "slug": "ca-en-magazine-html",
+            "selector": "#featured-article-magazine > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "text": "Read More"
+          },
+          {
+            "url": "https://wknd.site/us/en.html",
+            "slug": "us-en-html",
+            "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > a",
+            "text": "View Trips"
+          }
+        ],
+        "cssSource": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+      },
+      "base": {
+        "background": "#ebebeb",
+        "color": "#202020",
+        "borderRadius": "0",
+        "size": "48px (var(--buttonSize,3pc))",
+        "font": "Source Sans Pro 600 14px uppercase",
+        "textPadding": "1rem 2rem",
+        "selector": ".cmp-button",
+        "cssSource": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+      },
+      "secondary": {
+        "background": "#202020",
+        "color": "#ebebeb",
+        "selector": ".cmp-button--secondary .cmp-button",
+        "use": "icon-only social buttons (contributors, author card)",
+        "cssSource": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+      },
+      "iconOnly": {
+        "size": "48×48",
+        "glyphs": "wknd-icon-font",
+        "selector": ".cmp-button--icononly .cmp-button",
+        "cssSource": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+      },
+      "navActive": {
+        "background": "#ffea00",
+        "color": "#202020",
+        "padding": "0 17px",
+        "font": "Source Sans Pro 400 14px uppercase",
+        "selector": ".cmp-navigation--header .cmp-navigation__item--active .cmp-navigation__item-link",
+        "count": 53,
+        "sources": [
+          {
+            "url": "https://wknd.site/ca/en/about-us.html",
+            "slug": "ca-en-about-us-html",
+            "selector": "nav > ul > li > ul > li:nth-of-type(4) > a",
+            "text": "About Us"
+          },
+          {
+            "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+            "slug": "ca-en-adventures-bali-surf-camp-html",
+            "selector": "#navigation-d5ab85ac07 > ul > li > ul > li:nth-of-type(2) > a",
+            "text": "Adventures"
+          }
+        ]
+      },
+      "tabs": {
+        "inactive": "transparent, 14px uppercase, padding .5rem 1rem",
+        "active": "background #202020, color #fff",
+        "selector": ".cmp-tabs .cmp-tabs__tab(--active)",
+        "cssSource": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+      },
+      "upNextLink": {
+        "rest": "transparent, #0045ff, 18px 400, padding 8px 16px, 5px solid #ebebeb left rule",
+        "hover": "background #ffea00, border-color #202020",
+        "hoverSource": [
+          {
+            "url": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
+            "slug": "ca-en-magazine-arctic-surfing-html",
+            "selector": "div > aside > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
+            "slug": "ca-en-magazine-arctic-surfing-html",
+            "selector": "div > aside > div > div > div:nth-of-type(3) > ul > li:nth-of-type(1) > a"
+          }
+        ]
+      }
+    },
+    "dualCTAPattern": null,
+    "cards": {
+      "background": "transparent",
+      "borderRadius": "0",
+      "shadow": null,
+      "border": null,
+      "title": "Source Sans Pro 600 18px uppercase #202020",
+      "description": "dimgray (#696969) 14px uppercase, single line, ellipsis, width 260px",
+      "selector": ".cmp-image-list .cmp-image-list__item",
+      "cssSource": "stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css"
+    },
+    "panels": {
+      "featured": "#ebebeb content panel beside the image (.cmp-teaser--featured .cmp-teaser__content)",
+      "heroCard": "white 180px-tall card overlapping the photo by 180px (.cmp-teaser--hero .cmp-teaser__content)",
+      "quote": "#ebebeb (.cmp-text--quote)"
+    },
+    "inputs": {
+      "search": {
+        "border": "1px solid #cccccc",
+        "borderRadius": "0",
+        "page": "us-en-ai-powered-search-html",
+        "source": [
+          {
+            "url": "https://wknd.site/us/en/ai-powered-search.html",
+            "slug": "us-en-ai-powered-search-html",
+            "selector": "main > div > div > div > section > form > div > input"
+          }
+        ]
+      },
+      "toggle": {
+        "borderRadius": "16px",
+        "page": "us-en-ai-powered-search-html"
+      }
+    },
+    "links": [
+      {
+        "style": "rgb(235, 235, 235)|none|600|hover:rgb(235, 235, 235)|rgb(32, 32, 32)",
+        "count": 78,
+        "example": {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "div > div > div > div > div:nth-of-type(4) > div > div:nth-of-type(1) > a",
+          "text": "Facebook"
+        }
+      },
+      {
+        "style": "rgb(0, 69, 255)|none|400|hover:rgb(0, 69, 255)|rgba(0, 0, 0, 0)",
+        "count": 64,
+        "example": {
+          "url": "https://wknd.site/ca/en/adventures.html",
+          "slug": "ca-en-adventures-html",
+          "selector": "#tabs-7e3beaf10b-item-aebc54e75d-tabpanel > div > ul > li:nth-of-type(1) > article > a:nth-of-type(2)",
+          "text": "Bali Surf Camp"
+        }
+      },
+      {
+        "style": "rgb(32, 32, 32)|none|600|hover:rgb(32, 32, 32)|rgba(0, 0, 0, 0)",
+        "count": 48,
+        "example": {
+          "url": "https://wknd.site/ca/en/adventures/bali-surf-camp.html",
+          "slug": "ca-en-adventures-bali-surf-camp-html",
+          "selector": "nav > ol > li:nth-of-type(1) > a",
+          "text": "Adventures"
+        }
+      },
+      {
+        "style": "rgb(0, 69, 255)|none|400|hover:rgb(0, 69, 255)|rgb(255, 234, 0)",
+        "count": 20,
+        "example": {
+          "url": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
+          "slug": "ca-en-magazine-arctic-surfing-html",
+          "selector": "div > aside > div > div > div:nth-of-type(3) > ul > li:nth-of-type(2) > a",
+          "text": "Ultimate Guide to LA Skateparks Wednesd…"
+        }
+      }
+    ]
   },
   "systemComponents": [
     {
       "name": "site-header",
       "kind": "header",
-      "occurrences": 1,
+      "variant": "en-US",
+      "occurrences": 27,
       "headingSequence": [],
       "ctaLabels": [
         "Sign In",
@@ -309,13 +1389,105 @@
         "FAQs",
         "About Us"
       ],
+      "navItems": [
+        "Home",
+        "Magazine",
+        "Adventures",
+        "FAQs",
+        "About Us"
+      ],
+      "languageToggle": {
+        "label": "en-US",
+        "flag": "stardust/current/assets/media/flags/US.svg",
+        "selector": "#langNavToggleHeader"
+      },
+      "logo": "wknd-logo-dk.svg",
+      "domFingerprintHash": "sha1:c52740eaa0",
       "exampleSlug": "us-en-html",
-      "exampleSelector": "header"
+      "exampleSelector": "header",
+      "examplePages": [
+        "us-en-about-us-html",
+        "us-en-adventures-bali-surf-camp-html",
+        "us-en-adventures-beervana-portland-html"
+      ],
+      "exampleBlockChars": 19006,
+      "position": "fixed (census surfaces: header position fixed, 194px tall at 1440)"
+    },
+    {
+      "name": "site-header-canada",
+      "kind": "header",
+      "variant": "en-CA",
+      "variantOf": "site-header",
+      "occurrences": 29,
+      "ctaLabels": [
+        "Sign In",
+        "en-CA",
+        "Magazine",
+        "Adventures",
+        "FAQs",
+        "About Us"
+      ],
+      "differences": [
+        "language toggle label en-CA (vs en-US)",
+        "toggle background flag CA.svg (vs US.svg)",
+        "nav hrefs under /ca/en/"
+      ],
+      "languageToggle": {
+        "label": "en-CA",
+        "flag": "stardust/current/assets/media/flags/CA.svg",
+        "selector": "#langNavToggleHeader"
+      },
+      "domFingerprintHash": "sha1:c52740eaa0",
+      "sameStructureAs": "site-header",
+      "exampleSlug": "ca-en-html",
+      "exampleSelector": "header",
+      "examplePages": [
+        "ca-en-about-us-html",
+        "ca-en-adventures-bali-surf-camp-html",
+        "ca-en-adventures-beervana-portland-html"
+      ],
+      "evidence": "_crawl-log.json#visionCheck (ca/en: \"CA flag EN-CA language selector\")"
+    },
+    {
+      "name": "site-header-coming-soon",
+      "kind": "header",
+      "variant": "locale placeholder",
+      "variantOf": "site-header",
+      "occurrences": 9,
+      "ctaLabels": [
+        "Sign In",
+        "<locale>"
+      ],
+      "navItems": [
+        "ca-fr-html: Français",
+        "ch-de-html: Deutsch",
+        "ch-fr-html: Français",
+        "ch-it-html: Italiano",
+        "de-de-html: Deutsch",
+        "es-es-html: Español",
+        "fr-fr-html: Français",
+        "it-it-html: Italiano",
+        "us-es-html: Español"
+      ],
+      "differences": [
+        "single nav item = the locale home in its language (Français, Deutsch, Italiano, Español)",
+        "no Magazine / Adventures / FAQs / About Us",
+        "flag + label per locale (fr-CA, de-CH, fr-CH, it-CH, de-DE, es-ES, fr-FR, it-IT, es-US)"
+      ],
+      "domFingerprintHash": "sha1:426a0e3b55",
+      "exampleSlug": "ch-de-html",
+      "exampleSelector": "header",
+      "examplePages": [
+        "ca-fr-html",
+        "ch-de-html",
+        "ch-fr-html"
+      ]
     },
     {
       "name": "site-footer",
       "kind": "footer",
-      "occurrences": 1,
+      "variant": "en-US",
+      "occurrences": 27,
       "headingSequence": [
         "Follow Us"
       ],
@@ -326,27 +1498,333 @@
         "About Us",
         "Facebook",
         "Twitter",
-        "Instagram"
+        "Instagram",
+        "Core Components",
+        "Archetype",
+        "site source code",
+        "detailed tutorial",
+        "Adobe Stock"
       ],
+      "logo": "wknd-logo-light.svg",
+      "legal": "Ⓒ 2019, WKND Site.",
+      "domFingerprintHash": "sha1:dac7b38a17",
       "exampleSlug": "us-en-html",
-      "exampleSelector": "footer"
+      "exampleSelector": "footer",
+      "examplePages": [
+        "us-en-about-us-html",
+        "us-en-adventures-bali-surf-camp-html",
+        "us-en-adventures-beervana-portland-html"
+      ],
+      "background": "#202020"
+    },
+    {
+      "name": "site-footer-canada",
+      "kind": "footer",
+      "variant": "en-CA",
+      "variantOf": "site-footer",
+      "occurrences": 29,
+      "headingSequence": [
+        "Follow Us"
+      ],
+      "differences": [
+        "adds the note \"Canadian specific footer. This footer serves as an example of localization features with Core Components\" above the legal copy"
+      ],
+      "domFingerprintHash": "sha1:44f3c75d21",
+      "exampleSlug": "ca-en-html",
+      "exampleSelector": "footer",
+      "examplePages": [
+        "ca-en-about-us-html",
+        "ca-en-adventures-bali-surf-camp-html",
+        "ca-en-adventures-beervana-portland-html"
+      ],
+      "evidence": "_crawl-log.json#visionCheck (\"footer carries the Canada-specific localization note\")"
+    },
+    {
+      "name": "site-footer-coming-soon",
+      "kind": "footer",
+      "variant": "locale placeholder",
+      "variantOf": "site-footer",
+      "occurrences": 9,
+      "headingSequence": [
+        "Follow Us"
+      ],
+      "differences": [
+        "footer nav is the single locale item",
+        "no Canada note (ca/fr included)"
+      ],
+      "domFingerprintHash": "sha1:4a276d8a00",
+      "exampleSlug": "ch-de-html",
+      "exampleSelector": "footer",
+      "examplePages": [
+        "ca-fr-html",
+        "ch-de-html",
+        "ch-fr-html"
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 44,
+      "pageTypes": {
+        "program": 32,
+        "article": 12
+      },
+      "headingSequence": [],
+      "ctaLabels": [
+        "Adventures",
+        "Magazine",
+        "Members Only"
+      ],
+      "exampleSlug": "ca-en-adventures-bali-surf-camp-html",
+      "exampleSelector": "#breadcrumb-ca4d387c2d",
+      "examplePages": [
+        "ca-en-adventures-bali-surf-camp-html",
+        "ca-en-adventures-beervana-portland-html",
+        "ca-en-adventures-climbing-new-zealand-html"
+      ],
+      "moduleRef": "candidate-6e5ce57"
+    },
+    {
+      "name": "share-bar",
+      "kind": "other",
+      "occurrences": 44,
+      "pageTypes": {
+        "program": 32,
+        "article": 12
+      },
+      "headingSequence": [
+        "Share this Adventure",
+        "SHARE THIS STORY"
+      ],
+      "ctaLabels": [],
+      "exampleSlug": "ca-en-adventures-bali-surf-camp-html",
+      "exampleSelector": "#container-2c4ce06bc8 > div > div.sharing",
+      "examplePages": [
+        "ca-en-adventures-bali-surf-camp-html",
+        "ca-en-adventures-beervana-portland-html",
+        "ca-en-adventures-climbing-new-zealand-html"
+      ],
+      "moduleRef": "candidate-20c710a"
+    },
+    {
+      "name": "up-next-list",
+      "kind": "other",
+      "occurrences": 12,
+      "pageTypes": {
+        "article": 12
+      },
+      "headingSequence": [],
+      "ctaLabels": [
+        "Western Australia Thursday, 9 Jul 2020",
+        "Ultimate Guide to LA Skateparks Wednesday, 30 Sep 2020",
+        "Ski Touring Wednesday, 30 Sep 2020",
+        "San Diego Surf Spots Thursday, 9 Jul 2020"
+      ],
+      "exampleSlug": "ca-en-magazine-arctic-surfing-html",
+      "exampleSelector": "#list-9aa3f7112b",
+      "examplePages": [
+        "ca-en-magazine-arctic-surfing-html",
+        "ca-en-magazine-guide-la-skateparks-html",
+        "ca-en-magazine-members-only-alaskan-adventure-html"
+      ],
+      "moduleRef": "candidate-9dc7ef1"
+    },
+    {
+      "name": "mobile-nav-drawer",
+      "kind": "nav-secondary",
+      "occurrences": 65,
+      "selector": "#mobileNav (.cmp-navigation--mobile) toggled by #toggleNav",
+      "note": "outside <header>; carries the only shadow (inset) and the 0 2px 2px 0 radius",
+      "sources": [
+        {
+          "url": "https://wknd.site/ca/en.html",
+          "slug": "ca-en-html",
+          "selector": "#mobileNav"
+        },
+        {
+          "url": "https://wknd.site/ca/en/about-us.html",
+          "slug": "ca-en-about-us-html",
+          "selector": "#mobileNav"
+        }
+      ]
+    },
+    {
+      "name": "country-flag-toggle",
+      "kind": "background-motif",
+      "occurrences": 65,
+      "note": "the only CSS background images on the site: /etc.clientlibs/wknd/clientlibs/clientlib-site/resources/images/country-flags/<CC>.svg as inline style on #langNavToggleHeader (record media.cssBackgrounds[] is empty on every page)",
+      "examplePages": [
+        "us-en-html",
+        "ca-en-html",
+        "ch-de-html"
+      ],
+      "exampleBlock": {
+        "domPath": "header #langNavToggleHeader",
+        "style": "background-image:url('…/country-flags/CA.svg')"
+      }
     }
   ],
   "iconFont": {
     "family": "wknd-icon-font",
-    "file": "stardust/current/assets/fonts/wknd-icon-font.ttf",
+    "localPath": "stardust/current/assets/fonts/wknd-icon-font.ttf",
     "url": "https://wknd.site/etc.clientlibs/wknd/clientlibs/clientlib-site/resources/fonts/wknd-icon-font.ttf",
-    "glyphs": {
-      "cmp-button__icon--facebook": "U+E902",
-      "cmp-button__icon--instagram": "U+E903",
-      "cmp-button__icon--twitter": "U+E901",
-      "cmp-button__icon--search": "U+E913",
-      "cmp-carousel__action-icon (previous/next)": [
-        "U+E90F",
-        "U+E90E"
-      ],
-      "wkndicon-menu": "U+E916"
-    }
+    "sourceCss": "@font-face{font-display:block;font-family:wknd-icon-font;font-style:normal;font-weight:400;src:url(clientlib-site/resources/fonts/wknd-icon-font.ttf) format(\"truetype\"),…} — stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css",
+    "glyphCount": 11,
+    "glyphs": [
+      {
+        "class": "cmp-button__icon cmp-button__icon--facebook",
+        "pseudo": "::before",
+        "codepoint": "U+E902",
+        "name": "facebook",
+        "cssName": "wkndicon-facebook",
+        "count": 130,
+        "pages": [
+          "ca-en-html",
+          "ca-en-about-us-html"
+        ]
+      },
+      {
+        "class": "cmp-button__icon cmp-button__icon--instagram",
+        "pseudo": "::before",
+        "codepoint": "U+E903",
+        "name": "instagram",
+        "cssName": "wkndicon-instagram",
+        "count": 130,
+        "pages": [
+          "ca-en-html",
+          "ca-en-about-us-html"
+        ]
+      },
+      {
+        "class": "cmp-button__icon cmp-button__icon--search",
+        "pseudo": "::before",
+        "codepoint": "U+E913",
+        "name": "search",
+        "cssName": "wkndicon-search",
+        "count": 130,
+        "pages": [
+          "ca-en-html",
+          "ca-en-about-us-html"
+        ]
+      },
+      {
+        "class": "cmp-button__icon cmp-button__icon--twitter",
+        "pseudo": "::before",
+        "codepoint": "U+E901",
+        "name": "twitter",
+        "cssName": "wkndicon-twitter",
+        "count": 130,
+        "pages": [
+          "ca-en-html",
+          "ca-en-about-us-html"
+        ]
+      },
+      {
+        "class": "wknd__icon wkndicon-menu",
+        "pseudo": "::before",
+        "codepoint": "U+E916",
+        "name": "menu",
+        "cssName": "wkndicon-menu",
+        "count": 130,
+        "pages": [
+          "ca-en-html",
+          "ca-en-about-us-html"
+        ]
+      },
+      {
+        "class": "cmp-breadcrumb__item cmp-breadcrumb__item--active",
+        "pseudo": "::before",
+        "codepoint": "U+EA1C",
+        "name": null,
+        "cssName": null,
+        "count": 88,
+        "pages": [
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html"
+        ]
+      },
+      {
+        "class": "cmp-carousel__action-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E90F",
+        "name": "left-arrow",
+        "cssName": "wkndicon-left-arrow",
+        "count": 68,
+        "pages": [
+          "ca-en-html",
+          "ca-en-adventures-bali-surf-camp-html"
+        ]
+      },
+      {
+        "class": "cmp-carousel__action-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E90E",
+        "name": "right-arrow",
+        "cssName": "wkndicon-right-arrow",
+        "count": 68,
+        "pages": [
+          "ca-en-html",
+          "ca-en-adventures-bali-surf-camp-html"
+        ]
+      },
+      {
+        "class": "cmp-accordion__icon",
+        "pseudo": "::before",
+        "codepoint": "U+E911",
+        "name": "plus",
+        "cssName": "wkndicon-plus",
+        "count": 4,
+        "pages": [
+          "ca-en-faqs-html",
+          "us-en-faqs-html"
+        ]
+      },
+      {
+        "class": "cmp-breadcrumb__item",
+        "pseudo": "::before",
+        "codepoint": "U+EA1C",
+        "name": null,
+        "cssName": null,
+        "count": 4,
+        "pages": [
+          "ca-en-magazine-members-only-alaskan-adventure-html",
+          "ca-en-magazine-members-only-fly-fishing-the-amazon-html"
+        ]
+      },
+      {
+        "class": "cmp-download__action-text",
+        "pseudo": "::before",
+        "codepoint": "U+E907",
+        "name": "download",
+        "cssName": "wkndicon-download",
+        "count": 4,
+        "pages": [
+          "ca-en-magazine-guide-la-skateparks-html",
+          "us-en-magazine-guide-la-skateparks-html"
+        ]
+      },
+      {
+        "class": "teaser cmp-teaser--list cmp-teaser--secure",
+        "pseudo": "::before",
+        "codepoint": "U+E98F",
+        "name": "lock",
+        "cssName": "wkndicon-lock",
+        "count": 4,
+        "pages": [
+          "ca-en-magazine-html",
+          "us-en-magazine-html"
+        ]
+      }
+    ],
+    "declaredNotCaptured": [
+      {
+        "class": "cmp-accordion__item--expanded .cmp-accordion__icon",
+        "codepoint": "U+E910",
+        "name": "minus",
+        "note": "expanded-state glyph; every accordion item was collapsed in the capture"
+      }
+    ],
+    "notes": "U+EA1C (breadcrumb/content-fragment separator chevron, coloured #ffea00) has no wkndicon-* class name in the CSS. Pilot listed 6 glyphs from /us/en; site-wide adds breadcrumb EA1C, accordion E911, download E907, secure-teaser lock E98F."
   },
   "voice": {
     "heroHeadline": "WKND Adventures",
@@ -356,18 +1834,27 @@
       "alt": "Female sitting on a large rock relaxing in afternoon dappled light the Australian bushland with views over the river",
       "source": "img",
       "domPath": ".cmp-carousel__item--active .cmp-teaser__image img",
-      "localPath": "stardust/current/assets/media/adobestock-216674449-cbf8bf8d.jpeg"
+      "localPath": "stardust/current/assets/media/adobestock-216674449-cbf8bf8d.jpeg",
+      "rect": {
+        "width": 1440,
+        "height": 810,
+        "note": "media.imgs w×h (record carries no top offset); first viewport per vision check"
+      },
+      "resolution": "home media.imgs + DOM: active hero-carousel slide is the largest first-viewport image; no css-background candidates (cssBackgrounds = [])"
     },
     "heroMedium": null,
     "primaryCTALabel": "View Trips",
     "ctaSamples": [
       "View Trips",
       "Full Article",
-      "All Articles",
       "See Trip",
-      "All Trips"
+      "All Articles",
+      "All Trips",
+      "Read More",
+      "View Trip"
     ],
     "navItems": [
+      "Home",
       "Magazine",
       "Adventures",
       "FAQs",
@@ -379,10 +1866,393 @@
     "firstParagraph": "Join us on one of our next adventures. Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
     "tone": {
       "guess": "aspirational",
-      "evidence": "second-person invitations ('Join us', 'Let us help you'), place-led headlines, superlatives ('camper's heaven', 'memory you will cherish forever')"
+      "evidence": "second-person invitations ('Join us on one of our next adventures', 'Let us help you make your New Zealand climbing vacation a memory you will cherish forever!'), place-led headlines, first-person travel essays in the magazine; heuristic, not ground truth"
+    },
+    "heroMediumBasis": "no <video>, <iframe>, <canvas>, Lottie or motion library on any of the 65 pages (media.videos/iframes empty site-wide); the hero is a click/auto-advance image carousel",
+    "ctaSamplesNote": "content CTAs (cross-page); page counts: {\"View Trips\":null,\"Full Article\":null,\"See Trip\":null,\"All Articles\":null,\"All Trips\":null,\"Read More\":null,\"View Trip\":null}",
+    "navNote": "\"Home\" is a nav item in the DOM (cmp-navigation--header level-0) but the visible link row starts at Magazine; coming-soon locales show one item (Français / Deutsch / Italiano / Español)",
+    "sectionHeadings": [
+      "Recent Articles",
+      "Next Adventures",
+      "Where do you want to go?",
+      "Current Adventures",
+      "All Articles",
+      "Members Only",
+      "Our Contributors",
+      "WKND Guides",
+      "Need more help?",
+      "Share this Adventure",
+      "SHARE THIS STORY"
+    ]
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Adventures",
+        "total": 144,
+        "pageCount": 56,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "Magazine",
+        "total": 124,
+        "pageCount": 56,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "FAQs",
+        "total": 112,
+        "pageCount": 56,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "About Us",
+        "total": 112,
+        "pageCount": 56,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "Facebook",
+        "total": 91,
+        "pageCount": 65,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "Twitter",
+        "total": 91,
+        "pageCount": 65,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "Instagram",
+        "total": 91,
+        "pageCount": 65,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      },
+      {
+        "label": "Sign In",
+        "total": 65,
+        "pageCount": 65,
+        "pages": [
+          "ca-en-about-us-html",
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html"
+        ]
+      }
+    ],
+    "contentCtaFrequency": [
+      {
+        "label": "Previous",
+        "total": 34,
+        "pageCount": 34,
+        "pages": [
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html",
+          "ca-en-adventures-cycling-tuscany-html"
+        ]
+      },
+      {
+        "label": "Next",
+        "total": 34,
+        "pageCount": 34,
+        "pages": [
+          "ca-en-adventures-bali-surf-camp-html",
+          "ca-en-adventures-beervana-portland-html",
+          "ca-en-adventures-climbing-new-zealand-html",
+          "ca-en-adventures-colorado-rock-climbing-html",
+          "ca-en-adventures-cycling-southern-utah-html",
+          "ca-en-adventures-cycling-tuscany-html"
+        ]
+      },
+      {
+        "label": "Western Australia Thursday, 9 Jul 2020",
+        "total": 12,
+        "pageCount": 12,
+        "pages": [
+          "ca-en-magazine-arctic-surfing-html",
+          "ca-en-magazine-guide-la-skateparks-html",
+          "ca-en-magazine-members-only-alaskan-adventure-html",
+          "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+          "ca-en-magazine-san-diego-surf-html",
+          "ca-en-magazine-ski-touring-html"
+        ]
+      },
+      {
+        "label": "Ultimate Guide to LA Skateparks Wednesday, 30 Sep 2020",
+        "total": 12,
+        "pageCount": 12,
+        "pages": [
+          "ca-en-magazine-arctic-surfing-html",
+          "ca-en-magazine-guide-la-skateparks-html",
+          "ca-en-magazine-members-only-alaskan-adventure-html",
+          "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+          "ca-en-magazine-san-diego-surf-html",
+          "ca-en-magazine-ski-touring-html"
+        ]
+      },
+      {
+        "label": "Ski Touring Wednesday, 30 Sep 2020",
+        "total": 12,
+        "pageCount": 12,
+        "pages": [
+          "ca-en-magazine-arctic-surfing-html",
+          "ca-en-magazine-guide-la-skateparks-html",
+          "ca-en-magazine-members-only-alaskan-adventure-html",
+          "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+          "ca-en-magazine-san-diego-surf-html",
+          "ca-en-magazine-ski-touring-html"
+        ]
+      },
+      {
+        "label": "San Diego Surf Spots Thursday, 9 Jul 2020",
+        "total": 12,
+        "pageCount": 12,
+        "pages": [
+          "ca-en-magazine-arctic-surfing-html",
+          "ca-en-magazine-guide-la-skateparks-html",
+          "ca-en-magazine-members-only-alaskan-adventure-html",
+          "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+          "ca-en-magazine-san-diego-surf-html",
+          "ca-en-magazine-ski-touring-html"
+        ]
+      },
+      {
+        "label": "Tahoe Skiing",
+        "total": 4,
+        "pageCount": 4,
+        "pages": [
+          "ca-en-adventures-html",
+          "ca-en-html",
+          "us-en-adventures-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "label": "West Coast Cycling",
+        "total": 4,
+        "pageCount": 4,
+        "pages": [
+          "ca-en-adventures-html",
+          "ca-en-html",
+          "us-en-adventures-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "label": "Whistler Mountain Biking",
+        "total": 4,
+        "pageCount": 4,
+        "pages": [
+          "ca-en-adventures-html",
+          "ca-en-html",
+          "us-en-adventures-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "label": "Yosemite Backpacking",
+        "total": 4,
+        "pageCount": 4,
+        "pages": [
+          "ca-en-adventures-html",
+          "ca-en-html",
+          "us-en-adventures-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "label": "Ultimate Guide to LA Skateparks",
+        "total": 4,
+        "pageCount": 4,
+        "pages": [
+          "ca-en-html",
+          "ca-en-magazine-html",
+          "us-en-html",
+          "us-en-magazine-html"
+        ]
+      },
+      {
+        "label": "Ski Touring",
+        "total": 4,
+        "pageCount": 4,
+        "pages": [
+          "ca-en-html",
+          "ca-en-magazine-html",
+          "us-en-html",
+          "us-en-magazine-html"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "Follow Us",
+        "total": 65,
+        "pageCount": 65,
+        "level": 4
+      },
+      {
+        "text": "Share this Adventure",
+        "total": 32,
+        "pageCount": 32,
+        "level": 5
+      },
+      {
+        "text": "SHARE THIS STORY",
+        "total": 12,
+        "pageCount": 12,
+        "level": 5
+      },
+      {
+        "text": "WKND Adventures and Travel - Coming Soon!",
+        "total": 9,
+        "pageCount": 9,
+        "level": 2
+      },
+      {
+        "text": "Sofia Sjöberg",
+        "total": 6,
+        "pageCount": 6,
+        "level": 2
+      },
+      {
+        "text": "Stacey Roswells",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Jacob Wester",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Justin Barr",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Climbing New Zealand",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "Camping in Western Australia",
+        "total": 4,
+        "pageCount": 4,
+        "level": 2
+      },
+      {
+        "text": "By Sofia Sjöberg",
+        "total": 4,
+        "pageCount": 4,
+        "level": 4
+      },
+      {
+        "text": "Jake Hammer",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Ian Provo",
+        "total": 3,
+        "pageCount": 3,
+        "level": 3
+      },
+      {
+        "text": "Members Only",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      },
+      {
+        "text": "Alaskan Adventure",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      },
+      {
+        "text": "Fly Fishing the Amazon",
+        "total": 3,
+        "pageCount": 3,
+        "level": 2
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 317,
+      "headingsUppercasePercent": 4,
+      "distinctHeadings": 95,
+      "distinctCtaLabels": 73
     }
   },
-  "voiceTable": null,
-  "crossPromo": null,
-  "register": "brand"
+  "crossPromo": {
+    "detected": false,
+    "anchorHeading": null,
+    "cluster": null,
+    "pages": null,
+    "pageCount": null,
+    "totalPages": 65,
+    "note": "anchor \"Follow Us\" (65 pages, footer) has no co-occurring heading at ≥60% overlap — cluster size 1"
+  },
+  "embedDominated": [],
+  "register": "brand",
+  "registerBasis": "marketing/editorial site: photo heroes, teaser CTAs, magazine stories, no auth wall for content (members-only pages render without sign-in); the AI-search page is the only tool-like surface"
 }

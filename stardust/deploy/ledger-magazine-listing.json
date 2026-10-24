@@ -1,0 +1,18 @@
+{
+  "/us/en/magazine": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:10:09.710Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:10:06.510Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

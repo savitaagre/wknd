@@ -1,0 +1,88 @@
+{
+  "slug": "us-es-html",
+  "type": "coming-soon",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-teaser"
+  ],
+  "slotsFilled": [
+    "hero-teaser",
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "ab26dfe6eaeb",
+    "footer": "13ec4b463114",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Español",
+    "description": null,
+    "canonical": null,
+    "lang": "es-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Español",
+    "url": "https://wknd.site/us/es.html"
+  },
+  "migratedAt": "2026-10-23T10:10:45Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "19fcf1e67e59",
+  "sourceProposedSha": "572161426dd2",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/es.html",
+  "outputPathDefault": null,
+  "sidecar": "us/es._meta.json",
+  "driverVersion": "1"
+}

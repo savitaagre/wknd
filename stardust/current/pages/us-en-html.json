@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "renderedBy": "playwright",
-    "fetchedAt": "2026-10-16T12:22:25.551Z",
+    "fetchedAt": "2026-10-23T07:06:23.753Z",
     "waitMode": "medium",
     "waitMs": 2500,
     "httpStatus": 200
@@ -9,7 +9,7 @@
   "slug": "us-en-html",
   "url": "https://wknd.site/us/en.html",
   "renderedBy": "playwright",
-  "fetchedAt": "2026-10-16T12:22:25.551Z",
+  "fetchedAt": "2026-10-23T07:06:23.753Z",
   "finalUrl": "https://wknd.site/us/en.html",
   "title": "WKND Adventures and Travel",
   "description": "WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world.",
@@ -334,7 +334,8 @@
     "realImageCount": 13,
     "trackingOnlyMedia": false,
     "spaShellSuspect": false,
-    "screenshotMode": "fullPage"
+    "screenshotMode": "fullPage",
+    "duplicateOf": "index"
   },
   "dynamic": {
     "endpoints": [
@@ -380,23 +381,10 @@
         "resourceType": "xhr",
         "contentType": "application/json",
         "status": 200,
-        "bytes": 312,
+        "bytes": 313,
         "hits": 1,
         "example": "https://dpm.demdex.net/id",
         "sameSite": false
-      },
-      {
-        "method": "GET",
-        "host": "wknd.site",
-        "path": "/libs/granite/csrf/token.json",
-        "query": [],
-        "resourceType": "xhr",
-        "contentType": "application/json",
-        "status": 200,
-        "bytes": 2,
-        "hits": 1,
-        "example": "https://wknd.site/libs/granite/csrf/token.json",
-        "sameSite": true
       },
       {
         "method": "GET",
@@ -409,6 +397,19 @@
         "bytes": 306,
         "hits": 1,
         "example": "https://wknd.site/home/users/o/oa6PkCC2rneOdh2ni0qG.infinity.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "wknd.site",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://wknd.site/libs/granite/csrf/token.json",
         "sameSite": true
       },
       {
@@ -463,5 +464,240 @@
     }
   },
   "screenshot": "assets/screenshots/us-en-html.png",
-  "renderedHtml": "pages/us-en-html.html"
+  "renderedHtml": "pages/us-en-html.html",
+  "slots": {
+    "_schema": "stardust:typed-slots@1 (extract --prep § 4)",
+    "_pageType": "landing",
+    "_source": "stardust/current/pages/us-en-html.html (rendered DOM, Playwright) + us-en-html.json fields",
+    "_text": "verbatim; whitespace trimmed and collapsed; ref = matching record field when one exists",
+    "hero-carousel": {
+      "selector": "#carousel-43c8d133ed",
+      "slides": [
+        {
+          "selector": "#teaser-2122a9f81a",
+          "pretitle": null,
+          "title": "WKND Adventures",
+          "description": "Join us on one of our next adventures. Browse our list of curated experiences and sign up for one when you're ready to explore with us.",
+          "cta": {
+            "label": "View Trips",
+            "href": "https://wknd.site/us/en/adventures.html",
+            "selector": "#teaser-2122a9f81a-cta-6b28b693be"
+          },
+          "image": {
+            "src": "https://wknd.site/us/en/_jcr_content/root/container/carousel/item_1571954853062.coreimg.jpeg/1660323801921/adobestock-216674449.jpeg",
+            "alt": "Female sitting on a large rock relaxing in afternoon dappled light the Australian bushland with views over the river",
+            "localPath": "stardust/current/assets/media/adobestock-216674449-cbf8bf8d.jpeg",
+            "selector": "#teaser-2122a9f81a-image > img.cmp-image__image"
+          }
+        },
+        {
+          "selector": "#teaser-da32481ec8",
+          "pretitle": null,
+          "title": "San Diego Surf Spots",
+          "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+          "cta": {
+            "label": "Full Article",
+            "href": "https://wknd.site/us/en/magazine/san-diego-surf.html",
+            "selector": "#teaser-da32481ec8-cta-adf3c09db9"
+          },
+          "image": {
+            "src": "https://wknd.site/us/en/_jcr_content/root/container/carousel/item_1572035298405.coreimg.jpeg/1660323822923/beach-walking.jpeg",
+            "alt": "Young lady with surfboard going to the ocean at surf spot",
+            "localPath": "stardust/current/assets/media/beach-walking-81422f32.jpeg",
+            "selector": "#teaser-da32481ec8-image > img.cmp-image__image"
+          }
+        },
+        {
+          "selector": "#teaser-5f1778b56a",
+          "pretitle": null,
+          "title": "Downhill Skiing Wyoming",
+          "description": "A skiers paradise far from crowds and close to nature with terrain so vast it appears uncharted.",
+          "cta": {
+            "label": "View Trip",
+            "href": "https://wknd.site/us/en/adventures/downhill-skiing-wyoming.html",
+            "selector": "#teaser-5f1778b56a-cta-96f6fcb87c"
+          },
+          "image": {
+            "src": "https://wknd.site/us/en/_jcr_content/root/container/carousel/teaser.coreimg.jpeg/1660323784078/adobestock-185234795.jpeg",
+            "alt": "A skier does action skiing at the Rolle Pass in the Dolomites, Italy.",
+            "localPath": "stardust/current/assets/media/adobestock-185234795-01c1bdca.jpeg",
+            "selector": "#teaser-5f1778b56a-image > img.cmp-image__image"
+          }
+        }
+      ]
+    },
+    "featured": {
+      "selector": "#featured-teaser-home",
+      "pretitle": "Featured Article",
+      "title": "Camping in Western Australia",
+      "description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world.",
+      "cta": {
+        "label": "Full Article",
+        "href": "https://wknd.site/us/en/magazine/western-australia.html",
+        "selector": "#featured-teaser-home-cta-526cf4e1ac"
+      },
+      "image": {
+        "src": "https://wknd.site/us/en/_jcr_content/root/container/container/teaser.coreimg.jpeg/1660323792132/adobestock-156407519.jpeg",
+        "alt": "The Lennard River carves a stunning canyon through the Napier Range at Windjana Gorge, Kimberley Region, Western Australia. The permanent pools in the river provide a permanent habitat for dozens of freshwater crocodiles. Rudyards Kipling's story \"The Elephant Child,\" comes to mind every time I visit Windjana Gorge in the Kimberley,  when the Elephant child says: \"and still I want to know what the Crocodile has for dinner!'Then Kolokolo Bird said, with a mournful cry, 'Go to the banks of the great grey-green, greasy Limpopo River, all set about with fever-trees, and find out.\"At Windana Gorge the green waters of the gorge pools are filled with  Johnston crocodiles floating in the tepid green waters or resting on the hot sand banks.They add a real air of wild Australia below the complex and colourful ramparts of the Gorge where the Leonard River flows through the ancient Devonian reefs.The history of the renegade aboriginal tracker Jandamarra who hid in caves in this gorge and the screeching of the galahs circling overhead and wheeling about amongst the crags further adds to the primeval atmosphere of this special place in Australia.",
+        "localPath": "stardust/current/assets/media/adobestock-156407519-8021518e.jpeg",
+        "selector": "#featured-teaser-home-image > img.cmp-image__image"
+      }
+    },
+    "sections": [
+      {
+        "kind": "section-title",
+        "text": "Recent Articles",
+        "selector": "#title-c2d2b28d00 > h2.cmp-title__text",
+        "ref": "headings[2]"
+      },
+      {
+        "kind": "card-grid",
+        "selector": "#container-9c4899b718 > div > div.image-list.list > ul.cmp-image-list",
+        "cardType": "article-card",
+        "cards": [
+          {
+            "title": "Ultimate Guide to LA Skateparks",
+            "description": "Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!",
+            "href": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
+            "image": {
+              "src": "https://wknd.site/us/en/magazine/guide-la-skateparks/_jcr_content/root/container/container/contentfragment/par2/image_copy.coreimg.png/1660323783259/article-01-picture-01.png",
+              "alt": "Ultimate Guide to LA Skateparks",
+              "localPath": "stardust/current/assets/media/article-01-picture-01-479f9bcf.png",
+              "selector": "#image-5d608101d8 > img.cmp-image__image"
+            }
+          },
+          {
+            "title": "Ski Touring",
+            "description": "Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing.",
+            "href": "https://wknd.site/us/en/magazine/ski-touring.html",
+            "image": {
+              "src": "https://wknd.site/us/en/magazine/ski-touring/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323789866/skitouring5sjoeberg.jpeg",
+              "alt": "Ski Touring",
+              "localPath": "stardust/current/assets/media/skitouring5sjoeberg-9ea2f060.jpeg",
+              "selector": "#image-86e662ac7a > img.cmp-image__image"
+            }
+          },
+          {
+            "title": "Arctic Surfing",
+            "description": "We traveled to Northern Norway to document the joy of surfing in extreme, but breathtakingly beautiful conditions.",
+            "href": "https://wknd.site/us/en/magazine/arctic-surfing.html",
+            "image": {
+              "src": "https://wknd.site/us/en/magazine/arctic-surfing/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323789770/surfer-wave-02.jpeg",
+              "alt": "Arctic Surfing",
+              "localPath": "stardust/current/assets/media/surfer-wave-02-76a693d2.jpeg",
+              "selector": "#image-3cb664b5c3 > img.cmp-image__image"
+            }
+          },
+          {
+            "title": "San Diego Surf Spots",
+            "description": "Best beach breaks",
+            "href": "https://wknd.site/us/en/magazine/san-diego-surf.html",
+            "image": {
+              "src": "https://wknd.site/us/en/magazine/san-diego-surf/_jcr_content/root/container/container/contentfragment/par1/image.coreimg.jpeg/1660323790169/adobestock-164735399.jpeg",
+              "alt": "San Diego Surf Spots",
+              "localPath": "stardust/current/assets/media/adobestock-164735399-f2759b1f.jpeg",
+              "selector": "#image-de3b7bc139 > img.cmp-image__image"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "cta",
+        "label": "All Articles",
+        "href": "https://wknd.site/us/en/magazine.html",
+        "selector": "#button-2e6d32893a"
+      },
+      {
+        "kind": "section-title",
+        "text": "Next Adventures",
+        "selector": "#title-971080d74b > h2.cmp-title__text",
+        "ref": "headings[3]"
+      },
+      {
+        "kind": "teaser",
+        "variant": [
+          "cmp-teaser--hero",
+          "cmp-teaser--imagebottom"
+        ],
+        "selector": "#teaser-ef0ce278d1",
+        "pretitle": null,
+        "title": "Climbing New Zealand",
+        "description": "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary.",
+        "cta": {
+          "label": "See Trip",
+          "href": "https://wknd.site/us/en/adventures/climbing-new-zealand.html",
+          "selector": "#teaser-ef0ce278d1-cta-c52ab81e8d"
+        },
+        "image": {
+          "src": "https://wknd.site/us/en/_jcr_content/root/container/teaser.coreimg.jpeg/1660323789729/adobestock-140634652.jpeg",
+          "alt": "Rock Climbing and Bouldering above the lake and mountains",
+          "localPath": "stardust/current/assets/media/adobestock-140634652-05c80173.jpeg",
+          "selector": "#teaser-ef0ce278d1-image > img.cmp-image__image"
+        }
+      },
+      {
+        "kind": "section-title",
+        "text": "Where do you want to go?",
+        "selector": "#title-ca6ac0fe65 > h3.cmp-title__text",
+        "ref": "headings[5]"
+      },
+      {
+        "kind": "card-grid",
+        "selector": "#container-4d3fed64ff > div > div.image-list.list > ul.cmp-image-list",
+        "cardType": "adventure-card",
+        "cards": [
+          {
+            "title": "Yosemite Backpacking",
+            "description": "Yosemite National Park, designated a World Heritage Site in 1984, is best known for its granite cliffs, waterfalls and giant sequoias, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, glaciers and lakes. The majority of visitors spend their time in the Yosemite Valley, which we'll also explore, but on this trip we'll take you to the backcountry that inspired John Muir to lead a movement to have Congress establish Yosemite as we know it today.",
+            "href": "https://wknd.site/us/en/adventures/yosemite-backpacking.html",
+            "image": {
+              "src": "https://wknd.site/us/en/adventures/yosemite-backpacking/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323790695/adobestock-231698835.jpeg",
+              "alt": "Yosemite Backpacking",
+              "localPath": "stardust/current/assets/media/adobestock-231698835-875a55a4.jpeg",
+              "selector": "#image-816082b61e > img.cmp-image__image"
+            }
+          },
+          {
+            "title": "Whistler Mountain Biking",
+            "description": "Whistler is often considered North America’s preeminent mountain bike destination. Let us show you why.",
+            "href": "https://wknd.site/us/en/adventures/whistler-mountain-biking.html",
+            "image": {
+              "src": "https://wknd.site/us/en/adventures/whistler-mountain-biking/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323789625/adobestock-122615840.jpeg",
+              "alt": "Whistler Mountain Biking",
+              "localPath": "stardust/current/assets/media/adobestock-122615840-0f074aaa.jpeg",
+              "selector": "#image-e3aacebe3c > img.cmp-image__image"
+            }
+          },
+          {
+            "title": "West Coast Cycling",
+            "description": "Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean.",
+            "href": "https://wknd.site/us/en/adventures/west-coast-cycling.html",
+            "image": {
+              "src": "https://wknd.site/us/en/adventures/west-coast-cycling/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323786740/adobestock-151584995.jpeg",
+              "alt": "West Coast Cycling",
+              "localPath": "stardust/current/assets/media/adobestock-151584995-c15fa9fa.jpeg",
+              "selector": "#image-477ed7bc47 > img.cmp-image__image"
+            }
+          },
+          {
+            "title": "Tahoe Skiing",
+            "description": "Great weather, crystal clear lake water, and a relaxed California attitude make Lake Tahoe one of the most desirable ski destinations in the world. Few ski areas rival Lake Tahoe for its excellent snow conditions, challenging terrain and state-of-the-art lift chairs. Lake Tahoe is home to dozens of resorts and we'll be your guide for the best of them.",
+            "href": "https://wknd.site/us/en/adventures/tahoe-skiing.html",
+            "image": {
+              "src": "https://wknd.site/us/en/adventures/tahoe-skiing/_jcr_content/root/container/carousel/image.coreimg.jpeg/1660323785476/adobestock-184591344.jpeg",
+              "alt": "Tahoe Skiing",
+              "localPath": "stardust/current/assets/media/adobestock-184591344-1dc74a55.jpeg",
+              "selector": "#image-eabb9c5253 > img.cmp-image__image"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "cta",
+        "label": "All Trips",
+        "href": "https://wknd.site/us/en/adventures.html",
+        "selector": "#button-b6562c963d"
+      }
+    ]
+  }
 }

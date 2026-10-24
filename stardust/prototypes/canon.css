@@ -1,0 +1,518 @@
+/* stardust:replica — wknd.site SHARED CANON (layer 1 of 2).
+   Site-wide layer every archetype prototype loads FIRST: fonts, tokens, reset/base,
+   typography, icon font, header (utility bar, language menu, nav, search, scroll
+   morph, mobile nav), page shell / container grid, buttons, section titles,
+   separators, footer, and the shared parts of the source breakpoints.
+   Moved verbatim (selectors, values, relative order) from the gated landing
+   prototype us-en-html.css — do NOT edit from an archetype; file a request in
+   stardust/replica/canon-requests.md (see CANON.md).
+   Every value below is lifted from the source stylesheet
+   (stardust/replica/capture/css/clientlib-site…css) or from computed styles
+   measured on the live page (stardust/replica/capture/measure-*.txt).
+   Source breakpoints kept verbatim: 767/768, 1024/1025, 1164/1165, 1200/1201.
+   canon2: h1/h5 sizes, nav current-page state (aria-current), separator modifiers,
+   icon glyphs plus/minus/play3 and the shared content modules (hero-teaser, image-list,
+   breadcrumb, share-bar) were MOVED here unchanged from the archetype files that authored
+   them (see canon-requests.md).
+   canon3: .featured-teaser*, .separator--space-medium, .social-btn--secondary, .text-small p moved here
+   unchanged; the language-toggle flag became markup-driven (.lang-toggle--<cc>, CANON.md § Locale chrome). */
+
+@font-face { font-family: Asar; font-style: normal; font-weight: 400; font-display: swap; src: url(assets/fonts/asar-400.woff2) format("woff2"); }
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 300; font-display: swap; src: url(assets/fonts/source-sans-pro-300.woff2) format("woff2"); }
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 400; font-display: swap; src: url(assets/fonts/source-sans-pro-400.woff2) format("woff2"); }
+@font-face { font-family: "Source Sans Pro"; font-style: normal; font-weight: 600; font-display: swap; src: url(assets/fonts/source-sans-pro-600.woff2) format("woff2"); }
+@font-face { font-family: "Source Sans Pro"; font-style: italic; font-weight: 300; font-display: swap; src: url(assets/fonts/source-sans-pro-300-italic.woff2) format("woff2"); }
+@font-face { font-family: "Source Sans Pro"; font-style: italic; font-weight: 400; font-display: swap; src: url(assets/fonts/source-sans-pro-400-italic.woff2) format("woff2"); }
+@font-face { font-family: "Source Sans Pro"; font-style: italic; font-weight: 600; font-display: swap; src: url(assets/fonts/source-sans-pro-600-italic.woff2) format("woff2"); }
+@font-face { font-family: wknd-icon-font; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/wknd-icon-font.ttf) format("truetype"); }
+
+:root {
+  --text: #202020;
+  --text-inverse: #ebebeb;
+  --text-muted: dimgray;
+  --link: #0045ff;
+  --brand-yellow: #ffea00;
+  --surface-grey: #ebebeb;
+  --surface-light: #f7f7f7;
+  --body-bg: #fff;
+  --font-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Asar, Georgia, "Times New Roman", Times, serif;
+  --font-icon: wknd-icon-font;
+  --fs-small: 14px;
+  --fs-xsmall: 12px;
+  --button-size: 48px;
+  --utility-height: 25px;
+  --shell: 1164px;
+  --gutter: 14px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+a { color: var(--link); text-decoration: none; }
+p { font-size: 18px; line-height: 2.5; margin: 0 0 13.5px; text-align: justify; }
+img { vertical-align: baseline; }
+ul, ol { margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6 { color: var(--text); line-height: 1.5; }
+h1, h2, h3 { font-family: var(--font-serif); font-weight: 400; margin-top: 27px; margin-bottom: 13.5px; }
+h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; text-transform: uppercase; }
+h1 { font-size: 40px; }                                   /* source .h1,h1 { font-size: var(--fontSizeH1,40px) } (canon2) */
+h2 { font-size: 36px; }
+h3 { font-size: 24px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }                                   /* source .h5,h5 { font-size: var(--fontSizeH5,14px) } (canon2) */
+
+.icon::before {
+  font-family: var(--font-icon) !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon--search::before { content: "\e913"; }
+.icon--facebook::before { content: "\e902"; }
+.icon--twitter::before { content: "\e901"; }
+.icon--instagram::before { content: "\e903"; }
+.icon--menu::before { content: "\e916"; }
+.icon--plus::before { content: "\e911"; }                  /* accordion collapsed (canon2) */
+.icon--minus::before { content: "\e910"; }                 /* accordion expanded (canon2) */
+.icon--play3::before { content: "\ea1c"; }                 /* breadcrumb separator / rich-text bullet (canon2) */
+
+/* ---------- header (fixed, with the source's body.scrolly morph at scrollTop > 15) ---------- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.utility-bar {
+  background-color: #202020;
+  color: var(--surface-light);
+  font-size: var(--fs-small);
+  line-height: 1.5;
+  min-height: var(--utility-height);
+}
+.utility-bar__inner { display: flex; }
+.utility-bar__sign-in { flex: 0 0 66.6667%; padding: 0 var(--gutter); text-align: left; }
+.utility-bar__lang { flex: 0 0 33.3333%; padding: 0 var(--gutter); text-align: right; }
+.utility-bar a { color: var(--text-inverse); font-size: var(--fs-small); text-transform: uppercase; }
+.sign-in-greeting { display: none; padding-right: 14px; color: var(--surface-light); text-align: left; text-transform: uppercase; }
+.sign-out-link { display: none; }
+.nav-home { display: none !important; }
+
+.lang-toggle {
+  display: inline;
+  padding-left: 35px;
+  padding-right: 14px;
+  background: 0 -1px / 25px no-repeat;
+}
+/* toggle flag = the current locale's country (live sets it inline from the active countrycode; canon3):
+   markup-driven — the toggle carries exactly one lang-toggle--<cc> class (CANON.md § Locale chrome) */
+.lang-toggle--us { background-image: url(assets/flags/US.svg); }
+.lang-toggle--ca { background-image: url(assets/flags/CA.svg); }
+.lang-toggle--ch { background-image: url(assets/flags/CH.svg); }
+.lang-toggle--de { background-image: url(assets/flags/DE.svg); }
+.lang-toggle--fr { background-image: url(assets/flags/FR.svg); }
+.lang-toggle--es { background-image: url(assets/flags/ES.svg); }
+.lang-toggle--it { background-image: url(assets/flags/IT.svg); }
+.lang-toggle::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  left: .45em;
+  top: .35em;
+  width: .45em;
+  height: .45em;
+  border-style: solid;
+  border-width: .1em .1em 0 0;
+  transform: rotate(135deg);
+  vertical-align: top;
+}
+.lang-toggle.open::after { top: .65em; transform: rotate(-45deg); }
+
+.lang-menu {
+  display: none;
+  position: fixed;
+  top: 38px;
+  right: 0;
+  z-index: 999;
+  width: 360px;
+  background: #202020;
+  color: var(--text-inverse);
+  text-align: left;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .25);
+}
+.lang-menu.showMenu { display: block; }
+.lang-menu ul { list-style: none; margin: 0; padding: 0; }
+.lang-menu__countries { float: left; width: 100%; }
+.lang-menu__country {
+  float: left;
+  width: calc(100% - 45px);
+  padding: 8px 0 15px 45px;
+  border-bottom: .25px solid dimgray;
+  background-position: 12px center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  text-transform: uppercase;
+  box-sizing: content-box;
+}
+.lang-menu__country:last-child { border-bottom: none; }
+.lang-menu__country--us { background-image: url(assets/flags/US.svg); }
+.lang-menu__country--ca { background-image: url(assets/flags/CA.svg); }
+.lang-menu__country--ch { background-image: url(assets/flags/CH.svg); }
+.lang-menu__country--de { background-image: url(assets/flags/DE.svg); }
+.lang-menu__country--fr { background-image: url(assets/flags/FR.svg); }
+.lang-menu__country--es { background-image: url(assets/flags/ES.svg); }
+.lang-menu__country--it { background-image: url(assets/flags/IT.svg); }
+.lang-menu__title { float: left; width: 100%; margin-bottom: -5px; padding-left: 2px; font-size: var(--fs-xsmall); color: var(--text-inverse); }
+.lang-menu__locales { float: left; }
+.lang-menu__locale { float: left; padding: 2px 0 0 2px; }
+.lang-menu__locale a { color: var(--surface-light); font-size: var(--fs-small); border-right: 1px solid; margin-right: 5px; padding-right: 5px; }
+.lang-menu__locale:last-child a { border-right: none; }
+.lang-menu__locale--active a { text-decoration: underline; }
+
+.header-bar {
+  background-color: var(--body-bg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: padding-bottom 0s ease, padding-top 0s; /* the source's unprefixed value is invalid; Chrome applies this -webkit- fallback */
+}
+.header-bar__inner { display: flex; align-items: center; padding: 0 var(--gutter); }
+.header-bar__logo { flex: 0 0 auto; width: 194px; padding: 0 var(--gutter); }
+.header-bar__logo img { width: 100%; max-width: 128px; height: auto; margin: 7px 0; }
+.header-nav { flex: 1; min-width: 0; min-width: 100px; padding-left: var(--gutter); }
+.header-nav ul { float: right; list-style: none; margin: 0; padding: 0; }
+.header-nav li { display: block; float: left; }
+.header-nav a {
+  display: inline-flex;
+  align-items: center;
+  height: var(--button-size);
+  padding: 0 17px;
+  color: var(--text);
+  font-size: var(--fs-small);
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.header-nav a:hover, .header-nav a:focus { background-color: var(--brand-yellow); }
+/* current page / section (source .cmp-navigation--header .cmp-navigation__item--level-1.cmp-navigation__item--active
+   .cmp-navigation__item-link) — markup-driven, mirrors live (CANON.md § Current-page nav state): the level-1 link
+   carries aria-current="page" on its own page; on a deeper page the section's level-1 <li> carries .is-active (canon2) */
+.header-nav ul a[aria-current="page"], .header-nav li.is-active > a { background-color: var(--brand-yellow); }
+.header-search {
+  flex: 0 0 var(--button-size);
+  display: block;
+  width: var(--button-size);
+  height: var(--button-size);
+  margin-right: 14px;
+  color: var(--text);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 21px;
+}
+.header-search:hover, .header-search:focus { background-color: var(--brand-yellow); }
+.header-search .icon { float: left; padding: 18px 0 0 14px; font-size: 17.5px; line-height: 17.5px; }
+
+.scrolly .header-bar {
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .26);
+  transition: padding-bottom .5s ease, padding-top .5s; /* as applied on live (observed 0.5s, 0.5s) */
+}
+
+/* mobile navigation (source: #toggleNav / #mobileNav, ≤1024) */
+.mobile-toggle, .mobile-nav { display: none; }
+
+/* ---------- page shell ---------- */
+.page-root { max-width: 1680px; margin: 0 auto; padding-top: 200px; }
+.page-main { display: block; }
+
+.fixed-container { display: flow-root; }
+.col { display: flow-root; padding: 0 var(--gutter); }
+
+/* ---------- buttons (teaser CTA — moved from the hero-teaser group) ---------- */
+.btn-teaser {
+  float: left;
+  display: block;
+  padding: 1em 2.5em;
+  background-color: var(--brand-yellow);
+  border-radius: 0;
+  color: var(--text);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+/* ---------- section titles ---------- */
+.section-title { margin: 27px 0 13.5px; }
+.section-title--underline::after {
+  content: "";
+  display: block;
+  width: 84px;
+  padding-top: 8px;
+  border-bottom: 2px solid var(--brand-yellow);
+}
+
+/* ---------- buttons + separators ---------- */
+.btn-primary {
+  float: left;
+  display: block;
+  height: var(--button-size);
+  min-width: var(--button-size);
+  background-color: var(--brand-yellow);
+  border-radius: 0;
+  color: var(--text);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.btn-primary__text { float: left; padding: 16px 32px; color: var(--text); }
+
+.separator { margin: 64px 0; }
+.separator hr { margin: 9px 0; border-style: solid; border-width: 1px; color: var(--surface-grey); }
+/* source .cmp-separator--space-small .cmp-separator, .cmp-separator--hidden .cmp-separator__horizontal-rule (canon2) */
+.separator--space-small { margin: 1em 0; }
+.separator--hidden hr { border: none; }
+/* source .cmp-separator--space-medium .cmp-separator { margin: 2em 0 } (canon3; from us-en-magazine-html.css) */
+.separator--space-medium { margin: 2em 0; }
+
+/* ---------- text utilities (canon3) ---------- */
+/* source .cmp-text--font-small p { font-size: var(--fontSizeSmall,14px) }; canon p keeps line-height 2.5 → 35px
+   (from us-en-about-us-html.css; also the FAQ help-contact text) */
+.text-small p { font-size: var(--fs-small); }
+
+/* ---------- footer ---------- */
+.site-footer { margin-top: 48px; padding: 16px 0 24px; background-color: #202020; color: var(--text-inverse); }
+.site-footer__inner { padding: 0 var(--gutter); background-color: #202020; color: var(--surface-light); }
+.site-footer__row { display: flex; align-items: flex-start; }
+.site-footer__logo { flex: 0 0 16.6667%; padding: 0 var(--gutter); }
+.site-footer__logo img { width: 100%; max-width: 128px; height: auto; margin: 7px 0; }
+.site-footer__nav { flex: 0 0 50%; padding: 15px var(--gutter) 0; }
+.site-footer__nav ul { list-style: none; margin: 0; padding: 0; }
+.site-footer__nav li { display: block; float: left; }
+.site-footer__nav a { padding: 15px 17px; color: var(--text-inverse); font-size: var(--fs-small); line-height: 21px; text-transform: uppercase; }
+.site-footer__nav a:hover, .site-footer__nav a:focus { text-decoration: underline; }
+/* source .cmp-navigation--footer …--level-1…--active .cmp-navigation__item-link — same markup hooks as the header (canon2) */
+.site-footer__nav ul a[aria-current="page"], .site-footer__nav li.is-active > a { background-color: unset; color: var(--surface-light); text-decoration: underline; }
+.site-footer__follow { flex: 0 0 16.6667%; padding: 0 var(--gutter); text-align: right; }
+.site-footer__follow h4 { margin: 21.28px 0; color: var(--text-inverse); }
+.site-footer__social { flex: 0 0 16.6667%; display: flex; }
+.social-btn {
+  display: block;
+  font-family: var(--font-icon);
+  float: left;
+  width: var(--button-size);
+  height: var(--button-size);
+  background-color: var(--surface-grey);
+  color: var(--text);
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 14px;
+}
+.social-btn .icon { float: left; padding: 18px 0 0 14px; font-size: 17.5px; line-height: 17.5px; }
+.social-btn__text { display: none; }
+/* source .cmp-button--secondary .cmp-button: dark icon-only button on the .social-btn base
+   (canon3; about contributor cards + magazine article author byline — identical in both archetypes) */
+.social-btn--secondary { background-color: #202020; color: var(--text-inverse); }
+.site-footer__separator { display: flow-root; margin: 18px 0; }
+.site-footer__text { padding: 0 var(--gutter); color: var(--surface-light); }
+.site-footer__text p { font-size: var(--fs-xsmall); line-height: 1.25; }
+.site-footer__text a { color: var(--surface-light); text-decoration: underline; font-size: var(--fs-xsmall); }
+
+/* ---------- breakpoints (source values) ---------- */
+@media (min-width: 1025px) {
+  .fixed-container { max-width: var(--shell); margin: 0 auto; padding: 0; }
+  .header-bar__inner { max-width: var(--shell); margin: 0 auto; box-sizing: content-box; }
+  .site-footer__inner { max-width: var(--shell); margin: 0 auto; box-sizing: content-box; }
+  .scrolly .header-bar { padding-top: 15px; padding-bottom: 5px; }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .header-nav { flex: 0 0 60%; }
+}
+
+@media (min-width: 1201px) {
+  .utility-bar__inner { max-width: var(--shell); margin: 0 auto; padding: 0 var(--gutter); box-sizing: content-box; }
+  .utility-bar__sign-in { flex-basis: 83.3333%; text-align: right; }
+  .utility-bar__lang { flex-basis: 16.6667%; text-align: left; }
+}
+
+@media (max-width: 1024px) {
+  .page-root { padding-top: 130px; padding-bottom: 1px; }
+  .header-bar { padding-top: 15px; padding-bottom: 15px; }
+  .header-bar__inner { display: block; display: flow-root; padding: 0 var(--gutter); }
+  .header-bar__logo { float: left; width: 50%; }
+  .header-bar__logo img { margin: 12px 0 7px 32px; max-width: 96px; }
+  .header-nav { display: none !important; }
+  .header-search { position: absolute; right: 0; top: 40px; margin-right: 0; }
+
+  .mobile-toggle {
+    display: block;
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    z-index: 10001;
+    width: 40px;
+    height: 44px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition: transform .5s ease;
+  }
+  .mobile-toggle__link { color: var(--text); }
+  .mobile-toggle .icon { float: left; padding: .5rem; font-size: 1.75rem; line-height: 28px; }
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10002;
+    width: 275px;
+    height: 100%;
+    overflow-y: auto;
+    background: #202020;
+    box-shadow: inset -3px 0 5px 0 rgba(0, 0, 0, .35);
+    transform: translateX(-275px);
+    transition: transform .5s ease;
+  }
+  .mobile-nav ul { list-style: none; margin: 0; padding: 0; }
+  .mobile-nav a { display: block; padding: 15px 17px; color: var(--text-inverse); font-size: var(--fs-small); line-height: 21px; text-transform: uppercase; }
+  .page-root { transition: transform .5s ease; }
+  body.navPanel-visible { overflow-x: hidden; }
+  body.navPanel-visible .mobile-toggle, body.navPanel-visible .page-root { transform: translateX(275px); }
+  body.navPanel-visible .mobile-nav { transform: translateX(0); }
+  body.navPanel-visible.scrolly .icon--menu { background: rgba(68, 68, 68, .75); border: 1px solid dimgray; color: #fff; }
+
+  .site-footer__row { flex-wrap: wrap; }
+  .site-footer__logo { flex-basis: 33.3333%; }
+  .site-footer__nav { flex-basis: 66.6667%; padding-top: 10px; }
+  .site-footer__nav ul { float: left; width: 100%; }
+  .site-footer__nav li { width: 100%; margin-bottom: 16px; }
+  .site-footer__follow { flex-basis: 100%; text-align: left; }
+  .site-footer__social { flex-basis: 100%; padding: 0 var(--gutter); }
+}
+
+@media (max-width: 475px) {
+  .utility-bar .lang-toggle { float: right; height: var(--utility-height); font-size: 0; }
+  .utility-bar .lang-toggle::after { font-size: var(--fs-small); }
+}
+
+/* ===================== shared content modules (canon2) =====================
+   Moved unchanged from the archetype that authored each module. Per-archetype variants
+   stay in <slug>.css (CANON.md § Shared modules). */
+
+/* ---------- hero-teaser (source .cmp-teaser in .cmp-carousel / --hero; from us-en-html.css).
+   Base = the home carousel-slide values. The standalone .cmp-teaser--hero (listing,
+   coming-soon) diverges: image box 400px <1165, img height 100%, content height 180 ≥1165 —
+   kept in us-en-adventures-html.css. ---------- */
+.hero-teaser { display: flex; flex-direction: column-reverse; align-items: center; justify-content: center; }
+.hero-teaser__image { flex: 1; width: 100%; overflow: hidden; }
+.hero-teaser__image img { display: inline; width: 100%; height: auto; margin: 0; object-fit: cover; object-position: center; }
+.hero-teaser--imagebottom .hero-teaser__image img { object-position: bottom; }
+.hero-teaser__content { flex: 1; float: left; width: 100%; padding-left: var(--gutter); padding-right: var(--gutter); }
+.hero-teaser__title { font-family: var(--font-serif); font-size: 36px; line-height: 54px; margin: 18px 0 0; }
+.hero-teaser__description { font-size: 18px; line-height: 1.75; margin: 0; }
+.hero-teaser__description p { font-size: 18px; line-height: 1.75; margin: 0; text-align: left; }
+.hero-teaser__actions { display: flow-root; margin: 18px 0; }
+
+/* ---------- image-list (4-up cards; source .cmp-image-list; from us-en-html.css = us-en-adventures-html.css) ---------- */
+.image-list { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: normal; list-style: none; margin: 0; padding: 0; width: 100%; }
+.image-list__item { flex-basis: 260px; margin: 0 0 32px; padding-right: 14px; box-sizing: content-box; }
+.image-list__image img { display: inline; width: 100%; height: 200px; margin: 0; object-fit: cover; object-position: center; }
+.image-list__title { color: var(--text); font-size: 18px; font-weight: 600; text-transform: uppercase; }
+.image-list__description {
+  display: block;
+  width: 260px;
+  margin-top: 16px;
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+  line-height: 21px;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* ---------- breadcrumb (source .cmp-breadcrumb, .cmp-breadcrumb--fixed; from
+   us-en-adventures-climbing-new-zealand-html.css) ---------- */
+.breadcrumb-bar { float: unset; max-width: 1164px; margin: 0 auto; padding: 0 var(--gutter); box-sizing: content-box; }
+.breadcrumb { display: inline-block; list-style: none; padding: 0; }
+.breadcrumb__list { margin: 0; padding: 0 12px 0 0; border-radius: 0; font-size: var(--fs-small); list-style: none; }
+.breadcrumb__item { display: inline-block; padding: 10px 5px; text-transform: uppercase; vertical-align: top; }
+.breadcrumb__item:first-child { padding-left: 0; }
+.breadcrumb__item::before {
+  content: "\ea1c";
+  padding-right: 5px;
+  color: var(--brand-yellow);
+  font-family: var(--font-icon) !important;
+  font-size: 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.breadcrumb__item:first-child::before { content: none; }
+.breadcrumb__link { color: var(--text); font-weight: 600; text-decoration: none; }
+
+/* ---------- share-bar (source .title h5 + .sharing; FB/Pinterest SDKs unhydrated on live, height 0;
+   title = canon h5; from us-en-adventures-climbing-new-zealand-html.css) ---------- */
+.share-bar__buttons { display: block; }
+
+/* ---------- featured-teaser (source .cmp-teaser--featured; home + magazine listing; from us-en-html.css =
+   us-en-magazine-html.css, canon3) ---------- */
+.featured-teaser { display: flex; flex-flow: row-reverse wrap; width: 100%; margin-bottom: 18px; }
+.featured-teaser__image { display: flex; flex-direction: column; flex: 2; flex-basis: 100%; flex: 2; }
+.featured-teaser__frame { width: 100%; height: 100%; }
+.featured-teaser__image img { width: 100%; height: 100%; margin: 0; object-fit: cover; object-position: top; }
+.featured-teaser__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 63px 36px 36px;
+  background-color: var(--surface-grey);
+}
+.featured-teaser__pretitle { font-weight: 700; margin: 0 0 13.5px; }
+.featured-teaser__title { font-size: 36px; line-height: 54px; margin: 18px 0; }
+.featured-teaser__description { font-size: var(--fs-small); line-height: 1.75; margin: 0; }
+.featured-teaser__actions { display: flow-root; margin: 18px 0; }
+
+/* ---------- shared-module breakpoints (source values) ---------- */
+@media (min-width: 1165px) {
+  .hero-teaser__image { height: 640px; max-height: 640px; }
+  .hero-teaser__image img { height: 640px; }
+  .hero-teaser__content {
+    position: relative;
+    width: 1192px;
+    min-height: 180px;
+    margin-top: -180px;
+    padding: 0 28px;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-list { justify-content: space-between; }
+  .image-list__item { padding-right: 0; }
+  .breadcrumb__list { font-size: var(--fs-xsmall); }
+  .featured-teaser { flex-direction: column; }
+  .featured-teaser__image { flex: 1; }
+  .featured-teaser__content { flex: 1; margin-top: -18px; }
+}

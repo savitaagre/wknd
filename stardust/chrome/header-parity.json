@@ -1,0 +1,35 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-24T08:43:16.276Z",
+ "source": "https://wknd.site/us/en.html",
+ "build": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 2,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /us/en not in the build header"
+  }
+ ]
+}

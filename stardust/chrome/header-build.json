@@ -1,0 +1,1017 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
+ "at": "2026-10-24T08:40:46.651Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Sign In",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(2)>p>a",
+     "expanded": null,
+     "rect": [
+      14,
+      1,
+      42,
+      18
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en#"
+         },
+         {
+          "text": "SIGN IN",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         169,
+         390,
+         507
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-Sign-In-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en#"
+         },
+         {
+          "text": "SIGN IN",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         169,
+         390,
+         507
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-Sign-In-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "USERNAME",
+       "key": "username",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wknd-modal>div>form>label:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        -2,
+        374,
+        284,
+        66
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        }
+       }
+      },
+      {
+       "name": "USERNAME",
+       "key": "username",
+       "role": "input",
+       "kind": "input",
+       "sel": "#sign-in-field-0",
+       "expanded": null,
+       "rect": [
+        -2,
+        374,
+        284,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/{q}-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "PASSWORD",
+       "key": "password",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wknd-modal>div>form>label:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        -2,
+        450,
+        284,
+        66
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        }
+       }
+      },
+      {
+       "name": "PASSWORD",
+       "key": "password",
+       "role": "input",
+       "kind": "input",
+       "sel": "#sign-in-field-1",
+       "expanded": null,
+       "rect": [
+        -2,
+        450,
+        284,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/{q}-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "FORGOT YOUR PASSWORD?",
+       "key": "forgot your password",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wknd-modal>div>form>p:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        -2,
+        526,
+        211,
+        23
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "SIGN IN",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#wknd-modal>div>form>p:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        -2,
+        563,
+        180,
+        47
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "en-US",
+     "key": "enus",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#langNavToggleHeader",
+     "expanded": "false",
+     "rect": [
+      321,
+      0,
+      55,
+      25
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en"
+         },
+         {
+          "text": "es-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/es"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/fr"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/de"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/fr"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/it"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/de/de"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/fr/fr"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/es/es"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/it/it"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         81,
+         38,
+         309,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-003-en-US-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en"
+         },
+         {
+          "text": "es-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/es"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/fr"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/de"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/fr"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/it"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/de/de"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/fr/fr"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/es/es"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/it/it"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         81,
+         38,
+         309,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-004-en-US-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(1)>p>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
+     "expanded": null,
+     "rect": [
+      28,
+      77,
+      128,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "link",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>p>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/ai-powered-search",
+     "expanded": null,
+     "rect": [
+      342,
+      40,
+      48,
+      48
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 117,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": null,
+   "loads": 19
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Sign In",
+     "key": "sign in",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(1)>div>div:nth-of-type(1)>div:nth-of-type(2)>p>a",
+     "expanded": null,
+     "rect": [
+      1052,
+      1,
+      42,
+      18
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en#"
+         },
+         {
+          "text": "SIGN IN",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         495,
+         165,
+         450,
+         571
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Sign-In-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FORGOT YOUR PASSWORD?",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en#"
+         },
+         {
+          "text": "SIGN IN",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+         }
+        ],
+        "headings": [
+         "Sign In",
+         "Welcome Back"
+        ],
+        "images": 0,
+        "inputs": [
+         "text",
+         "password"
+        ],
+        "buttons": [
+         "SIGN IN"
+        ],
+        "options": 0,
+        "rect": [
+         495,
+         165,
+         450,
+         571
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Sign-In-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "USERNAME",
+       "key": "username",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wknd-modal>div>form>label:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        555,
+        402,
+        330,
+        66
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        }
+       }
+      },
+      {
+       "name": "USERNAME",
+       "key": "username",
+       "role": "input",
+       "kind": "input",
+       "sel": "#sign-in-field-0",
+       "expanded": null,
+       "rect": [
+        555,
+        402,
+        330,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/{q}-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "PASSWORD",
+       "key": "password",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wknd-modal>div>form>label:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        555,
+        478,
+        330,
+        66
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        }
+       }
+      },
+      {
+       "name": "PASSWORD",
+       "key": "password",
+       "role": "input",
+       "kind": "input",
+       "sel": "#sign-in-field-1",
+       "expanded": null,
+       "rect": [
+        555,
+        478,
+        330,
+        66
+       ],
+       "actions": {},
+       "search": {
+        "probe": "sign",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/{q}-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+       }
+      },
+      {
+       "name": "FORGOT YOUR PASSWORD?",
+       "key": "forgot your password",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wknd-modal>div>form>p:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        555,
+        554,
+        211,
+        23
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "SIGN IN",
+       "key": "sign in",
+       "role": "toggle",
+       "kind": "account",
+       "sel": "#wknd-modal>div>form>p:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        555,
+        591,
+        180,
+        47
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/errors/sign-in?resource=%2F&j_reason=invalid_login&j_reason_code=invalid_login"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "en-US",
+     "key": "enus",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#langNavToggleHeader",
+     "expanded": "false",
+     "rect": [
+      1122,
+      1,
+      90,
+      18
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en"
+         },
+         {
+          "text": "es-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/es"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/fr"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/de"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/fr"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/it"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/de/de"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/fr/fr"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/es/es"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/it/it"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         882,
+         38,
+         360,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-en-US-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "en-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en"
+         },
+         {
+          "text": "es-US",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/es"
+         },
+         {
+          "text": "en-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en"
+         },
+         {
+          "text": "fr-CA",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/fr"
+         },
+         {
+          "text": "de-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/de"
+         },
+         {
+          "text": "fr-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/fr"
+         },
+         {
+          "text": "it-CH",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ch/it"
+         },
+         {
+          "text": "de-DE",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/de/de"
+         },
+         {
+          "text": "fr-FR",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/fr/fr"
+         },
+         {
+          "text": "es-ES",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/es/es"
+         },
+         {
+          "text": "it-IT",
+          "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/it/it"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         882,
+         38,
+         360,
+         419
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-en-US-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(1)>p>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
+     "expanded": null,
+     "rect": [
+      152,
+      119,
+      128,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Magazine",
+     "key": "magazine",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>nav>ul>li>ul>li:nth-of-type(1)>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/magazine",
+     "expanded": null,
+     "rect": [
+      875,
+      85,
+      95,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Adventures",
+     "key": "adventures",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>nav>ul>li>ul>li:nth-of-type(2)>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/adventures",
+     "expanded": null,
+     "rect": [
+      970,
+      85,
+      110,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "FAQs",
+     "key": "faqs",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>nav>ul>li>ul>li:nth-of-type(3)>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/faqs",
+     "expanded": null,
+     "rect": [
+      1080,
+      85,
+      66,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "About Us",
+     "key": "about us",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>nav>ul>li>ul>li:nth-of-type(4)>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/about-us",
+     "expanded": null,
+     "rect": [
+      1146,
+      85,
+      94,
+      48
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "link",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(1)>div:nth-of-type(2)>div>div:nth-of-type(2)>p>a",
+     "href": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/ai-powered-search",
+     "expanded": null,
+     "rect": [
+      1240,
+      85,
+      48,
+      48
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 194,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 114,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 114,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 194,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": null,
+   "loads": 23
+  }
+ },
+ "probe": "sign"
+}

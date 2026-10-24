@@ -1,0 +1,244 @@
+{
+  "url": "https://wknd.site/us/es.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 261,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 261,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 261,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 261,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 261,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "experiencefragment cmp-experiencefragment--header aem-GridColumn aem-GridColumn--default--12",
+      "position": "fixed",
+      "height": "116.719px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#toggleNav a",
+      "frames": [
+        {
+          "t": 13980.10000038147,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14182.60000038147,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14385.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14587.199999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "html > body.page.basicpage.anonymous > div.root.container.responsivegrid",
+        "y": 0,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.page.basicpage.anonymous > div",
+        "y": 0,
+        "dur": "0.5s, 0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.page.basicpage.anonymous > div.cmp-navigation--mobile",
+        "y": 0,
+        "dur": "0.5s, 0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolly"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 261
+      },
+      {
+        "added": [
+          "navPanel-visible"
+        ],
+        "el": "html > body.page.basicpage.anonymous",
+        "y": 0
+      }
+    ]
+  }
+}

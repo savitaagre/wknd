@@ -1,0 +1,82 @@
+{
+  "live": "stardust/replica/motion/us-en-magazine-guide-la-skateparks-html.json",
+  "build": "stardust/replica/motion/us-en-magazine-guide-la-skateparks-html-build.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 0,
+  "counts": {
+    "behaviors": 9,
+    "parity": 5,
+    "missing": 0,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 4,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "parity",
+      "note": "Δheight 80px, restore at y≤0, 500ms",
+      "line": "motion header scroll-morph: parity (Δheight 80px, restore at y≤0, 500ms)"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-breadcrumb__item-link → .breadcrumb__link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .cmp-breadcrumb__item-link → .breadcrumb__link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-list--upnext .cmp-list__item-link → .up-next__link",
+      "state": "parity",
+      "note": "self.background; n/a; paired by order",
+      "line": "motion hover .cmp-list--upnext .cmp-list__item-link → .up-next__link: parity (self.background; n/a; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-download__action → .download-card__action",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .cmp-download__action → .download-card__action: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-download__title-link → .download-card__title-link",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .cmp-download__title-link → .download-card__title-link: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".cmp-button--secondary .cmp-button → .social-btn--secondary",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .cmp-button--secondary .cmp-button → .social-btn--secondary: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-bottom",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 500ms",
+      "line": "motion transition padding-bottom: parity (2 event(s) on live, 2 on build, 500ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-top",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 500ms",
+      "line": "motion transition padding-top: parity (2 event(s) on live, 2 on build, 500ms)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolly",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class scrolly: parity (added 2× on live, 2× on build)"
+    }
+  ]
+}

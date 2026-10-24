@@ -1,0 +1,48 @@
+{
+  "slug": "ca-en-magazine-members-only-html",
+  "type": "members-only-listing",
+  "liveUrl": "https://wknd.site/ca/en/magazine/members-only.html",
+  "prototype": "stardust/prototypes/ca-en-magazine-members-only-html-proposed.html",
+  "breakpoints": {
+    "1440": {
+      "iterations": 1,
+      "result": { "structuralRed": 0, "visualFlags": 2, "pixelPct": 0.01, "heightDelta": 0, "chromeParity": "parity (header 6/6, footer 15/15); crop header 99.99 %, footer 100.00 %", "clipped": 0, "overflow": 0, "pass": true },
+      "justified": [
+        "visual-diff STRETCHED IMAGE x2 (alaskan-landscape-01, amazon-river-01) — intentional cover crop: canon .image-list img 260x200 object-fit cover, identical on live (source side flags the same 1152x767 -> 260x200)"
+      ],
+      "residuals": [
+        "0.01 % — image-rendition resample (live srcset 1600w rendition 1152x767 vs harvested 1280x853 file) inside fixed 260x200 cover boxes; no hot band"
+      ]
+    },
+    "360": {
+      "iterations": 1,
+      "result": { "structuralRed": 0, "visualFlags": 2, "pixelPct": 0.08, "heightDelta": 0, "chromeParity": "parity (header 2/2, footer 15/15); crop header 99.87 %, footer 100.00 %", "clipped": 0, "overflow": 0, "pass": true },
+      "justified": [
+        "visual-diff STRETCHED IMAGE x2 — intentional cover crop, as at 1440"
+      ],
+      "residuals": [
+        "0.08 % — image-rendition resample (live srcset 300w rendition 288x191 vs harvested 1280x853 file) inside fixed 260x200 cover boxes; no hot band"
+      ]
+    }
+  },
+  "capProbe": "cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/ca-en-magazine-members-only-html-2560/cap-iter.json)",
+  "units": ["members-only-card-grid (.cmp-image-list .cmp-image-list__item -> .image-list .image-list__item, n 2): Units 2 compared, off 0, missing 0 -> PASS @1440 and @360"],
+  "motion": {
+    "observed": ["header scroll-morph (body.scrolly, padding transitions 500ms)"],
+    "implemented": ["header scroll-morph (canon.js, unchanged)"],
+    "dead": ["hover .cmp-image-list__item a (no measured diff)"],
+    "compare": "motion summary: 4 parity, 0 missing, 0 extra, 0 advisory",
+    "pixelAfterMotion": { "1440": 0.01, "360": 0.08 }
+  },
+  "canonRequests": [
+    "§ Locale chrome (CA) documentation: CA markup gated as written on the first /ca/en page; active en-CA locale link href = current page path (not /ca/en.html); deeper-page li.is-active markers"
+  ],
+  "registerRequests": [],
+  "notes": [
+    "First /ca/en page: canon3 § Locale chrome CA markup used unchanged and proven (chrome-parity + crop-compare at both widths); no compensation needed.",
+    "No module of its own: canon h1 (plain .cmp-title, NOT the underlined variant — live has no cmp-title--underline here), canon .image-list (2 article cards), canon .fixed-container WITHOUT .col (live main.cmp-layout-container--fixed holds title + image list directly, no aem-Grid gutters: content x138 @1440, x0 @360). ca-en-magazine-members-only-html.css carries only a comment; no .js.",
+    "Gate rounds: iter1 --full (first build, a page-level .page-main--fixed rule) passed 0.01 % / 0.08 %; iter2 --full = confirmation after replacing it with canon .fixed-container (reuse), identical 0.01 % / 0.08 %, Δh 0.",
+    "Register entries for members-only-listing: none. Dynamics: none (Sign In stays the canon static link).",
+    "Images: alaskan-landscape-01.jpeg, amazon-river-01.jpeg copied to stardust/prototypes/assets/media/ (new files, hash suffix stripped)."
+  ]
+}

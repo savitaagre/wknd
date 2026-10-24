@@ -1,0 +1,83 @@
+/* adventure-card-grid — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/canon.css .image-list*, source .cmp-image-list; canon unit family
+   adventure-card-grid). */
+
+/* the section's columns (title, tabs, list) are flow-root, as the source .col is —
+   margins stay inside each column */
+main .adventure-card-grid-container .default-content-wrapper,
+main .adventure-card-grid-wrapper {
+  display: flow-root;
+}
+
+.adventure-card-grid .items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: normal;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.adventure-card-grid .item {
+  box-sizing: content-box;
+  flex-basis: 260px;
+  margin: 0 0 32px;
+  padding-right: 14px;
+}
+
+.adventure-card-grid .item[hidden],
+.adventure-card-grid .categories[hidden] {
+  display: none;
+}
+
+/* the source image is INLINE (baseline gap below the 200px image) */
+.adventure-card-grid .image img {
+  display: inline;
+  vertical-align: baseline;
+  width: 100%;
+  max-width: none;
+  height: 200px;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.adventure-card-grid .title p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.adventure-card-grid .title a:any-link {
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.adventure-card-grid .description p {
+  display: block;
+  width: 260px;
+  margin: 16px 0 0;
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: var(--fs-small);
+  line-height: 21px;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (width <= 767px) {
+  .adventure-card-grid .items {
+    justify-content: space-between;
+  }
+
+  .adventure-card-grid .item {
+    padding-right: 0;
+  }
+}

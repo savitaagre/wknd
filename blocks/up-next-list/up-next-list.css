@@ -1,0 +1,71 @@
+/* up-next-list — values lifted verbatim from the gated replica prototype
+   (stardust/prototypes/us-en-magazine-guide-la-skateparks-html.css: .up-next*; source
+   .cmp-list, .cmp-list--upnext). The block is the source 3/12 aside grid column (14px
+   gutters, 2rem above). The source boxes are content-box (the site's universal
+   border-box would shrink the 90pt tile). */
+
+.up-next-list {
+  display: flow-root;
+  padding: 2rem var(--gutter) 0;
+}
+
+.up-next-list .items {
+  float: left;
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.up-next-list .item {
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+.up-next-list .link,
+.up-next-list .title,
+.up-next-list .date {
+  box-sizing: content-box;
+}
+
+.up-next-list .link {
+  float: left;
+  height: 90pt;
+  padding: 0.5rem 1rem;
+  border-left: 5px solid var(--surface-grey);
+  font-weight: 400;
+}
+
+.up-next-list a.link:hover {
+  border-color: var(--text);
+  background: var(--brand-yellow);
+}
+
+.up-next-list .title {
+  float: left;
+  width: 100%;
+  color: var(--text);
+  text-transform: uppercase;
+}
+
+.up-next-list .date {
+  float: left;
+  width: 100%;
+  color: var(--text-muted);
+  font-size: var(--fs-xsmall);
+  text-transform: uppercase;
+}
+
+/* the authored paragraphs are the source spans' boxes (float, full width + 5px padding,
+   content-box) and take the tile's type */
+.up-next-list .title p,
+.up-next-list .date p {
+  box-sizing: content-box;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+}
