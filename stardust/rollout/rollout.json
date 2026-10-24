@@ -15,11 +15,11 @@
     "liveHost": null
   },
   "lastRun": {
-    "at": "2026-10-24T10:24:51.405Z",
+    "at": "2026-10-24T10:57:36.581Z",
     "pages": {
       "total": 65,
-      "verified": 36,
-      "deployed": 29,
+      "verified": 65,
+      "deployed": 0,
       "pending": 0,
       "contentPending": 0,
       "stale": 0,

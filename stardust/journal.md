@@ -361,3 +361,10 @@ published (preview) origin.
   siblings 1440 0.26 % / 360 0.36–0.38 %). The coordinator ran the missing coming-soon 360 sibling check,
   coverage rows and sidecar gates. State: 65/65 migrated. Lint 0 errors; foundation unchanged.
 - Owner (2026-10-24): the final check covers this run's 29 pages only.
+
+## C-final run 4 + E/E2 — 29/29 gated, 65/65 verified (2026-10-24)
+
+- 0 new foundation requests (foundation unchanged since run-3 C-final). Roster gate-all over the 29 run-4 pages
+  (owner scope): 1440 29/29 PASS (worst 1.08 %), 360 29/29 PASS (worst 4.05 %); coverage --gate 29/29;
+  verify.mjs on the branch host: 65/65 verified (the whole site). E2: 0 broken; /us/en/errors/sign-in uncaptured,
+  owner: leave as is (D1). done-check: rollout_incomplete only (Phase D needs a live publish) → handoff blocked.

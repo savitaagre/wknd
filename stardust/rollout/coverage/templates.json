@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-24T10:24:51.405Z",
+  "generatedAt": "2026-10-24T10:57:36.581Z",
   "templates": [
     {
       "id": "article",
@@ -29,8 +29,8 @@
       "pageCount": 11,
       "blocks": [],
       "delivery": {
-        "verified": 7,
-        "deployed": 4,
+        "verified": 11,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -68,8 +68,8 @@
       "pageCount": 8,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 8,
+        "verified": 8,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -173,8 +173,8 @@
       "pageCount": 31,
       "blocks": [],
       "delivery": {
-        "verified": 16,
-        "deployed": 15,
+        "verified": 31,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -262,8 +262,8 @@
         "ai-search"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -358,8 +358,8 @@
         "hero-teaser"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }

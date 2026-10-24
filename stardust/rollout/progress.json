@@ -79,6 +79,32 @@
       "startedAt": "2026-10-24T09:42:52Z",
       "endedAt": "2026-10-24T10:25:51Z",
       "verdict": "search: pages 1/1 previewed, blocks 1 (ai-search, interim index-backed), gate 1440 PASS / 360 0.02 % \u0394h 0 PASS, R-03 hidden h1"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "program",
+        "article",
+        "coming-soon",
+        "unique"
+      ],
+      "pages": 29,
+      "blocks": 0,
+      "startedAt": "2026-10-24T10:58:20Z",
+      "endedAt": "2026-10-24T10:58:20Z",
+      "gates": {
+        "1440": {
+          "roster": "29/29 PASS",
+          "worst": "1.08% (us-en-adventures-riverside-camping-australia)"
+        },
+        "360": {
+          "roster": "29/29 PASS",
+          "worst": "4.05% (us-en-magazine-ski-touring)"
+        },
+        "verify": "65/65"
+      },
+      "verdict": "final (run 4): 0 new requests, gate-all 29/29 PASS 1440 (worst 1.08%) + 360 (worst 4.05%), verify 65/65, link audit 0 broken"
     }
   },
   "run1": {

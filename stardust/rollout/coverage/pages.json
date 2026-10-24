@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-24T10:24:51.405Z",
+  "generatedAt": "2026-10-24T10:57:36.581Z",
   "pages": [
     {
       "slug": "ca-en-about-us-html",
@@ -28,7 +28,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/about-us",
         "deployedAt": "2026-10-23T17:16:58.731Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -69,7 +69,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/bali-surf-camp",
         "deployedAt": "2026-10-23T16:40:15.722Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -110,7 +110,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/beervana-portland",
         "deployedAt": "2026-10-23T16:40:16.043Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -151,7 +151,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/climbing-new-zealand",
         "deployedAt": "2026-10-23T16:40:16.364Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -192,7 +192,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/colorado-rock-climbing",
         "deployedAt": "2026-10-23T16:40:16.680Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -233,7 +233,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/cycling-southern-utah",
         "deployedAt": "2026-10-23T16:40:17.003Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -274,7 +274,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/cycling-tuscany",
         "deployedAt": "2026-10-23T16:40:17.318Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -315,7 +315,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/downhill-skiing-wyoming",
         "deployedAt": "2026-10-23T16:40:17.641Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -356,7 +356,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/gastronomic-marais-tour",
         "deployedAt": "2026-10-23T16:40:17.955Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -397,7 +397,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures",
         "deployedAt": "2026-10-23T15:37:27.932Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -438,7 +438,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/napa-wine-tasting",
         "deployedAt": "2026-10-23T16:40:18.266Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -479,7 +479,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/riverside-camping-australia",
         "deployedAt": "2026-10-23T16:40:18.593Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -520,7 +520,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/ski-touring-mont-blanc",
         "deployedAt": "2026-10-23T16:40:18.918Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -561,7 +561,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/surf-camp-costa-rica",
         "deployedAt": "2026-10-23T16:40:19.231Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -602,7 +602,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/tahoe-skiing",
         "deployedAt": "2026-10-23T16:40:19.559Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -643,7 +643,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/west-coast-cycling",
         "deployedAt": "2026-10-23T16:40:19.862Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -684,7 +684,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/whistler-mountain-biking",
         "deployedAt": "2026-10-23T16:40:20.196Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -725,7 +725,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/adventures/yosemite-backpacking",
         "deployedAt": "2026-10-23T16:40:20.513Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -766,7 +766,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/faqs",
         "deployedAt": "2026-10-23T17:22:21.674Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -807,7 +807,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en",
         "deployedAt": "2026-10-23T17:14:23.427Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -848,7 +848,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/arctic-surfing",
         "deployedAt": "2026-10-24T06:58:46.287Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -889,7 +889,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/guide-la-skateparks",
         "deployedAt": "2026-10-24T06:58:46.520Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -930,7 +930,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine",
         "deployedAt": "2026-10-23T18:10:41.050Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -971,7 +971,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only/alaskan-adventure",
         "deployedAt": "2026-10-24T06:58:47.467Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1012,7 +1012,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only/fly-fishing-the-amazon",
         "deployedAt": "2026-10-24T06:58:47.718Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1053,7 +1053,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only",
         "deployedAt": "2026-10-23T15:23:14.754Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1094,7 +1094,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/san-diego-surf",
         "deployedAt": "2026-10-24T06:58:46.749Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1135,7 +1135,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/ski-touring",
         "deployedAt": "2026-10-24T06:58:46.988Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1176,7 +1176,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/western-australia",
         "deployedAt": "2026-10-24T06:58:47.225Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1214,11 +1214,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ca/fr",
         "deployedAt": "2026-10-24T10:24:49.747Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.38,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1236,11 +1255,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ch/de",
         "deployedAt": "2026-10-24T10:24:49.996Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1258,11 +1296,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ch/fr",
         "deployedAt": "2026-10-24T10:24:50.232Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1280,11 +1337,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ch/it",
         "deployedAt": "2026-10-24T10:24:50.462Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1302,11 +1378,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/de/de",
         "deployedAt": "2026-10-24T10:24:50.693Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1324,11 +1419,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/es/es",
         "deployedAt": "2026-10-24T10:24:51.152Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.37,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1346,11 +1460,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/fr/fr",
         "deployedAt": "2026-10-24T10:24:50.925Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1368,11 +1501,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/it/it",
         "deployedAt": "2026-10-24T10:24:51.405Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1393,7 +1545,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/about-us",
         "deployedAt": "2026-10-23T17:00:29.123Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1431,11 +1583,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/bali-surf-camp",
         "deployedAt": "2026-10-24T09:53:29.611Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.64,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1453,11 +1624,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/beervana-portland",
         "deployedAt": "2026-10-24T09:53:29.889Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.4,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1482,7 +1672,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/adventures/climbing-new-zealand",
         "deployedAt": "2026-10-23T15:40:27.860Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1520,11 +1710,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/colorado-rock-climbing",
         "deployedAt": "2026-10-24T09:53:30.197Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.34,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1542,11 +1751,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/cycling-southern-utah",
         "deployedAt": "2026-10-24T09:53:30.596Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1564,11 +1792,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/cycling-tuscany",
         "deployedAt": "2026-10-24T09:53:32.492Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.05,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1586,11 +1833,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/downhill-skiing-wyoming",
         "deployedAt": "2026-10-24T09:53:34.491Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.14,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1608,11 +1874,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/gastronomic-marais-tour",
         "deployedAt": "2026-10-24T09:53:36.486Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.44,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1635,7 +1920,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/adventures",
         "deployedAt": "2026-10-23T15:23:38.959Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1673,11 +1958,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/napa-wine-tasting",
         "deployedAt": "2026-10-24T09:53:37.319Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.9,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1695,11 +1999,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/riverside-camping-australia",
         "deployedAt": "2026-10-24T09:53:37.891Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1717,11 +2040,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/ski-touring-mont-blanc",
         "deployedAt": "2026-10-24T09:53:38.151Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.84,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1739,11 +2081,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/surf-camp-costa-rica",
         "deployedAt": "2026-10-24T09:53:38.599Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1761,11 +2122,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/tahoe-skiing",
         "deployedAt": "2026-10-24T09:53:39.596Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.59,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1783,11 +2163,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/west-coast-cycling",
         "deployedAt": "2026-10-24T09:53:40.203Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.9,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1805,11 +2204,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/whistler-mountain-biking",
         "deployedAt": "2026-10-24T09:53:40.816Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.84,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1827,11 +2245,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/yosemite-backpacking",
         "deployedAt": "2026-10-24T09:53:41.116Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.25,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1849,11 +2286,30 @@
         "ai-search"
       ],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/ai-powered-search",
         "deployedAt": "2026-10-24T10:01:36.431Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.02,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1875,7 +2331,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/faqs",
         "deployedAt": "2026-10-23T17:04:32.704Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1919,7 +2375,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en",
         "deployedAt": "2026-10-23T17:01:11.266Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -1957,11 +2413,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/arctic-surfing",
         "deployedAt": "2026-10-24T09:57:50.610Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.62,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -1987,7 +2462,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/magazine/guide-la-skateparks",
         "deployedAt": "2026-10-24T06:58:46.046Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -2030,7 +2505,7 @@
         "status": "verified",
         "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/magazine",
         "deployedAt": "2026-10-23T17:46:08.115Z",
-        "verifiedAt": "2026-10-24T09:30:34.767Z",
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
         "error": null,
         "gate": {
           "pass": true,
@@ -2068,11 +2543,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/san-diego-surf",
         "deployedAt": "2026-10-24T09:57:50.841Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.77,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -2090,11 +2584,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/ski-touring",
         "deployedAt": "2026-10-24T09:57:51.064Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.05,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -2112,11 +2625,30 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/western-australia",
         "deployedAt": "2026-10-24T09:57:51.296Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.66,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     },
     {
@@ -2134,11 +2666,30 @@
         "hero-teaser"
       ],
       "delivery": {
-        "status": "deployed",
+        "status": "verified",
         "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/es",
         "deployedAt": "2026-10-24T09:52:47.003Z",
-        "verifiedAt": null,
-        "error": null
+        "verifiedAt": "2026-10-24T10:57:36.581Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.38,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-24T10:57:34.513Z"
+        }
       }
     }
   ]
