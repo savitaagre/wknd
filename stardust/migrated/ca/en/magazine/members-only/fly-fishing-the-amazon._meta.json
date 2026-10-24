@@ -3,7 +3,12 @@
   "type": "article",
   "renderBranch": "A'",
   "template": "us-en-magazine-guide-la-skateparks-html",
-  "modules": [],
+  "modules": [
+    "breadcrumb",
+    "author-byline-card",
+    "share-bar",
+    "up-next-list"
+  ],
   "slotsFilled": [
     "fixed-container"
   ],
@@ -13,7 +18,16 @@
     "css": "fa70ee98d9bd"
   },
   "deviations": [],
-  "migrationDecisions": [],
+  "migrationDecisions": [
+    {
+      "kind": "pending-code-push",
+      "defect": "body paragraph with one inline <em> (onceinalifetime) after the milkyway image matched the CSS-only caption selector p:has(em:only-child): 14px/600 uppercase, -237px",
+      "fix": "blocks/up-next-list ca1b14a + 4c06321: JS marks p.image-caption (em-only paragraph, no strong) (committed, NOT pushed: GitHub 401)",
+      "published": "1440 5.35% dh 237 / 360 6.83% dh 386 PASS (pre-fix code)",
+      "simulated": "1440 0.02% dh 0 / 360 2.16% dh -1 PASS",
+      "next": "push, then gate-all --only this slug at 1440 + 360"
+    }
+  ],
   "metadata": {
     "title": "Fly Fishing the Amazon",
     "description": "Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.",
@@ -36,8 +50,12 @@
   "archetypeSource": "us-en-magazine-guide-la-skateparks-html",
   "archetypeSha": "7f5f83bc4f4c",
   "variants": [],
-  "gatesPassed": [],
-  "gateEvidence": {},
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim A' clone of the archetype encoder; content-diff capture->preview main 26/26 text nodes, 5/5 headings, 9/9 CTAs, 5/5 img (capture-tier ROLE SWAP/ICON only: unstyled capture); live->preview 0 structural (stardust/.work/rollout/article/content-diff-sim/ca-en-magazine-members-only-fly-fishing-the-amazon-html.txt)"
+  },
   "contentDeviations": [],
   "assetsBundled": 1,
   "missingAssets": [],

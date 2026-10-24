@@ -604,3 +604,27 @@ head.html, the fixed-chrome shell, buttons, header/footer template-slotted decod
   100.00 / 99.87 %, footer 100.00 / 100.00 %; chrome-parity = logo hashes + CA footer Δw −2px (queued).
   content-diff live vs preview 0 🔴 (main 25/25, 8/8 img); capture vs preview 15 🔴 = capture tier.
   Sidecars gatesPassed 6 (archetype) / 7 (sibling), modules [featured-teaser, image-list, members-only-teaser].
+
+## Run 3 — C-archetype article / us-en-magazine-guide-la-skateparks-html + 7 /ca/en siblings (cluster `article`, preview only)
+- Blocks (7f81d40, a130122, 360bd06): pull-quote (+ `plain`), download-card, author-byline-card, up-next-list
+  (+ interim article layout: article-lead/body/aside section styles, breadcrumb grid, `plain-title`, image
+  caption); reused read-only: breadcrumb, share-bar. Documents + renders + sidecars + ledger: 47e959b.
+- Archetype gate (preview, 2 of 3 rounds): pub2 1440 0.09 % Δh 0 · 360 2.85 % Δh −2 · content-diff 0 🔴 ·
+  clip 0 · MISSING/HIDDEN 0 · units 4, 0 off · crops header 100.00 / 99.86 %, footer 100.00 / 99.23 % ·
+  motion 5 parity / 0 missing · gate-all PASS 1440 + 360. chrome-parity 1440 = 2 DA logo hashes; 360 = the
+  2 hashes + 11 uniform footer Δy +2 px: the page is 2 px taller — DA renditions carry a different aspect
+  than the source's 360w renditions (hero 186.36 vs 185.91 px), the sub-pixel offset rounds to +1…+2 px
+  down the page (also the 360 pixel % vs the prototype's 0.15 %; text 6.96 %). No chrome difference.
+- Siblings (A′ clones, 7): published 1440 arctic 0.03 · alaskan 0.06 · guide 0.09 · ski 0.11 · w-australia
+  0.71 · fly-fishing 5.35 (Δh 237) · san-diego 7.76 (Δh 60). Causes: fly-fishing — the CSS-only caption
+  selector `p:has(img) + p:has(em:only-child)` matched the closing body paragraph (one inline <em>
+  "onceinalifetime") → 14px uppercase, −237 px; san-diego — `plain-title` switched the body to block flow,
+  collapsing p 13.5 + h2 27 (the source's empty .aem-Grid clearfix keeps them apart, −13.5 × 4) and the
+  caption sat 7 px high (−10.5 vs −3.5 px). Fix ca1b14a + 4c06321 (JS `p.image-caption`, em-only and no
+  strong — the guide's <em><strong> addresses stay body; flex body kept; caption −3.5 px). NOT PUSHED
+  (GitHub 401 from this session) → gated by simulation (sim-proxy.mjs: preview + local up-next-list):
+  1440 san-diego 0.46 % Δh −1, fly-fishing 0.02 % Δh 0, the other 5 unchanged; 360 all 7 2.16–4.04 % Δh −1/−2.
+  Published 360 (pre-fix code): 6 PASS 2.69–6.83 %, san-diego FAIL 10.13 %.
+- content-count: capture → preview main counts equal on all 7 (🔴 = unstyled-capture ROLE SWAP / ICON tier);
+  live → preview (sim) 0 🔴 ×7. Residual 🟡: avatar MISSING/EXTRA ICON = DA media naming; san-diego img
+  title == alt dropped by the pipeline (deviation logged).
