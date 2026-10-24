@@ -15,13 +15,14 @@ page.on('response', (r) => {
 });
 await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
 await page.waitForTimeout(2500);
-const input = page.locator('.cmp-contentaisearch__input').first();
+// source markup (.cmp-contentaisearch) or the EDS ai-search block
+const input = page.locator('.cmp-contentaisearch__input, .ai-search-input').first();
 await input.fill(term);
 await input.press('Enter');
 await page.waitForTimeout(6000);
 const result = await page.evaluate(() => {
   const vis = (el) => !!el && el.getClientRects().length > 0 && getComputedStyle(el).visibility !== 'hidden';
-  const root = document.querySelector('.cmp-contentaisearch');
+  const root = document.querySelector('.cmp-contentaisearch, .ai-search-results');
   const items = [...(root?.querySelectorAll('a[href]') || [])].filter(vis)
     .map((a) => ({ title: a.textContent.trim().replace(/\s+/g, ' '), href: a.getAttribute('href') }))
     .filter((x) => x.title);

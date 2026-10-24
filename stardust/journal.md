@@ -368,3 +368,14 @@ published (preview) origin.
   (owner scope): 1440 29/29 PASS (worst 1.08 %), 360 29/29 PASS (worst 4.05 %); coverage --gate 29/29;
   verify.mjs on the branch host: 65/65 verified (the whole site). E2: 0 broken; /us/en/errors/sign-in uncaptured,
   owner: leave as is (D1). done-check: rollout_incomplete only (Phase D needs a live publish) → handoff blocked.
+
+## D-site — wknd published live; sitemap + site-wide index fixed (PR #4) (2026-10-24)
+
+- Owner request: publish the site live. deploy-batch (branch main) PUT → preview → live for 88 documents
+  (65 pages + 23 chrome docs): 88 ok, 0 failed; drafts/docs/old edsmsm content not published (404 live).
+- Redirects sheet /redirects.json (DA, preview + live): / and /index.html → /us/en (301 verified).
+- Found after publish: sitemap on the old template origin (26 URLs) and a 21-page index → PR #4 (helix-sitemap.yaml
+  origin main--wknd--savitaagre.aem.live, one site-wide index excluding nav/footer/fragments/drafts/docs), merged
+  004935c. Re-indexed 65/65 → /query-index.json total 65, /sitemap.xml 65 locs on the wknd origin.
+- D2 search parity: live "surf" → 4 /us/en results vs 8 on the source (Content AI semantic search). Index-backed
+  search matches title/description only — residual tied to decision D4 (AI backend).

@@ -52,3 +52,6 @@
 {"ts":"2026-10-24T10:57:55Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"run 4 scope"}
 {"ts":"2026-10-24T10:57:55Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"40 hrefs from 29 pages + chrome: 25 internal ok, 0 broken; /us/en/errors/sign-in uncaptured — owner: leave as is (D1)"}
 {"ts":"2026-10-24T10:58:20Z","skill":"stardust:replica","phase":"handoff","event":"blocked","detail":"all 65 pages delivered + verified on preview (runs 2–4); done-check: rollout_incomplete only — D (sitemap, root redirect, query index) needs a live publish, owner keeps preview only; F/G/H/I follow D","owner":"savitaagre"}
+{"ts":"2026-10-24T18:34:34Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 65 = coverage 65; redirects wired; / 301 → /us/en; 88 docs live"}
+{"ts":"2026-10-24T18:34:34Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"search parity on the live host"}
+{"ts":"2026-10-24T18:34:34Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"search-query surf: 4 vs source 8 — residual, D4 (Content AI backend); index 65 pages"}
