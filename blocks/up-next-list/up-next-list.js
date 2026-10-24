@@ -68,10 +68,12 @@ function toItems(block) {
   return items;
 }
 
-// a caption paragraph: exactly one <em> child and no other text (whitespace aside)
+// a caption paragraph: exactly one <em> child and no other text (whitespace aside); an
+// <em><strong> line is body copy (the guide's bold-italic street addresses after a photo)
 function isCaption(p) {
   const nodes = [...p.childNodes].filter((n) => n.nodeType !== 3 || n.textContent.trim());
-  return nodes.length === 1 && nodes[0].nodeName === 'EM' && !nodes[0].querySelector('img, picture');
+  return nodes.length === 1 && nodes[0].nodeName === 'EM'
+    && !nodes[0].querySelector('strong, b, img, picture');
 }
 
 function markCaptions(main) {
