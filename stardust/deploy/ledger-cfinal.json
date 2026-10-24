@@ -1,0 +1,26 @@
+{
+  "/ca/en/about-us": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T08:29:19.832Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/fragments/sign-in": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T08:29:19.833Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/about-us": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T08:29:22.010Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

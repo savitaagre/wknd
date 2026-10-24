@@ -1,5 +1,5 @@
 {
-  "frozenAt": "2026-10-23T11:28:49.870Z",
+  "frozenAt": "2026-10-24T08:43:31.787Z",
   "root": ".",
   "paths": [
     "styles/",
@@ -12,11 +12,11 @@
   "files": {
     "blocks/footer/README.md": "617b670cd77a55d6ae55885a67a9fe1b0456ec8bf8c306fc098b8287c5a358b8",
     "blocks/footer/footer.css": "30ceefc0a455efdcc04204699a1202cd64b3c5fc6ddea60499c0a589a8522096",
-    "blocks/footer/footer.js": "c994c66aab9a9328e412d8e540e03063211f7d19523bd0da2ebadb4b1bcdd068",
+    "blocks/footer/footer.js": "dd62c2dea862033b9f9dc1744e495670c0a82e3dee584c6e46dd3cae9e403569",
     "blocks/footer/metadata.json": "13e37759f695ec266c230b493cdd58785978aa27b3554735bef2b61ec5d14024",
     "blocks/header/README.md": "52cbd5c1e9cd783333bc3e57401b01faca4901dab7db2bfb4c0db2e0c665740a",
-    "blocks/header/header.css": "9ced26151dd443c9e48c10147a8b977793b449096ed615dc93545faf2c23b433",
-    "blocks/header/header.js": "6265f9fcf395822f7019ecd34d7ba4034d6d4218813969aa760a5c6854a193bf",
+    "blocks/header/header.css": "7b197e747fb952b1da96628a3e40d4246bd1afcd79e42d09aa2a170382da716c",
+    "blocks/header/header.js": "535bc443a689205ad41dc3e6fa97ed3cd2dbbf071b958f76003f9f6dde7c3646",
     "blocks/header/metadata.json": "76c4cd8ad9d0bb3e88e54c82574a3796a650d8109ca3d60e56e7379e2123c99b",
     "blocks/header/sign-in.js": "891cb0839c6b3cf0a9d7cdcfc63ec92688d78ee31288fc057a1daa840b4cd55a",
     "fonts/asar-400.woff2": "f02815732fbf707cd08dd5d1390e3a9b48264794157ed8a08e5ace4f5c28850d",
@@ -35,12 +35,12 @@
     "scripts/aem.js": "014479db98bd56d25c248ff45aa705752d871a9eff0484c5620f00cf58b42ae6",
     "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
     "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
-    "scripts/magazine-sidebar.js": "5733961768dd34b3d506ca6212051f033227f6083390821237bee553318e3565",
-    "scripts/scripts.js": "f1aa6a89eef4a457e541c72b93eebed3522cc50aa8ee5b473a69b05d34fe4281",
+    "scripts/magazine-sidebar.js": "d525cd9037b752b6357cf78cc9f5b77fdb97a8b4f3210f7febd2a3d1e92e47ec",
+    "scripts/scripts.js": "835729609d25a9b875a48e53676060b6be790d9ac385291e4b262be8d20203a6",
     "scripts/social-icons.js": "08ee99afedac4a8d4d93c361d3acddefaa1ad1650c2361910609dd1058488f24",
     "styles/brand.css": "759a9648202d037cebb1ea35749982ca6bd3f587e6581df175e0e45ce74cc3e3",
     "styles/fonts.css": "a78011c2484ee176344bf57a4037958afc14f5224d7bb2f1ad62a3320b387869",
     "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
-    "styles/styles.css": "08fc63ff377274b56c696e1aa8ed0873769ed2db1ffb0e06378b597639a2b6e4"
+    "styles/styles.css": "25c06ff2f4da48c4c76e9d1e0a6f74f43da43fd8e0b722ba42858a098108e1ad"
   }
 }
