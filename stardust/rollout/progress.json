@@ -240,6 +240,38 @@
       "startedAt": "2026-10-23T17:29:35Z",
       "endedAt": "2026-10-24T07:02:46Z",
       "verdict": "magazine-listing: pages 2/2 previewed, blocks 1 new (+2 reused unchanged), gate 1440 0.23% / 360 0.09% (archetype; worst sibling 0.24% / 0.09%), requests 1"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "faq",
+        "static",
+        "magazine-listing",
+        "article",
+        "members-only-listing"
+      ],
+      "pages": 36,
+      "blocks": null,
+      "gates": {
+        "1440": {
+          "roster": "36/36 PASS",
+          "worst": "1.00% (ca-en-adventures-riverside-camping-australia)"
+        },
+        "360": {
+          "roster": "36/36 PASS",
+          "worst": "4.04% (ca-en-magazine-ski-touring)"
+        },
+        "archetypes": "8/8 re-gated unchanged after foundation requests",
+        "headerContract": "0 errors / 2 warnings (unnamed logo link, comparer)",
+        "verify": "36/36 verified"
+      },
+      "startedAt": "2026-10-24T08:05:52Z",
+      "endedAt": "2026-10-24T09:30:56Z",
+      "verdict": "final: 19 requests marked (14 applied incl. 3 pilot, 5 plugin/evidence), archetypes 8/8 unchanged, gate-all 36/36 PASS 1440 (worst 1.00%) + 360 (worst 4.04%), verify 36/36"
     }
   },
   "run1": {

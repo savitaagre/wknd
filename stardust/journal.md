@@ -332,3 +332,17 @@ published (preview) origin.
 - up-next-list fix live (markCaptions served). gate-all --only, published regime: san-diego-surf 1440 0.46 % Δh −1 ·
   360 2.82 % Δh −2; fly-fishing-the-amazon 0.02 % Δh 0 · 2.16 % Δh −1 — PASS. 36/36 Canada-scope pages migrated.
 - Next: C-final (foundation-requests.md applied once: 21 lines), roster gate-all, coverage, E2 link audit, report.
+
+## C-final + E/E2 — Canada scope complete on the preview: 36/36 gated and verified (2026-10-24)
+
+- C-final: the worker applied the queued foundation requests (ebe610a, pushed): decorateButtons keeps authored
+  titles only, image captions marked once in decorateMain, section styles no-gutter / plain-title / plain-h1 /
+  no-collapse / article-lead|body|aside moved into styles.css, dead .section.faq grid removed, breadcrumb grid
+  variant moved to its owner, sign-in modal title h2. 19 request lines marked: 14 applied (3 already in the
+  pilot's C-final), 5 plugin/evidence. 8/8 archetypes re-gated — every number unchanged. Header contract on
+  the delivered /us/en: 0 errors (2 warnings: the unnamed logo link). Foundation re-frozen (32 files).
+- Roster gate-all (fresh captures, published regime): 1440 36/36 PASS (worst 1.00 %), 360 36/36 PASS (worst
+  4.04 %); coverage --gate 36/36 matched; verify.mjs 36/36 verified.
+- E2 (preview): 92 hrefs, 0 broken inside /ca/en; 28 captured targets outside this run (18 us/en pages,
+  9 coming-soon homes, ai-powered-search) = scope debt of the full wknd run; /us/en/errors/sign-in uncaptured.
+- done-check: pages_unfinished 29, rollout_incomplete → `replica handoff blocked` (scope), not `end`.

@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-24T06:58:47.718Z",
+  "generatedAt": "2026-10-24T09:30:34.767Z",
   "templates": [
     {
       "id": "article",
@@ -29,8 +29,8 @@
       "pageCount": 11,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 7,
+        "verified": 7,
+        "deployed": 0,
         "contentPending": 4,
         "pending": 0
       }
@@ -46,8 +46,8 @@
         "image-list"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -83,8 +83,8 @@
       "pageCount": 1,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -98,8 +98,8 @@
       "pageCount": 1,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -113,8 +113,8 @@
       "pageCount": 1,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -128,8 +128,8 @@
       "pageCount": 1,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -173,8 +173,8 @@
       "pageCount": 31,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 16,
+        "verified": 16,
+        "deployed": 0,
         "contentPending": 15,
         "pending": 0
       }
@@ -188,8 +188,8 @@
       "pageCount": 1,
       "blocks": [],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -205,8 +205,8 @@
         "contributor-card"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -226,8 +226,8 @@
         "trip-gallery-carousel"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -245,8 +245,8 @@
         "hero-teaser"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -280,8 +280,8 @@
         "help-contact-block"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -300,8 +300,8 @@
         "image-list"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -322,8 +322,8 @@
         "up-next-list"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
@@ -341,8 +341,8 @@
         "members-only-teaser"
       ],
       "delivery": {
-        "verified": 0,
-        "deployed": 1,
+        "verified": 1,
+        "deployed": 0,
         "contentPending": 0,
         "pending": 0
       }
