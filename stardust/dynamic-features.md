@@ -69,3 +69,9 @@ first-party paths are the AEM session / ContextHub / CSRF / current-user files o
 the source either). No disposition changes; every row keeps its disposition. Owner batch unchanged: D1, D2, D4.
 Delivery note: the owner chose **preview only**; the search query index (row 6) builds from the LIVE tree,
 so the search page can only be wired once pages are published — recorded as an interim (static UI) until then.
+
+## Run 4 E2 decision (owner, 2026-10-24)
+
+`/us/en/errors/sign-in` (the source's failed-login page, target of the Sign In modal's SIGN IN control) was never
+captured; on the preview it answers 404. Owner decision: **leave as is** — listed under D1 (sign-in backend);
+not repointed, not migrated.

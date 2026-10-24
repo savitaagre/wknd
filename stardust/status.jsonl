@@ -41,3 +41,14 @@
 {"ts":"2026-10-24T09:30:57Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"run 3 /ca/en scope, preview regime"}
 {"ts":"2026-10-24T09:30:57Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"92 hrefs: 38 ok, 0 broken inside /ca/en; 28 captured targets out of this run's scope (18 us/en pages, 9 coming-soon homes, ai-powered-search) = scope debt for the full wknd run; 1 uncaptured (/us/en/errors/sign-in) capture gap"}
 {"ts":"2026-10-24T09:31:26Z","skill":"stardust:replica","phase":"handoff","event":"blocked","detail":"run 3 (/ca/en) complete: 36/36 delivered + verified on preview; done-check gaps outside this scope: pages_unfinished 29 (us/en siblings, search, coming-soon), rollout_incomplete (D/F/G/H/I need the full roster + a live publish, owner chose preview only)","owner":"savitaagre"}
+{"ts":"2026-10-24T09:41:14Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"run 4: freshness re-capture of the 29 remaining pages"}
+{"ts":"2026-10-24T09:42:52Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"run 4 freshness: 30/30 re-captured, 0 changes"}
+{"ts":"2026-10-24T09:42:52Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"run 4: program-us 15, article-us 4, coming-soon 9, search 1 (preview only)"}
+{"ts":"2026-10-24T10:25:51Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"run 4: program-us 15, article-us 4, coming-soon 9 (+18 chrome docs), search 1 — 29/29 PASS at cluster level, 65/65 migrated"}
+{"ts":"2026-10-24T10:26:28Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"run 4 C-final: 0 new foundation requests; roster gate-all over the 29 run-4 pages (owner scope)"}
+{"ts":"2026-10-24T10:57:34Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"run 4: verify the 29 run-4 pages on the preview"}
+{"ts":"2026-10-24T10:57:55Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"run 4 C-final: 0 new requests; roster gate-all 29/29 PASS at 1440 (worst 1.08 %) and 360 (worst 4.05 %)"}
+{"ts":"2026-10-24T10:57:55Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"verify 65/65 on feat-wknd-us-rest preview"}
+{"ts":"2026-10-24T10:57:55Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"run 4 scope"}
+{"ts":"2026-10-24T10:57:55Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"40 hrefs from 29 pages + chrome: 25 internal ok, 0 broken; /us/en/errors/sign-in uncaptured — owner: leave as is (D1)"}
+{"ts":"2026-10-24T10:58:20Z","skill":"stardust:replica","phase":"handoff","event":"blocked","detail":"all 65 pages delivered + verified on preview (runs 2–4); done-check: rollout_incomplete only — D (sitemap, root redirect, query index) needs a live publish, owner keeps preview only; F/G/H/I follow D","owner":"savitaagre"}

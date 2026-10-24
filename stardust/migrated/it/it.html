@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- stardust:provenance
+  writtenBy: stardust:replica
+  phase: recreate
+  againstInput: https://wknd.site/it/it.html (structural clone of us-es-html, Path A-prime: § Locale chrome --it / it-IT / Italiano; variance probe 0)
+  readArtifacts: stardust/current/pages/us-es-html.json, stardust/current/pages/us-es-html.html, stardust/replica/capture/css/clientlib-site.lc-edab4768979fadcb02662ded9e221c99-lc.min.css, stardust/current/_computed-styles.json, stardust/prototypes/CANON.md (canon3 § Locale chrome)
+  mode: preserve (clean re-authoring, not a DOM copy)
+  archetype: coming-soon (9 pages: /us/es, /ca/fr, /ch/de, /ch/fr, /ch/it, /de/de, /fr/fr, /es/es, /it/it; only flag, locale label, language name and links differ)
+  counts: hero teaser 1 (title only: no pretitle, description or CTA), separator 1; nav: the level-0 item only
+  register: R-02 (hero title h2 to h1) is applied AT DELIVERY; this prototype keeps the source h2 so content-diff compares like for like
+-->
+<html lang="it-IT">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-10-24T10:05:03Z
+  page:             Italiano
+  slug:             it-it-html
+  pagePath:         migrated/it/it.html
+  renderBranch:     A'
+  template:         us-es-html
+  archetypePath:    stardust/prototypes/us-es-html-proposed.html
+  archetypeSha:     572161426dd2
+  sourceCurrent:    stardust/current/pages/it-it-html.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 5e39e56380e5)
+  designJson:       DESIGN.json (sha: a824036e0ec7)
+  canonShas:        header:9764ece0f9a7 footer:9a1d11bab178 css:fa70ee98d9bd
+  decisionTrace:    it._meta.json
+  brokenInternalLinks: 0
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --text: #202020;
+  --text-inverse: #ebebeb;
+  --text-muted: dimgray;
+  --link: #0045ff;
+  --brand-yellow: #ffea00;
+  --surface-grey: #ebebeb;
+  --surface-light: #f7f7f7;
+  --body-bg: #fff;
+  --font-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: Asar, Georgia, "Times New Roman", Times, serif;
+  --font-icon: wknd-icon-font;
+  --fs-small: 14px;
+  --fs-xsmall: 12px;
+  --button-size: 48px;
+  --utility-height: 25px;
+  --shell: 1164px;
+  --gutter: 14px;
+}
+</style>
+<link rel="stylesheet" href="../assets/canon.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Italiano","url":"https://wknd.site/it/it.html"}</script>
+  <meta charset="UTF-8">
+  <title>Italiano</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFEA00">
+  <meta property="og:image" content="https://wknd.site/content/dam/wknd-shared/en/adventures/riverside-camping-australia/adobestock-216674449.jpeg">
+  <link rel="icon" type="image/png" href="../../../../prototypes/assets/favicon.png">
+  <link rel="stylesheet" href="../../../../prototypes/canon.css">
+  <link rel="stylesheet" href="../../../../prototypes/us-es-html.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="utility-bar">
+      <div class="utility-bar__inner">
+        <div class="utility-bar__sign-in">
+          <span class="sign-in-greeting">Welcome</span>
+          <a class="sign-in-link" href="#sign-in">Sign In</a>
+          <a class="sign-out-link" href="#sign-out">Sign Out</a>
+        </div>
+        <div class="utility-bar__lang">
+          <a class="lang-toggle lang-toggle--it" id="langNavToggleHeader" href="#langNavToggle" aria-label="Toggle Language it-IT" aria-expanded="false" aria-controls="lang-menu">it-IT</a>
+          <nav class="lang-menu" id="lang-menu">
+            <ul class="lang-menu__countries">
+              <li class="lang-menu__country lang-menu__country--us">
+                <span class="lang-menu__title">United States</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../us/en.html" hreflang="en-US" lang="en-US" title="WKND Adventures and Travel">en-US</a></li>
+                  <li class="lang-menu__locale"><a href="../us/es.html" hreflang="es-US" lang="es-US" title="Español">es-US</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ca">
+                <span class="lang-menu__title">Canada</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../ca/en.html" hreflang="en-CA" lang="en-CA" title="WKND Adventures and Travel">en-CA</a></li>
+                  <li class="lang-menu__locale"><a href="../ca/fr.html" hreflang="fr-CA" lang="fr-CA" title="Français">fr-CA</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--ch">
+                <span class="lang-menu__title">Switzerland</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../ch/de.html" hreflang="de-CH" lang="de-CH" title="Deutsch">de-CH</a></li>
+                  <li class="lang-menu__locale"><a href="../ch/fr.html" hreflang="fr-CH" lang="fr-CH" title="Français">fr-CH</a></li>
+                  <li class="lang-menu__locale"><a href="../ch/it.html" hreflang="it-CH" lang="it-CH" title="Italiano">it-CH</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--de">
+                <span class="lang-menu__title">Germany</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../de/de.html" hreflang="de-DE" lang="de-DE" title="Deutsch">de-DE</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--fr">
+                <span class="lang-menu__title">France</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../fr/fr.html" hreflang="fr-FR" lang="fr-FR" title="Français">fr-FR</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--es">
+                <span class="lang-menu__title">Spain</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale"><a href="../es/es.html" hreflang="es-ES" lang="es-ES" title="Español">es-ES</a></li>
+                </ul>
+              </li>
+              <li class="lang-menu__country lang-menu__country--it lang-menu__country--active">
+                <span class="lang-menu__title">Italy</span>
+                <ul class="lang-menu__locales">
+                  <li class="lang-menu__locale lang-menu__locale--active"><a href="../it/it.html" hreflang="it-IT" lang="it-IT" title="Italiano">it-IT</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header-bar">
+      <div class="header-bar__inner">
+        <div class="header-bar__logo">
+          <a href="../it/it.html"><img src="../../../../prototypes/assets/media/wknd-logo-dk.svg" alt="WKND Logo" width="300" height="112"></a>
+        </div>
+        <nav class="header-nav"><ul><li class="nav-home-item"><a class="nav-home" href="../it/it.html" aria-current="page" hidden>Italiano</a></li></ul></nav>
+        <a class="header-search" href="../us/en/ai-powered-search.html" aria-label="Search" title="Search"><span class="icon icon--search" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-toggle" id="toggleNav"><a class="mobile-toggle__link" href="#mobileNav" aria-label="Open hidden mobile navigation" aria-expanded="false"><span class="icon icon--menu" aria-hidden="true"></span></a></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <ul>
+      <li class="mobile-nav__home"><a href="../it/it.html" aria-current="page">Italiano</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-root">
+    <main class="page-main" data-template="us-es-html">
+      <div class="hero-teaser" data-section="1">
+        <div class="hero-teaser__content">
+          <h2 class="hero-teaser__title">WKND Adventures and Travel - Coming Soon!</h2>
+        </div>
+        <div class="hero-teaser__image"><img src="../../../../prototypes/assets/media/adobestock-216674449.jpeg" title="Woman chillaxing with river views in Australian bushland" alt="Female sitting on a large rock relaxing in afternoon dappled light the Australian bushland with views over the river" width="1600" height="900"></div>
+      </div>
+
+      <div class="fixed-container" data-section="2">
+        <div class="separator"><hr></div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__row">
+          <div class="site-footer__logo"><a href="../it/it.html"><img src="../../../../prototypes/assets/media/wknd-logo-light.svg" alt="WKND Logo" width="300" height="112"></a></div>
+          <nav class="site-footer__nav" aria-label="Footer navigation"><ul><li class="nav-home-item"><a class="nav-home" href="../it/it.html" aria-current="page" hidden>Italiano</a></li></ul></nav>
+          <div class="site-footer__follow"><h4>Follow Us</h4></div>
+          <div class="site-footer__social">
+            <a class="social-btn" href="#facebookwknd" aria-label="Facebook WKND Button"><span class="icon icon--facebook" aria-hidden="true"></span><span class="social-btn__text">Facebook</span></a>
+            <a class="social-btn" href="#twitterWKND" aria-label="Twitter WKND Button"><span class="icon icon--twitter" aria-hidden="true"></span><span class="social-btn__text">Twitter</span></a>
+            <a class="social-btn" href="#instagramwknd" aria-label="Instagram WKND"><span class="icon icon--instagram" aria-hidden="true"></span><span class="social-btn__text">Instagram</span></a>
+          </div>
+        </div>
+        <div class="site-footer__separator"></div>
+        <div class="site-footer__text">
+          <p>Ⓒ 2019,&nbsp;&nbsp;WKND Site.</p>
+          <p>WKND is a fictitious adventure and travel website created by Adobe to demonstrate how anyone can use Adobe Experience Manager to build a beautiful, feature-rich website over a single weekend. This site is built entirely with Adobe Experience Manager&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html">Core Components</a>&nbsp;and&nbsp;<a href="https://github.com/adobe/aem-project-archetype">Archetype</a>&nbsp;that are available as open source code to the public. The entire&nbsp;<a href="https://github.com/adobe/aem-guides-wknd/">site source code</a>&nbsp;is available as open source as well and is accompanied with a&nbsp;<a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html">detailed tutorial</a>&nbsp;on how to recreate the site.</p>
+          <p>Many of the beautiful images in the WKND site are available for purchase via&nbsp;<a href="https://stock.adobe.com/">Adobe Stock</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../../../../prototypes/canon.js" defer></script>
+</body>
+</html>

@@ -90,3 +90,7 @@ verify 36/36; header contract 0 errors; 0 broken links inside /ca/en. Pass bar: 
 (interim tiers shipped); scope debt for the full wknd run — 27 us/en siblings, /us/en/ai-powered-search,
 9 coming-soon homes (linked from the language menu), /us/en/errors/sign-in (uncaptured); live publish +
 Phase D (sitemap, root redirect, query index) when the owner lifts preview-only; merge feat/wknd-ca-en.
+- 2026-10-24 PR #2 (feat/wknd-ca-en → main) opened with preview links and merged by owner decision (800b79b).
+  aem-psi-check failed (advisory, not required): SEO 61–69 on every page = the preview host's
+  `x-robots-tag: noindex, nofollow` (platform, not fixable in code); perf 93–100 (one desktop magazine run 79),
+  a11y 93–100, best practices 100. Code Sync: new code served on main--{wknd,wknd1,united-states,india}.

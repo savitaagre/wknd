@@ -1,0 +1,62 @@
+{
+  "slug": "de-de-html",
+  "type": "coming-soon",
+  "renderBranch": "A'",
+  "template": "us-es-html",
+  "modules": [
+    "hero-teaser"
+  ],
+  "slotsFilled": [
+    "hero-teaser",
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "28624f5ecae4",
+    "footer": "fbed82a7bdc9",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Deutsch",
+    "description": null,
+    "canonical": null,
+    "lang": "de-DE"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Deutsch",
+    "url": "https://wknd.site/de/de.html"
+  },
+  "migratedAt": "2026-10-24T10:05:03Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "0de63cf5bf77",
+  "sourceProposedSha": "e9ef0db4a06c",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-es-html",
+  "archetypeSha": "572161426dd2",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "run 4: clone of the us-es archetype from the page's own capture (flag, locale label, language name, links); R-02 h1; gate-all 1440 0.26 % / 360 0.36-0.38 % PASS, MISSING 0 / HIDDEN 0"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "h2 \"WKND Adventures and Travel - Coming Soon!\" (standalone hero teaser title; the source page has no h1)",
+      "target": "h1 \"WKND Adventures and Travel - Coming Soon!\", styled as the source h2 (Asar 36px/54px, margin 18px 0 0 via .hero-teaser .title rule)",
+      "reason": "register R-02 (applied): delivery requires exactly one h1; computed asar 36px/54px on the preview at 1440 and 360; no visual change"
+    }
+  ],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "de/de.html",
+  "outputPathDefault": null,
+  "sidecar": "de/de._meta.json",
+  "driverVersion": "1"
+}

@@ -346,3 +346,25 @@ published (preview) origin.
 - E2 (preview): 92 hrefs, 0 broken inside /ca/en; 28 captured targets outside this run (18 us/en pages,
   9 coming-soon homes, ai-powered-search) = scope debt of the full wknd run; /us/en/errors/sign-in uncaptured.
 - done-check: pages_unfinished 29, rollout_incomplete → `replica handoff blocked` (scope), not `end`.
+
+## Extract — run 4 freshness, 30/30 unchanged (2026-10-24)
+
+- Run 4 = the 29 pages runs 2-3 did not deliver (15 us/en adventures, 4 us/en articles, 9 coming-soon homes,
+  ai-powered-search). Branch feat/wknd-us-rest from main 800b79b. Fresh capture 30/30 live -> 30 same, 0 changed.
+
+## C-deliver run 4 — remaining 29 pages delivered, all 65 pages of wknd migrated (2026-10-24)
+
+- Four cluster workers (cancelled mid-run by the owner's interruption, but they kept their work): article-us 4/4
+  (worst 0.81 % / 4.05 %), program-us 15/15 (1440 15/15 PASS, 360 15/15 PASS, worst 2.84 %), search 1/1
+  (ai-search block, interim index-backed — no live index under preview-only; R-03 hidden h1; 360 0.02 %),
+  coming-soon 9/9 (us-es archetype + 8 siblings; 18 locale nav/footer docs re-delivered; R-02 h1;
+  siblings 1440 0.26 % / 360 0.36–0.38 %). The coordinator ran the missing coming-soon 360 sibling check,
+  coverage rows and sidecar gates. State: 65/65 migrated. Lint 0 errors; foundation unchanged.
+- Owner (2026-10-24): the final check covers this run's 29 pages only.
+
+## C-final run 4 + E/E2 — 29/29 gated, 65/65 verified (2026-10-24)
+
+- 0 new foundation requests (foundation unchanged since run-3 C-final). Roster gate-all over the 29 run-4 pages
+  (owner scope): 1440 29/29 PASS (worst 1.08 %), 360 29/29 PASS (worst 4.05 %); coverage --gate 29/29;
+  verify.mjs on the branch host: 65/65 verified (the whole site). E2: 0 broken; /us/en/errors/sign-in uncaptured,
+  owner: leave as is (D1). done-check: rollout_incomplete only (Phase D needs a live publish) → handoff blocked.

@@ -1,0 +1,92 @@
+{
+  "slug": "us-en-magazine-western-australia-html",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "us-en-magazine-guide-la-skateparks-html",
+  "modules": [
+    "breadcrumb",
+    "pull-quote",
+    "author-byline-card",
+    "share-bar",
+    "up-next-list"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "03c7c0f8bb72",
+    "footer": "15a42f721daa",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Western Australia",
+    "description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. ",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Western Australia",
+    "description": "The Australian West coast is a camper’s heaven. Endless miles of desert roads leading to secret beaches, vast canyons and crystal clear rivers, and the very few people you are likely to meet on your journey will be some of the most easy-going characters you’ll find anywhere in the world. ",
+    "mainEntityOfPage": "https://wknd.site/us/en/magazine/western-australia.html"
+  },
+  "migratedAt": "2026-10-24T09:46:39Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "587b94ef0925",
+  "sourceProposedSha": "7829a1fc3dca",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-magazine-guide-la-skateparks-html",
+  "archetypeSha": "7f5f83bc4f4c",
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim from the sibling's own capture via the archetype encoder (stardust/.work/rollout/article-us/probes/gen-article.mjs); content-diff capture->preview main 26/26 text nodes, 8/8 headings, 8/8 CTAs, 5/5 img (capture-tier ROLE SWAP/ICON only: unstyled capture); live->preview 0 structural (stardust/.work/rollout/article-us/content-diff-live/us-en-magazine-western-australia-html.txt)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/magazine/western-australia.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/magazine/western-australia._meta.json",
+  "driverVersion": "1"
+}
