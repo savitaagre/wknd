@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-10-24T07:02:25Z",
+    "writtenAt": "2026-10-24T08:04:56Z",
     "stardustVersion": "plugin@excat-extended"
   },
   "site": {
@@ -680,7 +680,7 @@
       "url": "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
       "title": "Fly Fishing the Amazon",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -689,13 +689,17 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T08:04:56Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-members-only-fly-fishing-the-amazon-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/members-only/fly-fishing-the-amazon.html"
     },
     {
       "slug": "ca-en-magazine-members-only-html",
@@ -733,7 +737,7 @@
       "url": "https://wknd.site/ca/en/magazine/san-diego-surf.html",
       "title": "San Diego Surf Spots",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -742,13 +746,17 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T08:04:56Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-san-diego-surf-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/san-diego-surf.html"
     },
     {
       "slug": "ca-en-magazine-ski-touring-html",

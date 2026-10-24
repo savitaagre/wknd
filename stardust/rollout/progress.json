@@ -194,7 +194,7 @@
       "verdict": "landing: pages 2/2 previewed, blocks 4 (2 converted, 2 reused), gate 1440 0.25 % / 360 1.73 % (archetype; worst sibling 0.25 % / 1.46 %), requests 0"
     },
     "article": {
-      "status": "running",
+      "status": "done",
       "kind": "cluster",
       "templates": [
         "article"
@@ -204,19 +204,18 @@
       "gates": {
         "1440": {
           "archetype": "0.09%",
-          "worstSibling": "7.76% (san-diego-surf, old code)"
+          "worstSibling": "0.71% (western-australia); san-diego 0.46, fly-fishing 0.02 after fix"
         },
         "360": {
           "archetype": "2.85%",
-          "worstSibling": "10.13% FAIL (san-diego-surf, old code); 0.71/4.04 simulated with fix"
+          "worstSibling": "4.04% (ski-touring); san-diego 2.82, fly-fishing 2.16 after fix"
         },
         "crop": "h 100.00/99.86, f 100.00/99.23",
-        "chrome": "360: 2 logo hash + 11 uniform footer +2px (page 2px taller)"
+        "chrome": "360: logo hash + uniform +2px footer offset (DA rendition aspect)"
       },
       "startedAt": "2026-10-23T17:29:35Z",
-      "endedAt": null,
-      "verdict": "article: pages 8/8 previewed, blocks 4 (+2 reused), gate 1440 0.09 % / 360 2.85 % (archetype; worst sibling 7.76 % / 10.13 % published on the old code, 0.71 % / 4.04 % simulated with the fix), requests 3",
-      "blockedOn": "git push (GitHub 401 since the 2026-10-24 service restart): fix commits 47e959b ca1b14a 4c06321 f9c32bc unpushed; re-gate san-diego-surf + fly-fishing-the-amazon at 1440/360 after push"
+      "endedAt": "2026-10-24T08:04:56Z",
+      "verdict": "article: pages 8/8 previewed, blocks 4 (+2 reused), gate 1440 0.09 % / 360 2.85 % (archetype; worst sibling 0.71 % / 4.04 %), requests 3"
     },
     "magazine-listing": {
       "status": "done",

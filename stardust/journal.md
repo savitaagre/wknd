@@ -325,3 +325,10 @@ published (preview) origin.
   switched body to block flow; caption margin −10.5 → −3.5 px); simulated with the fix 0.46/2.82 and 0.02/2.16.
 - Blocked: GitHub answers 401 to git and API since the restart (DA + admin still authenticate) → the fix and
   bookkeeping commits are local only. 34 pages migrated; the two affected articles stay directed until re-gated.
+
+## C-deliver run 3 — article fix pushed via Sync, last two articles pass; 36/36 delivered (2026-10-24)
+
+- Owner pushed feat/wknd-ca-en via Sync (77fb524 also committed docs/wknd-full-replica.bundle → untracked in fab713f, docs/*.bundle ignored).
+- up-next-list fix live (markCaptions served). gate-all --only, published regime: san-diego-surf 1440 0.46 % Δh −1 ·
+  360 2.82 % Δh −2; fly-fishing-the-amazon 0.02 % Δh 0 · 2.16 % Δh −1 — PASS. 36/36 Canada-scope pages migrated.
+- Next: C-final (foundation-requests.md applied once: 21 lines), roster gate-all, coverage, E2 link audit, report.
