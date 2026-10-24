@@ -1,0 +1,75 @@
+{
+ "source": "http://localhost:8791/us-en-ai-powered-search-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "ai-search",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Search"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Show AI-generated summary"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Generating answer..."
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Generative answer"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Powered by Content AI"
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "Sources"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "AI-generated responses may be inaccurate. Verify important information before you travel."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Something went wrong generating the summary."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Try again"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Cards"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "List"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Load more results"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": []
+  }
+ ]
+}
