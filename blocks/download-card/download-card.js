@@ -38,7 +38,6 @@ function unbutton(p) {
   p.querySelectorAll('a').forEach((a) => {
     a.classList.remove('button', 'primary', 'secondary', 'accent');
     if (!a.classList.length) a.removeAttribute('class');
-    if (a.title === a.textContent) a.removeAttribute('title');
   });
 }
 

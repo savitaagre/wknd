@@ -124,21 +124,6 @@
   display: none;
 }
 
-/* the section around the grids (title, intro, grid) — INTERIM scoped overrides, queued as
-   foundation requests (stardust/rollout/foundation-requests.md):
-   1. the source puts the h1, each section title and each intro in its own aem-Grid column
-      (a BFC), so adjacent title margins never collapse (h1 → h2 gap 13.5 + 27px) — a flex
-      column keeps every child margin;
-   2. the page h1 is a plain .cmp-title (no 84px underline; the h2s keep theirs). */
-main .section.contributor-card-container .default-content-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-main .section.contributor-card-container .default-content-wrapper h1::after {
-  content: none;
-}
-
 @media (width >= 768px) and (width <= 1024px) {
   .contributor-card .contributor {
     flex-basis: 50%;

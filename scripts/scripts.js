@@ -171,13 +171,12 @@ function buildAutoBlocks(main) {
 function decorateButtons(main) {
   main.querySelectorAll('p a[href]').forEach((a) => {
     // DA has no aria-label field: an authored link title that differs from the
-    // link text is the source's accessible name (e.g. "read our articles").
+    // link text is also the source's accessible name (e.g. "read our articles").
+    // The authored title itself is kept (source titles such as "localization"
+    // survive); no title is derived from the link text (source links carry none).
     const authoredTitle = a.getAttribute('title');
-    if (authoredTitle && authoredTitle !== a.textContent.trim()) {
+    if (authoredTitle && authoredTitle !== a.textContent.trim() && !a.hasAttribute('aria-label')) {
       a.setAttribute('aria-label', authoredTitle);
-      a.removeAttribute('title');
-    } else {
-      a.title = a.title || a.textContent;
     }
     const p = a.closest('p');
     const text = a.textContent.trim();
@@ -225,14 +224,13 @@ function decorateButtons(main) {
  *
  * The vendored scripts/aem.js in this project does NOT process
  * `<div class="section-metadata">` (it neither reads the `style` rows to add a
- * class to the section nor removes the block). Without this, a section whose
- * metadata sets `style: faq` never gets the `faq` class — so the FAQ page's
- * two-column layout rule (`main .section.faq`) never applies — and the raw
- * "style / faq" table renders as a visible (and 404-loading) block. Replicate
- * the standard EDS behaviour here: read each section-metadata block's `style`
- * value(s), add them as classes to the parent section, and drop the block.
- * Runs after decorateSections (so wrappers exist) and before decorateBlocks
- * (so the block is gone before it would be turned into a real block).
+ * class to the section nor removes the block). Without this, a section style
+ * (`separator`, `plain-title`, `article-body` …, styles/styles.css) never
+ * reaches its section and the raw "style / …" table renders as a visible (and
+ * 404-loading) block. Replicate the standard EDS behaviour here: read each
+ * section-metadata block's `style` value(s), add them as classes to the parent
+ * section, and drop the block. Runs after decorateSections (so wrappers exist)
+ * and before decorateBlocks (so the block is gone before it would be decorated).
  */
 function applySectionMetadata(main) {
   main.querySelectorAll(':scope > .section .section-metadata').forEach((meta) => {
@@ -252,9 +250,27 @@ function applySectionMetadata(main) {
     (meta.closest('.section-metadata-wrapper') || meta).remove();
   });
 
-  // drop any now-empty section wrappers left behind — an empty grid item would
-  // otherwise add a phantom row and break the FAQ two-column alignment.
+  // drop any now-empty section wrappers left behind (a phantom grid / flex item)
   main.querySelectorAll(':scope > .section > div:empty').forEach((w) => w.remove());
+}
+
+/**
+ * An image caption (source .cmp-image__title) is authored as a paragraph whose only
+ * content is one <em>, right after an image paragraph. CSS cannot tell it from body
+ * copy holding one inline <em> among text nodes, so it is marked `p.image-caption`
+ * here (class only; no node moves). An <em><strong> line stays body copy.
+ * @param {Element} main The main element
+ */
+function markImageCaptions(main) {
+  main.querySelectorAll('.default-content-wrapper > p').forEach((p) => {
+    const prev = p.previousElementSibling;
+    if (!prev || !prev.matches('p') || !prev.querySelector('img')) return;
+    const nodes = [...p.childNodes].filter((n) => n.nodeType !== 3 || n.textContent.trim());
+    if (nodes.length === 1 && nodes[0].nodeName === 'EM'
+      && !nodes[0].querySelector('strong, b, img, picture')) {
+      p.classList.add('image-caption');
+    }
+  });
 }
 
 /**
@@ -279,6 +295,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   applySectionMetadata(main);
+  markImageCaptions(main);
   decorateBlocks(main);
   decorateButtons(main);
 }

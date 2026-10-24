@@ -53,7 +53,7 @@ function sectionNodes(fragment, index) {
 
 /**
  * decorateButtons() (bare-links-too) buttonized the chrome's solo-link paragraphs while the
- * fragment was decorated; chrome links are not CTAs — undo it (classes + the derived title).
+ * fragment was decorated; chrome links are not CTAs — undo it (classes).
  */
 function unbutton(root) {
   root.querySelectorAll('p.button-wrapper').forEach((p) => {
@@ -63,7 +63,6 @@ function unbutton(root) {
   root.querySelectorAll('a.button').forEach((a) => {
     a.classList.remove('button', 'primary', 'secondary', 'accent');
     if (!a.classList.length) a.removeAttribute('class');
-    if (a.title === a.textContent) a.removeAttribute('title');
   });
 }
 

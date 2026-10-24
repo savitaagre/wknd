@@ -354,8 +354,13 @@ body.scrolly .header .header-bar {
   font-family: var(--heading-font-family);
 }
 
-/* source .cmp-title--underline on the modal title */
-.header .sign-in-panel h1::after {
+/* the modal title (source h1.cmp-title--underline) is authored as an h2 so the injected
+   modal adds no second h1 to the page; it keeps the h1 size and the 84px underline */
+.header .sign-in-panel h2 {
+  font-size: var(--heading-font-size-xxl);
+}
+
+.header .sign-in-panel :is(h1, h2)::after {
   content: "";
   display: block;
   width: 84px;

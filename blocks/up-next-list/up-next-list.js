@@ -14,9 +14,8 @@
  * a.cmp-list__item-link): the href is read from the authored anchor, which is then
  * unwrapped (EW6) — its text nodes stay in the authored <p>, MOVED (EW1) into the
  * generated title / date wrappers (EW2). Re-entrant (EW9).
- * Article template (interim, with the section layout in up-next-list.css): an image
- * caption — a paragraph whose only content is one <em>, right after an image paragraph of
- * an `article-body` section — is marked `.image-caption` (class only; no node is moved).
+ * The article layout (section styles `article-lead` / `article-body` / `article-aside`)
+ * and the image-caption marking live in the foundation (styles/styles.css, scripts.js).
  */
 
 function el(tag, className, attrs = {}) {
@@ -68,26 +67,7 @@ function toItems(block) {
   return items;
 }
 
-// a caption paragraph: exactly one <em> child and no other text (whitespace aside); an
-// <em><strong> line is body copy (the guide's bold-italic street addresses after a photo)
-function isCaption(p) {
-  const nodes = [...p.childNodes].filter((n) => n.nodeType !== 3 || n.textContent.trim());
-  return nodes.length === 1 && nodes[0].nodeName === 'EM'
-    && !nodes[0].querySelector('strong, b, img, picture');
-}
-
-function markCaptions(main) {
-  main.querySelectorAll('.section.article-body .default-content-wrapper > p').forEach((p) => {
-    const prev = p.previousElementSibling;
-    if (prev && prev.matches('p') && prev.querySelector('img') && isCaption(p)) {
-      p.classList.add('image-caption');
-    }
-  });
-}
-
 export default function decorate(block) {
-  const main = block.closest('main');
-  if (main) markCaptions(main);
   if (block.querySelector(':scope > ul.items')) return; // EW9: already decorated
 
   const list = el('ul', 'items');

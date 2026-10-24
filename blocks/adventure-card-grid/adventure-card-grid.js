@@ -119,7 +119,6 @@ function unbutton(node) {
   if (!a) return null;
   a.classList.remove('button', 'primary', 'secondary', 'accent');
   if (!a.classList.length) a.removeAttribute('class');
-  if (a.title === a.textContent) a.removeAttribute('title');
   return a;
 }
 

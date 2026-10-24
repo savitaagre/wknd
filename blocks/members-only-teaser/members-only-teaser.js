@@ -122,14 +122,13 @@ function classify(nodes) {
 }
 
 // the action link is the source .cmp-teaser__action-link, not a site CTA:
-// undo decorateButtons() and its derived title (= the link text)
+// undo decorateButtons()
 function unbutton(p) {
   p.classList.remove('button-wrapper');
   if (!p.classList.length) p.removeAttribute('class');
   p.querySelectorAll('a').forEach((a) => {
     a.classList.remove('button', 'primary', 'secondary', 'accent');
     if (!a.classList.length) a.removeAttribute('class');
-    if (a.title === a.textContent) a.removeAttribute('title');
   });
 }
 
