@@ -41,3 +41,6 @@
 {"ts":"2026-10-24T09:30:57Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"run 3 /ca/en scope, preview regime"}
 {"ts":"2026-10-24T09:30:57Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"92 hrefs: 38 ok, 0 broken inside /ca/en; 28 captured targets out of this run's scope (18 us/en pages, 9 coming-soon homes, ai-powered-search) = scope debt for the full wknd run; 1 uncaptured (/us/en/errors/sign-in) capture gap"}
 {"ts":"2026-10-24T09:31:26Z","skill":"stardust:replica","phase":"handoff","event":"blocked","detail":"run 3 (/ca/en) complete: 36/36 delivered + verified on preview; done-check gaps outside this scope: pages_unfinished 29 (us/en siblings, search, coming-soon), rollout_incomplete (D/F/G/H/I need the full roster + a live publish, owner chose preview only)","owner":"savitaagre"}
+{"ts":"2026-10-24T09:41:14Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"run 4: freshness re-capture of the 29 remaining pages"}
+{"ts":"2026-10-24T09:42:52Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"run 4 freshness: 30/30 re-captured, 0 changes"}
+{"ts":"2026-10-24T09:42:52Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"run 4: program-us 15, article-us 4, coming-soon 9, search 1 (preview only)"}

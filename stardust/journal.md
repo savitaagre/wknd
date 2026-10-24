@@ -346,3 +346,8 @@ published (preview) origin.
 - E2 (preview): 92 hrefs, 0 broken inside /ca/en; 28 captured targets outside this run (18 us/en pages,
   9 coming-soon homes, ai-powered-search) = scope debt of the full wknd run; /us/en/errors/sign-in uncaptured.
 - done-check: pages_unfinished 29, rollout_incomplete → `replica handoff blocked` (scope), not `end`.
+
+## Extract — run 4 freshness, 30/30 unchanged (2026-10-24)
+
+- Run 4 = the 29 pages runs 2-3 did not deliver (15 us/en adventures, 4 us/en articles, 9 coming-soon homes,
+  ai-powered-search). Branch feat/wknd-us-rest from main 800b79b. Fresh capture 30/30 live -> 30 same, 0 changed.

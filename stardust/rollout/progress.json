@@ -1,277 +1,56 @@
 {
   "units": {
-    "foundation": {
-      "status": "done",
-      "kind": "foundation",
-      "templates": [
-        "landing",
-        "listing",
-        "program",
-        "faq",
-        "article",
-        "magazine-listing",
-        "static",
-        "members-only-listing",
-        "unique",
-        "coming-soon"
-      ],
-      "pages": 0,
-      "blocks": 2,
-      "gates": {
-        "1440": {
-          "headerCrop": "100.00%",
-          "footerCrop": "100.00%",
-          "chromeParity": "header 0 deltas (DA logo hash only)"
-        },
-        "360": {
-          "headerCrop": "99.86%",
-          "footerCrop": "99.21%",
-          "chromeParity": "header 0 deltas"
-        },
-        "headerContract": "2 errors / 4 warnings on /drafts/wknd-shell \u2014 modal backdrop shows the short shell vs the live home hero (panel 0.26\u20130.39 %); re-run on delivered /us/en in C-archetype landing",
-        "crop": "header 100.00/99.86, footer 100.00/99.21 on /drafts/wknd-shell",
-        "chrome": "0 header style/geometry deltas"
-      },
-      "startedAt": "2026-10-23T10:12:15Z",
-      "endedAt": "2026-10-23T11:28:49Z",
-      "verdict": "foundation: header contract 2/4 (backdrop-only, re-check on /us/en), crops 1440 h 0.00% f 0.00% \u00b7 360 h 0.14% f 0.79%, pushed 7ee4fec (code b5c4bb1)"
-    },
-    "program": {
-      "status": "done",
+    "program-us": {
+      "status": "running",
       "kind": "cluster",
       "templates": [
         "program"
       ],
-      "pages": 17,
-      "blocks": 5,
-      "gates": {
-        "1440": {
-          "archetype": "0.03%",
-          "worstSibling": "1.00%"
-        },
-        "360": {
-          "archetype": "2.48%",
-          "worstSibling": "3.14%"
-        },
-        "crop": "header 100.00/99.86, footer 100.00/100.00; CA bali h 100.00/99.87 f 99.38/99.12",
-        "chrome": "logo DA hash only"
-      },
-      "startedAt": "2026-10-23T15:14:45Z",
-      "endedAt": "2026-10-23T16:43:37Z",
-      "verdict": "program: pages 17/17 previewed, blocks 5, gate 1440 0.03% / 360 2.48% (archetype; worst sibling 1.00% / 3.14%), requests 1"
+      "pages": 15,
+      "blocks": null,
+      "gates": {},
+      "startedAt": "2026-10-24T09:42:52Z",
+      "endedAt": null,
+      "verdict": null
     },
-    "listing": {
-      "status": "done",
-      "kind": "cluster",
-      "templates": [
-        "listing"
-      ],
-      "pages": 2,
-      "blocks": 3,
-      "gates": {
-        "1440": {
-          "archetype": "0.23%",
-          "worstSibling": "0.23%"
-        },
-        "360": {
-          "archetype": "0.64%",
-          "worstSibling": "0.63%"
-        },
-        "crop": "header 100.00/99.86-99.87, footer 100.00/100.00",
-        "chrome": "logo DA hash + CA footer note \u0394w 2px"
-      },
-      "startedAt": "2026-10-23T15:14:45Z",
-      "endedAt": "2026-10-23T16:43:37Z",
-      "verdict": "listing: pages 2/2 previewed, blocks 3, gate 1440 0.23% / 360 0.64% (archetype; worst sibling 0.23% / 0.63%), requests 0"
-    },
-    "members-only": {
-      "status": "done",
-      "kind": "cluster",
-      "templates": [
-        "members-only-listing"
-      ],
-      "pages": 1,
-      "blocks": 1,
-      "gates": {
-        "1440": {
-          "archetype": "0.01%"
-        },
-        "360": {
-          "archetype": "0.07%"
-        },
-        "crop": "CA header 99.99/99.87, footer 100.00/100.00",
-        "chrome": "3 deltas: 2 logo DA hash, CA footer link \u0394w \u22122px (trimmed &nbsp;)"
-      },
-      "startedAt": "2026-10-23T15:14:45Z",
-      "endedAt": "2026-10-23T16:43:37Z",
-      "verdict": "members-only: pages 1/1 previewed, blocks 1, gate 1440 0.01% / 360 0.07% (archetype; no siblings), requests 1"
-    },
-    "ca-chrome": {
-      "status": "done",
-      "kind": "foundation",
-      "templates": [
-        "chrome"
-      ],
-      "pages": 6,
-      "blocks": 0,
-      "gates": {
-        "plain": "6/6 200, 0 about:error"
-      },
-      "startedAt": "2026-10-23T15:14:45Z",
-      "endedAt": "2026-10-23T15:14:45Z",
-      "verdict": "ca-chrome: 6/6 previewed (re-delivered after DA folder moves)"
-    },
-    "faq": {
-      "status": "done",
-      "kind": "cluster",
-      "templates": [
-        "faq"
-      ],
-      "pages": 2,
-      "blocks": 2,
-      "gates": {
-        "1440": {
-          "archetype": "0.04%",
-          "worstSibling": "0.04%"
-        },
-        "360": {
-          "archetype": "0.86%",
-          "worstSibling": "0.89%"
-        },
-        "crop": "h 100.00/99.86, f 100.00/99.99; CA h 100.00/99.87",
-        "chrome": "logo DA hash (+3 known CA deltas)"
-      },
-      "startedAt": "2026-10-23T16:44:27Z",
-      "endedAt": "2026-10-23T17:29:35Z",
-      "verdict": "faq: pages 2/2 previewed, blocks 2, gate 1440 0.04 % / 360 0.86 % (archetype; worst sibling 0.04 % / 0.89 %), requests 2"
-    },
-    "static": {
-      "status": "done",
-      "kind": "cluster",
-      "templates": [
-        "static"
-      ],
-      "pages": 2,
-      "blocks": 1,
-      "gates": {
-        "1440": {
-          "archetype": "0.10%",
-          "worstSibling": "0.11%"
-        },
-        "360": {
-          "archetype": "0.19%",
-          "worstSibling": "0.14%"
-        },
-        "crop": "h 100.00/99.86, f 100.00/100.00; CA h 100.00/99.87",
-        "chrome": "logo DA hash (+CA footer note \u0394w 2px)"
-      },
-      "startedAt": "2026-10-23T16:44:27Z",
-      "endedAt": "2026-10-23T17:29:35Z",
-      "verdict": "static: pages 2/2 previewed, blocks 1, gate 1440 0.10 % / 360 0.19 % (archetype; sibling 0.11 % / 0.14 %), requests 3"
-    },
-    "landing": {
-      "status": "done",
-      "kind": "cluster",
-      "templates": [
-        "landing"
-      ],
-      "pages": 2,
-      "blocks": 4,
-      "gates": {
-        "1440": {
-          "archetype": "0.25%",
-          "worstSibling": "0.25%"
-        },
-        "360": {
-          "archetype": "1.73%",
-          "worstSibling": "1.46%"
-        },
-        "crop": "h 100.00/99.86, f 100.00/99.23; CA h 100.00/99.87 f 100.00/99.13",
-        "chrome": "logo DA hash"
-      },
-      "startedAt": "2026-10-23T16:44:27Z",
-      "endedAt": "2026-10-23T17:29:35Z",
-      "verdict": "landing: pages 2/2 previewed, blocks 4 (2 converted, 2 reused), gate 1440 0.25 % / 360 1.73 % (archetype; worst sibling 0.25 % / 1.46 %), requests 0"
-    },
-    "article": {
-      "status": "done",
+    "article-us": {
+      "status": "running",
       "kind": "cluster",
       "templates": [
         "article"
       ],
-      "pages": 8,
-      "blocks": 4,
-      "gates": {
-        "1440": {
-          "archetype": "0.09%",
-          "worstSibling": "0.71% (western-australia); san-diego 0.46, fly-fishing 0.02 after fix"
-        },
-        "360": {
-          "archetype": "2.85%",
-          "worstSibling": "4.04% (ski-touring); san-diego 2.82, fly-fishing 2.16 after fix"
-        },
-        "crop": "h 100.00/99.86, f 100.00/99.23",
-        "chrome": "360: logo hash + uniform +2px footer offset (DA rendition aspect)"
-      },
-      "startedAt": "2026-10-23T17:29:35Z",
-      "endedAt": "2026-10-24T08:04:56Z",
-      "verdict": "article: pages 8/8 previewed, blocks 4 (+2 reused), gate 1440 0.09 % / 360 2.85 % (archetype; worst sibling 0.71 % / 4.04 %), requests 3"
+      "pages": 4,
+      "blocks": null,
+      "gates": {},
+      "startedAt": "2026-10-24T09:42:52Z",
+      "endedAt": null,
+      "verdict": null
     },
-    "magazine-listing": {
-      "status": "done",
+    "coming-soon": {
+      "status": "running",
       "kind": "cluster",
       "templates": [
-        "magazine-listing"
+        "coming-soon"
       ],
-      "pages": 2,
-      "blocks": 1,
-      "gates": {
-        "1440": {
-          "archetype": "0.23%",
-          "worstSibling": "0.24%"
-        },
-        "360": {
-          "archetype": "0.09%",
-          "worstSibling": "0.09%"
-        },
-        "crop": "h 100.00/99.86, f 100.00/100.00; CA h 100.00/99.87",
-        "chrome": "logo DA hash (+CA footer note \u0394w 2px)"
-      },
-      "startedAt": "2026-10-23T17:29:35Z",
-      "endedAt": "2026-10-24T07:02:46Z",
-      "verdict": "magazine-listing: pages 2/2 previewed, blocks 1 new (+2 reused unchanged), gate 1440 0.23% / 360 0.09% (archetype; worst sibling 0.24% / 0.09%), requests 1"
-    },
-    "final": {
-      "status": "done",
-      "kind": "final",
-      "templates": [
-        "landing",
-        "listing",
-        "program",
-        "faq",
-        "static",
-        "magazine-listing",
-        "article",
-        "members-only-listing"
-      ],
-      "pages": 36,
+      "pages": 9,
       "blocks": null,
-      "gates": {
-        "1440": {
-          "roster": "36/36 PASS",
-          "worst": "1.00% (ca-en-adventures-riverside-camping-australia)"
-        },
-        "360": {
-          "roster": "36/36 PASS",
-          "worst": "4.04% (ca-en-magazine-ski-touring)"
-        },
-        "archetypes": "8/8 re-gated unchanged after foundation requests",
-        "headerContract": "0 errors / 2 warnings (unnamed logo link, comparer)",
-        "verify": "36/36 verified"
-      },
-      "startedAt": "2026-10-24T08:05:52Z",
-      "endedAt": "2026-10-24T09:30:56Z",
-      "verdict": "final: 19 requests marked (14 applied incl. 3 pilot, 5 plugin/evidence), archetypes 8/8 unchanged, gate-all 36/36 PASS 1440 (worst 1.00%) + 360 (worst 4.04%), verify 36/36"
+      "gates": {},
+      "startedAt": "2026-10-24T09:42:52Z",
+      "endedAt": null,
+      "verdict": null
+    },
+    "search": {
+      "status": "running",
+      "kind": "cluster",
+      "templates": [
+        "unique"
+      ],
+      "pages": 1,
+      "blocks": null,
+      "gates": {},
+      "startedAt": "2026-10-24T09:42:52Z",
+      "endedAt": null,
+      "verdict": null
     }
   },
   "run1": {
@@ -355,10 +134,287 @@
   "target": {
     "org": "savitaagre",
     "site": "wknd",
-    "branch": "feat-wknd-ca-en",
-    "gitBranch": "feat/wknd-ca-en",
-    "previewHost": "feat-wknd-ca-en--wknd--savitaagre.aem.page",
+    "branch": "feat-wknd-us-rest",
+    "gitBranch": "feat/wknd-us-rest",
+    "previewHost": "feat-wknd-us-rest--wknd--savitaagre.aem.page",
     "publish": false,
-    "scope": "run 3: us/en archetypes + /ca/en siblings"
+    "scope": "run 4: remaining 29 pages"
+  },
+  "runs": {
+    "run3": {
+      "foundation": {
+        "status": "done",
+        "kind": "foundation",
+        "templates": [
+          "landing",
+          "listing",
+          "program",
+          "faq",
+          "article",
+          "magazine-listing",
+          "static",
+          "members-only-listing",
+          "unique",
+          "coming-soon"
+        ],
+        "pages": 0,
+        "blocks": 2,
+        "gates": {
+          "1440": {
+            "headerCrop": "100.00%",
+            "footerCrop": "100.00%",
+            "chromeParity": "header 0 deltas (DA logo hash only)"
+          },
+          "360": {
+            "headerCrop": "99.86%",
+            "footerCrop": "99.21%",
+            "chromeParity": "header 0 deltas"
+          },
+          "headerContract": "2 errors / 4 warnings on /drafts/wknd-shell \u2014 modal backdrop shows the short shell vs the live home hero (panel 0.26\u20130.39 %); re-run on delivered /us/en in C-archetype landing",
+          "crop": "header 100.00/99.86, footer 100.00/99.21 on /drafts/wknd-shell",
+          "chrome": "0 header style/geometry deltas"
+        },
+        "startedAt": "2026-10-23T10:12:15Z",
+        "endedAt": "2026-10-23T11:28:49Z",
+        "verdict": "foundation: header contract 2/4 (backdrop-only, re-check on /us/en), crops 1440 h 0.00% f 0.00% \u00b7 360 h 0.14% f 0.79%, pushed 7ee4fec (code b5c4bb1)"
+      },
+      "program": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "program"
+        ],
+        "pages": 17,
+        "blocks": 5,
+        "gates": {
+          "1440": {
+            "archetype": "0.03%",
+            "worstSibling": "1.00%"
+          },
+          "360": {
+            "archetype": "2.48%",
+            "worstSibling": "3.14%"
+          },
+          "crop": "header 100.00/99.86, footer 100.00/100.00; CA bali h 100.00/99.87 f 99.38/99.12",
+          "chrome": "logo DA hash only"
+        },
+        "startedAt": "2026-10-23T15:14:45Z",
+        "endedAt": "2026-10-23T16:43:37Z",
+        "verdict": "program: pages 17/17 previewed, blocks 5, gate 1440 0.03% / 360 2.48% (archetype; worst sibling 1.00% / 3.14%), requests 1"
+      },
+      "listing": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "listing"
+        ],
+        "pages": 2,
+        "blocks": 3,
+        "gates": {
+          "1440": {
+            "archetype": "0.23%",
+            "worstSibling": "0.23%"
+          },
+          "360": {
+            "archetype": "0.64%",
+            "worstSibling": "0.63%"
+          },
+          "crop": "header 100.00/99.86-99.87, footer 100.00/100.00",
+          "chrome": "logo DA hash + CA footer note \u0394w 2px"
+        },
+        "startedAt": "2026-10-23T15:14:45Z",
+        "endedAt": "2026-10-23T16:43:37Z",
+        "verdict": "listing: pages 2/2 previewed, blocks 3, gate 1440 0.23% / 360 0.64% (archetype; worst sibling 0.23% / 0.63%), requests 0"
+      },
+      "members-only": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "members-only-listing"
+        ],
+        "pages": 1,
+        "blocks": 1,
+        "gates": {
+          "1440": {
+            "archetype": "0.01%"
+          },
+          "360": {
+            "archetype": "0.07%"
+          },
+          "crop": "CA header 99.99/99.87, footer 100.00/100.00",
+          "chrome": "3 deltas: 2 logo DA hash, CA footer link \u0394w \u22122px (trimmed &nbsp;)"
+        },
+        "startedAt": "2026-10-23T15:14:45Z",
+        "endedAt": "2026-10-23T16:43:37Z",
+        "verdict": "members-only: pages 1/1 previewed, blocks 1, gate 1440 0.01% / 360 0.07% (archetype; no siblings), requests 1"
+      },
+      "ca-chrome": {
+        "status": "done",
+        "kind": "foundation",
+        "templates": [
+          "chrome"
+        ],
+        "pages": 6,
+        "blocks": 0,
+        "gates": {
+          "plain": "6/6 200, 0 about:error"
+        },
+        "startedAt": "2026-10-23T15:14:45Z",
+        "endedAt": "2026-10-23T15:14:45Z",
+        "verdict": "ca-chrome: 6/6 previewed (re-delivered after DA folder moves)"
+      },
+      "faq": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "faq"
+        ],
+        "pages": 2,
+        "blocks": 2,
+        "gates": {
+          "1440": {
+            "archetype": "0.04%",
+            "worstSibling": "0.04%"
+          },
+          "360": {
+            "archetype": "0.86%",
+            "worstSibling": "0.89%"
+          },
+          "crop": "h 100.00/99.86, f 100.00/99.99; CA h 100.00/99.87",
+          "chrome": "logo DA hash (+3 known CA deltas)"
+        },
+        "startedAt": "2026-10-23T16:44:27Z",
+        "endedAt": "2026-10-23T17:29:35Z",
+        "verdict": "faq: pages 2/2 previewed, blocks 2, gate 1440 0.04 % / 360 0.86 % (archetype; worst sibling 0.04 % / 0.89 %), requests 2"
+      },
+      "static": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "static"
+        ],
+        "pages": 2,
+        "blocks": 1,
+        "gates": {
+          "1440": {
+            "archetype": "0.10%",
+            "worstSibling": "0.11%"
+          },
+          "360": {
+            "archetype": "0.19%",
+            "worstSibling": "0.14%"
+          },
+          "crop": "h 100.00/99.86, f 100.00/100.00; CA h 100.00/99.87",
+          "chrome": "logo DA hash (+CA footer note \u0394w 2px)"
+        },
+        "startedAt": "2026-10-23T16:44:27Z",
+        "endedAt": "2026-10-23T17:29:35Z",
+        "verdict": "static: pages 2/2 previewed, blocks 1, gate 1440 0.10 % / 360 0.19 % (archetype; sibling 0.11 % / 0.14 %), requests 3"
+      },
+      "landing": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "landing"
+        ],
+        "pages": 2,
+        "blocks": 4,
+        "gates": {
+          "1440": {
+            "archetype": "0.25%",
+            "worstSibling": "0.25%"
+          },
+          "360": {
+            "archetype": "1.73%",
+            "worstSibling": "1.46%"
+          },
+          "crop": "h 100.00/99.86, f 100.00/99.23; CA h 100.00/99.87 f 100.00/99.13",
+          "chrome": "logo DA hash"
+        },
+        "startedAt": "2026-10-23T16:44:27Z",
+        "endedAt": "2026-10-23T17:29:35Z",
+        "verdict": "landing: pages 2/2 previewed, blocks 4 (2 converted, 2 reused), gate 1440 0.25 % / 360 1.73 % (archetype; worst sibling 0.25 % / 1.46 %), requests 0"
+      },
+      "article": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "article"
+        ],
+        "pages": 8,
+        "blocks": 4,
+        "gates": {
+          "1440": {
+            "archetype": "0.09%",
+            "worstSibling": "0.71% (western-australia); san-diego 0.46, fly-fishing 0.02 after fix"
+          },
+          "360": {
+            "archetype": "2.85%",
+            "worstSibling": "4.04% (ski-touring); san-diego 2.82, fly-fishing 2.16 after fix"
+          },
+          "crop": "h 100.00/99.86, f 100.00/99.23",
+          "chrome": "360: logo hash + uniform +2px footer offset (DA rendition aspect)"
+        },
+        "startedAt": "2026-10-23T17:29:35Z",
+        "endedAt": "2026-10-24T08:04:56Z",
+        "verdict": "article: pages 8/8 previewed, blocks 4 (+2 reused), gate 1440 0.09 % / 360 2.85 % (archetype; worst sibling 0.71 % / 4.04 %), requests 3"
+      },
+      "magazine-listing": {
+        "status": "done",
+        "kind": "cluster",
+        "templates": [
+          "magazine-listing"
+        ],
+        "pages": 2,
+        "blocks": 1,
+        "gates": {
+          "1440": {
+            "archetype": "0.23%",
+            "worstSibling": "0.24%"
+          },
+          "360": {
+            "archetype": "0.09%",
+            "worstSibling": "0.09%"
+          },
+          "crop": "h 100.00/99.86, f 100.00/100.00; CA h 100.00/99.87",
+          "chrome": "logo DA hash (+CA footer note \u0394w 2px)"
+        },
+        "startedAt": "2026-10-23T17:29:35Z",
+        "endedAt": "2026-10-24T07:02:46Z",
+        "verdict": "magazine-listing: pages 2/2 previewed, blocks 1 new (+2 reused unchanged), gate 1440 0.23% / 360 0.09% (archetype; worst sibling 0.24% / 0.09%), requests 1"
+      },
+      "final": {
+        "status": "done",
+        "kind": "final",
+        "templates": [
+          "landing",
+          "listing",
+          "program",
+          "faq",
+          "static",
+          "magazine-listing",
+          "article",
+          "members-only-listing"
+        ],
+        "pages": 36,
+        "blocks": null,
+        "gates": {
+          "1440": {
+            "roster": "36/36 PASS",
+            "worst": "1.00% (ca-en-adventures-riverside-camping-australia)"
+          },
+          "360": {
+            "roster": "36/36 PASS",
+            "worst": "4.04% (ca-en-magazine-ski-touring)"
+          },
+          "archetypes": "8/8 re-gated unchanged after foundation requests",
+          "headerContract": "0 errors / 2 warnings (unnamed logo link, comparer)",
+          "verify": "36/36 verified"
+        },
+        "startedAt": "2026-10-24T08:05:52Z",
+        "endedAt": "2026-10-24T09:30:56Z",
+        "verdict": "final: 19 requests marked (14 applied incl. 3 pilot, 5 plugin/evidence), archetypes 8/8 unchanged, gate-all 36/36 PASS 1440 (worst 1.00%) + 360 (worst 4.04%), verify 36/36"
+      }
+    }
   }
 }
