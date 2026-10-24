@@ -31,3 +31,6 @@ stardust/scripts/node_modules/
 
 # local config backups taken before remote changes (never committed)
 stardust/wknd-rename/
+
+# git bundles for manual pushes (never commit)
+docs/*.bundle
