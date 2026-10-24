@@ -1,0 +1,100 @@
+{
+  "slug": "us-en-magazine-san-diego-surf-html",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "us-en-magazine-guide-la-skateparks-html",
+  "modules": [
+    "breadcrumb",
+    "author-byline-card",
+    "share-bar",
+    "up-next-list"
+  ],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "03c7c0f8bb72",
+    "footer": "15a42f721daa",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "San Diego Surf Spots",
+    "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "San Diego Surf Spots",
+    "description": "From the hippie beaches of Ocean Beach to the ritzy shores of La Jolla and everywhere in between. Discover the San Diego surf scene.",
+    "mainEntityOfPage": "https://wknd.site/us/en/magazine/san-diego-surf.html"
+  },
+  "migratedAt": "2026-10-24T09:46:39Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "59a1ebe5ad22",
+  "sourceProposedSha": "dc07cc8debaf",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-magazine-guide-la-skateparks-html",
+  "archetypeSha": "7f5f83bc4f4c",
+  "variants": [
+    "section--plain-title image-caption"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim from the sibling's own capture via the archetype encoder (stardust/.work/rollout/article-us/probes/gen-article.mjs); content-diff capture->preview main 30/30 text nodes, 11/11 headings, 9/9 CTAs, 6/6 img, 1 image-caption (capture-tier ROLE SWAP/ICON only: unstyled capture); live->preview 0 structural (stardust/.work/rollout/article-us/content-diff-live/us-en-magazine-san-diego-surf-html.txt)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "attribute",
+      "source": "img title=\"Guy surfing in Costa Rica\" / title=\"beach and sea\" (title == alt)",
+      "target": "title authored verbatim; the EDS delivery pipeline drops an image title equal to its alt",
+      "reason": "pipeline residual (content-diff live->preview 2 MISSING TITLE 🟡), same as ca-en-magazine-san-diego-surf-html"
+    }
+  ],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us/en/magazine/san-diego-surf.html",
+  "outputPathDefault": null,
+  "sidecar": "us/en/magazine/san-diego-surf._meta.json",
+  "driverVersion": "1"
+}
