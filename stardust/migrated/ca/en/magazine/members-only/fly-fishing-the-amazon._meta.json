@@ -1,0 +1,82 @@
+{
+  "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "us-en-magazine-guide-la-skateparks-html",
+  "modules": [],
+  "slotsFilled": [
+    "fixed-container"
+  ],
+  "canonShas": {
+    "header": "8617966a44a6",
+    "footer": "4732704595ea",
+    "css": "fa70ee98d9bd"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fly Fishing the Amazon",
+    "description": "Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.",
+    "canonical": null,
+    "lang": "en-CA"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Fly Fishing the Amazon",
+    "description": "Deep within the heart of the Amazon we had an unforgettable cultural experience with spectacular wildlife, all in a remote, beautiful setting with strange fish of all shapes and sizes.",
+    "mainEntityOfPage": "https://wknd.site/ca/en/magazine/members-only/fly-fishing-the-amazon.html"
+  },
+  "migratedAt": "2026-10-23T18:13:12Z",
+  "designMdSha": "5e39e56380e5",
+  "designJsonSha": "a824036e0ec7",
+  "sourceCurrentSha": "67884aaeb167",
+  "sourceProposedSha": "2c5010fd4cce",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-magazine-guide-la-skateparks-html",
+  "archetypeSha": "7f5f83bc4f4c",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/ca/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch/it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/de/de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/fr/fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/es/es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it/it.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+  "outputPathDefault": null,
+  "sidecar": "ca/en/magazine/members-only/fly-fishing-the-amazon._meta.json",
+  "driverVersion": "1"
+}

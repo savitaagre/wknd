@@ -1,0 +1,66 @@
+{
+  "/us/en/magazine/guide-la-skateparks": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T17:52:11.626Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/arctic-surfing": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:08.676Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/guide-la-skateparks": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:12.514Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/members-only/alaskan-adventure": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:15.286Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/members-only/fly-fishing-the-amazon": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:18.436Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/san-diego-surf": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:23.028Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/ski-touring": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:26.661Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/ca/en/magazine/western-australia": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-23T18:17:29.795Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}
