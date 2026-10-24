@@ -200,24 +200,47 @@
         "article"
       ],
       "pages": 8,
-      "blocks": null,
-      "gates": {},
+      "blocks": 4,
+      "gates": {
+        "1440": {
+          "archetype": "0.09%",
+          "worstSibling": "7.76% (san-diego-surf, old code)"
+        },
+        "360": {
+          "archetype": "2.85%",
+          "worstSibling": "10.13% FAIL (san-diego-surf, old code); 0.71/4.04 simulated with fix"
+        },
+        "crop": "h 100.00/99.86, f 100.00/99.23",
+        "chrome": "360: 2 logo hash + 11 uniform footer +2px (page 2px taller)"
+      },
       "startedAt": "2026-10-23T17:29:35Z",
       "endedAt": null,
-      "verdict": null
+      "verdict": "article: pages 8/8 previewed, blocks 4 (+2 reused), gate 1440 0.09 % / 360 2.85 % (archetype; worst sibling 7.76 % / 10.13 % published on the old code, 0.71 % / 4.04 % simulated with the fix), requests 3",
+      "blockedOn": "git push (GitHub 401 since the 2026-10-24 service restart): fix commits 47e959b ca1b14a 4c06321 f9c32bc unpushed; re-gate san-diego-surf + fly-fishing-the-amazon at 1440/360 after push"
     },
     "magazine-listing": {
-      "status": "running",
+      "status": "done",
       "kind": "cluster",
       "templates": [
         "magazine-listing"
       ],
       "pages": 2,
-      "blocks": null,
-      "gates": {},
+      "blocks": 1,
+      "gates": {
+        "1440": {
+          "archetype": "0.23%",
+          "worstSibling": "0.24%"
+        },
+        "360": {
+          "archetype": "0.09%",
+          "worstSibling": "0.09%"
+        },
+        "crop": "h 100.00/99.86, f 100.00/100.00; CA h 100.00/99.87",
+        "chrome": "logo DA hash (+CA footer note \u0394w 2px)"
+      },
       "startedAt": "2026-10-23T17:29:35Z",
-      "endedAt": null,
-      "verdict": null
+      "endedAt": "2026-10-24T07:02:46Z",
+      "verdict": "magazine-listing: pages 2/2 previewed, blocks 1 new (+2 reused unchanged), gate 1440 0.23% / 360 0.09% (archetype; worst sibling 0.24% / 0.09%), requests 1"
     }
   },
   "run1": {

@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-23T17:22:21.674Z",
+  "generatedAt": "2026-10-24T06:58:47.718Z",
   "pages": [
     {
       "slug": "ca-en-about-us-html",
@@ -465,9 +465,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/arctic-surfing",
+        "deployedAt": "2026-10-24T06:58:46.287Z",
         "verifiedAt": null,
         "error": null
       }
@@ -487,9 +487,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/guide-la-skateparks",
+        "deployedAt": "2026-10-24T06:58:46.520Z",
         "verifiedAt": null,
         "error": null
       }
@@ -509,9 +509,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine",
+        "deployedAt": "2026-10-23T18:10:41.050Z",
         "verifiedAt": null,
         "error": null
       }
@@ -531,9 +531,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only/alaskan-adventure",
+        "deployedAt": "2026-10-24T06:58:47.467Z",
         "verifiedAt": null,
         "error": null
       }
@@ -553,9 +553,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/members-only/fly-fishing-the-amazon",
+        "deployedAt": "2026-10-24T06:58:47.718Z",
         "verifiedAt": null,
         "error": null
       }
@@ -597,9 +597,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/san-diego-surf",
+        "deployedAt": "2026-10-24T06:58:46.749Z",
         "verifiedAt": null,
         "error": null
       }
@@ -619,9 +619,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/ski-touring",
+        "deployedAt": "2026-10-24T06:58:46.988Z",
         "verifiedAt": null,
         "error": null
       }
@@ -641,9 +641,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/ca/en/magazine/western-australia",
+        "deployedAt": "2026-10-24T06:58:47.225Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1338,9 +1338,9 @@
         "up-next-list"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/magazine/guide-la-skateparks",
+        "deployedAt": "2026-10-24T06:58:46.046Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1362,9 +1362,9 @@
         "members-only-teaser"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-ca-en--wknd--savitaagre.aem.page/us/en/magazine",
+        "deployedAt": "2026-10-23T17:46:08.115Z",
         "verifiedAt": null,
         "error": null
       }

@@ -314,3 +314,14 @@ published (preview) origin.
 - landing 2/2: 0.25 % / 1.73 % (sibling 0.25 % / 1.46 %); R-01 h1 computes Asar 36/54; document now on wknd
   media (was edsmsm media/home). Carousel has 3 slides (inventory corrected from 4).
 - State: 26 migrated. Lint 0 errors after the faq fix; foundation unchanged (32 files).
+
+## C-deliver run 3 wave 3 — magazine-listing done; article blocked on git push after a service restart (2026-10-24)
+
+- magazine-listing 2/2: 1440 0.23 % / 360 0.09 % (sibling 0.24 % / 0.09 %); new members-only-teaser (EW 22/22).
+- article: the service restart killed the first worker after it had delivered all 8 pages (ledger: previewed).
+  A resume worker verified: archetype 0.09 % / 2.85 % (360: DA rendition aspect → +2 px footer offset);
+  siblings 1440 7/7 PASS, 360 6/7 PASS — san-diego-surf 10.13 % FAIL and fly-fishing-the-amazon Δh 386 on
+  the old code. Causes fixed in blocks/up-next-list (caption rule matched a closing <em> paragraph; plain-title
+  switched body to block flow; caption margin −10.5 → −3.5 px); simulated with the fix 0.46/2.82 and 0.02/2.16.
+- Blocked: GitHub answers 401 to git and API since the restart (DA + admin still authenticate) → the fix and
+  bookkeeping commits are local only. 34 pages migrated; the two affected articles stay directed until re-gated.

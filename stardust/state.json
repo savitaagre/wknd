@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:migrate",
-    "writtenAt": "2026-10-23T17:29:15Z",
+    "writtenAt": "2026-10-24T07:02:25Z",
     "stardustVersion": "plugin@excat-extended"
   },
   "site": {
@@ -576,7 +576,7 @@
       "url": "https://wknd.site/ca/en/magazine/arctic-surfing.html",
       "title": "Arctic Surfing",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -585,20 +585,24 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:24Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-arctic-surfing-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/arctic-surfing.html"
     },
     {
       "slug": "ca-en-magazine-guide-la-skateparks-html",
       "url": "https://wknd.site/ca/en/magazine/guide-la-skateparks.html",
       "title": "Ultimate Guide to LA Skateparks",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -607,20 +611,24 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:24Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-guide-la-skateparks-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/guide-la-skateparks.html"
     },
     {
       "slug": "ca-en-magazine-html",
       "url": "https://wknd.site/ca/en/magazine.html",
       "title": "Magazine",
       "type": "magazine-listing",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -629,20 +637,24 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:24Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine.html"
     },
     {
       "slug": "ca-en-magazine-members-only-alaskan-adventure-html",
       "url": "https://wknd.site/ca/en/magazine/members-only/alaskan-adventure.html",
       "title": "Alaskan Adventure",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -651,13 +663,17 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:25Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-members-only-alaskan-adventure-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/members-only/alaskan-adventure.html"
     },
     {
       "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
@@ -739,7 +755,7 @@
       "url": "https://wknd.site/ca/en/magazine/ski-touring.html",
       "title": "Ski Touring",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -748,20 +764,24 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:25Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-ski-touring-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/ski-touring.html"
     },
     {
       "slug": "ca-en-magazine-western-australia-html",
       "url": "https://wknd.site/ca/en/magazine/western-australia.html",
       "title": "Western Australia",
       "type": "article",
-      "status": "directed",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -770,13 +790,17 @@
         {
           "status": "directed",
           "at": "2026-10-23T11:29:23Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:25Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/ca-en-magazine-western-australia-html.json",
       "prototypePath": null,
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/ca/en/magazine/western-australia.html"
     },
     {
       "slug": "ca-fr-html",
@@ -1462,7 +1486,7 @@
       "url": "https://wknd.site/us/en/magazine/guide-la-skateparks.html",
       "title": "Ultimate Guide to LA Skateparks",
       "type": "article",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1476,20 +1500,24 @@
           "status": "approved",
           "at": "2026-10-23T10:02:54Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:24Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-magazine-guide-la-skateparks-html.json",
       "prototypePath": "stardust/prototypes/us-en-magazine-guide-la-skateparks-html-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/us/en/magazine/guide-la-skateparks.html"
     },
     {
       "slug": "us-en-magazine-html",
       "url": "https://wknd.site/us/en/magazine.html",
       "title": "Magazine",
       "type": "magazine-listing",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1503,13 +1531,17 @@
           "status": "approved",
           "at": "2026-10-23T10:02:54Z",
           "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-24T07:02:24Z"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/us-en-magazine-html.json",
       "prototypePath": "stardust/prototypes/us-en-magazine-html-proposed.html",
-      "migratedPath": null
+      "migratedPath": "stardust/migrated/us/en/magazine.html"
     },
     {
       "slug": "us-en-magazine-san-diego-surf-html",
@@ -1606,7 +1638,7 @@
     }
   ],
   "migrate": {
-    "at": "2026-10-23T17:21:13Z",
+    "at": "2026-10-23T18:13:12Z",
     "outputDir": "stardust/migrated/",
     "selfContained": true,
     "pageMap": [
@@ -2439,14 +2471,60 @@
         "slug": "ca-en-faqs-html",
         "file": "stardust/migrated/ca/en/faqs.html",
         "assetsBundled": 16
+      },
+      {
+        "slug": "ca-en-magazine-html",
+        "file": "stardust/migrated/ca/en/magazine.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-en-magazine-arctic-surfing-html",
+        "file": "stardust/migrated/ca/en/magazine/arctic-surfing.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ca-en-magazine-guide-la-skateparks-html",
+        "file": "stardust/migrated/ca/en/magazine/guide-la-skateparks.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-magazine-san-diego-surf-html",
+        "file": "stardust/migrated/ca/en/magazine/san-diego-surf.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-magazine-ski-touring-html",
+        "file": "stardust/migrated/ca/en/magazine/ski-touring.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-magazine-western-australia-html",
+        "file": "stardust/migrated/ca/en/magazine/western-australia.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-magazine-members-only-alaskan-adventure-html",
+        "file": "stardust/migrated/ca/en/magazine/members-only/alaskan-adventure.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-magazine-members-only-fly-fishing-the-amazon-html",
+        "file": "stardust/migrated/ca/en/magazine/members-only/fly-fishing-the-amazon.html",
+        "assetsBundled": 1
       }
     ],
     "missingAssets": [],
     "cleanedAssets": [],
     "lastRun": {
-      "at": "2026-10-23T17:21:13Z",
+      "at": "2026-10-23T18:13:12Z",
       "rendered": [
-        "ca-en-faqs-html"
+        "ca-en-magazine-arctic-surfing-html",
+        "ca-en-magazine-guide-la-skateparks-html",
+        "ca-en-magazine-san-diego-surf-html",
+        "ca-en-magazine-ski-touring-html",
+        "ca-en-magazine-western-australia-html",
+        "ca-en-magazine-members-only-alaskan-adventure-html",
+        "ca-en-magazine-members-only-fly-fishing-the-amazon-html"
       ],
       "unchanged": [],
       "refused": [],
