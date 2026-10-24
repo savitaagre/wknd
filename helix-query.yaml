@@ -1,26 +1,30 @@
 version: 1
 
 indices:
-  # Single site content index → /query-index.json.
+  # Site-wide content index → /query-index.json.
   #
-  # Both index-driven rails (adventure-cards, magazine-cards) fetch this one
-  # /query-index.json and filter client-side by path prefix, so every content
-  # type that feeds a rail must be included here. EDS serves one JSON per index
-  # target, so adventures and magazine share this index (same properties) rather
-  # than each getting a separate target the blocks couldn't both read.
+  # Every migrated page of every locale (/us/en, /ca/en and the coming-soon
+  # locale homes /us/es, /ca/fr, /ch/*, /de/de, /fr/fr, /es/es, /it/it).
+  # Chrome and non-page documents are excluded: per-locale nav/footer,
+  # /fragments (Sign In modal), /drafts and /docs.
   #
-  #   - /us/en/adventures/**  → adventure-cards rail (homepage "All Trips")
-  #   - /us/en/magazine/**    → magazine-cards rail (magazine listing, upcoming)
-  #
-  # The listing pages themselves (/adventures, /magazine) are excluded — they are
-  # index containers, not cards.
+  # Readers: the ai-search block (search over the whole site) and
+  # helix-sitemap.yaml (one /sitemap.xml with every page).
   content:
     include:
-      - '/us/en/adventures/**'
-      - '/us/en/magazine/**'
+      - '/us/**'
+      - '/ca/**'
+      - '/ch/**'
+      - '/de/**'
+      - '/fr/**'
+      - '/es/**'
+      - '/it/**'
     exclude:
-      - '/us/en/adventures'
-      - '/us/en/magazine'
+      - '**/nav'
+      - '**/footer'
+      - '/fragments/**'
+      - '/drafts/**'
+      - '/docs/**'
     target: /query-index.json
     properties:
       title:
@@ -37,31 +41,6 @@ indices:
         value: attribute(el, 'content')
       category:
         select: head > meta[name="category"]
-        value: attribute(el, 'content')
-      lastModified:
-        select: none
-        value: parseTimestamp(headers['last-modified'], 'ddd, DD MMM YYYY hh:mm:ss GMT')
-
-  # Static/listing pages index → /pages-index.json.
-  #
-  # The `content` index above is deliberately scoped to detail pages only (it
-  # feeds the card rails). The homepage and the section/listing pages are not in
-  # it, so the sitemap would miss them. This second index captures exactly those
-  # 5 pages; helix-sitemap.yaml combines both indexes into one /sitemap.xml.
-  pages:
-    include:
-      - '/us/en'
-      - '/us/en/adventures'
-      - '/us/en/magazine'
-      - '/us/en/about-us'
-      - '/us/en/faqs'
-    target: /pages-index.json
-    properties:
-      title:
-        select: head > meta[property="og:title"]
-        value: attribute(el, 'content')
-      description:
-        select: head > meta[name="description"]
         value: attribute(el, 'content')
       lastModified:
         select: none
