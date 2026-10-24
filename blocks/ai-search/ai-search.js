@@ -247,8 +247,10 @@ export default function decorate(block) {
   const summaryCard = el('div', 'ai-search-summary-card');
   const header = el('div', 'ai-search-summary-header');
   const heading = el('div', 'ai-search-summary-heading');
+  // the whitespace between the two lines keeps the source's text run ("… answer powered …")
   heading.append(
     slot('ai-search-summary-title', 'summary title'),
+    '\n',
     slot('ai-search-summary-attribution', 'summary attribution'),
   );
   header.append(el('span', 'ai-search-summary-icon', { 'aria-hidden': 'true' }), heading);

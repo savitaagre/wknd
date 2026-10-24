@@ -292,8 +292,16 @@
   color: #b00;
 }
 
+/* the source's retry control is an unstyled UA <button> (Arial 13.33px, 1px 6px, 2px outset) */
 .ai-search .ai-search-retry {
   display: inline-block;
+  padding: 1px 6px;
+  border: 2px outset buttonborder;
+  background-color: buttonface;
+  color: buttontext;
+  font-family: Arial, sans-serif;
+  font-size: 13.3333px;
+  line-height: normal;
   cursor: pointer;
 }
 
