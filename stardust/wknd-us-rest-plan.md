@@ -23,7 +23,7 @@ Started: 2026-10-24 · Approvals: hands-off · Gate widths 1440, 360
 | 0 | Branch, plan, tracking | done | feat/wknd-us-rest @ main 800b79b; branch host serves code |
 | 1 | Freshness re-capture of the 29 pages | pending | |
 | 2 | Cluster units (program-us, article-us, coming-soon, search) | pending | |
-| 3 | C-final: queued requests once, roster gate-all over all 65 pages, verify, link audit | pending | |
+| 3 | C-final: queued requests once, roster gate-all over the 29 run-4 pages, verify, link audit | pending | owner 2026-10-24: final check over this run's 29 pages only (the 36 run-3 pages had their own C-final) |
 | 4 | PR to main with preview links | pending | merge only on owner request |
 
 ## Log

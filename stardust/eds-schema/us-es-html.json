@@ -1,0 +1,20 @@
+{
+ "source": "file:///backups/savitaagre/edsmsm/repo/stardust/.work/rollout/coming-soon/annotated.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero-teaser",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "WKND Adventures and Travel - Coming Soon!"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

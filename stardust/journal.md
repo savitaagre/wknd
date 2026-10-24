@@ -351,3 +351,13 @@ published (preview) origin.
 
 - Run 4 = the 29 pages runs 2-3 did not deliver (15 us/en adventures, 4 us/en articles, 9 coming-soon homes,
   ai-powered-search). Branch feat/wknd-us-rest from main 800b79b. Fresh capture 30/30 live -> 30 same, 0 changed.
+
+## C-deliver run 4 — remaining 29 pages delivered, all 65 pages of wknd migrated (2026-10-24)
+
+- Four cluster workers (cancelled mid-run by the owner's interruption, but they kept their work): article-us 4/4
+  (worst 0.81 % / 4.05 %), program-us 15/15 (1440 15/15 PASS, 360 15/15 PASS, worst 2.84 %), search 1/1
+  (ai-search block, interim index-backed — no live index under preview-only; R-03 hidden h1; 360 0.02 %),
+  coming-soon 9/9 (us-es archetype + 8 siblings; 18 locale nav/footer docs re-delivered; R-02 h1;
+  siblings 1440 0.26 % / 360 0.36–0.38 %). The coordinator ran the missing coming-soon 360 sibling check,
+  coverage rows and sidecar gates. State: 65/65 migrated. Lint 0 errors; foundation unchanged.
+- Owner (2026-10-24): the final check covers this run's 29 pages only.

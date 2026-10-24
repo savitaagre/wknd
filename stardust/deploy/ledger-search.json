@@ -1,0 +1,10 @@
+{
+  "/us/en/ai-powered-search": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T10:00:31.364Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

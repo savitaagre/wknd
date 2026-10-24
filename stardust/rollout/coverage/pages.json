@@ -8,7 +8,7 @@
     ],
     "stardustVersion": "0.0.0"
   },
-  "generatedAt": "2026-10-24T09:30:34.767Z",
+  "generatedAt": "2026-10-24T10:24:51.405Z",
   "pages": [
     {
       "slug": "ca-en-about-us-html",
@@ -1214,9 +1214,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ca/fr",
+        "deployedAt": "2026-10-24T10:24:49.747Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1236,9 +1236,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ch/de",
+        "deployedAt": "2026-10-24T10:24:49.996Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1258,9 +1258,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ch/fr",
+        "deployedAt": "2026-10-24T10:24:50.232Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1280,9 +1280,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/ch/it",
+        "deployedAt": "2026-10-24T10:24:50.462Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1302,9 +1302,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/de/de",
+        "deployedAt": "2026-10-24T10:24:50.693Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1324,9 +1324,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/es/es",
+        "deployedAt": "2026-10-24T10:24:51.152Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1346,9 +1346,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/fr/fr",
+        "deployedAt": "2026-10-24T10:24:50.925Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1368,9 +1368,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/it/it",
+        "deployedAt": "2026-10-24T10:24:51.405Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1431,9 +1431,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/bali-surf-camp",
+        "deployedAt": "2026-10-24T09:53:29.611Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1453,9 +1453,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/beervana-portland",
+        "deployedAt": "2026-10-24T09:53:29.889Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1520,9 +1520,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/colorado-rock-climbing",
+        "deployedAt": "2026-10-24T09:53:30.197Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1542,9 +1542,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/cycling-southern-utah",
+        "deployedAt": "2026-10-24T09:53:30.596Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1564,9 +1564,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/cycling-tuscany",
+        "deployedAt": "2026-10-24T09:53:32.492Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1586,9 +1586,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/downhill-skiing-wyoming",
+        "deployedAt": "2026-10-24T09:53:34.491Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1608,9 +1608,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/gastronomic-marais-tour",
+        "deployedAt": "2026-10-24T09:53:36.486Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1673,9 +1673,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/napa-wine-tasting",
+        "deployedAt": "2026-10-24T09:53:37.319Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1695,9 +1695,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/riverside-camping-australia",
+        "deployedAt": "2026-10-24T09:53:37.891Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1717,9 +1717,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/ski-touring-mont-blanc",
+        "deployedAt": "2026-10-24T09:53:38.151Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1739,9 +1739,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/surf-camp-costa-rica",
+        "deployedAt": "2026-10-24T09:53:38.599Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1761,9 +1761,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/tahoe-skiing",
+        "deployedAt": "2026-10-24T09:53:39.596Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1783,9 +1783,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/west-coast-cycling",
+        "deployedAt": "2026-10-24T09:53:40.203Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1805,9 +1805,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/whistler-mountain-biking",
+        "deployedAt": "2026-10-24T09:53:40.816Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1827,9 +1827,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/adventures/yosemite-backpacking",
+        "deployedAt": "2026-10-24T09:53:41.116Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1849,9 +1849,9 @@
         "ai-search"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/ai-powered-search",
+        "deployedAt": "2026-10-24T10:01:36.431Z",
         "verifiedAt": null,
         "error": null
       }
@@ -1957,9 +1957,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/arctic-surfing",
+        "deployedAt": "2026-10-24T09:57:50.610Z",
         "verifiedAt": null,
         "error": null
       }
@@ -2068,9 +2068,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/san-diego-surf",
+        "deployedAt": "2026-10-24T09:57:50.841Z",
         "verifiedAt": null,
         "error": null
       }
@@ -2090,9 +2090,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/ski-touring",
+        "deployedAt": "2026-10-24T09:57:51.064Z",
         "verifiedAt": null,
         "error": null
       }
@@ -2112,9 +2112,9 @@
       },
       "blocks": [],
       "delivery": {
-        "status": "content-pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/magazine/western-australia",
+        "deployedAt": "2026-10-24T09:57:51.296Z",
         "verifiedAt": null,
         "error": null
       }
@@ -2134,9 +2134,9 @@
         "hero-teaser"
       ],
       "delivery": {
-        "status": "pending",
-        "deployedUrl": null,
-        "deployedAt": null,
+        "status": "deployed",
+        "deployedUrl": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/es",
+        "deployedAt": "2026-10-24T09:52:47.003Z",
         "verifiedAt": null,
         "error": null
       }

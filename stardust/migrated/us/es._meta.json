@@ -40,7 +40,14 @@
   "variants": [],
   "gatesPassed": [],
   "gateEvidence": {},
-  "contentDeviations": [],
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "h2 \"WKND Adventures and Travel - Coming Soon!\" (standalone hero teaser title; the source page has no h1)",
+      "target": "h1 \"WKND Adventures and Travel - Coming Soon!\", styled as the source h2 (Asar 36px/54px, margin 18px 0 0 via .hero-teaser .title rule)",
+      "reason": "register R-02 (applied): delivery requires exactly one h1; computed asar 36px/54px on the preview at 1440 and 360; no visual change"
+    }
+  ],
   "assetsBundled": 7,
   "missingAssets": [],
   "brokenInternalLinks": [

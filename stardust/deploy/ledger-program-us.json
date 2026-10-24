@@ -1,0 +1,122 @@
+{
+  "/us/en/adventures/bali-surf-camp": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:15.519Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/beervana-portland": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:18.837Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/colorado-rock-climbing": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:21.835Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/cycling-southern-utah": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:24.573Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/cycling-tuscany": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:27.420Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/downhill-skiing-wyoming": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:30.659Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/gastronomic-marais-tour": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:33.923Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/napa-wine-tasting": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:36.456Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/riverside-camping-australia": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:39.732Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/ski-touring-mont-blanc": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:42.888Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/surf-camp-costa-rica": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:46.185Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/tahoe-skiing": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:49.495Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/west-coast-cycling": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:52.439Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/whistler-mountain-biking": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:55.473Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  },
+  "/us/en/adventures/yosemite-backpacking": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-10-24T09:52:58.385Z",
+    "put": 200,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

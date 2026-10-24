@@ -1,56 +1,84 @@
 {
   "units": {
     "program-us": {
-      "status": "running",
+      "status": "done",
       "kind": "cluster",
       "templates": [
         "program"
       ],
       "pages": 15,
-      "blocks": null,
-      "gates": {},
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "worstSibling": "2.84% (whistler-mountain-biking)"
+        },
+        "1440": {
+          "siblings": "15/15 PASS"
+        }
+      },
       "startedAt": "2026-10-24T09:42:52Z",
-      "endedAt": null,
-      "verdict": null
+      "endedAt": "2026-10-24T10:25:51Z",
+      "verdict": "program-us: pages 15/15 previewed, blocks 0 (reused), gate siblings 1440 15/15 PASS / 360 15/15 PASS (worst 360 2.84 %), requests 0"
     },
     "article-us": {
-      "status": "running",
+      "status": "done",
       "kind": "cluster",
       "templates": [
         "article"
       ],
       "pages": 4,
-      "blocks": null,
-      "gates": {},
+      "blocks": 0,
+      "gates": {
+        "1440": {
+          "worstSibling": "0.81%"
+        },
+        "360": {
+          "worstSibling": "4.05%"
+        }
+      },
       "startedAt": "2026-10-24T09:42:52Z",
-      "endedAt": null,
-      "verdict": null
+      "endedAt": "2026-10-24T10:25:51Z",
+      "verdict": "article-us: pages 4/4 previewed, blocks 0, gate 1440 0.09 % / 360 2.85 % (archetype; worst sibling 0.81 % / 4.05 %), requests 0"
     },
     "coming-soon": {
-      "status": "running",
+      "status": "done",
       "kind": "cluster",
       "templates": [
         "coming-soon"
       ],
       "pages": 9,
-      "blocks": null,
-      "gates": {},
+      "blocks": 0,
+      "gates": {
+        "1440": {
+          "siblings": "8/8 PASS 0.26%"
+        },
+        "360": {
+          "siblings": "8/8 PASS 0.36-0.38%"
+        }
+      },
       "startedAt": "2026-10-24T09:42:52Z",
-      "endedAt": null,
-      "verdict": null
+      "endedAt": "2026-10-24T10:25:51Z",
+      "verdict": "coming-soon: pages 9/9 previewed + 18 locale nav/footer docs, blocks 0 (hero-teaser reused), siblings 1440 0.26 % / 360 0.36-0.38 % (8/8 PASS both), archetype 1/1 PASS both widths"
     },
     "search": {
-      "status": "running",
+      "status": "done",
       "kind": "cluster",
       "templates": [
         "unique"
       ],
       "pages": 1,
-      "blocks": null,
-      "gates": {},
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "archetype": "0.02%"
+        },
+        "1440": {
+          "archetype": "PASS"
+        }
+      },
       "startedAt": "2026-10-24T09:42:52Z",
-      "endedAt": null,
-      "verdict": null
+      "endedAt": "2026-10-24T10:25:51Z",
+      "verdict": "search: pages 1/1 previewed, blocks 1 (ai-search, interim index-backed), gate 1440 PASS / 360 0.02 % \u0394h 0 PASS, R-03 hidden h1"
     }
   },
   "run1": {

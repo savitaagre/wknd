@@ -1,0 +1,313 @@
+{
+  "url": "https://feat-wknd-us-rest--wknd--savitaagre.aem.page/us/en/ai-powered-search",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header-wrapper",
+      "position": "fixed",
+      "height": "193.641px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "200px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".ai-search-input",
+      "frames": [
+        {
+          "t": 13973.599999904633,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14175.200000286102,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14377.200000286102,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14578.900000095367,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".ai-search-clear",
+      "frames": [
+        {
+          "t": 15585.099999904633,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15787.200000286102,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 15988.599999904633,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16190.800000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".ai-search-toggle-input",
+      "frames": [
+        {
+          "t": 17196.700000286102,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17399.300000190735,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17600.700000286102,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17802.200000286102,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".ai-search-toggle",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 32)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "background-color",
+        "el": "div.ai-search-wrapper > div.ai-search.block.ai-search-list > form.ai-search-form > label.ai-search-toggle > input.ai-search-toggle-input",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.ai-search-wrapper > div.ai-search.block.ai-search-list > form.ai-search-form > label.ai-search-toggle > input.ai-search-toggle-input",
+        "y": 0,
+        "dur": "0.15s"
+      }
+    ],
+    "classMutations": []
+  }
+}
